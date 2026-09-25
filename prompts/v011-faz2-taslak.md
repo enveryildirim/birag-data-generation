@@ -30,6 +30,7 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
 - **Düşünme bu cevaba çıkar:** cevabın yapmadığı bir şeyi söyleme (ör. cevap seçim sunmuyorsa «ona bırakıyorum» deme). Cevabın en önemli hamlesi (hekime söylemek, bir kaynağa yönlendirmek) gerekçesiyle bulunsun. Cevap soruyla bitiyorsa sorunun neden sorulduğunu anlat.
 - ⛔ **Kararı ters çevirme:** cevap bir şeyi yapmıyorsa (*«seçim önüne koymayacağım»*) düşünme onu *«seçimi ona bırakıyorum»* diye yazamaz; *«yöntem önermiyorum»* ≠ *«yöntem önerip önermemek ona ait»*. Olumluya çevirirken anlamı koru.
 - ⛔ Eski düşünmedeki *«X mesajda yok»* notunu *«X'ten söz etmedi, yazdığıyla sınırlı kalıyorum»* diye yeni metne **taşıma** — eşlemede `yeni: null` yap ve `not` alanına kısa gerekçe yaz.
+- ⛔ **Kişinin iç durumunu olgu gibi yazma:** *«zaten kararını vermiş»*, *«asıl korktuğu şey…»*, *«bütün gün bunu düşünmüş»* gibi cümleler konuşmada dayanağı yoksa uydurmadır; çıkarımsa *«olabilir»*, *«gibi duruyor»* diye kur. Cevap soru sormuyorsa düşünme *«soruyorum»* diyemez; cevabın yaptığı şeyi yaz.
 - **Biçim:** düz, başlıksız Türkçe; madde imi, numara, kalın, ⛔/⭐, BÜYÜK HARF vurgusu yok. *«soru sormuyorum, X'liyorum»* kalıbı, system prompt kuralı okuma (*«yasak»*, *«kural gereği»*) ve MI jargonu (*evoking*, *engaging*, *focusing*, *discord*, *change talk*, *ambivalans*) yok.
 - **Uzunluk:** ortanca 100-120 sözcük; düşünme karakteri cevabın 4 katını geçemez.
 - **Kalıp yok:** açılışlar ve kapanışlar kayıtlar arasında birbirine benzemesin.
