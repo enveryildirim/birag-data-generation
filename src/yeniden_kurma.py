@@ -38,7 +38,7 @@ RITUEL = re.compile(r"\bsoru(yu)?\s+(da\s+)?sormuyorum\b")
 # da bir tane vardı. AKSANSIZ desen ⇒ tr_sadelestir ile aranır. ⚠️ «mi» ya da
 # «MI» eklenmez: Türkçe soru ekiyle çakışır.
 JARGON = re.compile(r"\b(evoking|engaging|focusing|planning|sustain talk|change talk|"
-                    r"karar dengesi|guvenlik sapmasi|izgara sapmasi|marlatt|miti|ave)\b")
+                    r"karar dengesi|guvenlik sapmasi|izgara sapmasi|marlatt|miti|ave|discord)\b|ambivalan")
 KURAL_OKUMA = re.compile(r"tek seferde|\bkural|protokol")
 # ⭐ 2026-09-25 (kullanıcı kararı): yaş ÜSTVERİDİR. age_group modele gitmez ⇒
 # konuşmada açık yaş yoksa düşünme yaşı olgu gibi yazamaz (K51). Çekinceli kullanım
