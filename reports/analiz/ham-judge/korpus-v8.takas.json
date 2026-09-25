@@ -1,0 +1,21 @@
+{
+  "arsiv": "korpus-v8.jsonl",
+  "arsiv_sha256": "94b9ac0948395a11bc9f99c16db1579d84046c703c5d8280ad73231ad2dec272",
+  "tarih": "2026-09-15",
+  "tur": "sonuc-dosyasi-takasi",
+  "bulan_betik": "scripts/analiz/2026-09-15-geriye-donuk-eslesme.py",
+  "rapor": "reports/analiz/2026-09-15-geriye-donuk-eslesme.md",
+  "takas": [["075", "077"]],
+  "kanit": [
+    "075 kaydının dört uzun alıntısının HİÇBİRİ kendi cevabında yok; hepsi 077'nin cevabında var (ve tersi).",
+    "istek/075.txt ve istek/077.txt DOĞRU konuşmaları taşıyor — yani judge doğru okudu, sonuç YANLIŞ dosyaya yazıldı.",
+    "Komşu kayıtlar 074, 076, 078 temiz: yayılma yok, temiz bir ikili takas.",
+    "korpus-v9-p2'deki 004->005->006->007->004 dönüşümüyle AYNI kusur sınıfı (K123)."
+  ],
+  "neden_arsiv_duzeltilmedi": [
+    "Ham arşivin işi 'subagent o dosyaya ne yazdı'yı saklamak; üstüne yazmak kusurun kanıtını yok eder.",
+    "2026-09-15-geriye-donuk-eslesme.md arşivin SHA256'sını ve bulguyu kaydediyor; arşiv değişirse o rapor yeniden üretilemez.",
+    "Düzeltme bu yüzden BİLDİRİM olarak duruyor ve okuma anında uygulanıyor; eşleşme kapısı düzeltme UYGULANDIKTAN SONRA koşar."
+  ],
+  "etki": "YOK — iki kaydın bayrak kümesi her iki atamada da boş ve takas hiçbir toplamı/ortalamayı oynatmaz. Doğrulaması: 2026-09-15-geriye-donuk-eslesme.md 'Etki' bölümü."
+}

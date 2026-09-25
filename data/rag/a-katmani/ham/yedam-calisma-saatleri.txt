@@ -1,0 +1,13 @@
+# kaynak_url: https://www.yedam.org.tr/calisma-saatleri
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+Çalışma Saatleri
+
+Haftaiçi: 08:30 - 17:30
+
+Cumartesi: 08:30 - 13:30
+
+*Merkezimize gelmeden önce lütfen randevu alınız!

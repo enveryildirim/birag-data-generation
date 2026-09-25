@@ -1,0 +1,625 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v5-parti5.jsonl",
+  "girdi_sha256_16": "3e5acd3c63273074",
+  "kayit": 60,
+  "taranan_alinti": 168,
+  "bulunamayan": [
+    {
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bc",
+      "alinti": "başarı",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bc",
+      "alinti": "başka şey",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 9,
+      "id": "da7c18445a841775",
+      "alinti": "yalan söylüyorsun",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 9,
+      "id": "da7c18445a841775",
+      "alinti": "bir daha asla",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "83480607c5b496dd",
+      "alinti": "istemiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "83480607c5b496dd",
+      "alinti": "yeniden yap",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 27,
+      "id": "179e02de2dfac9a5",
+      "alinti": "muhtemelen ücretsizdir",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 27,
+      "id": "179e02de2dfac9a5",
+      "alinti": "kaçış",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 27,
+      "id": "179e02de2dfac9a5",
+      "alinti": "fark ettin, harika",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 30,
+      "id": "59cf755efbb96444",
+      "alinti": "Yalan söyledin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 31,
+      "id": "f795a1bc8b2a3f44",
+      "alinti": "geçecek",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 38,
+      "id": "4ff69b058a075b1a",
+      "alinti": "Seni etkiliyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 38,
+      "id": "4ff69b058a075b1a",
+      "alinti": "Saçma mı düşünüyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 39,
+      "id": "02e4d2e3d81958c1",
+      "alinti": "muhtemelen gitmez",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 39,
+      "id": "02e4d2e3d81958c1",
+      "alinti": "eşin haklı",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 48,
+      "id": "4bff7e8db1ebc533",
+      "alinti": "Muhtemelen sayılmaz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 54,
+      "id": "005a15e2a175efcd",
+      "alinti": "istersen",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 54,
+      "id": "005a15e2a175efcd",
+      "alinti": "o seni etkiliyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 55,
+      "id": "ca7bcbc7c7615ce6",
+      "alinti": "Babana söylemelisin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 55,
+      "id": "ca7bcbc7c7615ce6",
+      "alinti": "Yalan söylemek yoruyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 55,
+      "id": "ca7bcbc7c7615ce6",
+      "alinti": "bilmiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "4bf8a1358aee2907",
+      "alinti": "bırakırsan düzelir",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "4bf8a1358aee2907",
+      "alinti": "yine bırakırsın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 60,
+      "id": "d966ddecba620b9a",
+      "alinti": "elimdeki metin konuyla ilgisiz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 4,
+      "id": "c26ae5ee942ce96b",
+      "alinti": "tehlikeli",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 4,
+      "id": "c26ae5ee942ce96b",
+      "alinti": "bir şey olmaz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "27405e150217c45a",
+      "alinti": "muhtemelen hayır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "27405e150217c45a",
+      "alinti": "evet gibi duruyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "27405e150217c45a",
+      "alinti": "Önceden bir tane yeterdi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "27405e150217c45a",
+      "alinti": "bir şeyin yok",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "29513a8d6ab9c599",
+      "alinti": "ne kadar içiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "29513a8d6ab9c599",
+      "alinti": "eşim ne kadar tepki veriyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "29513a8d6ab9c599",
+      "alinti": "üç kutu çok",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 18,
+      "id": "1b1843c3594b260a",
+      "alinti": "iş bulana kadar",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 19,
+      "id": "76587c40481b09ef",
+      "alinti": "bir tane fazla bir şey olmaz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 19,
+      "id": "76587c40481b09ef",
+      "alinti": "bunu yapma",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 19,
+      "id": "76587c40481b09ef",
+      "alinti": "böyle uyumak",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 36,
+      "id": "dc56a65b114c59f1",
+      "alinti": "çok kötü",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 36,
+      "id": "dc56a65b114c59f1",
+      "alinti": "Çocuklar da öyle yapıyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 37,
+      "id": "dda4a16e4001e90a",
+      "alinti": "Takıntı falan değil",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 41,
+      "id": "8d781386e8f55138",
+      "alinti": "geçersiz değil, test edilmemiş",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 41,
+      "id": "8d781386e8f55138",
+      "alinti": "Bir şey sormuyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 41,
+      "id": "8d781386e8f55138",
+      "alinti": "Bir şey sormuyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 49,
+      "id": "f33610a87eb74928",
+      "alinti": "ciddi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 49,
+      "id": "f33610a87eb74928",
+      "alinti": "geçer",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 49,
+      "id": "f33610a87eb74928",
+      "alinti": "dönsem yine bırakmam",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 49,
+      "id": "f33610a87eb74928",
+      "alinti": "annene gitmeliydin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 52,
+      "id": "d94e2de9a26d1247",
+      "alinti": "Bağımlı değilim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 53,
+      "id": "d86d5f185a13a942",
+      "alinti": "Eskiden bir tek yetiyordu, şimdi üçü buluyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 57,
+      "id": "dcbfd63a3ee25efb",
+      "alinti": "Haklıymış",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 57,
+      "id": "dcbfd63a3ee25efb",
+      "alinti": "haddine değil",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 57,
+      "id": "dcbfd63a3ee25efb",
+      "alinti": "teyze",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 1,
+      "id": "d8ba6771e0cf5398",
+      "alinti": "Gerçek arkadaş",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 2,
+      "id": "34f4d0d6d7f82467",
+      "alinti": "belki o da korkuyordur",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 2,
+      "id": "34f4d0d6d7f82467",
+      "alinti": "Bu son diyorum ama ertesi akşam yine",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 3,
+      "id": "bda4bfd8a9aafe12",
+      "alinti": "artık beni rahatsız ediyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 3,
+      "id": "bda4bfd8a9aafe12",
+      "alinti": "kızın da fark etti",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 6,
+      "id": "833a3c51bbbd1adc",
+      "alinti": "Küçük bir şey değil o",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 8,
+      "id": "591bb7b92085caf1",
+      "alinti": "hâlâ duruyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 10,
+      "id": "4cbab9d01ddedb7d",
+      "alinti": "Bu kumardır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 12,
+      "id": "a9834c5f21fc581a",
+      "alinti": "Evet, kadeh kadehtir",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 12,
+      "id": "a9834c5f21fc581a",
+      "alinti": "hayır, başardın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 12,
+      "id": "a9834c5f21fc581a",
+      "alinti": "Dün konuştuğumuz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 13,
+      "id": "87e5071633922d8c",
+      "alinti": "Anlamamıştır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 13,
+      "id": "87e5071633922d8c",
+      "alinti": "anlamıştır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "aab51926191b4f96",
+      "alinti": "stres yüzünden içiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "aab51926191b4f96",
+      "alinti": "yani bahanen çürüdü",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "aab51926191b4f96",
+      "alinti": "Kendimi yakaladım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "aab51926191b4f96",
+      "alinti": "Bu bir uyarı işareti",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 16,
+      "id": "4d4b316e814f3b64",
+      "alinti": "Ben onun gibi değilim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 16,
+      "id": "4d4b316e814f3b64",
+      "alinti": "Niye yazdım bilmiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 21,
+      "id": "05b3197d86f1cdd1",
+      "alinti": "Yarın ne yapacaksın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 22,
+      "id": "11380769c5488767",
+      "alinti": "biraz fazla görünüyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 22,
+      "id": "11380769c5488767",
+      "alinti": "gayet normal",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 23,
+      "id": "41d14582046209ac",
+      "alinti": "doğru",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 23,
+      "id": "41d14582046209ac",
+      "alinti": "Bırakmalısın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 25,
+      "id": "6e5343ee0ef2e25d",
+      "alinti": "yardımcı olmak",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 25,
+      "id": "6e5343ee0ef2e25d",
+      "alinti": "seninle hekiminin arasında",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 25,
+      "id": "6e5343ee0ef2e25d",
+      "alinti": "hekimini kendisi zaten anmıştı",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 25,
+      "id": "6e5343ee0ef2e25d",
+      "alinti": "yapabilirsin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 28,
+      "id": "7071a8ca92da7735",
+      "alinti": "Kesin maç diye bir şey yok",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 29,
+      "id": "82f85f4ed372ce4e",
+      "alinti": "anlaşılabilir, devam et",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 29,
+      "id": "82f85f4ed372ce4e",
+      "alinti": "kokmasın diye",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 29,
+      "id": "82f85f4ed372ce4e",
+      "alinti": "yine yaparsın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 34,
+      "id": "ca67638391b46eb0",
+      "alinti": "Kumar kötüdür",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 35,
+      "id": "c0d8c38cb6882998",
+      "alinti": "evet",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 35,
+      "id": "c0d8c38cb6882998",
+      "alinti": "hayır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 35,
+      "id": "c0d8c38cb6882998",
+      "alinti": "bir daha yapma",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 40,
+      "id": "7845328ec8ef2303",
+      "alinti": "Seni zorluyorlar",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 42,
+      "id": "56ed69532200b264",
+      "alinti": "kapı kapandıktan sonra kendime kızdım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 43,
+      "id": "4394dc5e9ede8a45",
+      "alinti": "hekim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 43,
+      "id": "4394dc5e9ede8a45",
+      "alinti": "bağımlılık",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 44,
+      "id": "7be7c801839aeedf",
+      "alinti": "aslında sohbet için duruyorsun",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 44,
+      "id": "7be7c801839aeedf",
+      "alinti": "Sabah uyanamıyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 44,
+      "id": "7be7c801839aeedf",
+      "alinti": "3-4 dal",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 44,
+      "id": "7be7c801839aeedf",
+      "alinti": "Niye duruyorum hiç anlamıyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 45,
+      "id": "9aa209b1a6dc2a81",
+      "alinti": "Kızınla konuşmalısın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 47,
+      "id": "2e524d973e6970ac",
+      "alinti": "Uyursun",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 47,
+      "id": "2e524d973e6970ac",
+      "alinti": "Alkol uykuyu bozar",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 51,
+      "id": "830a77104a742390",
+      "alinti": "normaldir",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 58,
+      "id": "5e7050a296add7b7",
+      "alinti": "Bırakmalısın",
+      "sinif": "siniflanmadi"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 0,
+    "parafraz": 0,
+    "hayalet": 0,
+    "siniflanmadi": 101
+  },
+  "elle_okunan_korpus": [
+    "v4-parti2.v2",
+    "v5-parti3"
+  ]
+}

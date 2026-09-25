@@ -1,0 +1,436 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-mekan-atfi-kapisi.py",
+  "taranan_dosya": 1,
+  "bulgu": [
+    {
+      "korpus": "train",
+      "sira": 15,
+      "mekan": "masa",
+      "cumle": "Dönüşte masaya oturdun ve ertesi sabah aradığın adamı bulamadın.",
+      "sinif": []
+    },
+    {
+      "korpus": "train",
+      "sira": 1,
+      "mekan": "masa",
+      "cumle": "Şimdi masada iki ayrı şey var.",
+      "sinif": [
+        "soyut"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 14,
+      "mekan": "masa",
+      "cumle": "Masada iki şey duruyor.",
+      "sinif": [
+        "soyut"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 3,
+      "mekan": "oda",
+      "cumle": "Buradan bir sayı söylersem, yarın ağrın tuttuğunda o odada duran ben olmayacağım.",
+      "sinif": [
+        "varlık"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 16,
+      "mekan": "masa",
+      "cumle": "Kuponu bırakmak kolay görünüyor, masadan çekilmek değil.",
+      "sinif": []
+    },
+    {
+      "korpus": "train",
+      "sira": 16,
+      "mekan": "masa",
+      "cumle": "Sen susmadan, yatırmadan da o masada durabileceğin bir hâl var mı sence?",
+      "sinif": [
+        "kip"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 24,
+      "mekan": "masa",
+      "cumle": "İki ayrı şey var masada: raporun kendisi, bir de eşinle aranızda duran sessizlik.",
+      "sinif": [
+        "soyut"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 26,
+      "mekan": "oda",
+      "cumle": "Salı günü o odada söylemek istediğin ilk şey ne olurdu?",
+      "sinif": [
+        "soyut",
+        "kip"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 36,
+      "mekan": "oda",
+      "cumle": "Neyin söyleneceğine, ne kadarının söyleneceğine ben karar veremem; o oda senin ve karar da senin.",
+      "sinif": [
+        "soyut",
+        "varlık"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 37,
+      "mekan": "masa",
+      "cumle": "Yani masada iki ayrı konu var.",
+      "sinif": [
+        "soyut"
+      ]
+    },
+    {
+      "korpus": "train",
+      "sira": 31,
+      "mekan": "oda",
+      "cumle": "O konuşma sizin aranızda ve ben o odada olmayacağım; yazdığım cümle ilk zorlandığın yerde elinde kalır.",
+      "sinif": [
+        "soyut",
+        "varlık"
+      ]
+    }
+  ],
+  "muafiyet_ozeti": {
+    "tek_tur_mesaj_duzeyi": 16,
+    "olumsuz_kip": 1,
+    "yonlendirme_cumlesi [ZATEN YERDE]": 7,
+    "yonlendirme_cumlesi": 2,
+    "kaynak_gevsek_eslesme": 7,
+    "mecaz": 2
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "c3419959d0685c1d24d5cce0",
+      "oge": "Aynı mesajda üç pazardır bitkin uyandığını, başının çatladığ",
+      "baglam": "Aynı mesajda üç pazardır bitkin uyandığını, başının çatladığını ve planlarını iptal ettiğini de yazdın."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "34ee4b88cad58794d476e208",
+      "oge": "Öğle arası çıkıp yaktığını da aynı mesajda söyledin.",
+      "baglam": "Öğle arası çıkıp yaktığını da aynı mesajda söyledin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 60,
+      "id": "fc06767f8f119e4e88370ffa",
+      "oge": "Üst kattaki oğlundan da aynı mesajda söz ettin.",
+      "baglam": "Üst kattaki oğlundan da aynı mesajda söz ettin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 55,
+      "id": "9356fa644d3cb308bd55800c",
+      "oge": [
+        "Odaklanmak için içiyorum",
+        "o farkı düşünmeye dayanamam"
+      ],
+      "baglam": "\"Odaklanmak için içiyorum\" ile \"o farkı düşünmeye dayanamam\" aynı mesajda duruyor ve ikisi aynı şey değil: biri odaklanmak, öteki düşünmemek."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 23,
+      "id": "e279f4f4412d0796be764658",
+      "oge": [
+        "sonra bir tane daha"
+      ],
+      "baglam": "Kahvaltı etmediğini ve \"sonra bir tane daha\" dediğini aynı mesajda yazdın."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 31,
+      "id": "f795a1bc8b2a3f44959f680f",
+      "oge": "İkisini aynı mesajda yazmak kolay değil.",
+      "baglam": "İkisini aynı mesajda yazmak kolay değil."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "91b9b2115544382ac3bac34f",
+      "oge": "Ama ikisini aynı mesajda tutabilmek zaten bir şey.",
+      "baglam": "Ama ikisini aynı mesajda tutabilmek zaten bir şey."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 16,
+      "id": "53d8896213919c0d73b48188",
+      "oge": "İki şeyi aynı mesajda söyledin: hesabı yapmaya korkuyorsun v",
+      "baglam": "İki şeyi aynı mesajda söyledin: hesabı yapmaya korkuyorsun ve onsuz yol gitmiyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 37,
+      "id": "16550563dc66339330e64b59",
+      "oge": [
+        "İçim ezildi",
+        "artırmışım belki"
+      ],
+      "baglam": "\"İçim ezildi\" ile \"artırmışım belki\" aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "8945dfe7a716d4aba488c851",
+      "oge": "İkisini aynı mesajda yazdın ama aynı şey değiller.",
+      "baglam": "İkisini aynı mesajda yazdın ama aynı şey değiller."
+    },
+    {
+      "muafiyet": "olumsuz_kip",
+      "tip": "muafiyet",
+      "parti_sira": 48,
+      "id": "fae0f73c1ea32c38677bc982",
+      "oge": [
+        "istediğim an bırakırım",
+        "neden sileyim ki"
+      ],
+      "baglam": "Bir şeye katılmıyorum: \"istediğim an bırakırım\" ile \"neden sileyim ki\" aynı cümlede duramaz."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "4ac842925e92992aa26cbf60",
+      "oge": "İkisini birbirine bağlayan bir şey var mı, onu ben bilemem —",
+      "baglam": "İkisini birbirine bağlayan bir şey var mı, onu ben bilemem — ama ikisini aynı mesajda yazan sensin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 20,
+      "id": "2df10702dd0ab93f0ad26c43",
+      "oge": [
+        "net kazanmışım"
+      ],
+      "baglam": "Bir şeye de katılmıyorum: \"net kazanmışım\" diyorsun ama aynı mesajda tam rakamı eşinin bilmediğini söylüyorsun."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "935dfac08ec6ae71e46a0836",
+      "oge": "Üç haftadır uyuyamadığını da aynı mesajda söylüyorsun — yani",
+      "baglam": "Üç haftadır uyuyamadığını da aynı mesajda söylüyorsun — yani dalmak çözülmüş, uyumak çözülmemiş."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 44,
+      "id": "9476b9dac20d66f5313fd14a",
+      "oge": "İkisi aynı mesajda duruyor.",
+      "baglam": "İkisi aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "1c34e236dfe1935787aa2f05",
+      "oge": [
+        "alıştı bedenim",
+        "Geceleri biraz öksürüyorum"
+      ],
+      "baglam": "Bir şeye katılmıyorum: \"alıştı bedenim\" ile \"Geceleri biraz öksürüyorum\" aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 15,
+      "id": "06ce9ab5ebb06a4eaa9718d4",
+      "oge": [
+        "Tek zevkim",
+        "maaşın yarısı"
+      ],
+      "baglam": "\"Tek zevkim\" ile \"maaşın yarısı\" aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "69776ab9b10c60fc928b7bda",
+      "oge": [
+        "salon"
+      ],
+      "baglam": "Geldiği o dönemde ne yaptığını da hatırlıyorsun: akşamları salona gittin, yorulunca uyku kendiliğinden geldi."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "53b008b252a5981689488a83",
+      "oge": [
+        "oda"
+      ],
+      "baglam": "Hekiminle ne paylaşacağın senin kararın; buradan bir talimat verirsem yarın o odada duran sen olursun, ben değil."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "4583458d68eb4ac8bdc47ecd",
+      "oge": [
+        "durak"
+      ],
+      "baglam": "Bu iki cümleyi bir uzmana anlatmak istersen, bağımlılık alanında çalışan danışmanlık merkezleri ya da hastanelerin bağımlılık birimleri ilk durak olabilir."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "8a5c347d02ce0cf0d2b2c89d",
+      "oge": "teras",
+      "baglam": "Bugün terasta yakarken bir an durmuşsun."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 49,
+      "id": "cb84af23776b6bca84fbc646",
+      "oge": [
+        "masa"
+      ],
+      "baglam": "Sektörde masada içki olması ayrı şey, kurumun bunu zorunlu tutması ayrı şey — ikincisi doğru değilmiş."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 31,
+      "id": "8badc59f08235002c0d6b061",
+      "oge": "araba",
+      "baglam": "Beş dakikayı da kaybetmemişsin — hâlâ arabanda oturuyorsun."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 2,
+      "id": "d2ea5136d517a5cf78ab6d8a",
+      "oge": [
+        "oda"
+      ],
+      "baglam": "Ama oda arkadaşının söylediği şeyi tekrarlayacağım: bunu bir hekimin görmesi gerekiyor ve ilk adım aile hekimliğine bu cümleyi olduğu gibi söylemek olabilir."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "374eeaf12d7d0ec0b6ad87db",
+      "oge": "oda",
+      "baglam": "Hiçbir şey dememen bir şey yapmamak değil; odana çıkmak da bir şeydi."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "27405e150217c45ab3efb248",
+      "oge": [
+        "yatak"
+      ],
+      "baglam": "Bu bir değerlendirme ve onu yapabilecek olan seni gören, ilacı yazan hekim — ilk adım, bir sonraki görüşmede bu cümleyi olduğu gibi söylemek olabilir: \"almazsam yataktan çıkamıyorum.\""
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 32,
+      "id": "4a2b11dbe682bde75b67bee0",
+      "oge": "oda",
+      "baglam": "\"Boş durmuyorum\" cümlesi bir savunma gibi duruyor ama savunulacak birine karşı kurulmamış; odada sen varsın."
+    },
+    {
+      "muafiyet": "mecaz",
+      "tip": "muafiyet",
+      "parti_sira": 52,
+      "id": "59bfb2dfcc368e109bf6b636",
+      "oge": [
+        "oda"
+      ],
+      "baglam": "Ne olduğunu ben söyleyemem, ama \"önemli bir şey olmamış\" kısmını bilen de bu odada kimse değil."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 4,
+      "id": "c395c050f44e816cbe99ee90",
+      "oge": "sofra",
+      "baglam": "Ne yapacağın senin bileceğin iş; sofranı da bütçeni de ben yönetmiyorum."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 14,
+      "id": "064adf42062787ab46977ed3",
+      "oge": "araba",
+      "baglam": "\"Volatilite\" dediğin şey piyasayı anlatıyor olabilir, ama arabanın içinde oturmayı anlatmıyor."
+    },
+    {
+      "muafiyet": "mecaz",
+      "tip": "muafiyet",
+      "parti_sira": 6,
+      "id": "6f7ca14fd05d18f77f6851bd",
+      "oge": [
+        "masa"
+      ],
+      "baglam": "İkisini aynı masaya koyan sensin."
+    },
+    {
+      "muafiyet": "kaynak_gevsek_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "331565182ec74318a4ff6930",
+      "oge": "balkon",
+      "baglam": "Balkonda ne kadar kaldığını da bilmiyorsun, kaçıncı olduğunu da."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "1f24ae0e5168052279b2fd7e",
+      "oge": [
+        "masa"
+      ],
+      "baglam": "Ama niyetlenmek ile masaya oturmak arasında bir yer var: kapıdan girmek."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "91bec3d2d64b48d1d6909db5",
+      "oge": [
+        "yatak"
+      ],
+      "baglam": "Yatağa nasıl girdiğini hatırlamamak bedende olan bir şey."
+    },
+    {
+      "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "91bec3d2d64b48d1d6909db5",
+      "oge": [
+        "yurt"
+      ],
+      "baglam": "Ne olduğunu ben söyleyemem ama bunu bir hekimin bilmesi gerekiyor — aile hekimliği, ya da yurdunun bağlı olduğu bir sağlık birimi varsa orası."
+    }
+  ]
+}

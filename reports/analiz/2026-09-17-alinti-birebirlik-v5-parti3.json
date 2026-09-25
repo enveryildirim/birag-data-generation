@@ -1,0 +1,89 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti3.jsonl",
+  "girdi_sha256_16": "746e25e983550681",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 5,
+  "isaretli_kayit": 4,
+  "bulgu": [
+    {
+      "parti_sira": 9,
+      "alinti": "bırakmayı çok düşünmüyorum, sadece tuhaf oldum"
+    },
+    {
+      "parti_sira": 10,
+      "alinti": "sadece tek kadeh"
+    },
+    {
+      "parti_sira": 10,
+      "alinti": "bazen ikincisi"
+    },
+    {
+      "parti_sira": 10,
+      "alinti": "sadece"
+    },
+    {
+      "parti_sira": 52,
+      "alinti": "sözünü tutmuyorsun"
+    },
+    {
+      "parti_sira": 56,
+      "alinti": "Bir şey olmadı"
+    },
+    {
+      "parti_sira": 56,
+      "alinti": "olmaz"
+    },
+    {
+      "parti_sira": 56,
+      "alinti": "her şeye karışmak"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 2,
+    "anma_oneri": 3
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 49,
+      "id": "cb84af23776b6bca84fbc646",
+      "oge": "sen yanlış yapıyorsun",
+      "baglam": "Bunu   diye söylemiyorum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 57,
+      "id": "33187fab6f68589130bd5319",
+      "oge": "şunu yap",
+      "baglam": "Ne yapacağını ben söylemeyeceğim; o karar senin ve buraya bir kişi daha   demeye gelmedi"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "56a571893af58e83cb62e2cb",
+      "oge": "Yapamıyorum",
+      "baglam": "bir şey değişiyor ve sen bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamı"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "56a571893af58e83cb62e2cb",
+      "oge": "akşam olunca yapamıyorum",
+      "baglam": "en bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamıyorum\" demek aynı şey değil; ikinci"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 48,
+      "id": "8a2547484ac5d3d2303dd572",
+      "oge": "Azalacaktı",
+      "baglam": "\"Azalacaktı\" demiştin demek.\n\nKime demişt"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# kaynak_url: https://www.yedam.org.tr/ne-yapiyoruz
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik (ticari kullanım ayrıca sorulacak)
+# yontem: tarayıcı get_page_text, birebir
+---
+Ne Yapıyoruz?
+
+Tütün, alkol, madde, internet veya kumar ile ilgili bir sorun mu var? Yalnız değilsin. Yardımcı olmaya hazırız.
+
+YEDAM olarak tütün, alkol, madde, internet ve kumar oynama ile ilgili sorunlar yaşayan kişilere ücretsiz psikolojik ve sosyal destek sağlayarak yeniden hayata kazandırılmaları için yardımcı oluyoruz. Aynı zamanda aile ve yakınlarına da destek vererek bozulan yaşam düzenlerinin onarılmasını ve ilişkilerinin sağlıklı bir şekilde devam etmesini destekliyoruz.
+
+Hizmetlerimiz ücretsizdir.
+YEDAM hizmetlerini ayaktan sürdürmektedir.
+Yatarak tedavi yapılmamaktadır.
+Randevu sistemi ile çalışılmaktadır.
+Gizlilik esasına bağlı çalışılmaktadır.
+
+Kimler başvurabilir?
+Tütün bağımlılığı ile mücadele yöntemlerini öğrenmek istiyorsanız,
+Alkol kullanımınız fazlaysa,
+Madde bağımlılığından arınma ve maddeyi bırakma süreci hakkında bilgi sahibi olmak istiyorsanız,
+Yoğun internet kullanımına bağlı yaşamınızda sorunlar varsa,
+Kumar bağımlılığı ile nasıl mücadele edeceğinize dair bilgi almak istiyorsanız bize başvurabilirsiniz.
+
+Neler yapıyoruz?
+
+Bağımlılık konusunda ÜCRETSİZ ve AYAKTAN danışmanlık hizmeti veriyoruz.
+
+Tütün-alkol-madde-internet kullanan, kumar bağımlılığı olan kişinin bağımlılık düzeyini saptıyoruz.
+Tütün-alkol-madde kullanımını, kumar oynama davranışını bırakması konusunda yardımcı oluyoruz.
+Tekrar tütün-alkol-madde kullanmaya, kumar oynamamaya başlamamak için yöntemler öğretiyoruz.
+Eşlik eden ruhsal sorunlar varsa (öfke kontrolsüzlüğü, kaygı vb.) bunların düzelmesi için psikolojik destek veriyoruz.
+Nasıl davranmaları konusunda aileleri bilgilendiriyoruz.
+Danışanlarımızı evlerinde ziyaret edip, gidişatı takip ediyoruz.
+
+Bunları başarabilmek için:
+
+Bireysel görüşmeler ve grup çalışmaları yapıyoruz.
+Ailelerle görüşmeler gerçekleştiriyoruz.
+Sosyal destek sağlıyoruz.
+Değişim demek yeni alışkanlıklar, yeni bir çevre, yeni bir hayat demektir. Danışanlarımızın sağlık güvencesi, işsizlik, boş zaman değerlendirmesi gibi sorunlarının giderilmesinde diğer kurumlarla iş birliği içinde çalışıyoruz.
+YEDAM Atölye'de danışanlarımızın sosyal yaşama uyumunu artırmak amaçlı meslek edindirme kursları veriyoruz.
+İyileşmenin kalıcı olması ve hayata uyumun sağlanabilmesi için YEDAM Atölye'de uzun süreli aktivitelerimizi sunuyoruz.

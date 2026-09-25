@@ -1,0 +1,95 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/ablasyon/v0.0.8-A-ilan-seyreltilmis.jsonl",
+  "girdi_sha256_16": "8933afe5ee7ce646",
+  "kayit": 571,
+  "karsi_olgusal_muaf": 41,
+  "isaretli_kayit": 16,
+  "bulgu": [
+    {
+      "parti_sira": 9,
+      "alinti": "hiçbir işe yaramıyor"
+    },
+    {
+      "parti_sira": 13,
+      "alinti": "olur"
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "yanlış mı bilmiyorum, garip hissediyorum"
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "iyi olur"
+    },
+    {
+      "parti_sira": 22,
+      "alinti": "icra dosyasına bir nefes olur, kimsenin haberi olmaz"
+    },
+    {
+      "parti_sira": 27,
+      "alinti": "ben de katılıyorum"
+    },
+    {
+      "parti_sira": 7,
+      "alinti": "Kumardan diyemezsin di mi"
+    },
+    {
+      "parti_sira": 5,
+      "alinti": "niye hep yalnızım"
+    },
+    {
+      "parti_sira": 17,
+      "alinti": "Gerçeği söylemek mümkün değil"
+    },
+    {
+      "parti_sira": 19,
+      "alinti": "İçim buna razı değil"
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "Hak ettim galiba"
+    },
+    {
+      "parti_sira": 25,
+      "alinti": "nasıl uzak dururum"
+    },
+    {
+      "parti_sira": 2,
+      "alinti": "İçim bir tuhaf"
+    },
+    {
+      "parti_sira": 4,
+      "alinti": "olur"
+    },
+    {
+      "parti_sira": 5,
+      "alinti": "Ortada büyük bir şey yok"
+    },
+    {
+      "parti_sira": 10,
+      "alinti": "eşim bilse zaten anlamaz."
+    },
+    {
+      "parti_sira": 11,
+      "alinti": "Benim bildiğim bir şey var ki onlar bilmiyor."
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "hak etmiyorum bu cümleyi."
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "Babam da idare etti"
+    },
+    {
+      "parti_sira": 56,
+      "alinti": "Bir şey olmadı"
+    },
+    {
+      "parti_sira": 56,
+      "alinti": "olmaz"
+    }
+  ]
+}

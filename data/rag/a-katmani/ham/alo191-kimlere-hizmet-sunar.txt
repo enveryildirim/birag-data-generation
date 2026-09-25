@@ -1,0 +1,20 @@
+# kaynak_url: https://alo191.saglik.gov.tr/TR-50313/alo-191-uyusturucu-ile-mucadele-danisma-ve-destek-hatti-kimlere-hizmet-sunar-.html
+# kurum: T.C. Sağlık Bakanlığı — ALO 191
+# alinma_tarihi: 2026-09-15
+# gecerlilik_tarihi: 2023-10-19
+# lisans: kamu-kurumu-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+ALO 191 Uyuşturucu İle Mücadele Danışma ve Destek Hattı Kimlere Hizmet Sunar?
+
+Madde kullanımı olup bırakmak isteyenler,
+Yakınının uyuşturucu kullandığından şüphelenen ve ne yapacağını bilmeyenler,
+Yakınlarını uyuşturucu madde bağımlılığından nasıl koruyacağını öğrenmek isteyenler,
+Uyuşturucu madde kullanımını bıraktığı halde, madde kullanma isteği duyan ve bununla mücadele etmekte zorlananlar,
+Çevrelerinde hiç kimsenin madde kullanmadığı, yine de aile bireylerinin ileride de madde kullanımıyla hiç tanışmamaları için neler yapabileceklerini öğrenmek isteyenler,
+Kendisi madde kullanıcısı olup o an madde almadığı için yoksunluk yaşayanlar,
+Madde bağımlılığında tedavi sürecinde sorun yaşayanlar,
+Madde kullanımını bırakıp tedavi sonrasında çeşitli sıkıntı yaşayanlar,
+Uyuşturucu madde etkisinde ciddi sağlık problemi yaşayanlar,
+
+Alkol ve uyuşturucu madde kullanımı ile ilgili her konuda bilgi ve destek almak isteyen herkese 7 gün 24 saat hizmet sunar.

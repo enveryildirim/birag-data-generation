@@ -1,0 +1,46 @@
+{
+  "tarih": "2026-09-20",
+  "havuz": 2240,
+  "uretilmis": 748,
+  "kalan": 1492,
+  "sert": 39,
+  "uygun": 1453,
+  "kriz_icerigi": 55,
+  "esik": 3.0,
+  "hic_uretilmemis": {
+    "senaryo=kayma_nuks": 10,
+    "risk_seviyesi=cok_yuksek": 20
+  },
+  "acik": {
+    "risk_seviyesi=orta": {
+      "sette": 50.5,
+      "havuz": 54.9,
+      "fark": 4.4,
+      "uretilebilir_kalan": 852
+    },
+    "profil=ev_kadini": {
+      "sette": 4.7,
+      "havuz": 8.5,
+      "fark": 3.8,
+      "uretilebilir_kalan": 155
+    },
+    "bagimlilik_turu=receteli_ilac": {
+      "sette": 14.6,
+      "havuz": 18.8,
+      "fark": 4.2,
+      "uretilebilir_kalan": 311
+    },
+    "bagimlilik_turu=kumar": {
+      "sette": 19.5,
+      "havuz": 23.2,
+      "fark": 3.7,
+      "uretilebilir_kalan": 335
+    },
+    "stres_tipi=yok": {
+      "sette": 69.0,
+      "havuz": 75.0,
+      "fark": 6.0,
+      "uretilebilir_kalan": 1144
+    }
+  }
+}

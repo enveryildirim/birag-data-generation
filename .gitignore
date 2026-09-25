@@ -1,0 +1,22 @@
+*.log
+*.pyc
+.DS_Store
+.cache/
+.env
+.venv/
+__pycache__/
+models/
+runs/
+runs/**/*.safetensors
+# Geniş LoRA adapter ağırlıkları (~250 MB/kontrol noktası) git'e girmez.
+# Diskte duruyorlar (K35: runs/ silinmez); config + veri + seed ile yeniden üretilebilirler:
+#   uv run python src/train.py configs/training/e4b-thinking-dili-genis.yaml
+runs/20260912-182429-e4b-thinking-dili-genis/adapters/*.safetensors
+
+# Faz 4 kapsam taraması — 5 kolun adapter ağırlıkları toplam ~1 GB, git'e girmez.
+# Diskte duruyorlar (Kural 7: runs/ silinmez). Her kol config + veri + tohum ile
+# yeniden üretilebilir:
+#   uv run python src/train.py configs/training/f4-kapsam-<kol>.yaml
+# metrics.json, config.yaml, mlx_config.yaml ve data/ git'te KALIYOR — raporlanan
+# loss sayıları metrics.json'dan geliyor. (train.log yukarıdaki *.log ile dışarıda.)
+runs/*-f4-kapsam-*/adapters/*.safetensors

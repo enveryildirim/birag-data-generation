@@ -1,0 +1,335 @@
+{
+  "tarih": "2026-09-15",
+  "girdi": {
+    "dosya": "datasets/v0.0.2/train.jsonl",
+    "sha256": "b78103aecb627e6385a63d9adf1cd0e246f1e03c3cd87a83238659bb4e59f51f",
+    "kayit": 117,
+    "terapotik": 99,
+    "replay": 18
+  },
+  "betik": "scripts/analiz/2026-09-15-v002-yonlendirme-envanteri.py",
+  "terim_listesi_kaynagi": "evals/safety_crisis.jsonl · sk-013/sk-020 herhangi_biri",
+  "terim_gecen": 21,
+  "terim_gecmeyen": 78,
+  "dagilim": {
+    "sinir_cekme": 17,
+    "kullanici_andi": 1,
+    "baglam_siniri": 3,
+    "yonlendirme": 0
+  },
+  "sinirda": [
+    "4a8af1467106bc53",
+    "802a014fe91ebbc2",
+    "d1f87cc0222d652a",
+    "f79f465788374149",
+    "fdc6e5d25da7cd24"
+  ],
+  "kayitlar": {
+    "049c62fa00f632d6": {
+      "senaryo": "kayma_nuks",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Senin yerine \"devam et\" ya da \"kes\" demek bana düşmez; o karar senin ve ilacı yazan hekimin."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«o karar senin ve ilacı yazan hekimin» — karar sahibi"
+    },
+    "dfe09cffbbceaca9": {
+      "senaryo": "ambivalans",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": false,
+      "terimler": [
+        "yedam"
+      ],
+      "kanit": [
+        "Bugün söylediklerini toparlayayım: randevuyu kendin almışsın, YEDAM'a kendin gitmişsin, ve bunu eşin için yaptığını söylüyorsun."
+      ],
+      "sinif": "kullanici_andi",
+      "sinirda": false,
+      "gerekce": "YEDAM'ı kullanıcı söyledi, model özetledi"
+    },
+    "115aa036d383a1bf": {
+      "senaryo": "rol_siniri",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim",
+        "yanında biri"
+      ],
+      "kanit": [
+        "Bir ilaca yeniden başlanıp başlanmayacağı hekimin kararıdır; ben oradan konuşursam bilmediğim bir şeyi onaylamış olurum.",
+        "Geçen sene bırakırken yanında biri vardı."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«hekimin kararıdır»; «yanında biri vardı» geçmişi yansıtıyor"
+    },
+    "d1f87cc0222d652a": {
+      "senaryo": "kutlama",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Bedeninde neyin ne zaman değişeceğini sana ben söyleyemem, o soru hekimine sorulur."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": true,
+      "gerekce": "«o soru hekimine sorulur» — soruyu havale ediyor, kişiyi değil"
+    },
+    "aaa1c9a0ba4f4435": {
+      "senaryo": "motivasyon",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Tahlil yorumu hekimin işi; oradan konuşursam bilmediğim bir şeyi biliyormuş gibi yaparım."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«tahlil yorumu hekimin işi»"
+    },
+    "802a014fe91ebbc2": {
+      "senaryo": "rol_siniri",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Bir ilacın kesilip kesilmeyeceğine ve nasıl kesileceğine karar vermek hekimin işi; ben o kararı ne verebilirim ne de onaylayabilirim.",
+        "Bunu bir hekimle konuşmadan denemeni isteyemem."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": true,
+      "gerekce": "«bir hekimle konuşmadan denemeni isteyemem» — kendi onayına sınır"
+    },
+    "f79f465788374149": {
+      "senaryo": "bilgilendirme",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Bu soru bir hekime ya da eczacıya sorulur."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": true,
+      "gerekce": "«bu soru bir hekime ya da eczacıya sorulur»"
+    },
+    "afeb9133c01e8f71": {
+      "senaryo": "bilgilendirme",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Bir ilacın azaltılması hekimin planlayacağı bir şey; buradan program verirsem, ikinci günde ne olacağını bilmeden vermiş olurum."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«hekimin planlayacağı bir şey»"
+    },
+    "b16775d1087b403e": {
+      "senaryo": "ambivalans",
+      "dilim": "rag_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "başvur"
+      ],
+      "kanit": [
+        "Orada yalnızca başvurunun nasıl yapıldığı yazıyor — kimin başvurabileceği, ön görüşme için neyin yeterli olduğu."
+      ],
+      "sinif": "baglam_siniri",
+      "sinirda": false,
+      "gerekce": "terim pasajın içinden: «başvurunun nasıl yapıldığı yazıyor»"
+    },
+    "846f79e04a483eb6": {
+      "senaryo": "nazikce_karsi_cikma",
+      "dilim": "rag_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim",
+        "acil",
+        "başvur"
+      ],
+      "kanit": [
+        "Elimdeki metin şunu söylüyor: randevu sırası başvurunun önceliğine göre değil, o birimdeki boş yere göre veriliyor.",
+        "Yani üç ay, aciliyet hakkında bir şey söylemiyor; sistemin nasıl çalıştığını söylüyor.",
+        "Aciliyetin kendisi hakkında bir şey diyemem, orası hekimin alanı.",
+        "\"Madem acil olsa hemen yer açarlardı\" cümlesini kurarken bir rahatlama olmuş gibi duruyor."
+      ],
+      "sinif": "baglam_siniri",
+      "sinirda": false,
+      "gerekce": "RAG; ek olarak «aciliyet… orası hekimin alanı» sınırı"
+    },
+    "ba6b849b8b77ef88": {
+      "senaryo": "bilgilendirme",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Başının dönmesini ve öksürmeni değerlendirecek olan bir hekim, ben değilim — buradan bir şey dersem uydurmuş olurum."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«değerlendirecek olan bir hekim, ben değilim»"
+    },
+    "4a8af1467106bc53": {
+      "senaryo": "rol_siniri",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim",
+        "doktor"
+      ],
+      "kanit": [
+        "Emzirirken hangi ilacın nasıl etkilediği hekiminin ve eczacının alanı; ben buradan konuşursam bebeğin üzerinden bilmediğim bir şey söylemiş olurum.",
+        "Zor günlerde ikinciyi aldığını bana yazdın, doktoruna yazmadın.",
+        "Doktoruna söylemek sana ne kadar zor geliyor?"
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": true,
+      "gerekce": "«doktoruna söylemek sana ne kadar zor geliyor?» — adıma dokunuyor"
+    },
+    "528b1123cbeb14ae": {
+      "senaryo": "rol_siniri",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Sebebini de sen söyledin: kullandığını kimse bilmiyor ve hekime gitmenin işi daha da karıştıracağını düşünüyorsun.",
+        "İlacı ne kadar kullanacağını ben konuşamam; orası hekiminle senin aranda."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«orası hekiminle senin aranda»"
+    },
+    "dc5a22d008dee048": {
+      "senaryo": "nazikce_karsi_cikma",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Raporun ne anlama geldiğini ben söyleyemem; onu kızını gören hekim söyler."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«onu kızını gören hekim söyler»"
+    },
+    "69776ab9b10c60fc": {
+      "senaryo": "hedef_belirleme",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "İlacı alıp almamak hekiminle senin aranda."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«ilacı alıp almamak hekiminle senin aranda»"
+    },
+    "7a2be624a947e7c8": {
+      "senaryo": "nazikce_karsi_cikma",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Çocukluğunla ilgili anlattığın şeyin ne olduğunu söyleyemem; orası seni muayene eden hekimin işi ve ben oradan konuşursam bilmediğim bir şeyi onaylamış olurum."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«orası seni muayene eden hekimin işi»"
+    },
+    "fdc6e5d25da7cd24": {
+      "senaryo": "rol_siniri",
+      "dilim": "terapotik_cok_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Şimdi iki ayrı şey var: uykunun kendisi ve hekimine söylemediğin kısım."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": true,
+      "gerekce": "«hekimine söylemediğin kısım» — adıma dokunuyor"
+    },
+    "53b008b252a59816": {
+      "senaryo": "bilmiyorum_cikmazi",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Hekiminle ne paylaşacağın senin kararın; buradan bir talimat verirsem yarın o odada duran sen olursun, ben değil."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«hekiminle ne paylaşacağın senin kararın»"
+    },
+    "5d24f424239fa0ad": {
+      "senaryo": "inkar",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Midende olanın ne olduğunu ben söyleyemem; onu görecek olan bir hekim ve ben oradan konuşursam uydurmuş olurum."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«onu görecek olan bir hekim»"
+    },
+    "dec0afd13a3f0325": {
+      "senaryo": "farkindalik",
+      "dilim": "terapotik_tek_tur",
+      "is_negative": false,
+      "terimler": [
+        "hekim"
+      ],
+      "kanit": [
+        "Öksürüğün ne olduğunu ben söyleyemem, orası hekimin alanı."
+      ],
+      "sinif": "sinir_cekme",
+      "sinirda": false,
+      "gerekce": "«orası hekimin alanı»"
+    },
+    "2ee68a30ef3d03b9": {
+      "senaryo": "rol_siniri",
+      "dilim": "rag_tek_tur",
+      "is_negative": true,
+      "terimler": [
+        "danışma hattı"
+      ],
+      "kanit": [
+        "Orada yalnızca danışma hattının çalışma saatleri var, sorduğun şeye dair tek satır yok ve uydurmayacağım."
+      ],
+      "sinif": "baglam_siniri",
+      "sinirda": false,
+      "gerekce": "RAG; «danışma hattının çalışma saatleri» pasajdan"
+    }
+  }
+}

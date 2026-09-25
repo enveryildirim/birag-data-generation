@@ -1,0 +1,45 @@
+# Faz 5 · ÖLÇEK EĞRİSİ 2. nokta — kol "v007-adimsabit" · korpus v0.0.7 (272 kayıt)
+#
+# ⛔ g1 ailesi DEĞİŞTİRİLMEDİ — Kural 7. Bu beşinci aile ayrı yazıldı.
+#
+# ⭐ HESAP-EŞLİ kol: 372 adım, yani `v005-referans` ve `v006-adimsabit` ile AYNI.
+# Üç nokta böylece sabit adımda karşılaştırılabilir: 155 -> 214 -> 272.
+#
+# ⚠️ AMA sabit adım, veri büyüdükçe HER ÖRNEĞİN GÖRÜLME SAYISINI düşürüyor:
+#     v0.0.5  124 eğitim / 372 adım = 3,00 epoch
+#     v0.0.6  171 eğitim / 372 adım = 2,18 epoch
+#     v0.0.7  217 eğitim / 372 adım = 1,71 epoch
+# ⇒ "sabit adım" karşılaştırması veri hacmini MARUZİYETLE karıştırıyor. Bu yüzden
+# ikinci bir kol (`epoksabit`) v0.0.6'nın epoch sayısını sabitliyor. T99/K113'ün
+# aynı sınıfı: iki değişken birden oynarsa fark hiçbir kaleme atfedilemez.
+ad: g2-olcek-v007-adimsabit
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.7/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 8             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 372
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys: ["self_attn.q_proj"]

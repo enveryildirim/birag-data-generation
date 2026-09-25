@@ -1,0 +1,35 @@
+{
+  "tarih": "2026-09-18",
+  "veri": {
+    "*ham model* (taban)": {
+      "dizin": "20260918-101631-taban-v9",
+      "n": 48,
+      "yargili": 43,
+      "model": "agy:gemini-3.8-flash-high",
+      "rubrik": "judge-eksen1.v9",
+      "gecti": 19,
+      "bilesik": 0.6333333333333333
+    },
+    "⭐ 8 katman · **v0.0.10**": {
+      "dizin": "20260918-105114-gd-v010-k8-v9",
+      "n": 48,
+      "yargili": 35,
+      "model": "agy:gemini-3.8-flash-high",
+      "rubrik": "judge-eksen1.v9",
+      "gecti": 19,
+      "bilesik": 0.628
+    }
+  },
+  "dims": [
+    "duygusal_tepki",
+    "yorumlama",
+    "kesif",
+    "mi_uyumu",
+    "grounding"
+  ],
+  "eksik": [
+    "kisalik_dogallik",
+    "dil_butunlugu"
+  ],
+  "ortak": 30
+}

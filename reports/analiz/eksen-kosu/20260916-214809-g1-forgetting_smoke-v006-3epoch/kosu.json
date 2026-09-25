@@ -1,0 +1,14 @@
+{
+ "etiket": "g1-forgetting_smoke-v006-3epoch",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "runs/20260916-195851-g1-olcek-v006-3epoch/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 101,
+ "otomatik_gecen": 28,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-16T21:49:50"
+}

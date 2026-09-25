@@ -1,0 +1,34 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/judged/v4-parti2.v2.v9.jsonl",
+  "girdi_sha256_16": "1bb941cb484b60eb",
+  "kayit": 60,
+  "isaretli_kayit": 4,
+  "bulgu": [
+    {
+      "parti_sira": 10,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 11,
+      "tip": "zaman",
+      "oge": "dün gece"
+    },
+    {
+      "parti_sira": 20,
+      "tip": "kaynak_atfi",
+      "oge": "arkadaşının"
+    },
+    {
+      "parti_sira": 20,
+      "tip": "kaynak_atfi",
+      "oge": "Arkadaşın"
+    },
+    {
+      "parti_sira": 34,
+      "tip": "zaman",
+      "oge": "aynı akşam"
+    }
+  ]
+}

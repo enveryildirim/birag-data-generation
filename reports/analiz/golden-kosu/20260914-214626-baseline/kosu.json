@@ -1,0 +1,12 @@
+{
+ "etiket": "baseline",
+ "set": "evals/golden.dev.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 48,
+ "uretim_sn": 584,
+ "judge_sn": 443,
+ "tarih": "2026-09-14T22:04:16"
+}

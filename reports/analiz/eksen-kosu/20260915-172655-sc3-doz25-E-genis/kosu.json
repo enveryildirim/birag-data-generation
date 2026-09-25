@@ -1,0 +1,14 @@
+{
+ "etiket": "sc3-doz25-E-genis",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-164715-f4c-doz25-E-genis/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 145,
+ "otomatik_gecen": 6,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T17:29:19"
+}

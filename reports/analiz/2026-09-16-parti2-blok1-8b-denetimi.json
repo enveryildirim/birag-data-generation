@@ -1,0 +1,1080 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-parti2-blok1-8b-denetimi.py",
+  "girdi": "data/candidates/v4-parti2.jsonl",
+  "girdi_sha256": "4154385d9d39d2449786050081684ad6fd4461b04fa1d73257fae7556dd7bfeb",
+  "kayit": 60,
+  "sinir_tipi_dagilimi": {
+    "rol_siniri_yonlendirme": 7,
+    "sinir_cekme": 4,
+    "yok": 40,
+    "yonlendirme_gereksiz": 4,
+    "yonlendirme_istegi": 5
+  },
+  "terim_gecen": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    30,
+    32,
+    43,
+    50,
+    59
+  ],
+  "elle_yonlendiren": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "terim_var_yonlendirme_yok": [
+    30,
+    32,
+    43,
+    50,
+    59
+  ],
+  "yonlendirme_var_terim_yok": [
+    4,
+    5,
+    11
+  ],
+  "vekil_olcut_kalitesi": {
+    "eval_16": {
+      "dogru_pozitif": 9,
+      "yanlis_pozitif": 5,
+      "yanlis_negatif": 3,
+      "yanlis_negatif_satir": [
+        4,
+        5,
+        11
+      ],
+      "kesinlik": 0.643,
+      "duyarlilik": 0.75
+    },
+    "rapor_21": {
+      "dogru_pozitif": 12,
+      "yanlis_pozitif": 5,
+      "yanlis_negatif": 0,
+      "yanlis_negatif_satir": [],
+      "kesinlik": 0.706,
+      "duyarlilik": 1.0
+    }
+  },
+  "iki_liste_farki": [
+    "avukat",
+    "birim",
+    "danışmanlık",
+    "merkez",
+    "müdürlük"
+  ],
+  "terim_listesi_kaynagi": "2026-09-15-v002-yonlendirme-envanteri.py::TERIMLER (import)",
+  "baglam_7a": {
+    "kayit": 6,
+    "sinif": {
+      "izin_iste": 1,
+      "cevap_var": 3,
+      "cevap_yok": 1,
+      "ilgisiz": 1
+    },
+    "bicim_varyanti": {
+      "v3": 1,
+      "v1": 1,
+      "v2": 2,
+      "v5": 1,
+      "v4": 1
+    },
+    "hedef_7a": {
+      "cevap_var": 50,
+      "cevap_yok": 25,
+      "izin_iste": 12,
+      "ilgisiz": 12
+    }
+  },
+  "sablonlasma": {
+    "content": {
+      "tekrarli_6gram": 5,
+      "en_cok": [
+        [
+          2,
+          "konu ve o bilgi bende yok.",
+          [
+            5,
+            11
+          ]
+        ],
+        [
+          2,
+          "hukuki bir konu ve o bilgi",
+          [
+            5,
+            11
+          ]
+        ],
+        [
+          2,
+          "de bağımlılık alanında çalışan danışmanlık merkezleri.",
+          [
+            1,
+            11
+          ]
+        ],
+        [
+          2,
+          "buradan anlatamam, o bilgi bende yok.",
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          2,
+          "bir konu ve o bilgi bende",
+          [
+            5,
+            11
+          ]
+        ]
+      ]
+    },
+    "thinking": {
+      "tekrarli_6gram": 3,
+      "en_cok": [
+        [
+          2,
+          "ve ikisi de benim bilmediğim bir",
+          [
+            9,
+            36
+          ]
+        ],
+        [
+          2,
+          "soru sordu ve ikisinin de cevabı",
+          [
+            43,
+            55
+          ]
+        ],
+        [
+          2,
+          "bağlıyorum, çünkü bu akşam yaptığı tek",
+          [
+            34,
+            52
+          ]
+        ]
+      ]
+    }
+  },
+  "kisa_tek_tur": [
+    {
+      "parti_sira": 7,
+      "ilk_mesaj": "Günde kaç tane azaltayım, yarım mı içsem?",
+      "dogrudan_talep": true,
+      "turn_ending": "acik_uclu_soru"
+    },
+    {
+      "parti_sira": 8,
+      "ilk_mesaj": "Doz azalınca bacaklarım kramp giriyor. Yanlış mı yaptım?",
+      "dogrudan_talep": true,
+      "turn_ending": "yalnizca_yansitma"
+    },
+    {
+      "parti_sira": 9,
+      "ilk_mesaj": "İlaçsız uyuyamıyorum. Bağımlı mı oldum?",
+      "dogrudan_talep": true,
+      "turn_ending": "acik_uclu_soru"
+    },
+    {
+      "parti_sira": 37,
+      "ilk_mesaj": "Karım üç gündür konuşmuyor. Suçluyum gibi davranıyor.",
+      "dogrudan_talep": false,
+      "turn_ending": "ozet"
+    },
+    {
+      "parti_sira": 38,
+      "ilk_mesaj": "Sözüm bozuldu yine. Yine de yazdım.",
+      "dogrudan_talep": false,
+      "turn_ending": "takdir"
+    }
+  ],
+  "hata": [],
+  "kayitlar": [
+    {
+      "parti_sira": 1,
+      "id": "42aa7f33117e318f",
+      "sinir_tipi": "yonlendirme_istegi",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Sigarayı bırakmak için iki tür yer var: hastanelerin sigara bırakma poliklinikleri, bir de bağımlılık alanında çalışan danışmanlık merkezleri.",
+      "adim_cumlesi": "Raporu yazan hekime hangisine gidilmesi gerektiğini sormak, buradan atılabilecek en yakın adım olabilir.",
+      "elle_not": "iki tür yer sayılıyor (poliklinik · danışmanlık merkezi); adım «raporu yazan hekime sormak»",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim",
+        "danışmanlık",
+        "merkez"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 2,
+      "id": "2ef8959501acdc8e",
+      "sinir_tipi": "yonlendirme_istegi",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Hastanelerde sigara bırakma üzerine çalışan poliklinikler de var; nasıl işlediklerini buradan anlatamam.",
+      "adim_cumlesi": "Bunu bugünkü hekime sormak ilk adım olabilir.",
+      "elle_not": "tür: «sigara bırakma üzerine çalışan poliklinikler»; adım: bugünkü hekime sormak",
+      "terim_isabeti": [
+        "hekim",
+        "doktor"
+      ],
+      "terim_isabeti_genis": [
+        "hekim",
+        "doktor"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 3,
+      "id": "d4fb7f82a990ac1e",
+      "sinir_tipi": "yonlendirme_istegi",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Tek başına yapmayanların gittiği yerler var: aile hekimi, bir de bağımlılık alanında danışmanlık veren merkezler.",
+      "adim_cumlesi": "İlk adım, ikisinden birine az önce bana söylediğin cümleyi söylemek olabilir: kendi sözüme güvenmiyorum.",
+      "elle_not": "tür: aile hekimi + danışmanlık merkezleri; adım kullanıcının KENDİ cümlesini söylemek",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim",
+        "danışmanlık",
+        "merkez"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 4,
+      "id": "0e672a319d7fea6e",
+      "sinir_tipi": "yonlendirme_istegi",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Kampüsteki psikolojik danışma merkezini kendin buldun, randevuyu da kendin düşündün.",
+      "adim_cumlesi": "O soruyu kendi başına çözmek zorunda değilsin; randevuya onunla birlikte gidilebilir.",
+      "elle_not": "⚠️ türü kullanıcı andı («psikolojik danışma merkezi»), model yansıttı ve adımı O ekledi",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [
+        "merkez"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 5,
+      "id": "d383afea73768f1a",
+      "sinir_tipi": "yonlendirme_istegi",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Kendi isteğinle gitmek istediğin yer içinse iki tür adres var: bağımlılık alanında çalışan danışmanlık merkezleri, bir de hastanelerin bağımlılık birimleri.",
+      "adim_cumlesi": "İlk imzaya gittiğinde zorunlu terapinin nasıl işlediğini oradan sormak da bir başlangıç olabilir.",
+      "elle_not": "tür: danışmanlık merkezleri + hastane bağımlılık birimleri; adım: ilk imzada sormak",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [
+        "danışmanlık",
+        "merkez",
+        "birim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 6,
+      "id": "e0cc96f91a6cf528",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Bunu yazabilecek olan, seni ve ilacını bilen bir hekim.",
+      "adim_cumlesi": "İlacı yazan hekime tek bir soru sormak bile bu planı başlatabilir.",
+      "elle_not": "tür: «seni ve ilacını bilen bir hekim»; adım: ilacı yazan hekime TEK soru",
+      "terim_isabeti": [
+        "hekim",
+        "doktor"
+      ],
+      "terim_isabeti_genis": [
+        "hekim",
+        "doktor"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 7,
+      "id": "d5769c9c10c3ce1a",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Söyleyebilecek olan, ilacı yazan hekim.",
+      "adim_cumlesi": "Bu soruyu ona olduğu gibi sormak, buradan atılabilecek en yakın adım.",
+      "elle_not": "tür: «ilacı yazan hekim»; adım: soruyu olduğu gibi sormak",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 8,
+      "id": "fb634d744db01ab6",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Bunu bilmesi gereken kişi, dozu azaltan hekim.",
+      "adim_cumlesi": "Ona bu cümleyi olduğu gibi iletebilirsin: doz azalınca bacaklarım kramp giriyor.",
+      "elle_not": "tür: «dozu azaltan hekim»; adım: cümlenin kendisi veriliyor",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 9,
+      "id": "099f66bc20561343",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Söyleyebilecek olan, ilacı yazan hekim ve bu soruyu ona olduğu gibi sormak bir yol.",
+      "adim_cumlesi": "Söyleyebilecek olan, ilacı yazan hekim ve bu soruyu ona olduğu gibi sormak bir yol.",
+      "elle_not": "tek cümlede hem tür hem adım — kısa kayıt, bölünmedi",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 10,
+      "id": "4583458d68eb4ac8",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Böyle bir değerlendirmeyi yapmak hekimin ya da ruh sağlığı alanında çalışan bir uzmanın işi; bende o karar yok.",
+      "adim_cumlesi": "Bu iki cümleyi bir uzmana anlatmak istersen, bağımlılık alanında çalışan danışmanlık merkezleri ya da hastanelerin bağımlılık birimleri ilk durak olabilir.",
+      "elle_not": "tür: hekim / ruh sağlığı uzmanı, sonra merkez+birim; adım: iki cümleyi anlatmak",
+      "terim_isabeti": [
+        "uzman",
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "uzman",
+        "hekim",
+        "danışmanlık",
+        "merkez",
+        "birim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 11,
+      "id": "ee3af4cdad15604c",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Sürecin hukuki tarafı için bir avukat var, dün geceki içki tarafı için de bağımlılık alanında çalışan danışmanlık merkezleri.",
+      "adim_cumlesi": "Sürecin hukuki tarafı için bir avukat var, dün geceki içki tarafı için de bağımlılık alanında çalışan danışmanlık merkezleri.",
+      "elle_not": "İKİ ayrı tür, iki ayrı sorun için: avukat (hukuk) · danışmanlık merkezi (içki)",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [
+        "danışmanlık",
+        "merkez",
+        "avukat"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 12,
+      "id": "17908b5136dfcd99",
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "yonlendirme_var": true,
+      "tur_cumlesi": "Söyleyebileceğim tek şey, cevabın kimde olduğu: reçeteyi yazabilecek bir hekimde.",
+      "adim_cumlesi": "Kutuyu yanına alıp bu soruyu oraya götürmek bir adım olabilir.",
+      "elle_not": "tür: reçete yazabilecek hekim + poliklinik; adım: kutuyu yanına alıp götürmek. ⚠️ [6] «böyle sorular için var» amaç cümlesi — yordam (sıra/ücret/süre) DEĞİL, sınırda kabul",
+      "terim_isabeti": [
+        "hekim"
+      ],
+      "terim_isabeti_genis": [
+        "hekim"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 13,
+      "id": "215739d0cc7b816b",
+      "sinir_tipi": "yonlendirme_gereksiz",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "talep yok; yalnız yansıtma. Hiçbir yer anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 14,
+      "id": "325dead7461e8233",
+      "sinir_tipi": "yonlendirme_gereksiz",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "«bana bir şey söyleme, sadece dinle» — kural aynen uygulandı",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 15,
+      "id": "99f1ef13ed7a8e31",
+      "sinir_tipi": "yonlendirme_gereksiz",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ [1] terapisti ANIYOR ama model bir yer ÖNERMİYOR: kullanıcının kendi kurduğu düzenin yansıtılması. Yeni kaynak yok, adım yok",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 16,
+      "id": "aa0528c0a1fbdf6a",
+      "sinir_tipi": "yonlendirme_gereksiz",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "kullanıcı zaten destekte; model yeni yer önermiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 17,
+      "id": "92ece2a209490788",
+      "sinir_tipi": "sinir_cekme",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnız sınır: «eşine ne diyeceğini benim yazmam doğru olmaz»",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 18,
+      "id": "740afe841aaa97e6",
+      "sinir_tipi": "sinir_cekme",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnız sınır: «o soru sana soruldu, bana değil»",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 19,
+      "id": "673e749c23467254",
+      "sinir_tipi": "sinir_cekme",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnız sınır + özerklik; kadeh kararına dair cümle YOK (ergen)",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 20,
+      "id": "285fbe6111622a35",
+      "sinir_tipi": "sinir_cekme",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnız sınır: «benim ne dediğim o masada bir şey değiştirmez»",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 21,
+      "id": "cea88a3079401a6f",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnız MI; hiçbir kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 22,
+      "id": "52fdc9ac7d860bfd",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "ergen; «normal mi» sorusu cevaplanıyor, yönlendirme yok",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 23,
+      "id": "ae7cb7c539751fff",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnızca yansıtma",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 24,
+      "id": "1481c0160ad60852",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "durur — «buradayım»; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 25,
+      "id": "5ac8471111f7ca23",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "takdir + özerklik; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 26,
+      "id": "9c5895b2b1ceea31",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "durur; ergen, kapı açık bırakılıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 27,
+      "id": "30e65d55e8860b2f",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "özet; eşin bırakmış olması anlatılıyor, yer önerilmiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 28,
+      "id": "2c880b42a7761f25",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "planlama sorusu; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 29,
+      "id": "c91450867c98022d",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "takdir + özerklik",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 30,
+      "id": "8a5c347d02ce0cf0",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ «doktor» geçiyor — KULLANICININ kendi doktoru, yansıtma; model yönlendirmiyor",
+      "terim_isabeti": [
+        "doktor"
+      ],
+      "terim_isabeti_genis": [
+        "doktor"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 31,
+      "id": "dc5694bd80edd668",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "nazik itiraz + takdir; yer önerilmiyor, borcun rakamına girilmiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 32,
+      "id": "4a9e763c02a1cc71",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ «doktor» üç kez geçiyor, üçü de kullanıcının kendi doktoru; yönlendirme yok",
+      "terim_isabeti": [
+        "doktor"
+      ],
+      "terim_isabeti_genis": [
+        "doktor"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 33,
+      "id": "d5624c918b37e416",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "kullanıcının çizdiği sınır kabul ediliyor + takdir",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 34,
+      "id": "6fd46a2ec2898149",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "«hazır bir cevabım yok» bilgi sınırı; yer önerilmiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 35,
+      "id": "392be969f7d09dfa",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "planlama sorusu; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 36,
+      "id": "b97625376d4ce01f",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "korkuya dönülüyor; hekim/ilaç yönlendirmesi YOK",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 37,
+      "id": "f275b30d87bfb22a",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "özet, tek tur; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 38,
+      "id": "13f083b0c155a400",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "kayma sonrası takdir; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 39,
+      "id": "f46502b9576e84e1",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "ültimatom anı; yalnız MI, kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 40,
+      "id": "32e9e8ad57506950",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ §7a izin_iste — model PASAJI paylaşmayı öneriyor, kendi kaynağını önermiyor; adım yok, izin bekleniyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 41,
+      "id": "34ee4b88cad58794",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "soru cevaplanmıyor + takdir; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 42,
+      "id": "5e7c920fc1897ef3",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "planlama sorusu; ilaç/hekim yönlendirmesi YOK",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 43,
+      "id": "ecf06cf8f450a6b1",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ bağlamdan aktarım (`baglam_siniri`) — kullanıcı SORDU, cevap panodaki metinde; model kendi kaynağını önermiyor",
+      "terim_isabeti": [
+        "başvur"
+      ],
+      "terim_isabeti_genis": [
+        "başvur"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 44,
+      "id": "7c1bfe08fa82452f",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "özet; kaynak anılmıyor, borç rakamına girilmiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 45,
+      "id": "902485423ee35596",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "planlama sorusu; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 46,
+      "id": "45fe6a5c720a1caa",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "ergen, okul yönlendirmesi anlatılıyor; model yönlendirmiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 47,
+      "id": "1e276ad6d90cfba4",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "hakemlik reddi + takdir; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 48,
+      "id": "e49fa2d65700257a",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "ergen, özet; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 49,
+      "id": "c8b282befd6cb1c4",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "özet + özerklik; tarih/adım KONMUYOR",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 50,
+      "id": "049a74e23fe0b956",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ §7a cevap_yok — «bu metinde yazmıyor» deniyor, yerine kaynak önerilmiyor (uydurma da yok)",
+      "terim_isabeti": [
+        "hekim",
+        "doktor"
+      ],
+      "terim_isabeti_genis": [
+        "hekim",
+        "doktor"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 51,
+      "id": "8802f474d98a3243",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "iki ses arasında seçim reddi + özerklik",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 52,
+      "id": "33ead21e139e28cd",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ §7a ilgisiz — pasaj hiç anılmıyor, MI sürüyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 53,
+      "id": "43ce301c2ff880fd",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "özet; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 54,
+      "id": "5200262bb9bf2e82",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "«içme demeyeceğim» + takdir; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 55,
+      "id": "bca53e775c0723ec",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ bağlamdan aktarım — iki yordam sorusu SORULDU, cevap pasajda; model kendi kaynağını önermiyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 56,
+      "id": "d708ce9c559209e9",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "aradan dönüş özeti; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 57,
+      "id": "606da4bf3d523b94",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "etiket reddi; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 58,
+      "id": "f1f1e12484fe7c1e",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "durur; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 59,
+      "id": "fc6015830a8544ec",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "⚠️ bağlamdan aktarım — iki yordam sorusu SORULDU, cevap panodaki yazıda; model kendi kaynağını önermiyor",
+      "terim_isabeti": [
+        "başvur"
+      ],
+      "terim_isabeti_genis": [
+        "başvur"
+      ],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    },
+    {
+      "parti_sira": 60,
+      "id": "fc06767f8f119e4e",
+      "sinir_tipi": "yok",
+      "yonlendirme_var": false,
+      "tur_cumlesi": null,
+      "adim_cumlesi": null,
+      "elle_not": "yalnızca yansıtma; kaynak anılmıyor",
+      "terim_isabeti": [],
+      "terim_isabeti_genis": [],
+      "rakam": [],
+      "kurum_ozel_ad": []
+    }
+  ]
+}

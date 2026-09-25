@@ -1,0 +1,14 @@
+{
+ "etiket": "d1-v018-t23-golden",
+ "set": "evals/golden.dev.jsonl",
+ "adapter": "runs/20260922-100234-d1-veri2x-k8qo-v018-t23/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "judge_model": null,
+ "judge_rubrik": "judge-eksen1.v9",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 48,
+ "uretim_sn": 377,
+ "judge_sn": 0,
+ "tarih": "2026-09-22T15:33:09"
+}

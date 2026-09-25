@@ -1,0 +1,24 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti4.v2.arinmis.jsonl",
+  "girdi_sha256_16": "0384d3a7afc90df5",
+  "kayit": 60,
+  "isaretli_kayit": 3,
+  "bulgu": [
+    {
+      "parti_sira": 36,
+      "tip": "kaynak_atfi",
+      "oge": "Abinin"
+    },
+    {
+      "parti_sira": 3,
+      "tip": "zaman",
+      "oge": "aynı hafta"
+    },
+    {
+      "parti_sira": 26,
+      "tip": "zaman",
+      "oge": "on dakika önce"
+    }
+  ]
+}

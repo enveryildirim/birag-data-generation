@@ -1,0 +1,87 @@
+{
+  "tarih": "2026-09-18",
+  "girdi_sha256_16": "269554e30d8c5025",
+  "cikti_sha256_16": "f761ad0811c5b333",
+  "duzeltme": [
+    {
+      "id": "34ee4b88cad58794d476e208",
+      "parti": "v4-parti2",
+      "sira": 41,
+      "eski": "Öğle arası çıkıp yaktığını da aynı cümlede söyledin.",
+      "yeni": "Öğle arası çıkıp yaktığını da aynı mesajda söyledin.",
+      "gerekce": "*«İnhaleri aldım, kullanmayı da öğrendim.»* ve *«Ama öğle arası çıkıp yine yaktım.»* iki AYRI cümle; ikisi de aynı mesajda",
+      "metin_sha_once": "eff517aa161d1958",
+      "metin_sha_sonra": "ebe2ce5cdadfdf73"
+    },
+    {
+      "id": "fc06767f8f119e4e88370ffa",
+      "parti": "v4-parti2",
+      "sira": 60,
+      "eski": "Üst kattaki oğlundan da aynı cümlede söz ettin.",
+      "yeni": "Üst kattaki oğlundan da aynı mesajda söz ettin.",
+      "gerekce": "*«Ben de aynı koltuğa oturmuşum gibi hissettim.»* ve *«Üst katta oğlum uyuyor.»* iki AYRI cümle",
+      "metin_sha_once": "6032996790701541",
+      "metin_sha_sonra": "8c77933c36fcdcdd"
+    },
+    {
+      "id": "5bffdc87e0479adfed3fa84a",
+      "parti": "v5-parti3",
+      "sira": 56,
+      "eski": "Ama arkadaşının sana taksi demesi \"her şeye karışmak\" mıydı, orası bana biraz başka göründü.",
+      "yeni": "Ama arkadaşının sana taksi demesi de \"her şeye karışıyorlar\" dediğin şeyin içinde miydi, orası bana biraz başka göründü.",
+      "gerekce": "T142: alıntı birebir değil — kullanıcı *«her şeye karışıyorlar»* yazmış, cevap *«her şeye karışmak»* diye alıntılıyordu ⇒ kullanıcının KENDİ çekimi kullanılıyor",
+      "metin_sha_once": "682865b1ab4a4ac1",
+      "metin_sha_sonra": "57b9a143d219b496"
+    },
+    {
+      "id": "e279f4f4412d0796be764658",
+      "parti": "v5-parti4",
+      "sira": 23,
+      "eski": "Kahvaltı etmediğini ve iki tane içtiğini aynı cümlede yazdın.",
+      "yeni": "Kahvaltı etmediğini ve \"sonra bir tane daha\" dediğini aynı mesajda yazdın.",
+      "gerekce": "⭐ ÇİFT kusur: (1) iki AYRI cümle, (2) *«iki tane»* kullanıcının sözü değil, *«bir tane… sonra bir tane daha»*dan çıkarılmış bir SAYIM ⇒ kullanıcının kendi sözü tırnak içinde kullanılıyor",
+      "metin_sha_once": "19d56855456d868e",
+      "metin_sha_sonra": "a934858e13731ac1"
+    },
+    {
+      "id": "91b9b2115544382ac3bac34f",
+      "parti": "v5-parti6",
+      "sira": 35,
+      "eski": "Ama ikisini aynı cümlede tutabilmek zaten bir şey.",
+      "yeni": "Ama ikisini aynı mesajda tutabilmek zaten bir şey.",
+      "gerekce": "*«Hayatımın değişmesi gerektiğini biliyorum…»* ve *«Ama oyunu bırakmak istemiyorum…»* iki AYRI cümle",
+      "metin_sha_once": "cd554d5642971332",
+      "metin_sha_sonra": "f294ef07c445b530"
+    },
+    {
+      "id": "53d8896213919c0d73b48188",
+      "parti": "v5-parti6",
+      "sira": 16,
+      "eski": "İki şeyi aynı cümlede söyledin: hesabı yapmaya korkuyorsun ve onsuz yol gitmiyor.",
+      "yeni": "İki şeyi aynı mesajda söyledin: hesabı yapmaya korkuyorsun ve onsuz yol gitmiyor.",
+      "gerekce": "*«…hesabını yapmaya bile korkuyorum.»* ve *«Ama bu kahve bu sigara olmadan da yol gitmiyor…»* iki AYRI cümle",
+      "metin_sha_once": "88f8a449e2af75e7",
+      "metin_sha_sonra": "b33cf0512a656e0d"
+    },
+    {
+      "id": "2df10702dd0ab93f0ad26c43",
+      "parti": "v5-parti8",
+      "sira": 20,
+      "eski": "ama aynı cümlede tam rakamı eşinin bilmediğini söylüyorsun",
+      "yeni": "ama aynı mesajda tam rakamı eşinin bilmediğini söylüyorsun",
+      "gerekce": "⭐ Kapının GÖREMEDİĞİ vaka: iddia tek alıntı taşıyor (*«net kazanmışım»*) ve kapı ≥2 alıntı istiyor. *«…net kazanmışım.»* ile *«Bunu kimseye anlatmıyorum…»* iki AYRI cümle",
+      "metin_sha_once": "55b94245f2980e2e",
+      "metin_sha_sonra": "fc4d6eedee8524af"
+    },
+    {
+      "id": "935dfac08ec6ae71e46a0836",
+      "parti": "v5-parti8",
+      "sira": 27,
+      "eski": "Üç haftadır uyuyamadığını da aynı cümlede söylüyorsun",
+      "yeni": "Üç haftadır uyuyamadığını da aynı mesajda söylüyorsun",
+      "gerekce": "*«son üç haftadır uyuyamıyorum.»* ve *«…gerçekten işe yarıyor.»* iki AYRI cümle",
+      "metin_sha_once": "791e656854c50b82",
+      "metin_sha_sonra": "7570e678b40f2b89"
+    }
+  ]
+}

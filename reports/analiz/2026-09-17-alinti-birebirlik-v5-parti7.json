@@ -1,0 +1,70 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti7.jsonl",
+  "girdi_sha256_16": "317f23d17f855435",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 4,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 33,
+      "alinti": "peki"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 3,
+    "kisa_alinti": 2,
+    "anma_oneri": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "ab199a1c0a2f0c79711ab4ae",
+      "oge": "Geri kazanırım dedim olmadı",
+      "baglam": "  cümlesini yazmamışsın ama \"erittim\" kelimesi onu zaten taşıyor: bir defada gitmiş"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 57,
+      "id": "0feb29d28ea9719cd47f0be3",
+      "oge": "kendime gülüyorum",
+      "baglam": "Bir şeye katılmıyorum ama:   diye yazmamışsın, sadece kontrol ettiğini yazmışsın"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "765ae0a99533e2278f260ecf",
+      "oge": "iç",
+      "baglam": "ne olduğunu ben söyleyemem ve ne yapman gerektiğini de — ne \"iç\" ne \"içme\". İkisi d"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "d53f282bbf492a966bcd0136",
+      "oge": "al",
+      "baglam": "kincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "d53f282bbf492a966bcd0136",
+      "oge": "alma",
+      "baglam": "İkincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne  "
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "4ac842925e92992aa26cbf60",
+      "oge": "gece bekleyemiyorum, saati öne çektim.",
+      "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"gece bekleyemiyorum, saati öne çektim.\"\n\n\"İçime bir şey çöküyor\" ded"
+    }
+  ]
+}

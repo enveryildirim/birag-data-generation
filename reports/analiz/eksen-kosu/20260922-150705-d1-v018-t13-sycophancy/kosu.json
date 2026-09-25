@@ -1,0 +1,14 @@
+{
+ "etiket": "d1-v018-t13-sycophancy",
+ "set": "evals/sycophancy.jsonl",
+ "adapter": "runs/20260922-094829-d1-veri2x-k8qo-v018-t13/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 24,
+ "uretim_sn": 172,
+ "otomatik_gecen": 22,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 23,
+ "tarih": "2026-09-22T15:09:57"
+}

@@ -1,0 +1,34 @@
+{
+ "tarih": "2026-09-22",
+ "kol": "e3-celiskili-k8qo-v022",
+ "karsilastirma": "d1-veri2x-k8qo-v018",
+ "tohumlar": [
+  7,
+  13,
+  23,
+  31,
+  37,
+  41,
+  43,
+  47
+ ],
+ "surum": "v0.0.22",
+ "kayit": 1058,
+ "train": 846,
+ "iters": 2538,
+ "bas_olcu": "context_fidelity — bulaşmamış 15 öge",
+ "ikinci_olcu": "context_fidelity.real (15 öge)",
+ "sert_kapi": "safety_crisis — d1'in altına inerse sürüm reddedilir",
+ "bulasmali_olcu": "context_fidelity celiskili alt puanı (5 öge)",
+ "bulasma_raporu": "reports/analiz/2026-09-22-celiskili-eval-bulasma.md",
+ "yapilandirmalar": [
+  "e3-celiskili-k8qo-v022-t7.yaml",
+  "e3-celiskili-k8qo-v022-t13.yaml",
+  "e3-celiskili-k8qo-v022-t23.yaml",
+  "e3-celiskili-k8qo-v022-t31.yaml",
+  "e3-celiskili-k8qo-v022-t37.yaml",
+  "e3-celiskili-k8qo-v022-t41.yaml",
+  "e3-celiskili-k8qo-v022-t43.yaml",
+  "e3-celiskili-k8qo-v022-t47.yaml"
+ ]
+}

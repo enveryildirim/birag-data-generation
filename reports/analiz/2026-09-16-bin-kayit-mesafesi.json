@@ -1,0 +1,126 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-bin-kayit-mesafesi.py",
+  "hedef": 1000,
+  "hedef_kaynagi": "plan.md §6 · v0.1.0 = ~800-1.200 (İP1 form hedefi AYRI: 10.000)",
+  "dataset_sha256_16": {
+    "v0.0.1": "cff23210d80ebd81",
+    "v0.0.2": "b78103aecb627e63",
+    "v0.0.3": "b50f7588e085f212",
+    "v0.0.4": "8c15ee2349e45124",
+    "v0.0.5": "d8e465c50bea4fca"
+  },
+  "yayimlanmis_tekil": 175,
+  "en_guncel_surum": "v0.0.5",
+  "uretilmis_tekil": 312,
+  "yayimlanmayi_bekleyen": 137,
+  "bunun_v4_parti2_olani": 60,
+  "hedefe_kalan_yayimlanmisa_gore": 825,
+  "hedefe_kalan_uretilmise_gore": 688,
+  "dagilim_yayimlanmis": {
+    "yapi": {
+      "terapotik_tek_tur": 99,
+      "terapotik_cok_tur": 45,
+      "rag": 13,
+      "replay": 18
+    },
+    "senaryo": {
+      "kriz_rol_siniri": 21,
+      "direnc_inkar_discord": 17,
+      "nazikce_karsi_cikma": 11,
+      "kapsam_disi_sinir": 8
+    }
+  },
+  "dagilim_uretilmis": {
+    "yapi": {
+      "terapotik_tek_tur": 183,
+      "terapotik_cok_tur": 81,
+      "rag": 30,
+      "replay": 18
+    },
+    "senaryo": {
+      "kriz_rol_siniri": 38,
+      "direnc_inkar_discord": 36,
+      "nazikce_karsi_cikma": 17,
+      "kapsam_disi_sinir": 14
+    }
+  },
+  "hedef_yuzde_yapi": {
+    "replay": 15,
+    "rag": 10,
+    "terapotik_cok_tur": 15,
+    "terapotik_tek_tur": 35
+  },
+  "hedef_yuzde_senaryo": {
+    "kriz_rol_siniri": 10,
+    "direnc_inkar_discord": 5,
+    "nazikce_karsi_cikma": 5,
+    "kapsam_disi_sinir": 5
+  },
+  "kilitli_dilimler": {
+    "kriz_rol_siniri": "kriz alt-dilimi ETİK KURUL bekliyor (K23, uretim-v4 §8b)",
+    "replay": "Claude Code üretimi DEĞİL — açık genel amaçlı setlerden örneklenir (plan §6)"
+  },
+  "dilim_acigi": {
+    "replay": {
+      "hedef": 150,
+      "uretilmis": 18,
+      "acik": 132,
+      "kilit": "Claude Code üretimi DEĞİL — açık genel amaçlı setlerden örneklenir (plan §6)"
+    },
+    "rag": {
+      "hedef": 100,
+      "uretilmis": 30,
+      "acik": 70,
+      "kilit": null
+    },
+    "terapotik_cok_tur": {
+      "hedef": 150,
+      "uretilmis": 81,
+      "acik": 69,
+      "kilit": null
+    },
+    "terapotik_tek_tur": {
+      "hedef": 350,
+      "uretilmis": 183,
+      "acik": 167,
+      "kilit": null
+    },
+    "kriz_rol_siniri": {
+      "hedef": 100,
+      "uretilmis": 38,
+      "acik": 62,
+      "kilit": "kriz alt-dilimi ETİK KURUL bekliyor (K23, uretim-v4 §8b)"
+    },
+    "direnc_inkar_discord": {
+      "hedef": 50,
+      "uretilmis": 36,
+      "acik": 14,
+      "kilit": null
+    },
+    "nazikce_karsi_cikma": {
+      "hedef": 50,
+      "uretilmis": 17,
+      "acik": 33,
+      "kilit": null
+    },
+    "kapsam_disi_sinir": {
+      "hedef": 50,
+      "uretilmis": 14,
+      "acik": 36,
+      "kilit": null
+    }
+  },
+  "bekleyen_kirilimi": {
+    "uretim-v2": 70,
+    "uretim-v3": 5,
+    "uretim-v4": 62
+  },
+  "bekleyen_parti": {
+    "-": 73,
+    "v3-parti2-baglam": 1,
+    "v3-parti2": 1,
+    "v4-parti1": 2,
+    "v4-parti2": 60
+  }
+}

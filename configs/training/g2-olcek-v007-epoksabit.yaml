@@ -1,0 +1,41 @@
+# Faz 5 · ÖLÇEK EĞRİSİ 2. nokta — kol "v007-epoksabit" · korpus v0.0.7 (272 kayıt)
+#
+# ⭐ MARUZİYET-EŞLİ kol: 475 adım = 217 eğitim kaydı x 2,18 epoch, yani
+# `v006-adimsabit`in epoch sayısının AYNISI (372/171 = 2,18).
+#
+# `adimsabit` ile tek farkı `iters`. İkisi birlikte şunu ayırıyor:
+#   · adimsabit vs v006-adimsabit -> aynı HESAP, daha çok veri
+#   · epoksabit vs v006-adimsabit -> aynı MARUZİYET, daha çok veri
+# ⛔ T99: 3-epoch tavanı bu korpus boyunda aşırıydı (val loss inerken dört
+# eksenin üçü geriledi) ⇒ 2,18 epoch bilerek korunuyor, 3'e çıkarılmıyor.
+ad: g2-olcek-v007-epoksabit
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.7/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 8             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 475
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys: ["self_attn.q_proj"]

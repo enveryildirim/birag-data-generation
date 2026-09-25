@@ -1,0 +1,19 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/judged/v4-parti1.v7.jsonl",
+  "girdi_sha256_16": "9788d8638005cb66",
+  "kayit": 40,
+  "isaretli_kayit": 2,
+  "bulgu": [
+    {
+      "parti_sira": 8,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 10,
+      "tip": "zaman",
+      "oge": "dün gece"
+    }
+  ]
+}

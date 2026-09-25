@@ -1,0 +1,612 @@
+{
+  "tarih": "2026-09-18",
+  "girdi_sha256_16": "be4ab717f6ba2291",
+  "cikti_sha256_16": "0972b567a03904fd",
+  "basarili": [
+    {
+      "id": "693dea93d2ec0a8cc9742ebb",
+      "sn": 60,
+      "fark": {
+        "yorumlama": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "7a52578e178fdcd6cf9d783f",
+      "sn": 40,
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "61591116b3c65b55e822deba",
+      "sn": 176,
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cd735e3f2b7153087d4eadbf",
+      "sn": 60,
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "189d550d6d2c887f2cfc6565",
+      "sn": 68,
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "27723f592229e5775cbbea62",
+      "sn": 52,
+      "fark": {}
+    },
+    {
+      "id": "afeb9133c01e8f71961cc3a6",
+      "sn": 67,
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          0
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "16c95f92088abd542fb8aa9a",
+      "sn": 96,
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "4d240718c16600981b958df7",
+      "sn": 87,
+      "fark": {}
+    },
+    {
+      "id": "dc5a22d008dee048c3c14861",
+      "sn": 155,
+      "fark": {}
+    },
+    {
+      "id": "f9550f5bce7b9ca46f3812f2",
+      "sn": 153,
+      "fark": {}
+    },
+    {
+      "id": "5348c211fa9bcc90253b291c",
+      "sn": 91,
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "71bb2b5678dc211b035bf2ff",
+      "sn": 54,
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "69776ab9b10c60fc928b7bda",
+      "sn": 55,
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f37585290d3ee12d84b615d7",
+      "sn": 71,
+      "fark": {
+        "kesif": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "605a7e888d3f3c7f2bbab4ab",
+      "sn": 115,
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f3c15ff6bcfe53ac351b9366",
+      "sn": 50,
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "c978e3762186c88aef446166",
+      "sn": 117,
+      "fark": {}
+    },
+    {
+      "id": "73c8a8cc38de9439e437e8fd",
+      "sn": 54,
+      "fark": {}
+    },
+    {
+      "id": "5d24f424239fa0ad6eb783de",
+      "sn": 68,
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "44cd5dddffa56418d193053a",
+      "sn": 56,
+      "fark": {
+        "cevapsiz_soru": [
+          true,
+          false
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ],
+        "mi_uyumu": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "92ece2a2094907884d417375",
+      "sn": 143,
+      "fark": {
+        "yorumlama": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "32e9e8ad5750695088bcf54d",
+      "sn": 46,
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ],
+        "kesif": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "34ee4b88cad58794d476e208",
+      "sn": 62,
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "fc06767f8f119e4e88370ffa",
+      "sn": 84,
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ],
+        "kesif": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "047041e8b1d03e59e3a7d2b1",
+      "sn": 62,
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5bffdc87e0479adfed3fa84a",
+      "sn": 101,
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ],
+        "mi_uyumu": [
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "e279f4f4412d0796be764658",
+      "sn": 152,
+      "fark": {}
+    },
+    {
+      "id": "91b9b2115544382ac3bac34f",
+      "sn": 83,
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "53d8896213919c0d73b48188",
+      "sn": 77,
+      "fark": {}
+    },
+    {
+      "id": "2df10702dd0ab93f0ad26c43",
+      "sn": 39,
+      "fark": {
+        "yorumlama": [
+          2,
+          0
+        ],
+        "mi_uyumu": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "id": "935dfac08ec6ae71e46a0836",
+      "sn": 159,
+      "fark": {}
+    }
+  ],
+  "basarisiz": [],
+  "degisen": [
+    {
+      "id": "693dea93d2ec0a8cc9742ebb",
+      "fark": {
+        "yorumlama": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "7a52578e178fdcd6cf9d783f",
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "61591116b3c65b55e822deba",
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "cd735e3f2b7153087d4eadbf",
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "189d550d6d2c887f2cfc6565",
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "afeb9133c01e8f71961cc3a6",
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          0
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "16c95f92088abd542fb8aa9a",
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5348c211fa9bcc90253b291c",
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "71bb2b5678dc211b035bf2ff",
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "69776ab9b10c60fc928b7bda",
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f37585290d3ee12d84b615d7",
+      "fark": {
+        "kesif": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "605a7e888d3f3c7f2bbab4ab",
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f3c15ff6bcfe53ac351b9366",
+      "fark": {
+        "duygusal_tepki": [
+          0,
+          1
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5d24f424239fa0ad6eb783de",
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "44cd5dddffa56418d193053a",
+      "fark": {
+        "cevapsiz_soru": [
+          true,
+          false
+        ],
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ],
+        "mi_uyumu": [
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "92ece2a2094907884d417375",
+      "fark": {
+        "yorumlama": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "32e9e8ad5750695088bcf54d",
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ],
+        "kesif": [
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "id": "34ee4b88cad58794d476e208",
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "fc06767f8f119e4e88370ffa",
+      "fark": {
+        "duygusal_tepki": [
+          1,
+          2
+        ],
+        "kesif": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "047041e8b1d03e59e3a7d2b1",
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "5bffdc87e0479adfed3fa84a",
+      "fark": {
+        "yorumlama": [
+          2,
+          1
+        ],
+        "kesif": [
+          2,
+          1
+        ],
+        "mi_uyumu": [
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "91b9b2115544382ac3bac34f",
+      "fark": {
+        "duygusal_tepki": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "2df10702dd0ab93f0ad26c43",
+      "fark": {
+        "yorumlama": [
+          2,
+          0
+        ],
+        "mi_uyumu": [
+          2,
+          3
+        ]
+      }
+    }
+  ]
+}

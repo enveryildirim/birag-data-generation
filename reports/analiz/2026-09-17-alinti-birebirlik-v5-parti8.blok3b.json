@@ -1,0 +1,15 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti8.blok3b.jsonl",
+  "girdi_sha256_16": "617ab8e98ea2f951",
+  "kayit": 16,
+  "karsi_olgusal_muaf": 2,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 50,
+      "alinti": "bir daha gelme"
+    }
+  ]
+}

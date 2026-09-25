@@ -1,0 +1,39 @@
+# Tek hiper-parametre kaynağı (Kural 4). mlx ve (ileride) cuda runner'ları bu dosyayı okur.
+# Faz 2 dikey dilim: KALİTE HEDEFİ YOK — amaç boru hattının uçtan uca çalıştığını görmek.
+
+ad: e4b-v0.0.1-pilot
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7 (QLoRA değil)
+dataset: datasets/v0.0.1/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 20 kayıt -> 16 eğitim / 4 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44 — thinking yalnızca son turda korunur
+  # Not: split kayıt bazında ama her kaydın kaynağı ayrı bir tohum olduğu için
+  # §16'daki "split kaynak doküman bazında olmalı" anti-pattern'i ihlal edilmiyor.
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion üzerinde
+  num_layers: 8              # §9 madde 2 — dar LoRA, yalnızca üst katmanlar
+  batch_size: 1
+  iters: 50                  # pilot
+  learning_rate: 1.0e-5      # §9 madde 3 — düşük LR
+  steps_per_report: 10
+  steps_per_eval: 25
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 50
+  seed: 7
+  lora_parameters:
+    rank: 8                  # §9 madde 2 — düşük rank (mlx-lm varsayılanı)
+    scale: 20.0              # mlx-lm varsayılanı
+    dropout: 0.0
+    # ⚠️ K49: Gemma 4 E4B'de `v_proj`/`k_proj` YOK (K/V paylaşımlı attention); katmanda
+    # yalnızca q_proj ve o_proj var. Eskiden burada yazan "self_attn.v_proj" hiçbir şeyle
+    # eşleşmiyordu ve mlx-lm uyarı vermiyordu -> koşular sanılanın yarısı kapsamla yapıldı.
+    # Anahtarlar değiştirilirse koşu öncesi modül/parametre sayısı DOĞRULANMALI.
+    # ⚠️ K50: bu kapsam thinking dilini Türkçeye çeviremiyor (0/36). Faz 4'te genişletilmesi
+    # gerekecek; ne kadar genişleyeceği Eksen 3 (unutma) ölçümüyle belirlenir.
+    keys: ["self_attn.q_proj"]

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "demo-v0018",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "python", "scripts/demo/sunucu.py"],
+      "port": 8765
+    },
+    {
+      "name": "demo-taban",
+      "runtimeExecutable": "uv",
+      "runtimeArgs": ["run", "python", "scripts/demo/sunucu.py", "--taban", "--port", "8766"],
+      "port": 8766
+    }
+  ]
+}

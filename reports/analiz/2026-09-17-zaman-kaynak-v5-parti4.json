@@ -1,0 +1,74 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti4.jsonl",
+  "girdi_sha256_16": "8f10f3414c02b5ef",
+  "kayit": 60,
+  "isaretli_kayit": 2,
+  "bulgu": [
+    {
+      "parti_sira": 36,
+      "tip": "kaynak_atfi",
+      "oge": "Abinin"
+    },
+    {
+      "parti_sira": 26,
+      "tip": "zaman",
+      "oge": "on dakika önce"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "sure_birim_eslesme": 1,
+    "rol_adlandirma_bitisik": 2,
+    "anaforik_demir": 3
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a9395c50fe4",
+      "oge": "Üç yıl önce",
+      "baglam": "üç yil"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "249eb88592bff64af466b863",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 53,
+      "id": "370e69f38f4a161cba226828",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "745d285a59e49b6f51703a75",
+      "oge": "aynı hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "557a476341f48f683a3efb0e",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 32,
+      "id": "50f5ebb517f6c02e833e650d",
+      "oge": "aynı akşam",
+      "baglam": "akşam"
+    }
+  ]
+}

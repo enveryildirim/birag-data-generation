@@ -1,0 +1,32 @@
+# kaynak_url: https://www.yesilay.org.tr/kurumsal/kurumsal-politikalar/kisisel-verilerin-korunmasi-politikamiz/
+# kurum: Türkiye Yeşilay Cemiyeti
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir — ALINTI (kartvizit ve mobil uygulama
+#         aydınlatma metinleri ALINMADI; danışan verisiyle ilgisi yok)
+# NOT: yedam.org.tr/kisisel-verilerin-korunmasi-politikasi BOŞ dönüyor (HTTP 500 /
+#      gövde yok, 2026-09-15). Danışan gizliliği için elimizdeki tek kurumsal metin bu.
+---
+KİŞİSEL VERİLERİN KORUNMASI POLİTİKASI
+
+Türkiye Yeşilay Cemiyeti olarak bu politika ile tüm iç taraflardan (yönetim kurulu, disiplin kurulu, denetim kurulu, bilim kurulu, aday çalışanlar, çalışanlar, çalışan aile üyeleri, aday stajyerler, stajyerler, üyeler, gönüllüler, bağışçılar, sözleşmeli çalışanlar, tesislerimiz içerisine giriş yapan ziyaretçiler ve bağlı ortaklık çalışanları) ve iletişim halinde olunan üçüncü kişilerden (resmi kurum ve kuruluş çalışanı, danışanlar, akademisyenler, potansiyel tedarikçiler, cari tedarikçiler, kampanya katılımcıları ve diğer üçüncü kişiler) toplanan, işlenen, depolanan ve arşivlenen kişisel verilerin, 6698 Sayılı Kişisel Verilerin Korunması Kanunu'na ("KVKK") uygun olarak sekiz adet ilke ile korunmasını taahhüt etmekteyiz.
+
+Kişisel Veriler hukuka ve dürüstlük kurallarına uygun olarak toplanmakta, işlenmekte, depolanmakta ve arşivlenmektedir.
+
+Belirli, meşru ve açık amaçlar için işlenmektedir.
+
+İşlendikleri amaçla bağlantılı, sınırlı ve ölçülü olarak işlenmektedir.
+
+İlgili mevzuatta öngörülen veya işlendikleri amaç için gerekli olan süre kadar muhafaza edilmektedir.
+
+Veri paylaşılırken kanuni istisnalara uygun olarak veya açık rıza alınarak paylaşılır.
+
+İşlenirken teknik ve idari anlamda veri güvenliğine ilişkin gerekli tedbirler alınmaktadır.
+
+İlgili kişi, KVKK'nin 11. maddesinde yer alan haklarını kullanabilir: kişisel verisinin işlenip işlenmediğini öğrenme; işlenmişse buna ilişkin bilgi talep etme; işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme; yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri öğrenmeyi talep etme; eksik veya yanlış işlenmiş olması hâlinde düzeltilmesini isteme; hukuka uygun bir gerekçe bulunmayan kişisel verilerin silinmesini veya yok edilmesini isteme; yapılan düzeltme veya silme işlemlerinin üçüncü kişilere bildirilmesini isteme.
+
+İlgili kişinin verilerin silinmesini veya yok edilmesini talep etmesi durumunda; kişisel verileri işleme şartlarının tamamı ortadan kalkmışsa kişisel veriler silinir, anonim hale getirilir veya yok edilir.
+
+Talep alındıktan sonra kimlik teyidi yapılır, talep incelenir ve kişisel verisi işlenen gerçek kişinin hangi gruba (danışan, üye, gönüllü, bağışçı, çalışan, 3. taraf vb.) girdiği tespit edilir.
+
+Başvuru, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ'de öngörülen usullere uygun olarak iletilir; talep niteliğine göre en kısa sürede ve en geç 30 (otuz) gün içinde ücretsiz olarak sonuçlandırılır.

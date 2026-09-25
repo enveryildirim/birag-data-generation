@@ -1,0 +1,14 @@
+{
+ "etiket": "fs3-doz10-B-derin",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-162241-f4c-doz10-B-derin/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 51,
+ "otomatik_gecen": 29,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-15T17:02:25"
+}

@@ -1,0 +1,112 @@
+{
+  "tarih": "2026-09-20",
+  "veri": {
+    "h1": {
+      "tarif": "8 kat · q · r8 · s20",
+      "modul": 8,
+      "scale": 20.0,
+      "toplam": 10.424911961661275,
+      "modul_basina": 3.655097782611847,
+      "dereceli": 16.333333333333332,
+      "dereceli_v": [
+        18,
+        17,
+        14
+      ]
+    },
+    "h2": {
+      "tarif": "16 kat · q · r8 · s20",
+      "modul": 16,
+      "scale": 20.0,
+      "toplam": 12.13911187369285,
+      "modul_basina": 3.0025887191295624,
+      "dereceli": 2,
+      "dereceli_v": [
+        2,
+        2,
+        2
+      ]
+    },
+    "h3": {
+      "tarif": "24 kat · q · r8 · s20",
+      "modul": 24,
+      "scale": 20.0,
+      "toplam": 12.988940130534749,
+      "modul_basina": 2.6239561802811093,
+      "dereceli": 0.6666666666666666,
+      "dereceli_v": [
+        1,
+        0,
+        1
+      ]
+    },
+    "h4": {
+      "tarif": "32 kat · q · r8 · s20",
+      "modul": 32,
+      "scale": 20.0,
+      "toplam": 14.475358552544307,
+      "modul_basina": 2.5239169572790465,
+      "dereceli": 0.6666666666666666,
+      "dereceli_v": [
+        1,
+        1,
+        0
+      ]
+    },
+    "h5": {
+      "tarif": "16 kat · q+o · r8 · s20",
+      "modul": 32,
+      "scale": 20.0,
+      "toplam": 13.070091275597672,
+      "modul_basina": 2.292841718842586,
+      "dereceli": 2,
+      "dereceli_v": [
+        1,
+        0,
+        5
+      ]
+    },
+    "h6": {
+      "tarif": "24 kat · q+o · r8 · s20",
+      "modul": 48,
+      "scale": 20.0,
+      "toplam": 13.974828664399512,
+      "modul_basina": 2.0023085599144297,
+      "dereceli": 1.3333333333333333,
+      "dereceli_v": [
+        3,
+        1,
+        0
+      ]
+    },
+    "h7": {
+      "tarif": "24 kat · q+o · r16 · s20",
+      "modul": 48,
+      "scale": 20.0,
+      "toplam": 18.461964067921926,
+      "modul_basina": 2.649218166867892,
+      "dereceli": 7.333333333333333,
+      "dereceli_v": [
+        10,
+        3,
+        9
+      ]
+    },
+    "h8": {
+      "tarif": "24 kat · q+o · r16 · **s10**",
+      "modul": 48,
+      "scale": 10.0,
+      "toplam": 10.498168151106507,
+      "modul_basina": 1.5012158163719707,
+      "dereceli": 4,
+      "dereceli_v": [
+        7,
+        2,
+        3
+      ]
+    }
+  },
+  "r_toplam": -0.20886706434885355,
+  "r_modul_basina": 0.6188833625065833,
+  "r_modul_sayisi": -0.3930354817781115
+}

@@ -1,0 +1,23 @@
+# kaynak_url: https://www.yedam.org.tr/yedam-modeli
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+# NOT: bu sayfa kurumsal tanıtım ama KLİNİK İDDİA taşıyor (nüks riski, tedavi modeli).
+#      A katmanı sınırında; negatif alan taramasına özellikle sokulacak.
+---
+YEDAM Modeli
+
+Bağımlılık yapan maddelerden arınma birkaç hafta içinde gerçekleşebilir. Ancak arınma süreci psiko-sosyal destekle devam ettirilmezse bağımlılığın tekrar nüks etme riski vardır. YEDAM, uzman psikologlar ve sosyal hizmet uzmanları tarafından bağımlı bireylere hem arınma hem de maddeyi bırakma sürecinde psikolojik ve sosyal destek veren bir merkezdir.
+
+Türkiye'ye özgü bağımlılık psikososyal destek modeli oluşturma amacıyla yola çıkan YEDAM'ın arka planında güçlü bir bilim kurulu yer almaktadır. Model kurgulanmadan önce Türkiye'deki ve dünyadaki önemli modeller incelenmiş ve Türkiye'de bağımlılık alanında önde gelen isimlerden danışmanlık alınmıştır.
+
+YEDAM Modeli kapsayıcı ve bütünseldir. Hümanistik ve danışan odaklı bir yaklaşıma sahiptir. YEDAM Modeli'nde bireysel görüşmeler Bilişsel-Davranışçı Terapi, Motivasyonel Görüşme Teknikleri ve Farkındalık Odaklı Terapiler esas alınarak yapılandırılmıştır. Ailelere, yetişkinlere ve ergenlere özel düzenlenen Grup Terapiler SAMBA referans alınarak uygulanır.
+
+Tedavi modeli
+
+YEDAM'da uygulanan model, üç farklı değerler dizisini temel alır. Bunlar:
+
+Bilişsel Davranışçı Terapi (BDT)
+Motivasyonel Görüşme Tekniği
+Farkındalık Terapisi (Mindfulness)

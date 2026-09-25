@@ -1,0 +1,1224 @@
+{
+  "tarih": "2026-09-17",
+  "denklik": [
+    [
+      "alıntı birebirliği",
+      "v4-parti1",
+      1,
+      1,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v4-parti2.v2",
+      1,
+      1,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti3",
+      8,
+      8,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti4",
+      6,
+      6,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti5",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti6",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti7",
+      1,
+      1,
+      true,
+      [],
+      []
+    ],
+    [
+      "alıntı birebirliği",
+      "v5-parti8",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v4-parti1",
+      2,
+      2,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v4-parti2.v2",
+      4,
+      4,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti3",
+      4,
+      4,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti4",
+      2,
+      2,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti5",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti6",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti7",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "zaman + kaynak atfı",
+      "v5-parti8",
+      0,
+      0,
+      true,
+      [],
+      []
+    ],
+    [
+      "mekân atfı",
+      "arinmis (varsayılan)",
+      4,
+      4,
+      true,
+      [],
+      []
+    ]
+  ],
+  "muafiyet": {
+    "alıntı birebirliği": [
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 25,
+        "id": "5ac8471111f7ca2382835519",
+        "oge": "bıraktım",
+        "baglam": "Bugünü   diye de anlatmadın, olanı anlattın",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 49,
+        "id": "cb84af23776b6bca84fbc646",
+        "oge": "sen yanlış yapıyorsun",
+        "baglam": "Bunu   diye söylemiyorum",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 57,
+        "id": "33187fab6f68589130bd5319",
+        "oge": "şunu yap",
+        "baglam": "Ne yapacağını ben söylemeyeceğim; o karar senin ve buraya bir kişi daha   demeye gelmedi",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 3,
+        "id": "56a571893af58e83cb62e2cb",
+        "oge": "Yapamıyorum",
+        "baglam": "bir şey değişiyor ve sen bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamı",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 3,
+        "id": "56a571893af58e83cb62e2cb",
+        "oge": "akşam olunca yapamıyorum",
+        "baglam": "en bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamıyorum\" demek aynı şey değil; ikinci",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 48,
+        "id": "8a2547484ac5d3d2303dd572",
+        "oge": "Azalacaktı",
+        "baglam": "\"Azalacaktı\" demiştin demek.\n\nKime demişt",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 18,
+        "id": "ea79d8e934f4573ad40cf91a",
+        "oge": "hem kendime hem ona kızgınım",
+        "baglam": "Bir şeye katılmıyorum ama:   gibi bir cümle kurmadın, yalnız olanı söyledin",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 36,
+        "id": "5e9b27b671c8b2fef9342851",
+        "oge": "kandırılıyorsun",
+        "baglam": "Bunu sana   demek için söylemiyorum",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 7,
+        "id": "c977b4d0eaade6bcd3e2f049",
+        "oge": "Bu kötü bir şey mi",
+        "baglam": "  diye sormadın ama soruların arasında o da duruyor gibi",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 4,
+        "id": "c26ae5ee942ce96bbb8d8604",
+        "oge": "bir şeyim yok",
+        "baglam": "u sordun: \"nereye sorabilirim\". Bunu sormak, \"bir şeyim yok\" demekten farklı bir yerden g",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 5,
+        "id": "27405e150217c45ab3efb248",
+        "oge": "endişelenme",
+        "baglam": "Söylemediğim şey   değil; bilmediğimi söylüyorum, küçültmüyorum",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "kisa_alinti",
+        "tip": "muafiyet",
+        "parti_sira": 19,
+        "id": "76587c40481b09ef772ed5a0",
+        "oge": "az",
+        "baglam": "ın ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne \"sak",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 19,
+        "id": "76587c40481b09ef772ed5a0",
+        "oge": "çok",
+        "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne  , ne \"sakıncalı\"",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 19,
+        "id": "76587c40481b09ef772ed5a0",
+        "oge": "sakıncalı",
+        "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne  ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 36,
+        "id": "dc56a65b114c59f1482069bc",
+        "oge": "Bir şey değil",
+        "baglam": "  dememi istiyorsun ve onu demeyeceğim — çünkü bilmiyorum, ve bildiğimi varsayıp söylersem yanlış bir şeyi senin adına onaylamış olurum",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 12,
+        "id": "a9834c5f21fc581ad823e623",
+        "oge": "evet",
+        "baglam": "Buna   demeyeceğim",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 16,
+        "id": "4d4b316e814f3b6429aa065a",
+        "oge": "onun gibi değilim",
+        "baglam": "Babanla nasıl konuştuğunuzu bilmiyorum, o yüzden   diye bir iddiada da bulunmayacağım — bunu ancak sen görürsün",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 42,
+        "id": "56ed69532200b264f7745f7f",
+        "oge": "Yalan da değil, doğru da değil",
+        "baglam": "  diye bir şey yazmadın ama söylediğin tam olarak o: annene söylediğin cümle ile kendine söylediğin cümle aynı değil ve ikisini de sen biliyorsun",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 50,
+        "id": "254a18a47fb206caa8a0cfbe",
+        "oge": "zarar verir",
+        "baglam": "Biranın derslere ne yaptığına dair bir şey söylemeyeceğim — ne   ne \"vermez\"",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 39,
+        "id": "967b7365cd5c048fb4f6c76f",
+        "oge": "Kötü baba mıyım",
+        "baglam": "  diye sormadın ama \"bağırmak geldi\" dedin ve hemen öncesine \"doğru söylüyor\" diye ekledin",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 10,
+        "id": "7fe5381b461cde46978ddc7b",
+        "oge": "bitti",
+        "baglam": "Bir şeye katılmıyorum ama: iki yılı   diye yazmadın, ben yazdım — sen yalnız \"olmuştu\" dedin",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 19,
+        "id": "f1dafbbbf8e30ef269a9f45e",
+        "oge": "artık kahveden fazlasını koyuyorum.",
+        "baglam": " son cümleni olduğu gibi söylemek olabilir — \"artık kahveden fazlasını koyuyorum.\"\n\nOrtamın böyle olması senin ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 43,
+        "id": "49180a2479c9c799a301a9e1",
+        "oge": "ben de konuşabileceğim biri var mı",
+        "baglam": "osyal hizmet birimi. İlk adım, yarın vizitte \"ben de konuşabileceğim biri var mı\" diye sormak olabilir.\n\nEşini",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 30,
+        "id": "816a557dc8324f3ab44edc90",
+        "oge": "bu kadar zayıf",
+        "baglam": "Bir şeye katılmıyorum:   diye bir şey yazmadın ama \"mahcup oldum\" dedin ve mahcubiyet bir hüküm taşıyor",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 55,
+        "id": "710d4ae01d5365cf93f7420a",
+        "oge": "kötü bir şey yapıyorsun",
+        "baglam": "Ama bir şeye katılmıyorum: arkadaşın   demedi, \"değiştin\" dedi",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 36,
+        "id": "ab199a1c0a2f0c79711ab4ae",
+        "oge": "Geri kazanırım dedim olmadı",
+        "baglam": "  cümlesini yazmamışsın ama \"erittim\" kelimesi onu zaten taşıyor: bir defada gitmiş",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 57,
+        "id": "0feb29d28ea9719cd47f0be3",
+        "oge": "kendime gülüyorum",
+        "baglam": "Bir şeye katılmıyorum ama:   diye yazmamışsın, sadece kontrol ettiğini yazmışsın",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "kisa_alinti",
+        "tip": "muafiyet",
+        "parti_sira": 13,
+        "id": "765ae0a99533e2278f260ecf",
+        "oge": "iç",
+        "baglam": "ne olduğunu ben söyleyemem ve ne yapman gerektiğini de — ne \"iç\" ne \"içme\". İkisi d",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "kisa_alinti",
+        "tip": "muafiyet",
+        "parti_sira": 22,
+        "id": "d53f282bbf492a966bcd0136",
+        "oge": "al",
+        "baglam": "kincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 22,
+        "id": "d53f282bbf492a966bcd0136",
+        "oge": "alma",
+        "baglam": "İkincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne  ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 50,
+        "id": "4ac842925e92992aa26cbf60",
+        "oge": "gece bekleyemiyorum, saati öne çektim.",
+        "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"gece bekleyemiyorum, saati öne çektim.\"\n\n\"İçime bir şey çöküyor\" ded",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "kisa_alinti",
+        "tip": "muafiyet",
+        "parti_sira": 12,
+        "id": "182a334d93f05a6b6dc5c3dc",
+        "oge": "al",
+        "baglam": "incisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 12,
+        "id": "182a334d93f05a6b6dc5c3dc",
+        "oge": "alma",
+        "baglam": "İkincisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne  ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 18,
+        "id": "682a0223bab840e6423df5ad",
+        "oge": "olur",
+        "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne   ne \"olmaz\"",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 18,
+        "id": "682a0223bab840e6423df5ad",
+        "oge": "olmaz",
+        "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne \"olur\" ne  ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 47,
+        "id": "2a25a632508dc51f6724ef1e",
+        "oge": "olur",
+        "baglam": "Ne kadar aldığına dair de bir şey söylemeyeceğim — ne \"fazla\" ne  ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "kisa_alinti",
+        "tip": "muafiyet",
+        "parti_sira": 52,
+        "id": "8e13276144f4e14f74558db9",
+        "oge": "az",
+        "baglam": "an verilmiş. Cevabı veren sensin, doktorun değil.\n\nÖksürüğü \"az\" diye niteleyen de ",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 8,
+        "id": "0c1b10e70123d4717fd96ea5",
+        "oge": "stresli misin",
+        "baglam": " Sevgilin   demedi, \"çok içiyorsun\" dedi — sen sebep getirdin",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "anma_oneri",
+        "tip": "muafiyet",
+        "parti_sira": 35,
+        "id": "2077ab38c8669f464eeb9c03",
+        "oge": "başım döndü, tutundum.",
+        "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"başım döndü, tutundum.\"\n\nİlaçla ilgisi olup olmadığı",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "karsi_olgusal",
+        "tip": "muafiyet",
+        "parti_sira": 41,
+        "id": "5b819dbad1467c9fe9e0af10",
+        "oge": "bana verdiler",
+        "baglam": "\"Masada içiyorlardı\" dedin,   demedin",
+        "kapi": "alıntı birebirliği",
+        "korpus": "v5-parti8"
+      }
+    ],
+    "zaman + kaynak atfı": [
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 7,
+        "id": "d5769c9c10c3ce1aca3fe5a8",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 8,
+        "id": "fb634d744db01ab6856764e3",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 9,
+        "id": "099f66bc20561343d08385db",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "rol_adlandirma_baglacli",
+        "tip": "muafiyet",
+        "parti_sira": 10,
+        "id": "4583458d68eb4ac8bdc47ecd",
+        "oge": "hekimin",
+        "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi; bende o karar yok.\n\nAma sen iki şeyi ",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 12,
+        "id": "17908b5136dfcd99cda91e58",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 27,
+        "id": "30e65d55e8860b2ffda3feb8",
+        "oge": "altı ay önce",
+        "baglam": "alti ay",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 33,
+        "id": "d5624c918b37e416bb34e2ee",
+        "oge": "o hafta",
+        "baglam": "hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 41,
+        "id": "34ee4b88cad58794d476e208",
+        "oge": "aynı gün",
+        "baglam": "gün",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 56,
+        "id": "d708ce9c559209e918e073ba",
+        "oge": "aynı gece",
+        "baglam": "gece",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v4-parti2.v2"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 10,
+        "id": "d5e2ec4c8fc3d7c91a49bca0",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "rol_adlandirma_baglacli",
+        "tip": "muafiyet",
+        "parti_sira": 27,
+        "id": "1f14f47ee701cc5b1573366e",
+        "oge": "hekimin",
+        "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi. Söyleyebilecek olan da onlar: reçetey",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 32,
+        "id": "2935f7c7142e6442817b3a12",
+        "oge": "aynı hafta",
+        "baglam": "hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 40,
+        "id": "be104a2d1ae0cf31448c31bc",
+        "oge": "Üç yıl önce",
+        "baglam": "üç yil",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 43,
+        "id": "ab063ce6da795a30da6bd8de",
+        "oge": "aynı sabah",
+        "baglam": "sabah",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti3"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 59,
+        "id": "8d1f4fb213592a9395c50fe4",
+        "oge": "Üç yıl önce",
+        "baglam": "üç yil",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 5,
+        "id": "249eb88592bff64af466b863",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 53,
+        "id": "370e69f38f4a161cba226828",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 3,
+        "id": "745d285a59e49b6f51703a75",
+        "oge": "aynı hafta",
+        "baglam": "hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 13,
+        "id": "557a476341f48f683a3efb0e",
+        "oge": "aynı gün",
+        "baglam": "gün",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 32,
+        "id": "50f5ebb517f6c02e833e650d",
+        "oge": "aynı akşam",
+        "baglam": "akşam",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti4"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 7,
+        "id": "c977b4d0eaade6bcd3e2f049",
+        "oge": "o akşam",
+        "baglam": "akşam",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 29,
+        "id": "82f85f4ed372ce4ea527c896",
+        "oge": "İki hafta önce",
+        "baglam": "iki hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 51,
+        "id": "830a77104a742390c8537c90",
+        "oge": "altı hafta önce",
+        "baglam": "alti hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti5"
+      },
+      {
+        "muafiyet": "belirsiz_artikel [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 5,
+        "id": "96bd28d2306a884f3d9b2ad7",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 28,
+        "id": "9144ede456de9e755436aad3",
+        "oge": "aynı gün",
+        "baglam": "gün",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 52,
+        "id": "59bfb2dfcc368e109bf6b636",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 10,
+        "id": "7fe5381b461cde46978ddc7b",
+        "oge": "Üç hafta önce",
+        "baglam": "üç hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik",
+        "tip": "muafiyet",
+        "parti_sira": 25,
+        "id": "e16647732e0e025de94cbb2a",
+        "oge": "hekimin",
+        "baglam": "hekimin işi",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 8,
+        "id": "2f7d954e6e163d9580fc508d",
+        "oge": "Üç gün önce",
+        "baglam": "üç gün",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 30,
+        "id": "816a557dc8324f3ab44edc90",
+        "oge": "aynı gün",
+        "baglam": "gün",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 42,
+        "id": "74b13b187255800ce8b7c5a2",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 59,
+        "id": "5a4684b995d4de5358f9e185",
+        "oge": "aynı sabah",
+        "baglam": "sabah",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti6"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 13,
+        "id": "765ae0a99533e2278f260ecf",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "rol_adlandirma_bitisik [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 28,
+        "id": "f0a5311fbb22d8bbfc13c37b",
+        "oge": "doktorunun",
+        "baglam": "doktorunun alanı",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 39,
+        "id": "8945dfe7a716d4aba488c851",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "anaforik_demir",
+        "tip": "muafiyet",
+        "parti_sira": 46,
+        "id": "453c9934259620a87f15418d",
+        "oge": "aynı hafta",
+        "baglam": "hafta",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 59,
+        "id": "3a31b8ca96a792ff2e4b4496",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti7"
+      },
+      {
+        "muafiyet": "sure_birim_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 45,
+        "id": "94129bb5e6c6919c85267524",
+        "oge": "Üç ay önce",
+        "baglam": "üç ay",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 26,
+        "id": "899e4cc94a5a0337cdb57c7a",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti8"
+      },
+      {
+        "muafiyet": "belirsiz_artikel",
+        "tip": "muafiyet",
+        "parti_sira": 28,
+        "id": "91bec3d2d64b48d1d6909db5",
+        "oge": "hekimin",
+        "baglam": "bir hekimin",
+        "kapi": "zaman + kaynak atfı",
+        "korpus": "v5-parti8"
+      }
+    ],
+    "mekân atfı": [
+      {
+        "muafiyet": "yonlendirme_cumlesi",
+        "tip": "muafiyet",
+        "parti_sira": 10,
+        "id": "4583458d68eb4ac8bdc47ecd",
+        "oge": [
+          "durak"
+        ],
+        "baglam": "Bu iki cümleyi bir uzmana anlatmak istersen, bağımlılık alanında çalışan danışmanlık merkezleri ya da hastanelerin bağımlılık birimleri ilk durak olabilir.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 30,
+        "id": "8a5c347d02ce0cf0d2b2c89d",
+        "oge": "teras",
+        "baglam": "Bugün terasta yakarken bir an durmuşsun.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 49,
+        "id": "cb84af23776b6bca84fbc646",
+        "oge": [
+          "masa"
+        ],
+        "baglam": "Sektörde masada içki olması ayrı şey, kurumun bunu zorunlu tutması ayrı şey — ikincisi doğru değilmiş.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 31,
+        "id": "8badc59f08235002c0d6b061",
+        "oge": "araba",
+        "baglam": "Beş dakikayı da kaybetmemişsin — hâlâ arabanda oturuyorsun.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 35,
+        "id": "374eeaf12d7d0ec0b6ad87db",
+        "oge": "oda",
+        "baglam": "Hiçbir şey dememen bir şey yapmamak değil; odana çıkmak da bir şeydi.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 5,
+        "id": "27405e150217c45ab3efb248",
+        "oge": [
+          "yatak"
+        ],
+        "baglam": "Bu bir değerlendirme ve onu yapabilecek olan seni gören, ilacı yazan hekim — ilk adım, bir sonraki görüşmede bu cümleyi olduğu gibi söylemek olabilir: \"almazsam yataktan çıkamıyorum.\"",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 32,
+        "id": "4a2b11dbe682bde75b67bee0",
+        "oge": "oda",
+        "baglam": "\"Boş durmuyorum\" cümlesi bir savunma gibi duruyor ama savunulacak birine karşı kurulmamış; odada sen varsın.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "mecaz",
+        "tip": "muafiyet",
+        "parti_sira": 52,
+        "id": "59bfb2dfcc368e109bf6b636",
+        "oge": [
+          "oda"
+        ],
+        "baglam": "Ne olduğunu ben söyleyemem, ama \"önemli bir şey olmamış\" kısmını bilen de bu odada kimse değil.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "yonlendirme_cumlesi",
+        "tip": "muafiyet",
+        "parti_sira": 45,
+        "id": "2fc7dfc8c28c4d998a884b23",
+        "oge": [
+          "oda"
+        ],
+        "baglam": "Kural tarafını merak ediyorsan onu bilen yer de belli: çalıştığın kurumun kendi düzeni, bir de meslek odası.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 4,
+        "id": "c395c050f44e816cbe99ee90",
+        "oge": "sofra",
+        "baglam": "Ne yapacağın senin bileceğin iş; sofranı da bütçeni de ben yönetmiyorum.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 14,
+        "id": "064adf42062787ab46977ed3",
+        "oge": "araba",
+        "baglam": "\"Volatilite\" dediğin şey piyasayı anlatıyor olabilir, ama arabanın içinde oturmayı anlatmıyor.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "mecaz",
+        "tip": "muafiyet",
+        "parti_sira": 6,
+        "id": "6f7ca14fd05d18f77f6851bd",
+        "oge": [
+          "masa"
+        ],
+        "baglam": "İkisini aynı masaya koyan sensin.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "kaynak_gevsek_eslesme",
+        "tip": "muafiyet",
+        "parti_sira": 18,
+        "id": "331565182ec74318a4ff6930",
+        "oge": "balkon",
+        "baglam": "Balkonda ne kadar kaldığını da bilmiyorsun, kaçıncı olduğunu da.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 22,
+        "id": "1f24ae0e5168052279b2fd7e",
+        "oge": [
+          "masa"
+        ],
+        "baglam": "Ama niyetlenmek ile masaya oturmak arasında bir yer var: kapıdan girmek.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      },
+      {
+        "muafiyet": "yonlendirme_cumlesi [ZATEN YERDE]",
+        "tip": "muafiyet",
+        "parti_sira": 28,
+        "id": "91bec3d2d64b48d1d6909db5",
+        "oge": [
+          "yatak"
+        ],
+        "baglam": "Yatağa nasıl girdiğini hatırlamamak bedende olan bir şey.",
+        "kapi": "mekân atfı",
+        "korpus": "ham"
+      }
+    ]
+  },
+  "ham_mekan_bulgu": [
+    {
+      "korpus": "v4-parti1",
+      "sira": 3,
+      "mekan": "oda",
+      "cumle": "Buradan bir sayı söylersem, yarın ağrın tuttuğunda o odada duran ben olmayacağım."
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 16,
+      "mekan": "masa",
+      "cumle": "Kuponu bırakmak kolay görünüyor, masadan çekilmek değil."
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 16,
+      "mekan": "masa",
+      "cumle": "Sen susmadan, yatırmadan da o masada durabileceğin bir hâl var mı sence?"
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 24,
+      "mekan": "masa",
+      "cumle": "İki ayrı şey var masada: raporun kendisi, bir de eşinle aranızda duran sessizlik."
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 26,
+      "mekan": "oda",
+      "cumle": "Salı günü o odada söylemek istediğin ilk şey ne olurdu?"
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 36,
+      "mekan": "oda",
+      "cumle": "Neyin söyleneceğine, ne kadarının söyleneceğine ben karar veremem; o oda senin ve karar da senin."
+    },
+    {
+      "korpus": "v4-parti1",
+      "sira": 37,
+      "mekan": "masa",
+      "cumle": "Yani masada iki ayrı konu var."
+    },
+    {
+      "korpus": "v4-parti2.v2",
+      "sira": 20,
+      "mekan": "masa",
+      "cumle": "Ne dersin diye soruyorsun ama benim bu işe ne dediğim o masada bir şey değiştirmez."
+    },
+    {
+      "korpus": "v4-parti2.v2",
+      "sira": 20,
+      "mekan": "masa",
+      "cumle": "Arkadaşın bunu söylediğinde masada ne oldu?"
+    },
+    {
+      "korpus": "v4-parti2.v2",
+      "sira": 32,
+      "mekan": "ofis",
+      "cumle": "Sen ofise dönmüşsün ve kafanda bir şey kalmış."
+    },
+    {
+      "korpus": "v5-parti3",
+      "sira": 31,
+      "mekan": "oda",
+      "cumle": "O konuşma sizin aranızda ve ben o odada olmayacağım; yazdığım cümle ilk zorlandığın yerde elinde kalır."
+    },
+    {
+      "korpus": "v5-parti4",
+      "sira": 21,
+      "mekan": "oda",
+      "cumle": "Bugün bir odada durup bunu sesli söyledin."
+    },
+    {
+      "korpus": "v5-parti4",
+      "sira": 47,
+      "mekan": "mutfak",
+      "cumle": "İkiniz de aynı mutfakta duruyorsunuz."
+    },
+    {
+      "korpus": "v5-parti6",
+      "sira": 49,
+      "mekan": "salon",
+      "cumle": "Salonda bir kişi daha var ve o \"birazdan\" cümlesini duydu."
+    },
+    {
+      "korpus": "v5-parti8",
+      "sira": 51,
+      "mekan": "yatak",
+      "cumle": "Söylersem sabah elinde benim cümlem olur ve o cümle senin yatağında işe yaramaz."
+    }
+  ]
+}

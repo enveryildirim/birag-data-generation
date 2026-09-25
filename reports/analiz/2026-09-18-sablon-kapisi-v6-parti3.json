@@ -1,0 +1,279 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti3.jsonl",
+  "kayit": 60,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "bir şey değil",
+      "kayit": 4
+    },
+    {
+      "dizi": "başka bir şey",
+      "kayit": 3
+    },
+    {
+      "dizi": "üçünü de sen",
+      "kayit": 3
+    },
+    {
+      "dizi": "olan bir hekim",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir şeyi de",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir not var",
+      "kayit": 3
+    },
+    {
+      "dizi": "olup olmadiğina bakamam",
+      "kayit": 3
+    },
+    {
+      "dizi": "karar vermek benim",
+      "kayit": 3
+    },
+    {
+      "dizi": "söyleyemem ve tahmin de etmem bu",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunu ben söylemedim sen söyledin",
+      "kayit": 2
+    },
+    {
+      "dizi": "bu ilaci yazan hekimin işi",
+      "kayit": 2
+    },
+    {
+      "dizi": "anlatan kisa bir not var",
+      "kayit": 2
+    },
+    {
+      "dizi": "şeyin doğru olup olmadiğina bakamam",
+      "kayit": 2
+    },
+    {
+      "dizi": "şu an elinde şunlar var",
+      "kayit": 2
+    },
+    {
+      "dizi": "karar vermek benim işim değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "üçünü de sen siraladin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisini de sen yazdin",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir not var onu",
+      "kayit": 2
+    },
+    {
+      "dizi": "olup olmadiğina bakamam ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "olduğuna karar vermek benim",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "gidip gitmemek senin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ben de bilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey oldu",
+      "kayit": 2
+    },
+    {
+      "dizi": "üçü de ayni",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen fark etmişsin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama bir şeyi",
+      "kayit": 2
+    },
+    {
+      "dizi": "aklindan ne geçiyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "yok orada yalniz",
+      "kayit": 2
+    },
+    {
+      "dizi": "ayri bir mesele",
+      "kayit": 2
+    },
+    {
+      "dizi": "ben karar veremem",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne olacağini düşünüyorsun",
+      "kayit": 2
+    },
+    {
+      "dizi": "olan sensin ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "ilk ne zaman",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve bir yerden",
+      "kayit": 2
+    },
+    {
+      "dizi": "şeyin ne olduğunu",
+      "kayit": 2
+    },
+    {
+      "dizi": "iki ayri şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey mi",
+      "kayit": 2
+    },
+    {
+      "dizi": "nasil çaliştiğini anlatan",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey var",
+      "kayit": 2
+    },
+    {
+      "dizi": "bekleyecek bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir yer değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir de şu",
+      "kayit": 2
+    },
+    {
+      "dizi": "kimse sana söylemedi",
+      "kayit": 2
+    },
+    {
+      "dizi": "senin hakkinda böyle",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve bunu bilen",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "bir şey değil": [
+      "%0.0",
+      "%4.3",
+      "%3.2",
+      "%3.2",
+      "%3.2",
+      "%2.3",
+      "%2.9",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%6.7"
+    ],
+    "başka bir şey": [
+      "%15.0",
+      "%3.4",
+      "%2.6",
+      "%2.6",
+      "%2.6",
+      "%3.3",
+      "%2.9",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%5.0"
+    ],
+    "üçünü de sen": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.7",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%5.0"
+    ],
+    "olan bir hekim": [
+      "%0.0",
+      "%1.7",
+      "%1.3",
+      "%1.9",
+      "%3.2",
+      "%2.3",
+      "%1.8",
+      "%0.9",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%5.0"
+    ],
+    "bir şeyi de": [
+      "%0.0",
+      "%0.0",
+      "%0.6",
+      "%0.6",
+      "%0.6",
+      "%0.5",
+      "%0.7",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%5.0"
+    ]
+  }
+}

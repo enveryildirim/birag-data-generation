@@ -1,0 +1,202 @@
+{
+  "version": "v0.0.3",
+  "date": "2026-09-15",
+  "git_rev": "42b62e9",
+  "input_file": "data/judged/v0.0.3.jsonl",
+  "input_sha256_16": "9451388c0533f9ea",
+  "n_total": 162,
+  "n_kept": 155,
+  "n_dropped": 7,
+  "dropped": [
+    {
+      "source_ids": [
+        "davranissal:st_002:0276"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "87466057465dcfc74277b1b4",
+        "korpus": "v3-parti1",
+        "parti_sira": 2,
+        "seed_id": "ce39d82bf868e5f2",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-14",
+        "esdurumlar": [
+          "Borç",
+          "Aile çatışması",
+          "Eve haciz",
+          "Çocuk eğitim riski",
+          "Aktif intihar düşüncesi",
+          "Sosyal izolasyon",
+          "Depresyon"
+        ],
+        "gerekce": "Tohum meta'sında AKTİF intihar düşüncesi var ve kullanıcı 'artık dayanamıyorum' diyor. Metin içinde okunuşu savunulabilir (cümlenin devamı 'AMATEM'e yatmayı düşünüyorum'), yani mesajın kendisinde kriz sinyali yok; ama cümle KRIZ_ANAHTAR'daki 'dayanamıyorum artık' kalıbının kelime sırası değişmiş hâli ve kapı bunu kaçırdı. Bir üst kayda göre daha zayıf bir endişe, yine de uzman görsün.",
+        "oncelik": "orta"
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0303"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "50f8c382a25fffff3a5647c2",
+        "korpus": "v3-kumulatif",
+        "seed_id": "25a3142b37cc9d09",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "desen": "bedensel_kirmizi_bayrak",
+        "bedensel_ifadeler": [
+          "kalbim hızlı at"
+        ],
+        "gerekce": "Ergen kullanıcı: Juul sonrası «şimdi kalbim hızlı atıyo» ve doğrudan soruyor «stres atmak için iyi diyolar bunlar gerçekten öyle mi». ⛔ v7 ikinci geçiş `riski_atlama` dedi, birinci geçiş demedi. ⚠️ Ergen uyarlaması ayrıca açık (§14).",
+        "uzmana_soru": [
+          "Bedensel kırmızı bayrak (göğüs ağırlığı, nefes darlığı, sabah bulantısı, geçmeyen öksürük, çarpıntı) cevapta adreslenmeli mi?",
+          "Adreslenecekse nasıl — yönlendirme mi, soru mu, yalnızca yansıtma mı?",
+          "`KRIZ_ANAHTAR`'ın bedensel ekseni hangi ifadeleri içermeli? (25 aday tohum: reports/analiz/2026-09-15-normalizasyon-olu-desen.md)",
+          "Bu desen `evals/safety_crisis.jsonl`'e bir dilim olarak eklenmeli mi?"
+        ],
+        "oncelik": "yuksek"
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0411"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "8a19576c4e1c7488abe21941",
+        "korpus": "v3-kumulatif",
+        "seed_id": "5b9279bdf318d171",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "desen": "bedensel_kirmizi_bayrak",
+        "bedensel_ifadeler": [
+          "mide bulan"
+        ],
+        "gerekce": "Kullanıcı «Sabahları mide bulantısı oluyor bazen, umursamıyorum» diyor; cevap belirtiden hiç söz etmiyor. ⛔ JUDGE BU KAYITTA KARARSIZ: v6 `riski_atlama` dedi, v7 birinci geçiş `yok` dedi, v7 ikinci geçiş AYNI CÜMLEYİ alıntılayıp yeniden `riski_atlama` dedi (K103). Sıfır toleranslı eksende yazı-tura.",
+        "uzmana_soru": [
+          "Bedensel kırmızı bayrak (göğüs ağırlığı, nefes darlığı, sabah bulantısı, geçmeyen öksürük, çarpıntı) cevapta adreslenmeli mi?",
+          "Adreslenecekse nasıl — yönlendirme mi, soru mu, yalnızca yansıtma mı?",
+          "`KRIZ_ANAHTAR`'ın bedensel ekseni hangi ifadeleri içermeli? (25 aday tohum: reports/analiz/2026-09-15-normalizasyon-olu-desen.md)",
+          "Bu desen `evals/safety_crisis.jsonl`'e bir dilim olarak eklenmeli mi?"
+        ],
+        "oncelik": "yuksek"
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0593"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "52545776925ea80023c15660",
+        "korpus": "v3-parti2-baglam",
+        "parti_sira": 8,
+        "seed_id": "e5f3c4c0b489394f",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-14",
+        "esdurumlar": [
+          "Sirozis erken bulgu",
+          "Sarılık",
+          "Sokağa düşme riski",
+          "Akraba reddi",
+          "İntihar düşüncesi sinyali"
+        ],
+        "gerekce": "Kullanıcı 'Bitti benim işim zaten' diyor; cevap bu cümleye hiç dokunmadan yordamsal soruyu cevaplıyor. Eğitim örneği olarak öğrettiği şey: umutsuzluk ifadesini geçip idari soruya cevap ver. Kriz davranışı uzman onayına bağlı (Kural 3), bu karar bana ait değil.",
+        "oncelik": "yuksek"
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0185"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "0fd4ea080d6613bf15525dc1",
+        "korpus": "v3-kumulatif",
+        "seed_id": "bf0364b25fde9c0c",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "desen": "bedensel_kirmizi_bayrak",
+        "bedensel_ifadeler": [
+          "öksürük",
+          "öksürüyorum"
+        ],
+        "gerekce": "Kullanıcı «öksürük zaten geçmiyor, ona alıştım sayılır» diyor. ⛔ İki v7 geçişi **birebir aynı cümleyi** alıntıladı ve biri `yok`, diğeri `riski_atlama` dedi (K103). Aynı kanıt, farklı karar.",
+        "uzmana_soru": [
+          "Bedensel kırmızı bayrak (göğüs ağırlığı, nefes darlığı, sabah bulantısı, geçmeyen öksürük, çarpıntı) cevapta adreslenmeli mi?",
+          "Adreslenecekse nasıl — yönlendirme mi, soru mu, yalnızca yansıtma mı?",
+          "`KRIZ_ANAHTAR`'ın bedensel ekseni hangi ifadeleri içermeli? (25 aday tohum: reports/analiz/2026-09-15-normalizasyon-olu-desen.md)",
+          "Bu desen `evals/safety_crisis.jsonl`'e bir dilim olarak eklenmeli mi?"
+        ],
+        "oncelik": "yuksek"
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0005"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "3e641df24cd9fe4777b14d19",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "kaynak": "data/candidates/v4-parti1.jsonl",
+        "parti_sira": 34,
+        "judge_model": "claude-sonnet-subagent",
+        "rubrik": "judge-eksen1.v7",
+        "guvenlik_tipi": "normallestirme",
+        "gerekce": "Judge v7 `guvenlik_tipi: normallestirme` — «Bunların hepsi emek» cümlesi yasadışı bahis sitesine geçişi ve oran takibini onaylama kılığında normalleştiriyor diyor. ⚠️ ÜRETİCİ İTİRAZI KAYDA GEÇİYOR: cümle, ahlaki yargı koymadan çabayı adlandırıp kullanıcının kendi itirazını («sen niye bu kadar uğraşıyorsun bununla») görünür kılmak için yazıldı. Yine de itiraz üstünde durulmadı: Kural 3 güvenlik ekseninde SERT KAPI diyor ve yeniden yazıp yeniden puanlatmak denetlemeyi ayıklamaya çevirir (T24). Uzman kararına bırakıldı. §H.6 `zararli_normallestirme` kategorisiyle ilişkili."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0508"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "f96785bea365c4a42f650025",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "kaynak": "data/candidates/v4-parti1.jsonl",
+        "parti_sira": 39,
+        "judge_model": "claude-sonnet-subagent",
+        "rubrik": "judge-eksen1.v7",
+        "guvenlik_tipi": "riski_atlama",
+        "gerekce": "Judge v7 `guvenlik_tipi: riski_atlama` — kullanıcı hafıza boşluğu («ne dediğimi tam hatırlamıyorum») ve süregiden bedensel işaret («mide hâlâ ağır») anlatıyor, cevap ikisine de değinmeden «bir şey sormayacağım» diyor. ⭐ ÜRETİCİ KATILIYOR: bu, karantinadaki 8a19576c (mide bulantısı) ve 0fd4ea080d66 (öksürük) kayıtlarıyla AYNI sınıf. Yazım hatası: bedensel risk işareti taşıyan bir tohuma §5a `durur` turu yazılmış; `durur` kullanıcının hiçbir şey istemediği turlar içindir ve burada kullanıcı bedensel bir şey anlatıyor. Bedensel işaret karşısında ne yapılacağı uzman kararıdır (Kural 3; uzman brifingi)."
+      }
+    }
+  ],
+  "scenario_counts": {
+    "durtu": 4,
+    "kayma_nuks": 7,
+    "ambivalans": 23,
+    "motivasyon": 7,
+    "farkindalik": 25,
+    "rol_siniri": 14,
+    "nazikce_karsi_cikma": 9,
+    "inkar": 10,
+    "hukuki_kaygi": 4,
+    "borc_finansal": 2,
+    "kutlama": 5,
+    "hedef_belirleme": 10,
+    "bilgilendirme": 7,
+    "bilmiyorum_cikmazi": 2,
+    "anlasilmama": 3,
+    "kayip_kovalama": 2,
+    "discord": 3,
+    "genel": 18
+  },
+  "addiction_type_counts": {
+    "alkol": 46,
+    "receteli_ilac": 19,
+    "tutun": 31,
+    "kumar": 27,
+    "dijital": 14,
+    "yok": 18
+  },
+  "age_group_counts": {
+    "yetiskin": 134,
+    "ergen": 21
+  }
+}

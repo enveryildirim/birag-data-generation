@@ -1,0 +1,54 @@
+# Faz 5 · LoRA KAPSAM MERDİVENİ — v0.0.14 kolu
+#
+# ⭐⭐ Bu kol: **v0.0.14 üzerinde eğitim.** Kapsam `i-v010-k8` ve `h-h1-capa-k8` ile
+# BİREBİR aynı (8 katman, q_proj, rank 8) — h1 kapsamı. ⛔ **DÜZELTME (2026-09-19, T184):** burada eskiden *«iki Pareto
+#   kapısını da geçen tek kol o»* yazıyordu — **yanlıştı**. `v0.0.8` taramasında
+#   h1 10, h7 **11** çıkmıştı ve fark ölçülmüş bandın içindeydi; üç tohumla
+#   yeniden koşulunca iki kapsam ayırt edilemedi (10,67 ↔ 10,33; görülebilir
+#   eşik 2,7). ⭐ h1 yine de korunuyor ama başka gerekçeyle: **ayırt
+#   edilemiyor ve daha ucuz** (6,9 ↔ 9,1 dk).
+# ⛔ Değişen TEK şey veri: `v0.0.10` → `v0.0.14`. Hiperparametrelerden biri bile
+#   oynatılsaydı çıkan sayı ölçülmüş kollarla karşılaştırılamazdı; fark YAML
+#   düzeyinde denetlendi (yalnız `ad` ve `dataset`).
+#
+# ⭐ v0.0.10 → v0.0.14 arasında metinde biriken düzeltmeler:
+#   v0.0.11  6 sözcük düzeltmesi (kullanıcının kendi sözcüğü korunuyor, T142)
+#   v0.0.12  16 alıntı birebirleştirme
+#   v0.0.13  3 zaman çıpası (cevabın koymadığı çıpalar kaldırıldı)
+#   v0.0.14  metin DEĞİŞMEDİ — yalnız 32 bayat yargı yenilendi
+# ⇒ Eğitim verisindeki gerçek fark **25 kayıtta metin düzeltmesi**; kayıt sayısı
+#   ikisinde de 571. ⚠️ Bu yüzden büyük bir oynama BEKLENMİYOR ve asıl soru
+#   düzeltmelerin bir gerilemeye yol açıp açmadığı (Kural 3: güvenlik sert kapı).
+#
+# ⚠️ `num_layers` mlx-lm'de ÜSTTEN N katman demektir.
+# ⚠️ Kontrol noktası her epokta (`save_every: 456`) ⇒ koşu epok sınırında
+#    durdurulabilir ve elde geçerli bir Pareto noktası kalır (Kural 5).
+ad: j-v014-k8
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.14/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 8
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj"]

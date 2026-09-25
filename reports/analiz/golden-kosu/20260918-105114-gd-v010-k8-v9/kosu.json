@@ -1,0 +1,14 @@
+{
+ "etiket": "gd-v010-k8-v9",
+ "set": "evals/golden.dev.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "judge_model": "agy:gemini-3.8-flash-high",
+ "judge_rubrik": "judge-eksen1.v9",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 48,
+ "uretim_sn": 400,
+ "judge_sn": 2954,
+ "tarih": "2026-09-18T11:40:30"
+}

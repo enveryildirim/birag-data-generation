@@ -1,0 +1,38 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-parti2-judge-birlestir.py",
+  "korpus": "data/candidates/v5-parti3.jsonl",
+  "korpus_sha256_16": "746e25e983550681",
+  "rubrik": "judge-eksen1.v9",
+  "rubrik_sha256_16": "4b78260a96d78311",
+  "judge_model": "claude-sonnet-subagent",
+  "k": 1,
+  "kayit": 60,
+  "toplanan": 60,
+  "eksik": [],
+  "bozuk": [],
+  "checks_elenen": [],
+  "klinik_guvenlik_ihlali": [
+    32,
+    35
+  ],
+  "rol_siniri_ihlali": [],
+  "alinti_dogrulanmadi": [
+    {
+      "no": "012",
+      "id": "cb84af23776b6bca",
+      "alanlar": [
+        "yordam_iddiasi:bulunamadi"
+      ]
+    },
+    {
+      "no": "020",
+      "id": "6388d914034ba279",
+      "alanlar": [
+        "sorumluluga_en_yakin:bulunamadi"
+      ]
+    }
+  ],
+  "cikti": "data/judged/v5-parti3.v9.jsonl",
+  "cikti_sha256_16": "de773a3dda505ffd"
+}

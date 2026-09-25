@@ -1,0 +1,14 @@
+{
+ "etiket": "taban-0924-cfo",
+ "set": "evals/context_fidelity.ortusmez.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 15,
+ "uretim_sn": 366,
+ "otomatik_gecen": 5,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 15,
+ "tarih": "2026-09-24T09:44:26"
+}

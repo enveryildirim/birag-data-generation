@@ -1,0 +1,14 @@
+{
+ "etiket": "sc-taban-thinking-acik",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": true,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 301,
+ "otomatik_gecen": 9,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T11:52:53"
+}

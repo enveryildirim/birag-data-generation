@@ -1,0 +1,40 @@
+# Tek hiper-parametre kaynağı (Kural 4). mlx ve (ileride) cuda runner'ları bu dosyayı okur.
+# K48-b DENEYİ — kalite koşusu DEĞİL, öğrenilebilirlik testi.
+#
+# Soru: Gemma 4'ün İngilizce muhakeme prior'ı (K48: 36/36, talimatla kırılmıyor)
+# eğitim verisiyle kırılabiliyor mu?
+#
+# Yöntem: 16 kayıtla 300 adım = KASITLI aşırı öğrenme. Bu bir ÜST SINIR testidir:
+# model bu koşulda Türkçe düşünmüyorsa, gerçek ölçekte hiç düşünmez.
+# Tersi kanıt değil — dönerse yalnızca "öğrenilebilir" demektir, "iyi" demez.
+
+ad: e4b-thinking-dili-ustsinir
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7 (QLoRA değil)
+dataset: datasets/v0.0.1/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 20 kayıt -> 16 eğitim / 4 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44 — thinking yalnızca son turda korunur
+  # Not: split kayıt bazında ama her kaydın kaynağı ayrı bir tohum olduğu için
+  # §16'daki "split kaynak doküman bazında olmalı" anti-pattern'i ihlal edilmiyor.
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion üzerinde
+  num_layers: 8              # §9 madde 2 — dar LoRA, yalnızca üst katmanlar
+  batch_size: 1
+  iters: 300              # KASITLI aşırı öğrenme — öğrenilebilirlik ÜST SINIRI testi (K48-b)
+  learning_rate: 1.0e-5      # §9 madde 3 — düşük LR
+  steps_per_report: 10
+  steps_per_eval: 50
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 100
+  seed: 7
+  lora_parameters:
+    rank: 8                  # §9 madde 2 — düşük rank (mlx-lm varsayılanı)
+    scale: 20.0              # mlx-lm varsayılanı
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.v_proj"]   # yalnızca attention projeksiyonları

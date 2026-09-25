@@ -1,0 +1,14 @@
+{
+ "kol": "A-dar",
+ "kaynak_kosu": "20260915-140907-sc2-A-dar",
+ "kor_etiket": "v9-e2-b7584bec",
+ "judge_model": "claude-sonnet-subagent",
+ "judge_rubrik": "judge-eksen1.v9",
+ "k": 1,
+ "judge_toplandi": 20,
+ "eksik": [],
+ "bozuk": [],
+ "dogrulama": "kaynakli",
+ "karsilastirma": "reports/analiz/eksen2-judge-v8 (v8, aşama 1, k=1)",
+ "tarih": "2026-09-15T21:02:15"
+}

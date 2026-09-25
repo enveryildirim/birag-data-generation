@@ -1,0 +1,165 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-izgara-tohum-carpismasi.py",
+  "girdi": [
+    "data/plan/v4-parti2.jsonl",
+    "data/seeds.jsonl"
+  ],
+  "plan_sha256": "48fc34a224694130bdff0c88fa52e1dd1ec03eb6cc4d1576f72261576542a9f2",
+  "tohum_sha256_16": "0631c02ec7510af3",
+  "satir": 60,
+  "tam_uyum": 37,
+  "duzlestirme": 19,
+  "uydurma": 4,
+  "gecis_tablosu": {
+    "ic_motivasyon -> ic": 21,
+    "aile_baskisi -> ic": 18,
+    "tetikleyici_olay -> ic": 7,
+    "duygusal_regulasyon -> ic": 6,
+    "yasal_zorunluluk -> yasal_zorunluluk": 2,
+    "ic_motivasyon -> yasal_zorunluluk": 2,
+    "aile_baskisi -> aile_baskisi": 1,
+    "yasal_zorunluluk -> ic": 1,
+    "yasal_zorunluluk -> aile_baskisi": 1,
+    "tetikleyici_olay -> yasal_zorunluluk": 1
+  },
+  "uydurma_satirlari": [
+    {
+      "sira": 44,
+      "seed_id": "1f629a28a226d210",
+      "tohum": "ic_motivasyon",
+      "izgara": "yasal_zorunluluk",
+      "geri_dusme_mi": false,
+      "tohum_motivasyon_notu": null,
+      "tohum_context": "Maaş günü akşamı",
+      "duzeltme": "ic"
+    },
+    {
+      "sira": 46,
+      "seed_id": "513c19bb654a1cda",
+      "tohum": "yasal_zorunluluk",
+      "izgara": "aile_baskisi",
+      "geri_dusme_mi": false,
+      "tohum_motivasyon_notu": "okul yönlendirmesi",
+      "tohum_context": "Çevrimiçi oyun nedeniyle okul devamsızlığı ve akademik başarısızlık yaşayan lise öğrencisi, yasal/kurumsal zorunlulukla destek almaya yönlendirilen",
+      "duzeltme": "yasal_zorunluluk"
+    },
+    {
+      "sira": 57,
+      "seed_id": "7e28d2eef50b6781",
+      "tohum": "ic_motivasyon",
+      "izgara": "yasal_zorunluluk",
+      "geri_dusme_mi": false,
+      "tohum_motivasyon_notu": null,
+      "tohum_context": "Akşam, eş yanında değilken",
+      "duzeltme": "ic"
+    },
+    {
+      "sira": 59,
+      "seed_id": "0d89a27a50ab7818",
+      "tohum": "tetikleyici_olay",
+      "izgara": "yasal_zorunluluk",
+      "geri_dusme_mi": true,
+      "tohum_motivasyon_notu": null,
+      "tohum_context": "Şantiye kantini, öğle arası",
+      "duzeltme": "ic"
+    }
+  ],
+  "duzlestirme_satirlari": [
+    {
+      "sira": 7,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 16,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 18,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 20,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 22,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 24,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 26,
+      "tohum": "yasal_zorunluluk",
+      "izgara": "ic"
+    },
+    {
+      "sira": 29,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 32,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 34,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 38,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 40,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 42,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 45,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 50,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 52,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 55,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 58,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    },
+    {
+      "sira": 60,
+      "tohum": "aile_baskisi",
+      "izgara": "ic"
+    }
+  ]
+}

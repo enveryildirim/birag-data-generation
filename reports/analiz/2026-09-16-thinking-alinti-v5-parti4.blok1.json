@@ -1,0 +1,97 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v5-parti4.blok1.jsonl",
+  "girdi_sha256_16": "320657e71f25619c",
+  "kayit": 15,
+  "taranan_alinti": 24,
+  "bulunamayan": [
+    {
+      "parti_sira": 7,
+      "id": "405d3a57d139f35e",
+      "alinti": "Bu çok bağımlı gibi görünüyor, değil mi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 9,
+      "id": "709ba03d1af72c78",
+      "alinti": "dün yazdım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "34ab7d4b39de933f",
+      "alinti": "bravo",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "34ab7d4b39de933f",
+      "alinti": "Nasıl başardın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 14,
+      "id": "c1b1687028dfffc3",
+      "alinti": "çıkış göremiyorum, karanlık çok ağır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 27,
+      "id": "746ff883c4c331e2",
+      "alinti": "neden eğlenmiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 31,
+      "id": "8badc59f08235002",
+      "alinti": "Bravo",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 46,
+      "id": "239dfc645ff8487e",
+      "alinti": "Suçluluk",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 46,
+      "id": "239dfc645ff8487e",
+      "alinti": "utanç",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 48,
+      "id": "0d01b611365d78e3",
+      "alinti": "onunki daha fazlaydı",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a93",
+      "alinti": "ilgisiz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a93",
+      "alinti": "Demek ki bırakmamışsın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 60,
+      "id": "760ddfff3f5d386a",
+      "alinti": "Bir kerelik bir de...",
+      "sinif": "siniflanmadi"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 0,
+    "parafraz": 0,
+    "hayalet": 0,
+    "siniflanmadi": 13
+  },
+  "elle_okunan_korpus": [
+    "v4-parti2.v2",
+    "v5-parti3"
+  ]
+}

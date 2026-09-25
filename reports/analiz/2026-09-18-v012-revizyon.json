@@ -1,0 +1,135 @@
+{
+  "tarih": "2026-09-18",
+  "girdi_sha256_16": "eb8170396c096bcc",
+  "cikti_sha256_16": "d55171dffb82edb9",
+  "duzeltme": [
+    {
+      "id": "7a52578e178fdcd6cf9d783f",
+      "eski": "\"hiçbir işe yaramıyor\"",
+      "yeni": "\"hiç bir işe yaramıyor\"",
+      "sinif": "yazım",
+      "parti": null,
+      "sira": 9
+    },
+    {
+      "id": "61591116b3c65b55e822deba",
+      "eski": "\"yanlış mı bilmiyorum, garip hissediyorum\"",
+      "yeni": "\"Yanlış mı bilmiyorum, biraz garip hissediyorum\"",
+      "sinif": "hedge düştü: «biraz»",
+      "parti": null,
+      "sira": 14
+    },
+    {
+      "id": "cd735e3f2b7153087d4eadbf",
+      "eski": "\"icra dosyasına bir nefes olur, kimsenin haberi olmaz\"",
+      "yeni": "\"icra dosyasına bir nefes olur\"",
+      "sinif": "⛔ yan cümle elenmişti (T104) ⇒ alıntı kısaltıldı",
+      "parti": null,
+      "sira": 22
+    },
+    {
+      "id": "189d550d6d2c887f2cfc6565",
+      "eski": "\"ben de katılıyorum\"",
+      "yeni": "\"ben de aslında buna katılıyorum\"",
+      "sinif": "hedge düştü: «aslında buna»",
+      "parti": null,
+      "sira": 27
+    },
+    {
+      "id": "16c95f92088abd542fb8aa9a",
+      "eski": "\"Kumardan diyemezsin di mi\"",
+      "yeni": "\"kumardan diyemezsin ki di mi\"",
+      "sinif": "edat düştü: «ki»",
+      "parti": "v3-parti2-baglam",
+      "sira": 7
+    },
+    {
+      "id": "4d240718c16600981b958df7",
+      "eski": "\"niye hep yalnızım\"",
+      "yeni": "\"niye ben hep yalnızım\"",
+      "sinif": "özne düştü: «ben»",
+      "parti": "v3-parti2",
+      "sira": 5
+    },
+    {
+      "id": "f9550f5bce7b9ca46f3812f2",
+      "eski": "\"Gerçeği söylemek mümkün değil\"",
+      "yeni": "\"gerçeği söylemek de mümkün değil\"",
+      "sinif": "edat düştü: «de»",
+      "parti": "v3-parti2",
+      "sira": 17
+    },
+    {
+      "id": "5348c211fa9bcc90253b291c",
+      "eski": "\"İçim buna razı değil\"",
+      "yeni": "\"içim de buna razı değil\"",
+      "sinif": "edat düştü: «de»",
+      "parti": "v3-parti2",
+      "sira": 19
+    },
+    {
+      "id": "71bb2b5678dc211b035bf2ff",
+      "eski": "\"Hak ettim galiba\"",
+      "yeni": "\"Hak ettim bunu galiba\"",
+      "sinif": "hedge düştü: «bunu»",
+      "parti": "v3-parti2",
+      "sira": 20
+    },
+    {
+      "id": "69776ab9b10c60fc928b7bda",
+      "eski": "\"nasıl uzak dururum\"",
+      "yeni": "\"nasıl uzak durabilirim\"",
+      "sinif": "fiil değiştirilmişti",
+      "parti": "v3-parti2",
+      "sira": 25
+    },
+    {
+      "id": "f37585290d3ee12d84b615d7",
+      "eski": "\"İçim bir tuhaf\"",
+      "yeni": "\"içim de bir tuhaf\"",
+      "sinif": "edat düştü: «de»",
+      "parti": "v3-parti3",
+      "sira": 2
+    },
+    {
+      "id": "605a7e888d3f3c7f2bbab4ab",
+      "eski": "\"Ortada büyük bir şey yok\"",
+      "yeni": "\"ortada büyük bir şey de yok\"",
+      "sinif": "edat düştü: «de»",
+      "parti": "v3-parti3",
+      "sira": 5
+    },
+    {
+      "id": "f3c15ff6bcfe53ac351b9366",
+      "eski": "\"eşim bilse zaten anlamaz.\"",
+      "yeni": "\"eşim de bilse zaten anlamaz.\"",
+      "sinif": "edat düştü: «de»",
+      "parti": "v3-parti3",
+      "sira": 10
+    },
+    {
+      "id": "c978e3762186c88aef446166",
+      "eski": "\"Benim bildiğim bir şey var ki onlar bilmiyor.\"",
+      "yeni": "\"Benim bildiğim bir şey var ki onlar bilmiyor\".",
+      "sinif": "⚠️ nokta dışarı: kullanıcı bitirmemiş",
+      "parti": "v3-parti3",
+      "sira": 11
+    },
+    {
+      "id": "73c8a8cc38de9439e437e8fd",
+      "eski": "\"hak etmiyorum bu cümleyi.\"",
+      "yeni": "\"hak etmiyorum bu cümleyi\".",
+      "sinif": "⚠️ nokta dışarı: kullanıcı bitirmemiş",
+      "parti": "v3-parti3",
+      "sira": 14
+    },
+    {
+      "id": "5d24f424239fa0ad6eb783de",
+      "eski": "\"Babam da idare etti\"",
+      "yeni": "\"hiç doktora gitmedi, idare etti\"",
+      "sinif": "⛔ alıntı değil SENTEZdi ⇒ kullanıcının kendi ardışık sözü",
+      "parti": "v3-parti3",
+      "sira": 20
+    }
+  ]
+}

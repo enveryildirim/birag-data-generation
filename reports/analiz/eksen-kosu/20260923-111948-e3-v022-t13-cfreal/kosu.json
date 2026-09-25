@@ -1,0 +1,14 @@
+{
+ "etiket": "e3-v022-t13-cfreal",
+ "set": "evals/context_fidelity.real.jsonl",
+ "adapter": "runs/20260922-231935-e3-celiskili-k8qo-v022-t13/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 15,
+ "uretim_sn": 216,
+ "otomatik_gecen": 8,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 15,
+ "tarih": "2026-09-23T11:19:48"
+}

@@ -1,0 +1,7 @@
+# Üretici ayarları — Faz 2 (Dikey dilim) doldurulacak. Bkz. plan.md §10, K30.
+# Üretici: yalnızca Claude Code (K30) — programatik üretici (API sıcaklık/model
+# parametreleri) şu an geçerli değil; bu dosya generate.py yazıldığında anlam kazanır.
+
+version: v1
+uretici: claude-code   # K30 — programatik teacher model ertelendi
+prompt_surumu: null    # prompts/ altında ilk şablon yazılınca doldurulur

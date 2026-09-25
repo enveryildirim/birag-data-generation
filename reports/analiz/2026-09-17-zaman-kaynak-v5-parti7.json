@@ -1,0 +1,55 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti7.jsonl",
+  "girdi_sha256_16": "317f23d17f855435",
+  "kayit": 60,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "belirsiz_artikel": 3,
+    "rol_adlandirma_bitisik [ZATEN YERDE]": 1,
+    "anaforik_demir": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "765ae0a99533e2278f260ecf",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "f0a5311fbb22d8bbfc13c37b",
+      "oge": "doktorunun",
+      "baglam": "doktorunun alanı"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "8945dfe7a716d4aba488c851",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 46,
+      "id": "453c9934259620a87f15418d",
+      "oge": "aynı hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "3a31b8ca96a792ff2e4b4496",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    }
+  ]
+}

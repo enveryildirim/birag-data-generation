@@ -1,0 +1,43 @@
+# Faz 5 · KAPSAM MERDİVENİNİN ARASI — güncel veri, kol başına ÜÇ TOHUM
+#
+# ⛔⛔ **NEDEN.** T184 merdivenin iki UCUNU üç tohumla koştu (h1 ↔ h7) ve ikisini
+# ayırt edemedi. Arada kalan basamaklar hâlâ `v0.0.8` üzerinde TEK tohumla
+# ölçülmüştü; T183 o karşılaştırmaların çoğunun bandın içinde kaldığını gösterdi.
+# ⭐ Dahası T184 beklenmedik bir şey buldu: **gürültü kapsama bağlı** (büyük
+# kapsamın yayılımı küçüğünkinin 1,8 katı) ⇒ her basamağın kendi bandı olmalı,
+# tek bir band bütün merdivene uygulanamaz.
+#
+# ⭐⭐ Değişen tek şey kapsam (+ tohum). Veri `v0.0.14`, bölme `veri.seed 7`,
+#   LR/adım/batch/max_seq h1 kolundakiyle birebir — alan alan denetlendi.
+# ⚠️ `num_layers` mlx-lm'de ÜSTTEN N katman demektir.
+# ⚠️ k_proj/v_proj yalnız katman 0-23'te var; üst dilimlerde ölü olur ⇒
+#    merdivende bilerek kullanılmıyor (kollar arası tek fark ilkesi).
+ad: x-h5-v014-t7
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.14/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 16
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.o_proj"]

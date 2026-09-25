@@ -1,0 +1,486 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/datasets/v0.0.11/train.jsonl",
+  "girdi_sha256_16": "70f566b1c583249d",
+  "kayit": 571,
+  "karsi_olgusal_muaf": 45,
+  "isaretli_kayit": 13,
+  "bulgu": [
+    {
+      "parti_sira": 9,
+      "alinti": "hiçbir işe yaramıyor"
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "yanlış mı bilmiyorum, garip hissediyorum"
+    },
+    {
+      "parti_sira": 22,
+      "alinti": "icra dosyasına bir nefes olur, kimsenin haberi olmaz"
+    },
+    {
+      "parti_sira": 27,
+      "alinti": "ben de katılıyorum"
+    },
+    {
+      "parti_sira": 7,
+      "alinti": "Kumardan diyemezsin di mi"
+    },
+    {
+      "parti_sira": 5,
+      "alinti": "niye hep yalnızım"
+    },
+    {
+      "parti_sira": 17,
+      "alinti": "Gerçeği söylemek mümkün değil"
+    },
+    {
+      "parti_sira": 19,
+      "alinti": "İçim buna razı değil"
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "Hak ettim galiba"
+    },
+    {
+      "parti_sira": 25,
+      "alinti": "nasıl uzak dururum"
+    },
+    {
+      "parti_sira": 2,
+      "alinti": "İçim bir tuhaf"
+    },
+    {
+      "parti_sira": 5,
+      "alinti": "Ortada büyük bir şey yok"
+    },
+    {
+      "parti_sira": 10,
+      "alinti": "eşim bilse zaten anlamaz."
+    },
+    {
+      "parti_sira": 11,
+      "alinti": "Benim bildiğim bir şey var ki onlar bilmiyor."
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "hak etmiyorum bu cümleyi."
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "Babam da idare etti"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "anma_oneri": 10,
+    "olumsuz_yeterlilik": 2,
+    "anma_ulac": 1,
+    "karsi_olgusal": 29,
+    "karsit_degil": 1,
+    "karsilastirma": 2,
+    "kisa_alinti": 5
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "049c62fa00f632d6d5ddcfec",
+      "oge": "devam et",
+      "baglam": "Senin yerine \"devam et\" ya da \"kes\" demek bana düşme"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "049c62fa00f632d6d5ddcfec",
+      "oge": "kes",
+      "baglam": "Senin yerine \"devam et\" ya da \"kes\" demek bana düşmez; o karar s"
+    },
+    {
+      "muafiyet": "olumsuz_yeterlilik",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "115aa036d383a1bfbeb86e17",
+      "oge": "olur",
+      "baglam": "\"Yeter bence\" dediğin plana ben   diyemem"
+    },
+    {
+      "muafiyet": "anma_ulac",
+      "tip": "muafiyet",
+      "parti_sira": 14,
+      "id": "61591116b3c65b55e822deba",
+      "oge": "iyi olur",
+      "baglam": " diyerek onu üstünden almayacağım."
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "c3419959d0685c1d24d5cce0",
+      "oge": "haklısın",
+      "baglam": "Sana   demeyeceğim; o cümleyi kurarsam senin yazdığın üç pazarı silmiş olurum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "f79f46578837414975a895cd",
+      "oge": "arkadaşın haklı",
+      "baglam": "Doğrulayamadığım için   da demiyorum"
+    },
+    {
+      "muafiyet": "karsit_degil",
+      "tip": "muafiyet",
+      "parti_sira": 17,
+      "id": "f9550f5bce7b9ca46f3812f2",
+      "oge": "istemiyorum",
+      "baglam": "elimeye takıldım. \"Gerçeği söylemek mümkün değil\" demişsin, \"istemiyorum\" değil.\n\nMümkün değ"
+    },
+    {
+      "muafiyet": "olumsuz_yeterlilik",
+      "tip": "muafiyet",
+      "parti_sira": 4,
+      "id": "fdc6e5d25da7cd2432886cab",
+      "oge": "olur",
+      "baglam": " Ona   diyemem: emzirmeyi bitirmenin de ilacı nasıl kullanacağının da kararı hekiminle senin aranda, ben oradan konuşursam bilmediğim bir şeyi onaylamış olurum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "5ac8471111f7ca2382835519",
+      "oge": "bıraktım",
+      "baglam": "Bugünü   diye de anlatmadın, olanı anlattın"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "56a571893af58e83cb62e2cb",
+      "oge": "Yapamıyorum",
+      "baglam": "bir şey değişiyor ve sen bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamı"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "56a571893af58e83cb62e2cb",
+      "oge": "akşam olunca yapamıyorum",
+      "baglam": "en bunu fark etmişsin. \"Yapamıyorum\" demekle \"akşam olunca yapamıyorum\" demek aynı şey değil; ikinci"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 48,
+      "id": "8a2547484ac5d3d2303dd572",
+      "oge": "Azalacaktı",
+      "baglam": "\"Azalacaktı\" demiştin demek.\n\nKime demişt"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 49,
+      "id": "cb84af23776b6bca84fbc646",
+      "oge": "sen yanlış yapıyorsun",
+      "baglam": "Bunu   diye söylemiyorum"
+    },
+    {
+      "muafiyet": "karsilastirma",
+      "tip": "muafiyet",
+      "parti_sira": 56,
+      "id": "5bffdc87e0479adfed3fa84a",
+      "oge": "Bir şey olmadı",
+      "baglam": "\"Bir şey olmadı\" ile \"olmaz\" aynı şey değil ve aradaki farkı ben uydurmuyorum — sen de olmayaca"
+    },
+    {
+      "muafiyet": "karsilastirma",
+      "tip": "muafiyet",
+      "parti_sira": 56,
+      "id": "5bffdc87e0479adfed3fa84a",
+      "oge": "olmaz",
+      "baglam": "\"Bir şey olmadı\" ile \"olmaz\" aynı şey değil ve aradaki farkı ben uydurmuyorum — sen de olmayacağını bilmiyo"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 57,
+      "id": "33187fab6f68589130bd5319",
+      "oge": "şunu yap",
+      "baglam": "Ne yapacağını ben söylemeyeceğim; o karar senin ve buraya bir kişi daha   demeye gelmedi"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "ea79d8e934f4573ad40cf91a",
+      "oge": "hem kendime hem ona kızgınım",
+      "baglam": "Bir şeye katılmıyorum ama:   gibi bir cümle kurmadın, yalnız olanı söyledin"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "5e9b27b671c8b2fef9342851",
+      "oge": "kandırılıyorsun",
+      "baglam": "Bunu sana   demek için söylemiyorum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bcd3e2f049",
+      "oge": "Bu kötü bir şey mi",
+      "baglam": "  diye sormadın ama soruların arasında o da duruyor gibi"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 4,
+      "id": "c26ae5ee942ce96bbb8d8604",
+      "oge": "bir şeyim yok",
+      "baglam": "u sordun: \"nereye sorabilirim\". Bunu sormak, \"bir şeyim yok\" demekten farklı bir yerden g"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "27405e150217c45ab3efb248",
+      "oge": "endişelenme",
+      "baglam": "Söylemediğim şey   değil; bilmediğimi söylüyorum, küçültmüyorum"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "az",
+      "baglam": "ın ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne \"sak"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "çok",
+      "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne  , ne \"sakıncalı\""
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "sakıncalı",
+      "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "dc56a65b114c59f1482069bc",
+      "oge": "Bir şey değil",
+      "baglam": "  dememi istiyorsun ve onu demeyeceğim — çünkü bilmiyorum, ve bildiğimi varsayıp söylersem yanlış bir şeyi senin adına onaylamış olurum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "a9834c5f21fc581ad823e623",
+      "oge": "evet",
+      "baglam": "Buna   demeyeceğim"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 16,
+      "id": "4d4b316e814f3b6429aa065a",
+      "oge": "onun gibi değilim",
+      "baglam": "Babanla nasıl konuştuğunuzu bilmiyorum, o yüzden   diye bir iddiada da bulunmayacağım — bunu ancak sen görürsün"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 42,
+      "id": "56ed69532200b264f7745f7f",
+      "oge": "Yalan da değil, doğru da değil",
+      "baglam": "  diye bir şey yazmadın ama söylediğin tam olarak o: annene söylediğin cümle ile kendine söylediğin cümle aynı değil ve ikisini de sen biliyorsun"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "254a18a47fb206caa8a0cfbe",
+      "oge": "zarar verir",
+      "baglam": "Biranın derslere ne yaptığına dair bir şey söylemeyeceğim — ne   ne \"vermez\""
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "967b7365cd5c048fb4f6c76f",
+      "oge": "Kötü baba mıyım",
+      "baglam": "  diye sormadın ama \"bağırmak geldi\" dedin ve hemen öncesine \"doğru söylüyor\" diye ekledin"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "7fe5381b461cde46978ddc7b",
+      "oge": "bitti",
+      "baglam": "Bir şeye katılmıyorum ama: iki yılı   diye yazmadın, ben yazdım — sen yalnız \"olmuştu\" dedin"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "f1dafbbbf8e30ef269a9f45e",
+      "oge": "artık kahveden fazlasını koyuyorum.",
+      "baglam": " son cümleni olduğu gibi söylemek olabilir — \"artık kahveden fazlasını koyuyorum.\"\n\nOrtamın böyle olması senin "
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 43,
+      "id": "49180a2479c9c799a301a9e1",
+      "oge": "ben de konuşabileceğim biri var mı",
+      "baglam": "et birimleri. Yarın yanına gelen kim olursa, \"ben de konuşabileceğim biri var mı\" diye sormak bir başlangıç ol"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "816a557dc8324f3ab44edc90",
+      "oge": "bu kadar zayıf",
+      "baglam": "Bir şeye katılmıyorum:   diye bir şey yazmadın ama \"mahcup oldum\" dedin ve mahcubiyet bir hüküm taşıyor"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 55,
+      "id": "710d4ae01d5365cf93f7420a",
+      "oge": "kötü bir şey yapıyorsun",
+      "baglam": "Ama bir şeye katılmıyorum: arkadaşın   demedi, \"değiştin\" dedi"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "ab199a1c0a2f0c79711ab4ae",
+      "oge": "Geri kazanırım dedim olmadı",
+      "baglam": "  cümlesini yazmamışsın ama \"erittim\" kelimesi onu zaten taşıyor: bir defada gitmiş"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 57,
+      "id": "0feb29d28ea9719cd47f0be3",
+      "oge": "kendime gülüyorum",
+      "baglam": "  diye yazmamışsın, sadece kontrol ettiğini yazmışsın"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "765ae0a99533e2278f260ecf",
+      "oge": "iç",
+      "baglam": "ne olduğunu ben söyleyemem ve ne yapman gerektiğini de — ne \"iç\" ne \"içme\". İkisi d"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "d53f282bbf492a966bcd0136",
+      "oge": "al",
+      "baglam": "kincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "d53f282bbf492a966bcd0136",
+      "oge": "alma",
+      "baglam": "İkincisini alıp almamana dair hiçbir şey söylemeyeceğim — ne \"al\" ne  "
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "4ac842925e92992aa26cbf60",
+      "oge": "gece bekleyemiyorum, saati öne çektim.",
+      "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"gece bekleyemiyorum, saati öne çektim.\"\n\n\"İçime bir şey çöküyor\" ded"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "182a334d93f05a6b6dc5c3dc",
+      "oge": "al",
+      "baglam": "incisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "182a334d93f05a6b6dc5c3dc",
+      "oge": "alma",
+      "baglam": "İkincisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "682a0223bab840e6423df5ad",
+      "oge": "olur",
+      "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne   ne \"olmaz\""
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "682a0223bab840e6423df5ad",
+      "oge": "olmaz",
+      "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne \"olur\" ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 47,
+      "id": "2a25a632508dc51f6724ef1e",
+      "oge": "olur",
+      "baglam": "Ne kadar aldığına dair de bir şey söylemeyeceğim — ne \"fazla\" ne  "
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 52,
+      "id": "8e13276144f4e14f74558db9",
+      "oge": "az",
+      "baglam": "an verilmiş. Cevabı veren sensin, doktorun değil.\n\nÖksürüğü \"az\" diye niteleyen de "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "0c1b10e70123d4717fd96ea5",
+      "oge": "stresli misin",
+      "baglam": " Sevgilin   demedi, \"çok içiyorsun\" dedi — sen sebep getirdin"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "2077ab38c8669f464eeb9c03",
+      "oge": "başım döndü, tutundum.",
+      "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"başım döndü, tutundum.\"\n\nİlaçla ilgisi olup olmadığı"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "5b819dbad1467c9fe9e0af10",
+      "oge": "bana verdiler",
+      "baglam": "\"Masada içiyorlardı\" dedin,   demedin"
+    }
+  ]
+}

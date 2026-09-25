@@ -1,0 +1,47 @@
+# Faz 5 — 12B TRANSFER KONTROLÜ iskeleti (K32, model merdiveni K29).
+#
+# ⛔ BU CONFIG HENÜZ KOŞULMADI ve koşulamaz: model lokalde yok.
+#    `scripts/analiz/2026-09-16-lora-kapsam-onkontrolu.py` bu satırı `⛔ model yok`
+#    diye raporlar — sessizce geçmez. İndirme bir KARARDIR (disk + süre) ve
+#    yürütücüye sorulmuştur.
+#
+# ⚠️ NEDEN "KAZANAN CONFIG" DEĞİL: Faz 4'ün kapsam taraması üç kez koştu ve
+#    Pareto kapısının BİRİNCİ basamağında beş kolun beşi elendi (K109) — yani
+#    ortada kazanan bir kapsam YOK. Bu yüzden transfer probu, taramanın
+#    değişmeyen tabanı olan `f4-kapsam-A-dar` ile AYNI hiper-parametreleri
+#    taşır: transfer kontrolünün sorusu "hangi kapsam iyi" değil,
+#    "E4B'de gördüğümüz davranış 12B'de de görünüyor mu" (K32).
+#
+# ⚠️ ÖNKONTROL BORCU: model indirildiği gün önce `lora-kapsam-onkontrolu`
+#    koşulmalı. E4B'de `v_proj` katman 0-23'te var, 24-41'de YOK ve `num_layers`
+#    üstten alıyor (T85); 12B'nin katman dağılımı BAŞKA olabilir ve `keys`
+#    burada varsayılmıştır, ölçülmemiştir.
+
+ad: 12b-transfer
+model: mlx-community/gemma-4-12B-it-bf16      # ⚠️ repo adı doğrulanmadı — indirme öncesi bakılacak
+dataset: datasets/v0.0.3/train.jsonl          # ⚠️ Faz 4 kapanınca v0.1.0 ile değişir
+
+veri:
+  valid_orani: 0.2
+  seed: 7                                     # A-dar ile AYNI tohum (K105 karşılaştırılabilirlik)
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 8              # A-dar ile aynı ⚠️ 12B'de 8 katman ORANSAL olarak farklı derinliktir
+  batch_size: 1
+  iters: 372                 # f4c ile aynı — karşılaştırılabilirlik
+  learning_rate: 1.0e-5
+  steps_per_report: 10
+  steps_per_eval: 50
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 100
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj"]   # ⚠️ 12B'de bu adın var olduğu ÖLÇÜLMEDİ (T85)

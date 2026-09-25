@@ -1,0 +1,262 @@
+{
+ "B-01": {
+  "kimlik": "v6-parti5#3",
+  "tekrar": false
+ },
+ "B-02": {
+  "kimlik": "v6-parti6#51",
+  "tekrar": false
+ },
+ "B-03": {
+  "kimlik": "v6-parti5#40",
+  "tekrar": false
+ },
+ "B-04": {
+  "kimlik": "v6-parti7#26",
+  "tekrar": false
+ },
+ "B-05": {
+  "kimlik": "v6-parti2#24",
+  "tekrar": true
+ },
+ "B-06": {
+  "kimlik": "v6-parti7#45",
+  "tekrar": false
+ },
+ "B-07": {
+  "kimlik": "v6-parti7#20",
+  "tekrar": false
+ },
+ "B-08": {
+  "kimlik": "v6-parti3#57",
+  "tekrar": true
+ },
+ "B-09": {
+  "kimlik": "v6-parti4#52",
+  "tekrar": false
+ },
+ "B-10": {
+  "kimlik": "v6-parti4#25",
+  "tekrar": false
+ },
+ "B-11": {
+  "kimlik": "v6-parti2#52",
+  "tekrar": false
+ },
+ "B-12": {
+  "kimlik": "v6-parti6#20",
+  "tekrar": true
+ },
+ "B-13": {
+  "kimlik": "v6-parti2#20",
+  "tekrar": false
+ },
+ "B-14": {
+  "kimlik": "v6-parti4#54",
+  "tekrar": false
+ },
+ "B-15": {
+  "kimlik": "v6-parti3#50",
+  "tekrar": true
+ },
+ "B-16": {
+  "kimlik": "v6-parti3#26",
+  "tekrar": true
+ },
+ "B-17": {
+  "kimlik": "v6-parti4#45",
+  "tekrar": true
+ },
+ "B-18": {
+  "kimlik": "v6-parti5#45",
+  "tekrar": true
+ },
+ "B-19": {
+  "kimlik": "v6-parti7#56",
+  "tekrar": false
+ },
+ "B-20": {
+  "kimlik": "v6-parti4#47",
+  "tekrar": true
+ },
+ "B-21": {
+  "kimlik": "v6-parti4#44",
+  "tekrar": false
+ },
+ "B-22": {
+  "kimlik": "v6-parti5#43",
+  "tekrar": true
+ },
+ "B-23": {
+  "kimlik": "v6-parti2#47",
+  "tekrar": false
+ },
+ "B-24": {
+  "kimlik": "v6-parti6#31",
+  "tekrar": false
+ },
+ "B-25": {
+  "kimlik": "v6-parti3#17",
+  "tekrar": true
+ },
+ "B-26": {
+  "kimlik": "v6-parti2#31",
+  "tekrar": false
+ },
+ "B-27": {
+  "kimlik": "v6-parti6#18",
+  "tekrar": false
+ },
+ "B-28": {
+  "kimlik": "v6-parti2#27",
+  "tekrar": true
+ },
+ "B-29": {
+  "kimlik": "v6-parti6#25",
+  "tekrar": false
+ },
+ "B-30": {
+  "kimlik": "v6-parti2#17",
+  "tekrar": false
+ },
+ "B-31": {
+  "kimlik": "v6-parti3#34",
+  "tekrar": true
+ },
+ "B-32": {
+  "kimlik": "v6-parti7#17",
+  "tekrar": false
+ },
+ "B-33": {
+  "kimlik": "v6-parti5#24",
+  "tekrar": false
+ },
+ "B-34": {
+  "kimlik": "v6-parti4#18",
+  "tekrar": false
+ },
+ "B-35": {
+  "kimlik": "v6-parti3#1",
+  "tekrar": true
+ },
+ "B-36": {
+  "kimlik": "v6-parti1#28",
+  "tekrar": false
+ },
+ "B-37": {
+  "kimlik": "v6-parti6#55",
+  "tekrar": true
+ },
+ "B-38": {
+  "kimlik": "v6-parti7#31",
+  "tekrar": false
+ },
+ "B-39": {
+  "kimlik": "v6-parti5#20",
+  "tekrar": false
+ },
+ "B-40": {
+  "kimlik": "v6-parti7#10",
+  "tekrar": true
+ },
+ "B-41": {
+  "kimlik": "v6-parti3#11",
+  "tekrar": false
+ },
+ "B-42": {
+  "kimlik": "v6-parti3#51",
+  "tekrar": false
+ },
+ "B-43": {
+  "kimlik": "v6-parti6#24",
+  "tekrar": false
+ },
+ "B-44": {
+  "kimlik": "v6-parti2#19",
+  "tekrar": true
+ },
+ "B-45": {
+  "kimlik": "v6-parti6#6",
+  "tekrar": false
+ },
+ "B-46": {
+  "kimlik": "v6-parti6#4",
+  "tekrar": true
+ },
+ "B-47": {
+  "kimlik": "v6-parti7#15",
+  "tekrar": false
+ },
+ "B-48": {
+  "kimlik": "v6-parti2#16",
+  "tekrar": true
+ },
+ "B-49": {
+  "kimlik": "v6-parti5#26",
+  "tekrar": false
+ },
+ "B-50": {
+  "kimlik": "v6-parti7#6",
+  "tekrar": false
+ },
+ "B-51": {
+  "kimlik": "v6-parti7#11",
+  "tekrar": false
+ },
+ "B-52": {
+  "kimlik": "v6-parti4#55",
+  "tekrar": false
+ },
+ "B-53": {
+  "kimlik": "v6-parti2#5",
+  "tekrar": false
+ },
+ "B-54": {
+  "kimlik": "v6-parti5#46",
+  "tekrar": false
+ },
+ "B-55": {
+  "kimlik": "v6-parti6#45",
+  "tekrar": false
+ },
+ "B-56": {
+  "kimlik": "v6-parti1#37",
+  "tekrar": false
+ },
+ "B-57": {
+  "kimlik": "v6-parti3#4",
+  "tekrar": false
+ },
+ "B-58": {
+  "kimlik": "v6-parti7#53",
+  "tekrar": false
+ },
+ "B-59": {
+  "kimlik": "v6-parti4#37",
+  "tekrar": true
+ },
+ "B-60": {
+  "kimlik": "v6-parti3#16",
+  "tekrar": false
+ },
+ "B-61": {
+  "kimlik": "v6-parti6#41",
+  "tekrar": true
+ },
+ "B-62": {
+  "kimlik": "v6-parti4#13",
+  "tekrar": false
+ },
+ "B-63": {
+  "kimlik": "v6-parti3#32",
+  "tekrar": false
+ },
+ "B-64": {
+  "kimlik": "v6-parti4#53",
+  "tekrar": false
+ },
+ "B-65": {
+  "kimlik": "v6-parti6#16",
+  "tekrar": false
+ }
+}

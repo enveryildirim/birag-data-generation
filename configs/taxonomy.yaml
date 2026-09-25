@@ -1,0 +1,308 @@
+# BıRAG — Kontrollü Sözlük ve Eşleme Tablosu
+# Kaynak: campaigns/all_total_output.jsonl (2.240 kayıt) metadata analizi
+# Amaç: serbest metin metadata'yı stratifikasyon ve kapsama ölçümü yapılabilir hale getirmek
+# Kullanım: src/normalize.py bu dosyayı okur, ham meta -> kanonik meta
+# Bkz. plan.md §5, PROJECT_MEMORY K26
+
+version: v1
+olusturma: 2026-09-12
+
+# ═══════════════════════════════════════════════════════════════
+# 1. BAĞIMLILIK TÜRÜ
+# ═══════════════════════════════════════════════════════════════
+# Form Tablo 2: tütün · alkol · kumar · madde
+# Korpus ayrıca: reçeteli ilaç, dijital  (§14 kapsam sorusu)
+# ⚠️ YASADIŞI MADDE (esrar/eroin/kokain) korpusta SIFIR örnek — boşluk
+bagimlilik_turu:
+  kanonik: [tutun, alkol, kumar, receteli_ilac, madde, dijital]
+  alias:
+    "Tütün": tutun
+    "Alkol": alkol
+    "Kumar / Bahis": kumar
+    "Reçeteli İlaç": receteli_ilac
+    "Dijital Bağımlılık": dijital
+
+bagimlilik_alt_turu:
+  # Hiyerarşik. Parantez içi varyantlar kanonik değere indirgenir.
+  tutun:        [sigara, vape, nargile]
+  alkol:        [rakı, bira, şarap, viski, yuksek_alkollu, karma_alkol]
+  kumar:        [spor_bahsi, canli_bahis, illegal_bahis, online_casino, yasal_sans_oyunu, karma_bahis]
+  receteli_ilac: [benzodiazepin, opioid_agri_kesici, uyarici, antidepresan, uyku_ilaci, karma_ilac, diger]
+  madde:        [esrar, eroin, kokain, sentetik, ucucu]     # korpusta yok — üretilecek
+  dijital:      [sosyal_medya, cevrimici_oyun, ekran_genel]
+  alias_kural:
+    # "Sosyal Medya (Instagram/TikTok)" -> sosyal_medya   (parantez atılır, platform notu ayrı alana)
+    parantez_ici: platform_notu
+    "Karma Alkol": karma_alkol
+    "Karma / Karma Bahis": karma_bahis
+    "Yüksek Alkollü / Ucuz İçecek": yuksek_alkollu
+    "Opioid Ağrı Kesici": opioid_agri_kesici
+    "Uyarıcı (Metilfenidat)": uyarici
+    "Antidepresan (SSRI)": antidepresan
+    "Antidepresan (SNRI)": antidepresan
+    "Uyku İlacı (Benzodiazepin Dışı)": uyku_ilaci
+    "Karma İlaç Kombinasyonu": karma_ilac
+    "Diğer Reçeteli": diger
+    "Elektronik Sigara / Vape": vape
+    "Online Casino / Slot": online_casino
+    "Yasal Şans Oyunları": yasal_sans_oyunu
+
+# ═══════════════════════════════════════════════════════════════
+# 2. SENARYO  ⭐ YENİ ALAN
+# ═══════════════════════════════════════════════════════════════
+# Korpusta `stress_type` alanı İKİ farklı kavramı karıştırıyor:
+#   (a) senaryo/güçlük tipi  -> ambivalence_contradiction, boundary_pressure, gentle_correction ...
+#   (b) gerçek stres kaynağı -> iş stresi, sınav stresi, yalnızlık ...
+# Bu alan (a)'yı ayırır ve plan.md §5'teki 19 senaryoya eşler.
+senaryo:
+  kanonik:
+    - motivasyon              # 1
+    - kriz                    # 2
+    - farkindalik             # 3
+    - kutlama                 # 4
+    - bilgilendirme           # 5
+    - hedef_belirleme         # 6
+    - kayma_nuks              # 7
+    - ambivalans              # 8
+    - inkar                   # 9
+    - discord                 # 10
+    - rol_siniri              # 11
+    - durtu                   # 12
+    - hukuki_kaygi            # 13
+    - borc_finansal           # 14
+    - kayip_kovalama          # 15
+    - nazikce_karsi_cikma     # 16
+    - anlasilmama             # 17
+    - bilmiyorum_cikmazi      # 18
+    - sanrili_soylem          # 19
+  alias:
+    ambivalence_contradiction: ambivalans        # 835 kayıt
+    boundary_pressure:         rol_siniri        # 479 kayıt
+    gentle_correction:         nazikce_karsi_cikma  # 315 kayıt
+    denial_rationalization:    inkar
+    shame_guilt_trap:          kayma_nuks
+    crisis_event:              kriz
+    crisis_stabilization:      kriz
+    suicidal_ideation_boundary: kriz
+    hopelessness:              kriz
+    family_shock:              discord
+  # ⚠️ Kayıtların %24'ünde (531) stress_type bir senaryo değil, bir stres kaynağı taşıyor.
+  # 2026-09-12 örneklem incelemesi (66 essiz ham deger, data/seeds.jsonl): bunlar TEK TURLU
+  # "açılış mesajı" — kullanıcı durumunu/tetikleyicisini anlatıyor, henüz hangi MI/BDT
+  # hamlesinin gerektiği (§5'teki 19 arketipten hangisi) konuşma İLERLEMEDEN belli değil.
+  # SONUÇ: bu 531 kayıt bir "etiketleme borcu" değil — senaryo ataması Faz 2/4'te,
+  # o tohumdan hangi arketipi geliştireceğimize karar verirken yapılır (üretim zamanı kararı).
+  # Geriye dönük tahminle etiketlemek metadata'da olmayan bir yargı uydurmak olur (Kural 1/3).
+  eslesmeyen: belirsiz
+
+# ═══════════════════════════════════════════════════════════════
+# 3. STRES TİPİ  (gerçek stres kaynağı)
+# ═══════════════════════════════════════════════════════════════
+stres_tipi:
+  kanonik: [is_stresi, akademik_stres, ekonomik_baski, aile_catismasi, yalnizlik,
+            akran_baskisi, fiziksel_yorgunluk, saglik_kaygisi, kronik_agri,
+            yas_kayip, ritüel_bagimliligi, sosyal_karsilastirma, yok]
+  alias:
+    work_stress: is_stresi
+    deadline_pressure: is_stresi
+    promotion_pressure: is_stresi
+    performance_anxiety: is_stresi
+    "İş stresi": is_stresi
+    exam_stress: akademik_stres
+    academic_stress: akademik_stres
+    "Sınav stresi": akademik_stres
+    "Akademik kriz ve aile baskısı": akademik_stres
+    "Kurumsal baskı ve akademik kriz": akademik_stres
+    "ekonomik_baski": ekonomik_baski
+    family_pressure: aile_catismasi
+    "Aile rolü baskısı": aile_catismasi
+    loneliness: yalnizlik
+    empty_nest_loneliness: yalnizlik
+    monotony_isolation: yalnizlik
+    "Sosyal izolasyon ve amaçsızlık": yalnizlik
+    "Yalnızlık ve rutin monotonluğu": yalnizlik
+    peer_pressure: akran_baskisi
+    peer_belonging: akran_baskisi
+    social_media_influence: sosyal_karsilastirma
+    "Sosyal uyum stresi": akran_baskisi
+    physical_fatigue: fiziksel_yorgunluk
+    shift_break_ritual: ritüel_bagimliligi
+    ritual_dependency: ritüel_bagimliligi
+    health_anxiety: saglik_kaygisi
+    chronic_pain_insomnia: kronik_agri
+    pre_wedding_anxiety: yok
+    intergenerational_transmission: aile_catismasi
+    "Uykusuzluk ve ebeveynlik kaygısı": fiziksel_yorgunluk
+  # 76 değerlik uzun kuyruk için anahtar kelime kuralı (alias'tan sonra çalışır)
+  anahtar_kelime:
+    - [["iş", "work", "deadline", "promotion", "performance", "mesai", "vardiya", "shift"], is_stresi]
+    - [["exam", "akadem", "sınav", "okul", "ders", "study", "school"], akademik_stres]
+    - [["financ", "ekonom", "para", "borç", "debt", "money", "finansal"], ekonomik_baski]
+    - [["aile", "family", "partner", "eş ", "caregiver", "anne", "baba", "parent"], aile_catismasi]
+    - [["lonel", "yalnız", "izole", "isolat", "monoton", "empty_nest", "boş"], yalnizlik]
+    - [["peer", "akran", "social_norm", "sosyal kabul", "belonging", "sosyal kaygı"], akran_baskisi]
+    - [["fatigue", "yorgun", "uyku", "insomnia", "burnout", "tükenm"], fiziksel_yorgunluk]
+    - [["health", "sağlık", "withdrawal", "yoksunluk", "overdose", "crisis"], saglik_kaygisi]
+    - [["pain", "ağrı", "chronic"], kronik_agri]
+    - [["shame", "utanç", "guilt", "suçluluk", "collapse"], yas_kayip]
+    - [["ritual", "ritüel", "escape", "kaçış", "alışkanlık"], ritüel_bagimliligi]
+    - [["body_image", "beden", "weight", "kilo", "karşılaştır", "comparison", "kimlik", "identity"], sosyal_karsilastirma]
+
+# ═══════════════════════════════════════════════════════════════
+# 4. PROFİL  (357 serbest değer -> 10 kanonik)
+# ═══════════════════════════════════════════════════════════════
+# Kural: "Lise Ergeni (16-17)" -> profil=lise_ergeni, yas="16-17" (ayrı alan, zaten var)
+profil:
+  kanonik: [lise_ergeni, universite_ogrencisi, beyaz_yakali, mavi_yakali,
+            kronik_issiz, yeni_ebeveyn, emekli_yasli, ev_kadini, serbest_meslek, diger]
+  alias_kural:
+    parantez_ici: yas          # yaş/aralık ayrı alana taşınır
+    cinsiyet_eki_at: true      # "Emekli Erkek" -> emekli_yasli (cinsiyet ayrı alanda)
+  # ÖNCELİK SIRALI alt-dizi eşleşmesi (ilk eşleşen kazanır).
+  # "Kronik İşsiz Yetişkin (42-50, Sokağa Düşme Sınırı)" gibi nitelemeli değerler için
+  # önek değil içerik eşleşmesi gerekiyor — 357 değerin çoğu nitelemeli.
+  alias_icerik:
+    - ["Baba",         yeni_ebeveyn]
+    - ["Anne",         yeni_ebeveyn]
+    - ["Yeni Anne",    yeni_ebeveyn]
+    - ["Yeni Ebeveyn", yeni_ebeveyn]
+    - ["İşsiz",        kronik_issiz]
+    - ["Ev Kadını",    ev_kadini]
+    - ["Emekli",       emekli_yasli]
+    - ["Yaşlı",        emekli_yasli]
+    - ["Beyaz Yakalı", beyaz_yakali]
+    - ["Mavi Yakalı",  mavi_yakali]
+    - ["Esnaf",        serbest_meslek]
+    - ["Serbest",      serbest_meslek]
+    - ["Lise",         lise_ergeni]
+    - ["Üniversite",   universite_ogrencisi]
+    - ["Öğrenci",      universite_ogrencisi]
+
+yas_grubu:
+  kanonik: [ergen, genc_yetiskin, yetiskin, orta_yas, yasli]
+  kural: "yas alanından türetilir: <18 ergen · 18-25 genc_yetiskin · 26-44 yetiskin · 45-64 orta_yas · 65+ yasli"
+
+# ═══════════════════════════════════════════════════════════════
+# 5. BAĞIMLILIK EVRESİ  (stage + baslangic_evresi TEK sözlüğe)
+# ═══════════════════════════════════════════════════════════════
+# ⚠️ Korpusta iki ayrı alan (17 + 14 değer) aynı kavramı farklı sözlükle taşıyor.
+# audience.md'nin 7 evresi kanonik kabul edildi.
+evre:
+  kanonik: [merak_deneme, sosyal_kullanim, tolerans, inkar, dibe_vurma, birakma_cabasi, nuksetme]
+  alias:
+    "Merak / Deneme": merak_deneme
+    "Merak ve Deneme": merak_deneme
+    "Sosyal Kullanım": sosyal_kullanim
+    "Sosyal / Ara Sıra Kullanım": sosyal_kullanim
+    "Akran ve Sosyal Baskı": sosyal_kullanim
+    "Tolerans": tolerans
+    "Tolerans Gelişimi": tolerans
+    "Düzenli Kullanım": tolerans
+    "Düzenli ve Artan Kullanım (Tolerans)": tolerans
+    "Gizli Kullanım": tolerans
+    "İnkar": inkar
+    "Dibe Vurma": dibe_vurma
+    "Dibe Vurma / Kriz Dönemi": dibe_vurma
+    "Bırakma Çabası": birakma_cabasi
+    "Bırakma Hazırlığı": birakma_cabasi
+    "Bırakma / Erken Dönem": birakma_cabasi
+    "Erken İyileşme": birakma_cabasi
+    "Farkındalık / Değişim": birakma_cabasi
+    "Tedavi Amaçlı Başlangıç": birakma_cabasi
+    "Nüksetme": nuksetme
+    "Aile Baskısı / Tedavi": tolerans        # motivasyona taşınır
+    "Yasal Zorunluluk": tolerans             # motivasyona taşınır
+    "Yasal / Kurumsal Zorunluluk": tolerans  # motivasyona taşınır
+    "Stres ve Duygusal Kaçış": tolerans
+
+# ═══════════════════════════════════════════════════════════════
+# 6. MOTİVASYON EVRESİ  (Prochaska & DiClemente)
+# ═══════════════════════════════════════════════════════════════
+motivasyon_evresi:
+  kanonik: [on_dusunme, dusunme, hazirlik, eylem, surdurme]
+  alias:
+    "Ön Düşünme": on_dusunme
+    "Ön Düşünme / Düşünme Arası": on_dusunme
+    "Düşünme": dusunme
+    "Tefekkür (Contemplation)": dusunme        # ⚠️ AYNI EVRE, İKİ İSİM — 185 kayıt
+    "Düşünme / Hazırlık": dusunme
+    "Hazırlık": hazirlik
+    "Hazırlık (Preparation)": hazirlik         # ⚠️ 15 kayıt
+    "Eylem": eylem
+
+# ═══════════════════════════════════════════════════════════════
+# 7. TEDAVİ MOTİVASYONU  (K22 ekseni)
+# ═══════════════════════════════════════════════════════════════
+motivasyon:
+  kanonik: [ic_motivasyon, aile_baskisi, yasal_zorunluluk, tetikleyici_olay, duygusal_regulasyon]
+  alias_onek:
+    "İç Motivasyon":       ic_motivasyon      # "— X fark etme" eki motivasyon_notu'na
+    "Aile Baskısı":        aile_baskisi
+    "Dış Motivasyon":      aile_baskisi
+    "Kurumsal Zorunluluk": yasal_zorunluluk
+    "Yasal":               yasal_zorunluluk
+    "Tetikleyici Olay":    tetikleyici_olay
+    "Duygusal Regülasyon": duygusal_regulasyon
+  serbest_ek_alan: motivasyon_notu             # "— ders başarısının düşmesi" burada saklanır
+
+# ═══════════════════════════════════════════════════════════════
+# 8. ÖLÇEKLER
+# ═══════════════════════════════════════════════════════════════
+risk_seviyesi:
+  kanonik: [dusuk, orta, yuksek, cok_yuksek]
+  alias: {"Düşük": dusuk, "Düşük-Orta": dusuk, "Orta": orta, "Orta-Yüksek": yuksek,
+          "Yüksek": yuksek, "Çok Yüksek": cok_yuksek}
+  serbest_ek_alan: risk_notu                   # "Yüksek (yaş + polifarmasi + alkol)" -> notu
+
+siddet_seviyesi:
+  kanonik: [hafif, orta, agir]
+  alias: {"Hafif": hafif, "Hafif-Orta": hafif, "Orta": orta, "Orta-Yüksek": orta,
+          "Orta-Ağır": agir, "Ağır": agir, "Yüksek": agir}
+
+egitim:
+  kanonik: [ilkokul, ortaokul, lise, universite, lisansustu, belirtilmemis]
+  alias_kural: "coklu deger (A / B) -> en yuksek seviye; parantez ici (3. sınıf) atılır"
+
+kullanim_suresi:
+  kanonik: [0_6_ay, 6_ay_1_yil, 1_3_yil, 3_10_yil, 10_yil_ustu, belirtilmemis]
+  alias_kural: "serbest metinden ilk sayısal aralık çıkarılır, banda düşürülür"
+
+onceki_tedavi:
+  kanonik: [yok, kendi_basina_deneme, profesyonel_destek, amatem_yatis, bilinmiyor]
+  alias_onek: {"Yok / ": kendi_basina_deneme, "Yok": yok, "Var": profesyonel_destek,
+               "AMATEM": amatem_yatis, "Daha önce profesyonel": profesyonel_destek,
+               "Bilinmiyor": bilinmiyor}
+  serbest_ek_alan: tedavi_notu
+
+cinsiyet:
+  kanonik: [kadin, erkek, belirtilmemis]
+  alias_kural: "'Karışık*' -> belirtilmemis (senaryo düzeyinde karışık demek)"
+
+# ═══════════════════════════════════════════════════════════════
+# 9. SERBEST METİN KALAN ALANLAR  (kontrollü sözlüğe İNDİRGENMEZ)
+# ═══════════════════════════════════════════════════════════════
+serbest_alanlar:
+  - user_style          # 1039 değer — üretim talimatı, sözlüğe indirgenmemeli
+  - context
+  - cultural_context
+  - social_status
+  - esdurumlar
+  - scenario_metni      # kaydın `scenario` alanı
+# Bunlar üretimi zenginleştirir; stratifikasyon için kullanılmaz.
+# user_style için ayrıca küçük bir kontrollü eksen tutulur:
+uslup_ekseni:
+  kanonik: [savunmaci, acik_isbirlikci, yorgun_umutsuz, ofkeli, cekingen,
+            rasyonalize_eden, sucluluk_yuklu, meraklı]
+
+# ═══════════════════════════════════════════════════════════════
+# 10. TERK EDİLEN ALANLAR
+# ═══════════════════════════════════════════════════════════════
+terk:
+  scenario_class: "TP-A %77 + 28 serbest metin — iki adlandırma sistemi karışmış. senaryo alanı bunun yerini alır"
+  baslangic_evresi: "evre ile aynı kavram, ayrı sözlük. evre'ye birleştirildi"
+  onceki_tedevi: "yazım hatası (1 kayıt) -> onceki_tedavi"
+  primary_stress_type_note: "2 kayıt, şema kayması"
+  boundary_pressure_marker: "1 kayıt, şema kayması"
+  soft_correction_signal: "1 kayıt, şema kayması"
+  stress_subtype: "1 kayıt, şema kayması"
+  user_style_note: "1 kayıt, şema kayması"

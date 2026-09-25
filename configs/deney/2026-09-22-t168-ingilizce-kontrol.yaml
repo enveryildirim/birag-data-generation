@@ -1,0 +1,87 @@
+« T168 — İngilizce kontrol deneyi · ÖN KAYIT »
+# Bu dosya KOŞUDAN ÖNCE yazıldı ve commit edildi. Ölçüt sonradan değiştirilemez.
+# Gerekçe: T169/T188/T245 — önceden ilan edilmeyen ölçüt, sonucu görünce seçilir.
+
+deney: t168-ingilizce-kontrol
+tarih: 2026-09-22
+soru: >
+  T168 modelin alıntılarken cümlenin vurgusunu taşıyan ögeyi düşürdüğünü ölçtü
+  (16 bulgu; çekirdeği Türkçenin «de/da» edatı, yanında «biraz»/«aslında» gibi
+  hedge öbekleri). Bu olgu TÜRKÇE'ye mi özgü, yoksa genel bir işlev-sözcüğü
+  düşmesi mi?
+
+# ─── Tasarım ───────────────────────────────────────────────────────────────
+# ⭐ İki değil ÜÇ ihtimal var ve ikisi «dile özgü» diye karışıyor:
+#   (a) DİLE özgü      — Türkçe'de düşüyor, İngilizce'de düşmüyor
+#   (b) EKLEŞİKLİĞE özgü — ayrı sözcük değil KLİTİK olan öge düşüyor (dilden bağımsız)
+#   (c) genel          — her iki dilde, her iki türde düşüyor
+# Bunları ayırmak için 2×2: dil × öge türü.
+tasarim:
+  kind: 2x2
+  eksen_dil: [tr, en]
+  eksen_oge_turu:
+    klitik_benzeri:
+      tr: "«de/da» — ayrı yazılan ama EKLEŞİK, vurgu taşıyan ulama edatı"
+      en: "«too» / «also» — aynı ekleme anlamı, ama SERBEST sözcük"
+    serbest_belirtec:
+      tr: "«biraz» / «aslında» — serbest belirteç"
+      en: "«a bit» / «actually» — serbest belirteç (yapıca EŞLEŞİK)"
+  hucre_basina_oge: 12
+  toplam_oge: 48
+  eslesme: "TR ve EN ögeleri BİREBİR çeviri çifti; her ögede tam bir hedef öge"
+
+# ─── Üretici ───────────────────────────────────────────────────────────────
+uretici:
+  model: claude-sonnet-subagent
+  gerekce: >
+    T168'in olgusu korpusta gözlendi ve korpusu üreten Claude'dur (K30/K260).
+    Kontrol AYNI üretici ailesinde koşulmalı. ⛔ agy kotası dolu (24 sa),
+    OPENAI_API_KEY yok, localhost:8000 ince ayarlı model (üretici değil)
+    ⇒ betikle çağrılabilen bir yol bu koşuda yoktu.
+  korlik: >
+    ⭐ Üreticiye edat, vurgu, düşme ya da ölçülen şey HİÇ söylenmez. Görev yalnız
+    «kullanıcının kendi sözünü tırnak içinde anarak kısa bir destek cevabı yaz».
+  tekrarlanabilirlik: >
+    ⛔ Claude Code üretimi yeniden koşulamaz (K30, tez-plani §4). Telafi: her
+    istem ve her ham cevap diske yazılır ⇒ çıktı yeniden üretilemese de KÖKEN
+    izlenebilir.
+
+# ─── Ölçüm (deterministik, betikle) ────────────────────────────────────────
+olcum:
+  adim_1: "Cevaptaki tırnak içi parçalar çıkarılır"
+  adim_2: "difflib ile kullanıcı metnindeki EN YAKIN parça bulunur (T168'in yöntemi)"
+  adim_3: "Hizalanan KAYNAK parçası hedef ögeyi içeriyor mu? İçermiyorsa öge SAYILMAZ"
+  adim_4: "İçeriyorsa: alıntıda hedef öge var mı? Yoksa DÜŞME"
+  birincil_olcut: "düşme oranı = düşen / (hizalanan kaynak parçası hedefi içeren)"
+  turkce_notu: >
+    Eşleme tr_fold ile yapılır (AGENTS.md Kural 4: düz str.lower() YASAK).
+    «de/da» için sözcük sınırı aranır — «de» hecesi «bende», «değil» içinde
+    eşleşmemeli.
+
+# ─── ÖN KAYITLI HÜKÜM ──────────────────────────────────────────────────────
+# ⛔⛔ T245'in dersi: ilan edilmiş eşik DOĞRU olmak zorunda değil. Bu yüzden
+# eşiğin yanında AYIRT ETME GÜCÜ de şimdiden ilan ediliyor ve koşudan sonra
+# post-hoc değiştirilmeyecek.
+on_kayit:
+  birincil_karsilastirma: "tr_klitik düşme oranı  ↔  en_klitik düşme oranı"
+  sinama: "Fisher kesin testi, iki yönlü, alpha = 0.05"
+  hukum_kurallari:
+    - "tr_klitik ANLAMLI biçimde yüksek VE tr_serbest ≈ en_serbest ⇒ (b) EKLEŞİKLİĞE özgü"
+    - "tr'nin İKİ hücresi de yüksek ⇒ (a) DİLE özgü"
+    - "dört hücre de benzer ⇒ (c) GENEL — T168'in «Türkçe'ye özgü» ucu DÜŞER"
+    - "hiçbiri anlamlı değil ⇒ SONUÇSUZ; bu bir yokluk kanıtı DEĞİLDİR"
+  guc_uyarisi: >
+    ⛔⛔ n=12/hücre ile ayırt edilebilir fark BÜYÜKTÜR (betik koşudan önce
+    hesaplayıp rapora yazar). Null sonuç «fark yok» değil «bu tasarımla
+    gösterilemiyor» demektir — T245/T246'nın birebir dersi.
+  yan_olcut: >
+    ⭐ Ayrıca ölçülecek (hüküm kurmaz, betimler): alıntının kaynağa göre kısalma
+    oranı. Düşme bir ÜSLUP ise kısalma her iki dilde de görülmeli.
+
+# ─── Bilinen karıştırıcılar (koşudan ÖNCE yazıldı) ────────────────────────
+karistiricilar:
+  - "⛔ «de/da» KLİTİK, «too» SERBEST sözcük ⇒ TR ve EN klitik hücreleri yapıca EŞİT DEĞİL. Bu bir kusur değil, sorunun kendisi — ama «dile özgü» hükmü bu yüzden tek başına kurulamaz; serbest belirteç hücresi tam da bunun için var."
+  - "⛔ Ögeleri BEN yazdım (K30) ⇒ çeviri çiftlerinin denkliği benim okumamdır; ikinci bir okuyucu yok."
+  - "⛔ Tek üretici ailesi (Claude). Gemini/GPT koşulmadı ⇒ bulgu modele özgü olabilir."
+  - "⛔ Blok üretimi: 12 öge tek çağrıda ⇒ üretici kendi içinde tutarlılaşabilir. Korpus üretimi de böyle (K260), ama öge bağımsızlığı TAM DEĞİLDİR."
+  - "⚠️ Ögeler günlük sıkıntı içerir; KRİZ içermez (Kural 3 — kriz davranışı uzman onayına bağlı)."

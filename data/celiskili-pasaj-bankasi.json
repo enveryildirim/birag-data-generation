@@ -1,0 +1,273 @@
+{
+ "surum": "celiskili-pasaj-bankasi.v1",
+ "tarih": "2026-09-22",
+ "sinif": "celiskili",
+ "kural": "prompts/uretim-v5.md §7a″",
+ "not": "Çelişkinin tarafı SEÇİLMEZ: hiçbir pasaj doğru işaretlenmez. Doğru davranış çelişkiyi adlandırmak, birini seçmemek, birleştirmemek.",
+ "ciftler": [
+  {
+   "no": 1,
+   "konu": "çalışma günleri",
+   "celiski_alani": "gün",
+   "context": [
+    {
+     "kaynak": "kurum içi çalışma düzeni metni",
+     "metin": "Danışma hizmeti hafta içi her gün verilmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "hizmet bilgi notu",
+     "metin": "Danışma hizmeti yalnızca salı ve perşembe günleri verilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "hafta içi her gün",
+    "salı ve perşembe"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 2,
+   "konu": "başvuru için randevu",
+   "celiski_alani": "randevu",
+   "context": [
+    {
+     "kaynak": "başvuru yönergesi metni",
+     "metin": "Başvuru için önceden randevu alınması gerekir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "bina girişi duyuru metni",
+     "metin": "Başvurular randevusuz olarak sıraya göre alınmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "randevu gerekir",
+    "randevusuz"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 3,
+   "konu": "görüşme süresi",
+   "celiski_alani": "süre",
+   "context": [
+    {
+     "kaynak": "hizmet tanıtım metni",
+     "metin": "Bir görüşme yaklaşık 30 dakika sürmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "birim işleyiş özeti",
+     "metin": "Görüşmeler 50 dakika olarak planlanmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "30 dakika",
+    "50 dakika"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 4,
+   "konu": "kimlik belgesi",
+   "celiski_alani": "belge",
+   "context": [
+    {
+     "kaynak": "başvuru koşulları metni",
+     "metin": "Başvuru sırasında kimlik belgesi ibrazı zorunludur.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "sık sorulanlar metni",
+     "metin": "Başvuru için herhangi bir belge getirmenize gerek yoktur.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "kimlik zorunlu",
+    "belge gerekmez"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 5,
+   "konu": "yaş koşulu",
+   "celiski_alani": "yaş",
+   "context": [
+    {
+     "kaynak": "hizmet kapsamı metni",
+     "metin": "Hizmet 18 yaş ve üzeri kişilere açıktır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "bilgilendirme metni",
+     "metin": "Hizmetten 16 yaşından itibaren yararlanılabilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "18 yaş ve üzeri",
+    "16 yaşından itibaren"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 6,
+   "konu": "ücret",
+   "celiski_alani": "ücret",
+   "context": [
+    {
+     "kaynak": "hizmet koşulları metni",
+     "metin": "Görüşmeler ücretsizdir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "birim duyuru metni",
+     "metin": "Görüşmeler için sembolik bir katılım payı alınmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "ücretsiz",
+    "katılım payı var"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 7,
+   "konu": "yakının katılımı",
+   "celiski_alani": "eşlik",
+   "context": [
+    {
+     "kaynak": "görüşme düzeni metni",
+     "metin": "Görüşmelere yalnızca başvuran kişi katılabilir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "kurum içi bilgi metni",
+     "metin": "Görüşmelere bir yakının eşlik etmesi mümkündür.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yalnızca başvuran",
+    "yakın eşlik edebilir"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 8,
+   "konu": "görüşme sıklığı",
+   "celiski_alani": "sıklık",
+   "context": [
+    {
+     "kaynak": "izlem düzeni metni",
+     "metin": "Görüşmeler haftalık olarak planlanır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "hizmet akışı metni",
+     "metin": "Görüşmeler aylık olarak yapılmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "haftalık",
+    "aylık"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 9,
+   "konu": "başvuru yolu",
+   "celiski_alani": "kanal",
+   "context": [
+    {
+     "kaynak": "başvuru bilgi metni",
+     "metin": "Başvurular yalnızca yüz yüze alınmaktadır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "duyuru metni",
+     "metin": "Başvurular çevrim içi olarak da yapılabilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yalnızca yüz yüze",
+    "çevrim içi de"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 10,
+   "konu": "bekleme süresi",
+   "celiski_alani": "bekleme",
+   "context": [
+    {
+     "kaynak": "işleyiş bilgi metni",
+     "metin": "Başvuru sonrası ilk görüşme genellikle bir hafta içinde yapılır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "birim bilgilendirme metni",
+     "metin": "İlk görüşme için bekleme süresi ortalama üç haftadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "bir hafta",
+    "üç hafta"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 11,
+   "konu": "kayıt zorunluluğu",
+   "celiski_alani": "kayıt",
+   "context": [
+    {
+     "kaynak": "hizmet düzeni metni",
+     "metin": "Hizmetten yararlanmak için önceden kayıt yaptırmak gerekir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "giriş bilgi metni",
+     "metin": "Kayıt yaptırmadan da görüşmeye katılınabilir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "kayıt gerekir",
+    "kayıtsız olur"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 12,
+   "konu": "grup çalışması",
+   "celiski_alani": "grup",
+   "context": [
+    {
+     "kaynak": "etkinlik bilgi metni",
+     "metin": "Grup çalışmaları sabah saatlerinde düzenlenir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "program özeti metni",
+     "metin": "Grup çalışmaları akşam saatlerinde yapılır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "sabah",
+    "akşam"
+   ],
+   "dogru_taraf": null
+  }
+ ]
+}

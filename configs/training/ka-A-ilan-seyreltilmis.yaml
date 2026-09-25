@@ -1,0 +1,44 @@
+# Faz 5 · KARŞI OLGUSAL — «yönlendirmeme refleksi» hipotezi
+#
+# ⛔⛔ Kapsam `h-h1-capa-k8` ile BİREBİR AYNI (8 katman · q_proj · rank 8).
+# LR, tohum, adım, batch, max_seq: aynı. ⭐ Değişen TEK şey `dataset:`.
+# ⇒ Taban kol zaten eğitildi (`runs/20260917-104611-h-h1-capa-k8`,
+#   yönlendirme-yok 4); bu iki kol onunla karşılaştırılır.
+#
+# ⚠️ Ablasyon korpusu `datasets/` altında DEĞİL: yayımlanabilir bir veri seti
+#   değil, tek değişkeni yalıtmak için kurulmuş bir araç. MI ekseninde daha
+#   kötüdür ve bilerek öyledir.
+#
+# ⭐ Ön kayıt (koşudan ÖNCE yazıldı):
+#   reports/analiz/2026-09-17-karsi-olgusal-onkayit.md
+#
+# ⭐ Bu kol: DENEY kolu — saf «yönlendirmeme» ilanları silindi (63 parça). Hedef ölçü %32,2 → %24,5; yönlendirme sayısı DEĞİŞMEDİ (96).
+ad: ka-A-ilan-seyreltilmis
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: data/ablasyon/v0.0.8-A-ilan-seyreltilmis.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 8
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj"]

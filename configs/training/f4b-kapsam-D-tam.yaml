@@ -1,0 +1,61 @@
+# Faz 4 · LoRA kapsam taraması — İKİNCİ KOŞU (v0.0.3) — kol "D-tam"
+#
+# ⛔ BU DOSYA `f4-kapsam-D-tam.yaml`'IN YERİNE GEÇMEZ. O dosya BİRİNCİ koşunun
+# (v0.0.2, K109) üretim kaydıdır ve değiştirilmez (Kural 7). İkinci koşu ayrı
+# config ailesiyle yürür ki iki koşu birbirinden ayırt edilebilsin.
+#
+# NEDEN İKİNCİ KOŞU: K109'da beş kolun beşi de Eksen 2'de elendi ve K110/T29
+# sebebi korpusa bağladı — v0.0.2'de yönlendirme HAMLESİ 0 kayıttaydı.
+# `datasets/v0.0.3` o hamleyi taşıyan 5 kayıt içeriyor (K111/K112).
+# Sınanan iddia: yönlendirme refleksi geri gelir mi (T26 nedensellik sınaması).
+#
+# ⚠️ İKİ DEĞİŞKEN BİRDEN OYNUYOR, KAYDA GEÇİYOR:
+#   1. Eğitim seti  v0.0.2 (117) -> v0.0.3 (155)
+#   2. Adım sayısı  280 -> 372
+#   İkincisi §9 madde 3'ün kuralını korumak için: kural "~3 epoch TAVANI" diyor,
+#   sabit adım sayısı demiyor. 124 eğitim kaydında 3 epoch = 372 adım. Adımı 280'de
+#   tutmak her kaydın görülme sayısını 3'ten 2,26'ya düşürürdü ve yeni dilimin
+#   maruziyetini AZALTIRDI — yani aranan etkiye karşı yanlı olurdu.
+#   Adım sayısının kendi etkisi ayrı bir kontrol koşusuyla ölçülüyor:
+#   `f4b-kapsam-A-dar-280adim.yaml` (aynı veri, eski adım sayısı).
+#
+# Bu kolun tek farkı: anahtar (+mlp.*)
+#
+# Veri, adım, LR, seed BÜTÜN kollarda aynı — değişen yalnızca LoRA kapsamı.
+
+ad: f4b-kapsam-D-tam
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.3/train.jsonl         # 155 kayıt, replay %11,6 (K112)
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 42             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 372                 # ~3 epoch (124 kayıt) — §9 madde 3 tavanı
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys:
+      - self_attn.q_proj
+      - self_attn.o_proj
+      - mlp.gate_proj
+      - mlp.up_proj
+      - mlp.down_proj

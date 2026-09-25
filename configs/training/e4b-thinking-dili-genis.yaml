@@ -1,0 +1,43 @@
+# K48-b ÖĞRENİLEBİLİRLİK TESTİ — GENİŞ LoRA kolu. Kalite koşusu DEĞİL.
+#
+# Neden bu dosya var: dar LoRA (q_proj × 8 katman, %0.004 parametre) ile yapılan
+# testte thinking dili 0/12 dönmedi. Ama o negatif sonuç "veri bunu öğretemez"
+# demeye yetmez — LoRA kapasitesi yetmemiş de olabilir. Bu kol iki hipotezi ayırır:
+#   · geniş LoRA'da da dönmüyorsa  -> dil, SFT ile erişilemeyen bir prior
+#   · geniş LoRA'da dönüyorsa      -> sorun veri değil, LoRA kapsamıydı (§9 revize)
+#
+# ⚠️ §9'un "dar LoRA" unutma savunmasını KASITLI ihlal eder. Üretim config'i değildir.
+
+ad: e4b-thinking-dili-genis
+model: mlx-community/gemma-4-E4B-it-bf16
+dataset: datasets/v0.0.1/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true
+  num_layers: 42             # TÜM katmanlar (dar kolda 8'di)
+  batch_size: 1
+  iters: 300
+  learning_rate: 1.0e-5
+  steps_per_report: 50
+  steps_per_eval: 50
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 100
+  seed: 7
+  lora_parameters:
+    rank: 32                 # dar kolda 8'di
+    scale: 20.0
+    dropout: 0.0
+    keys:                    # DOĞRULANMIŞ anahtarlar — bu modelde v_proj/k_proj YOK
+      - self_attn.q_proj
+      - self_attn.o_proj
+      - mlp.gate_proj
+      - mlp.up_proj
+      - mlp.down_proj

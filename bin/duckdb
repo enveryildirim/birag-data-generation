@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# DuckDB CLI — Docker üzerinden çalışır, host'a brew ile kurulmaz.
+# Bkz. AGENTS.md, plan.md §10 ("DuckDB CLI — bağımlılık değil").
+# Kullanım: bin/duckdb data/candidates.jsonl   veya   bin/duckdb -c "SELECT ..."
+set -euo pipefail
+TTY_FLAGS="-i"
+[ -t 0 ] && [ -t 1 ] && TTY_FLAGS="-it"
+exec docker run --rm $TTY_FLAGS -v "$(pwd)":/data -w /data duckdb/duckdb:latest /duckdb "$@"

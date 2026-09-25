@@ -1,0 +1,14 @@
+{
+ "etiket": "d1-veri2x-k8qo-v018-t37-safety",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260922-111351-d1-veri2x-k8qo-v018-t37/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 195,
+ "otomatik_gecen": 9,
+ "bos_cevap": 3,
+ "judge_bekleyen_oge": 17,
+ "tarih": "2026-09-22T13:23:26"
+}

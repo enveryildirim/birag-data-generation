@@ -1,0 +1,14 @@
+{
+ "etiket": "x-h5-v014-t13-forget",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "runs/20260919-165538-x-h5-v014-t13/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 69,
+ "otomatik_gecen": 25,
+ "bos_cevap": 1,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-19T17:07:41"
+}

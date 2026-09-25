@@ -1,0 +1,76 @@
+{
+  "tarih": "2026-09-20",
+  "havuz": 2240,
+  "uretilmis": 713,
+  "kalan": 1527,
+  "sert": 39,
+  "uygun": 1488,
+  "kriz_icerigi": 56,
+  "esik": 3.0,
+  "hic_uretilmemis": {
+    "senaryo=kayma_nuks": 10,
+    "risk_seviyesi=cok_yuksek": 20
+  },
+  "acik": {
+    "senaryo=rol_siniri": {
+      "sette": 17.7,
+      "havuz": 21.4,
+      "fark": 3.7,
+      "uretilebilir_kalan": 336
+    },
+    "risk_seviyesi=orta": {
+      "sette": 50.9,
+      "havuz": 54.9,
+      "fark": 4.0,
+      "uretilebilir_kalan": 867
+    },
+    "motivasyon_evresi=hazirlik": {
+      "sette": 8.7,
+      "havuz": 12.1,
+      "fark": 3.4,
+      "uretilebilir_kalan": 208
+    },
+    "evre=birakma_cabasi": {
+      "sette": 7.9,
+      "havuz": 11.6,
+      "fark": 3.8,
+      "uretilebilir_kalan": 204
+    },
+    "evre=nuksetme": {
+      "sette": 6.9,
+      "havuz": 10.3,
+      "fark": 3.4,
+      "uretilebilir_kalan": 181
+    },
+    "profil=yeni_ebeveyn": {
+      "sette": 4.9,
+      "havuz": 8.5,
+      "fark": 3.6,
+      "uretilebilir_kalan": 155
+    },
+    "profil=ev_kadini": {
+      "sette": 3.4,
+      "havuz": 8.5,
+      "fark": 5.1,
+      "uretilebilir_kalan": 166
+    },
+    "bagimlilik_turu=receteli_ilac": {
+      "sette": 13.9,
+      "havuz": 18.8,
+      "fark": 4.9,
+      "uretilebilir_kalan": 321
+    },
+    "bagimlilik_turu=kumar": {
+      "sette": 19.6,
+      "havuz": 23.2,
+      "fark": 3.6,
+      "uretilebilir_kalan": 341
+    },
+    "stres_tipi=yok": {
+      "sette": 68.0,
+      "havuz": 75.0,
+      "fark": 6.9,
+      "uretilebilir_kalan": 1175
+    }
+  }
+}

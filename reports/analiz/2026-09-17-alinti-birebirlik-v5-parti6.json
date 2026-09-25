@@ -1,0 +1,64 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti6.jsonl",
+  "girdi_sha256_16": "b8b351bfbada9e2b",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 6,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 4,
+    "anma_oneri": 2
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "967b7365cd5c048fb4f6c76f",
+      "oge": "Kötü baba mıyım",
+      "baglam": "  diye sormadın ama \"bağırmak geldi\" dedin ve hemen öncesine \"doğru söylüyor\" diye ekledin"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "7fe5381b461cde46978ddc7b",
+      "oge": "bitti",
+      "baglam": "Bir şeye katılmıyorum ama: iki yılı   diye yazmadın, ben yazdım — sen yalnız \"olmuştu\" dedin"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "f1dafbbbf8e30ef269a9f45e",
+      "oge": "artık kahveden fazlasını koyuyorum.",
+      "baglam": " son cümleni olduğu gibi söylemek olabilir — \"artık kahveden fazlasını koyuyorum.\"\n\nOrtamın böyle olması senin "
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 43,
+      "id": "49180a2479c9c799a301a9e1",
+      "oge": "ben de konuşabileceğim biri var mı",
+      "baglam": "osyal hizmet birimi. İlk adım, yarın vizitte \"ben de konuşabileceğim biri var mı\" diye sormak olabilir.\n\nEşini"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "816a557dc8324f3ab44edc90",
+      "oge": "bu kadar zayıf",
+      "baglam": "Bir şeye katılmıyorum:   diye bir şey yazmadın ama \"mahcup oldum\" dedin ve mahcubiyet bir hüküm taşıyor"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 55,
+      "id": "710d4ae01d5365cf93f7420a",
+      "oge": "kötü bir şey yapıyorsun",
+      "baglam": "Ama bir şeye katılmıyorum: arkadaşın   demedi, \"değiştin\" dedi"
+    }
+  ]
+}

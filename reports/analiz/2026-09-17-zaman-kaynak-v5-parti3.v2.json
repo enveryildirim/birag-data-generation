@@ -1,0 +1,19 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti3.v2.jsonl",
+  "girdi_sha256_16": "18ab94595be21076",
+  "kayit": 60,
+  "isaretli_kayit": 2,
+  "bulgu": [
+    {
+      "parti_sira": 27,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 19,
+      "tip": "zaman",
+      "oge": "bir hafta önce"
+    }
+  ]
+}

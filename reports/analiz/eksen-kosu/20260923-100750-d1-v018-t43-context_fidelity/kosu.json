@@ -1,0 +1,14 @@
+{
+ "etiket": "d1-v018-t43-context_fidelity",
+ "set": "evals/context_fidelity.jsonl",
+ "adapter": "runs/20260922-120809-d1-veri2x-k8qo-v018-t43/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 192,
+ "otomatik_gecen": 17,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-23T10:07:50"
+}

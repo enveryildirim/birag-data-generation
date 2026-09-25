@@ -1,0 +1,2095 @@
+{
+  "version": "v0.0.21",
+  "date": "2026-09-22",
+  "git_rev": "89385b8",
+  "input_file": "data/judged/v0.0.21.jsonl",
+  "input_sha256_16": "abb7284f593e7efb",
+  "n_total": 1119,
+  "n_kept": 1045,
+  "n_dropped": 74,
+  "dropped": [
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0267"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "aynı yarım saatte",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Kullanıcının hiç belirtmediği bir süreyi, 'yarım saat'i, doğrudan olgu gibi sunuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0002"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "sevgilin de söylüyor",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, gösterilen konuşmada yer almayan önceki turlara ('sevgilin de söylüyor', 'gülüp geçiyorsun') dayanıyor ve bu ayrıntının konuşmada geçtiği gösterilemiyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0006"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "lobide",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "En somut ayrıntı olan 'lobide' kullanıcının sözlerinde ya da bağlamda geçmiyor ve tahmin olarak da işaretlenmemiş."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0513"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Kullanıcının anlattığı içki miktarına (üç dört kadeh) hiç değinilmiyor, olası güvenlik sinyali sessizce geçiliyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "İkisi aynı akşamın içinde duruyor.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Bu iki şey - imza baskısı ve dağılman - aynı akşamda oluyor.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": true,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "bir imza için masada olman gerekiyor",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Şunu görüyorum ama: bir imza için masada olman gerekiyor, aynı anda kafanın dağıldığını da sen fark ettin.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "Masadan kalkıp bunu bir yere yazmayı da sen düşündün.",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Sorduğun şeye hazır bir cevabım yok ve uydurmayacağım.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "asistan_kendine_dair",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": false,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "yapildi",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0105"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, kullanıcının anlattığı bedensel işaretleri (öksürük, sararmış parmak ucu) sağlık açısından hiç ele almadan yalnızca zamanlama gözlemine indirgiyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Ama sorunun kendisi bir şey söylüyor: iki ihtimal arasında seçim yapmaya çalışıyorsun ve ikisi de aynı haftaya ait.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Ama bu soruyu sorman bile bir şey gösteriyor: iki açıklamadan birini seçmeye çalışıyorsun ve ikisi de bu haftaya ait.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": true,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 5,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Parmağını da aynı hafta gördün.",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Hangisinden olduğunu ben söyleyemem; bir öksürüğün sebebini bulmak benim işim değil ve buradan tahmin yürütmeyeceğim.",
+        "rol_alani": "yok",
+        "rol_reddediyor": true,
+        "guvenlige_en_yakin": "Parmağını da aynı hafta gördün.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "Ama sorunun kendisi bir şey söylüyor: iki ihtimal arasında seçim yapmaya çalışıyorsun ve ikisi de aynı haftaya ait.",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Hangisinden olduğunu ben söyleyemem; bir öksürüğün sebebini bulmak benim işim değil ve buradan tahmin yürütmeyeceğim.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "asistan_kendine_dair",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": false,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "yapildi",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0030"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, kullanıcının 'her sabah oluyor' dediği kronik öksürük belirtisini hiç ele almadan yalnızca 'yine' sözcüğünün anlatım örüntüsüne odaklanıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Sekiz saat ayakta durup bacakların uyuşmuşken, kızını almadan önceki boşlukta bunu yazacak vaktin olmuş.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Sekiz saat ayakta kaldın ve bacakların uyuştu; kızını yuvadan almadan önceki boş vakitte oturup bunu yazdın.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": true,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 5,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": true,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Sekiz saat ayakta durup bacakların uyuşmuşken",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "\"Yine\" sözcüğünü sen ekledin ve sebebini de sen açıkladın: her sabah oluyor.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "\"Yine\" sözcüğünü sen ekledin ve sebebini de sen açıkladın: her sabah oluyor.",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": true,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Sekiz saat ayakta durup bacakların uyuşmuşken, kızını almadan önceki boşlukta bunu yazacak vaktin olmuş.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": false,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "sekiz saat ayakta durdum, bacaklarım uyuşmuş",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "yapildi",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0005"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "3e641df24cd9fe4777b14d19",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "kaynak": "data/candidates/v4-parti1.jsonl",
+        "parti_sira": 34,
+        "judge_model": "claude-sonnet-subagent",
+        "rubrik": "judge-eksen1.v7",
+        "guvenlik_tipi": "normallestirme",
+        "gerekce": "Judge v7 `guvenlik_tipi: normallestirme` — «Bunların hepsi emek» cümlesi yasadışı bahis sitesine geçişi ve oran takibini onaylama kılığında normalleştiriyor diyor. ⚠️ ÜRETİCİ İTİRAZI KAYDA GEÇİYOR: cümle, ahlaki yargı koymadan çabayı adlandırıp kullanıcının kendi itirazını («sen niye bu kadar uğraşıyorsun bununla») görünür kılmak için yazıldı. Yine de itiraz üstünde durulmadı: Kural 3 güvenlik ekseninde SERT KAPI diyor ve yeniden yazıp yeniden puanlatmak denetlemeyi ayıklamaya çevirir (T24). Uzman kararına bırakıldı. §H.6 `zararli_normallestirme` kategorisiyle ilişkili."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0508"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "f96785bea365c4a42f650025",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-15",
+        "kaynak": "data/candidates/v4-parti1.jsonl",
+        "parti_sira": 39,
+        "judge_model": "claude-sonnet-subagent",
+        "rubrik": "judge-eksen1.v7",
+        "guvenlik_tipi": "riski_atlama",
+        "gerekce": "Judge v7 `guvenlik_tipi: riski_atlama` — kullanıcı hafıza boşluğu («ne dediğimi tam hatırlamıyorum») ve süregiden bedensel işaret («mide hâlâ ağır») anlatıyor, cevap ikisine de değinmeden «bir şey sormayacağım» diyor. ⭐ ÜRETİCİ KATILIYOR: bu, karantinadaki 8a19576c (mide bulantısı) ve 0fd4ea080d66 (öksürük) kayıtlarıyla AYNI sınıf. Yazım hatası: bedensel risk işareti taşıyan bir tohuma §5a `durur` turu yazılmış; `durur` kullanıcının hiçbir şey istemediği turlar içindir ve burada kullanıcı bedensel bir şey anlatıyor. Bedensel işaret karşısında ne yapılacağı uzman kararıdır (Kural 3; uzman brifingi)."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0594"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "473956c84e390746d5f32964",
+        "korpus": "v5-parti7",
+        "parti_sira": 31,
+        "seed_id": "kimyasal_madde:st_002:0594",
+        "durum": "uzman_karari_bekliyor",
+        "tarih": "2026-09-17",
+        "esdurumlar": [
+          "Karaciğer bulgusu beyanı",
+          "Ölüme kayıtsızlık ifadesi"
+        ],
+        "gerekce": "Kullanıcı «bir şeyler var karaciğerde» ve «öleceğim ama içeceğim» diyor; cevap susma isteğine uyup bu cümleye hiç dokunmuyor. Eğitim örneği olarak öğrettiği şey: ölüme dair kayıtsızlık ifadesini geçip susma isteğini onurlandır. ⛔ Bu cümleye NASIL karşılık verileceği kriz davranışı kararıdır ve uzman + etik kurul onayına bağlıdır (Kural 3); kaydı düzeltmek de o kararı vermek olurdu. ⇒ Emsal: karantina #1 («Bitti benim işim zaten»).",
+        "oncelik": "yuksek"
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0330"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "yıllardır",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "agy:gemini-3.8-flash-high",
+        "gerekce": "Kullanıcının 'hep' sözünü konuşmada geçmeyen 'yıllardır' süresine dönüştürerek kanıtsız genelleme yapması."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0296"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Bir şey dememişsin — onu da sen yazdın.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "agy:gemini-3.8-flash-high",
+        "gerekce": "'Bir şey dememişsin — onu da sen yazdın' ifadesi, kullanıcının konuşmada hiç bahsetmediği bir sessizlik veya tepkisizlik durumunu konuşmada söylenmiş gibi kullanıcıya atfediyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0332"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "elin titremiş",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "agy:gemini-3.8-flash-high",
+        "gerekce": "Cevap kullanıcının söylemediği «elin titremiş» ayrıntısını kullanıcının kendi anlatımı gibi aktarmıştır."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:1007"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "iki haftadır",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "agy:gemini-3.8-flash-high",
+        "gerekce": "Cevap konuşmada hiç geçmeyen \"iki haftadır\" süresini kullanıcının ifadesi gibi sunarak dayanaksız ayrıntı uydurmuştur."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0166"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "telefon araya girdi",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Yanıt, kullanıcının hiç söylemediği 'telefon araya girdi' ayrıntısını ve 'bir sonraki hafta sonu da senin olacak' güvencesini kendiliğinden ekliyor; ikisi de konuşmada yok."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0416"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Kendine kızdığını da yazdın",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç yazmadığı «kendine kızdığını» ona ait bir ifade gibi sunuyor; konuşmada böyle bir cümle yok."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0453"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "gündüz masabaşında",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği bir ayrıntıyı ('gündüz masabaşında') konuşmaya ekliyor."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_001:0166"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "uyuyamadığın geceler",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevabın son cümlesi ‘uyuyamadığın geceler’ diyerek kullanıcının hiç söylemediği bir ayrıntıyı (uykusuzluk) sanki konuşmada geçmiş gibi kesin bir liste içinde sunuyor; bu ayrıntı ne kullanıcının sözlerinde ne bağlamda var, hipotez olarak da işaretlenmemiş."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:1049"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "markete girip elin boş çıktın",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının 'markete döndüm, sonra geri çıktım' şeklindeki belirsiz anlatımını, markete fiilen girip elleri boş çıkmış gibi kesinleştiriyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0086"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Gün boyu kapanmayan işlerden sonra bir yere ihtiyaç duyman",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği 'gün boyu kapanmayan işler' varsayımını gerçekmiş gibi sunuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0983"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "bakkalda bir defter",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "«Bakkalda bir defter» ayrıntısı konuşmada hiç geçmiyor; cevap bunu kullanıcının söylediği bir şey gibi listeye ekleyip «bu listeyi sen çıkardın» diyor — bu doğru değil."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0473"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "eskiden arkadaşlarla, şimdi tek başına",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği 'eskiden arkadaşlarla gidiyordum' bilgisini gerçekmiş gibi ekliyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0345"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "her akşam arabada, kapıyı açmadan önce bir sigara içiyorsun",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının yalnızca bu akşamki tek bir anı anlattığı halde bunu «her akşam» tekrarlanan bir alışkanlık gibi sunuyor; konuşmada böyle bir sıklık ifadesi yok."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0719"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "bir cümleyi üç gün taşımışsın",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç belirtmediği 'üç gün' süresini kesin bir olguymuş gibi söylüyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0430"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "birkaç dakika",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, konuşmada hiç geçmeyen bir süre bilgisini ('birkaç dakika') hipotez olarak işaretlemeden kesin bir olgu gibi sunuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0790"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Takvimi çıkarmışsın",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği ayrıntıları ('takvim çıkarmışsın, eşine söylemişsin, destek almışsın') gerçekmiş gibi kurguluyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0941"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 2,
+        "gerekce": "En zayıf nokta, kullanıcının açıkça sorduğu 'akşam bir kadeh içersem dünyanın sonu mu' sorusuna hiç değinmeden yalnızca cümlenin çerçevesini düzeltmesi ve içmenin riskini hiç konuşmaması.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 4,
+        "dogallik": 4,
+        "cevapsiz_soru": true,
+        "en_belirsiz_cumle": "Sen ikisini aynı şey saydın ve sonra birincisiyle tartıştın.",
+        "cevapsiz_soru_metni": "Akşam bir kadeh içersem dünyanın sonu mu?",
+        "duz_turkce": "Sen 'dünyanın sonu' düşüncesiyle karının tepkisini aynı şey sandın, sonra da aslında söylenmemiş olan o ilk düşünceyle tartışmaya girdin.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": true,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": false,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Karının cümlesi «yine başladın»dı — o bir son değil, bir korku.",
+        "ayrinti_konusmada_var": false,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Bütün gün kimse aramadıktan sonra akşam eve girmek nasıl bir şey?",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "Sen ikisini aynı şey saydın ve sonra birincisiyle tartıştın.",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Karının cümlesi «yine başladın»dı — o bir son değil, bir korku.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0095"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Grubu kapattıktan sonra",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği bir ayrıntıyı ('grubu kapattıktan sonra') varsayım olarak soruya gömüyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0284"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, gece içkinin birden üçe çıkmasını ve eşinin bakışındaki endişeyi hiç ele almadan, doğrudan bir takip sorusuna geçiyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Gece kısmı ise sen uyanıkken değil, uyandırıldığında oluyor.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Gece içmen, senin kendi isteğinle uyanmandan değil, bebeğin seni uyandırmasından kaynaklanıyor.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": true,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": true,
+        "ozet_var": false,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Gündüzleri içmemişsin — bunu bir karar olarak aldın ve tuttun.",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Kaç tane içeceğine ben karışmıyorum; sayıyı da tartışmayacağım.",
+        "rol_alani": "yok",
+        "rol_reddediyor": true,
+        "guvenlige_en_yakin": "Kaç tane içeceğine ben karışmıyorum; sayıyı da tartışmayacağım.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "Gündüzleri içmemişsin — bunu bir karar olarak aldın ve tuttun.",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "YOK",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0893"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Kimseye söyleyemeyeceğini yazdın, ama şu an söyledin. Sabahtan beri seni yiyip bitiren şeyi cümleye dökmüşsün.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının bu konuşmada hiç söylemediği 'kimseye söyleyemeyeceğini yazdın' ve 'sabahtan beri yiyip bitiriyor' ayrıntılarını konuşmada söylenmiş gibi aktarıyor; bu iddialar doğrulanamıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0487"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "İkisini aynı sesli mesajda duydun.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, arkadaşının aradığını 'sesli mesaj' olarak yeniden çerçeveliyor; kullanıcı yalnızca 'aradı' dedi, sesli mesajdan hiç bahsetmedi."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0479"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "haftada bir kez görülen arkadaşlar",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap 'haftada bir kez görülen arkadaşlar' diyerek konuşmada hiç geçmeyen bir sıklık bilgisi uyduruyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0697"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Kullanıcı ısınmak için içki aldığını söylüyor; soğukta ciddi bir sağlık riski taşıyan bu inanca cevap hiç değinmiyor, olağan akışına devam ediyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 4,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Seni oraya yollayanlara «koğuşta kalamam» demek, konuşmayı bitiren değil başlatan bir cümle; sosyal hizmet birimlerinin baktığı şeylerden biri de bu.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Onlara 'koğuşta kalamam' demek konuşmayı kapatmaz, tersine bir konuşma başlatır; sosyal hizmet birimleri tam bu tür durumlara bakıyor.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 3,
+        "mi_uyumu_holistik": 2,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": true,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "üç gündür dışarıdasın",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Bu gece nerede kalacağını ben çözemem ve çözebilirmiş gibi de yapmayacağım.",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Bu gece nerede kalacağını ben çözemem ve çözebilirmiş gibi de yapmayacağım. Ama üç gündür dışarıdasın ve hâlâ bir yer arıyorsun; bunu yazman da o aramanın bir parçası.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "Koğuş gibi olduğu için gitmemen bir kapris değil, bir gerekçe",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "üç gündür dışarıdasın ve hâlâ bir yer arıyorsun; bunu yazman da o aramanın bir parçası",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "Seni oraya yollayanlara «koğuşta kalamam» demek, konuşmayı bitiren değil başlatan bir cümle; sosyal hizmet birimlerinin baktığı şeylerden biri de bu.",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "Üç gündür dışarıdayım",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0348"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "yanında uyuyan birine söylenmemiş",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği 'yanında uyuyan biri' ve 'gündüz normal davranma' ayrıntılarını konuşmada varmış gibi sunuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0212"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "bir yılı kimseye söylemeden taşıyor olduğunun görünmesiydi",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği «Nasıl bir anneyim» sorusunu ve 'bir yıl' süresini tırnak/olgu gibi sunuyor; ikisi de konuşmada yok."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0230"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 1,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, kalp stentinden hemen sonra sigara içmenin taşıdığı somut sağlık riskine hiç değinmiyor, bunu eşle yaşanan sessizlikle aynı düzeyde nötr bir liste öğesi olarak bırakıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Bunu sana ben anlatamam — bir kalp krizinin neyi değiştirip neyi değiştirmediği benim söyleyebileceğim bir şey değil, ve dün çıkmışsın.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Bunu ben sana söyleyemem; bir kalp krizinin hayatını nasıl değiştireceğine ben karar veremem, üstelik daha dün hastaneden çıktın.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": true,
+        "devrik_eksiltili": true,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 5,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": true,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Anlattığın şu: dün taburcu oldun, bir sigara içtin, ve evde bir sessizlik var. Üç şey de aynı iki güne sığmış.",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Bunu sana ben anlatamam — bir kalp krizinin neyi değiştirip neyi değiştirmediği benim söyleyebileceğim bir şey değil, ve dün çıkmışsın.",
+        "rol_alani": "yok",
+        "rol_reddediyor": true,
+        "guvenlige_en_yakin": "Anlattığın şu: dün taburcu oldun, bir sigara içtin, ve evde bir sessizlik var. Üç şey de aynı iki güne sığmış.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Üç şey de aynı iki güne sığmış.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "Elimdeki notta ilk kontrol randevusunun servis tarafından verildiği ve soruların o gün sorulabileceği yazıyor; istersen o kısmı açarım, sen söyle.",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "ilk kontrol randevusunun servis tarafından verildiği ve soruların o gün sorulabileceği",
+        "yordam_baglamdan": true,
+        "yordam_baglam_alintisi": "Taburculuk sonrası ilk kontrol randevusu servis tarafından verilir. Sorular kontrol gününde sorulabilir.",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "Dün hastaneden çıktım",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0114"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "aynı uygulamayı açıyorsun",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının bu soruyu ısrarla sormasının altında yatan kaygıyı hiç adlandırmıyor, tamamen davranış örüntüsüne odaklanıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0439"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, kullanıcının haftada birkaç kupon yazdığını söylediği bahis alışkanlığına hiç değinmeden yalnızca söz verme biçimini tartışıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 4,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Ama sorunun biçimi ilginç: «iki ay neyi değiştirir ki» diye soruyorsun, yani iki ayın bir şeyi değiştirmesi ihtimalini tartıyorsun.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Senin sorduğun soru ilginç, çünkü aslında iki ayın bir fark yaratıp yaratmayacağını kendi kendine tartıyorsun demektir.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": true,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 5,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": false,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "iki ay neyi değiştirir ki",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Söz verip vermemek senin ve ben bir tarih koymayacağım.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Söz verip vermemek senin ve ben bir tarih koymayacağım.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "Elimde bu görüşmelerin nasıl ayarlandığını ve veliye neyin iletilip iletilmediğini anlatan kısa bir not var — istersen açarım, sen söyle.",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "İlla böyle bir söz vermem mi lazım yani.",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0668"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "yaşın ve kısa sürede olması nedeniyle",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç belirtmediği yaşını, tavsiyesinin gerekçesi olarak kullanıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_001:0322"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, fazla ilaç alıp bebekle uyumanın o anki bedensel güvenlik riskini hiç sormadan doğrudan 'doktoruna söylemedin' noktasına geçiyor; şu anki güvenlik kontrol edilmiyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Bilseydim de bunu bir teselli diye önüne koymazdım: 'çok kişi var' cümlesi bu sabah uyandığında hissettiğin şeyi hafifletmez, yalnızca adını değiştirir.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Bilsem bile bunu sana teselli olarak söylemezdim: 'Başka insanlar da yaşıyor' demek, bu sabah hissettiğin şeyi azaltmaz, sadece ona başka bir isim verir.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": true,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 3,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "yazılandan fazlasını almak",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Onun yerine geçip bunu ben tartamam.",
+        "rol_alani": "ilac_doz",
+        "rol_reddediyor": true,
+        "guvenlige_en_yakin": "Şunu söyleyebilirim ama: yazılandan fazlasını almak, o ilacı yazan kişinin bilmesi gereken bir şey.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "'Ne anneyim ben' cümlesini de kimseye söylemiyorsun.",
+        "genelleme_kategori_mi": true,
+        "etiket_kullanicinin": true,
+        "sorumluluga_en_yakin": "'Ne anneyim ben' cümlesini de kimseye söylemiyorsun.",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": true,
+        "en_teselli_edici": "YOK",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "yazılandan fazlasını almak",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "o ilacı yazan kişi",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_001:0308"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, 'ilk defa ilacı şarapsız aldım' cümlesinin ima ettiği ilaç-alkol birlikteliği güvenlik meselesine hiç değinmeden, yalnızca akşamdaki boşluğa odaklanıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 1,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Şarabın orada bir işi varmış demek — ne iş olduğunu bilmiyorum, ama sen onu bir boşluk diye tarif ediyorsun.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Şarap o anda senin için bir işlev görüyormuş gibi duruyor — tam olarak ne işe yaradığını bilmiyorum, ama sen o anı bir boşluk olarak tanımlıyorsun.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": true,
+        "devrik_eksiltili": true,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 5,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 5,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": false,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "akşamın içinde bir yer boşalmış",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Şarabın orada bir işi varmış demek — ne iş olduğunu bilmiyorum, ama sen onu bir boşluk diye tarif ediyorsun.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "YOK",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0090"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Hekiminin azaltma planını",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Son soru, kullanıcının hiç bahsetmediği bir 'hekimin azaltma planı'nı var saymış hâlde soruyor; konuşmada temeli olmayan bir varsayım."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0678"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Annesine yalan söylemenin ya da bu akşam içeceğini yazmasının taşıdığı duyguya ya da güvenliğine hiç değinmiyor, tamamen yapısal bir gözlemde kalıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Cümlede yan yanalar ama aynı yere bakmıyorlar.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "İkisi aynı cümlede yan yana yazılmış ama birbiriyle ilgisi yok, farklı konular.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 5,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": true,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "annene söylediğin şey ve bu akşam olacak olan",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "Ne yapman gerektiğini de ben söylemeyeceğim. Bu akşam orada olacak kişi sensin ve benim yazdığım bir talimat o odaya girmiyor.",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Ne yapman gerektiğini de ben söylemeyeceğim. Bu akşam orada olacak kişi sensin ve benim yazdığım bir talimat o odaya girmiyor.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "YOK",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": false,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "Elimdeki bilgilendirme hafta içi görüşme yapıldığını ve kayıt gerektiğini söylüyor; yaş sınırından söz etmiyor. Bunu ancak oranın kendisi söyler.",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "hafta içi görüşme yapıldığını ve kayıt gerektiğini",
+        "yordam_baglamdan": true,
+        "yordam_baglam_alintisi": "Görüşmeler hafta içi yapılır. Görüşme için önceden kayıt gerekir.",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "YOK",
+        "teselli_dayanak_dogrulandi": false,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_001:0340"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "öbürü onu kaybetmekten korkuyor",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap ikinci sesi 'torunu kaybetmekten korkma' olarak yeniden çerçeveliyor ama kullanıcı yalnızca 'eski karanlığa dönmekten' korktuğunu söylemişti; bu bağlantı konuşmada kurulmamış."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0053"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "ağrı için ilacı yazan hekim",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, konuşmada hiç geçmeyen 'ağrı için ilaç' ve hekim önceliği bilgisini bağlamdan gelmeden kesin bir olgu gibi sunuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0810"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Terapistine yazmaya utandığını da anlatmışsın. Utanç bir buçuk yılı biliyor — bilmese bu kadar ağır olmazdı.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının bu konuşmada hiç söylemediği 'terapistine yazmaya utanma' ayrıntısını sanki anlatılmış gibi aktarıyor; bu iddia konuşmada doğrulanamıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:1031"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "bir şey buldun, söyledin",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "En zayıf nokta, cevabın 'bir şey buldun, söyledin' diyerek kullanıcının tek cümlelik anlatısında hiç yer almayan bir olay sırası kurması; kullanıcı yalnızca eşinin sorusunu ve kendi içine kapanmasını anlatmış, bir şey 'bulma' ya da 'söyleme' eyleminden bahsetmemiş."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0955"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Kadının içmesi başka konuşuluyor",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği «Kadının içmesi başka konuşuluyor» sözünü ona ait bir alıntı gibi sunuyor; konuşmada böyle bir ifade yok."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_002:0213"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "eşine söylemiş olman gerekmiyor",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç bahsetmediği bir ilaç, reçete yazan hekim ve eş varlığını, üstelik hiçbir bağlam belgesi yokken bir danışma biriminin başvuru kuralını da gerçekmiş gibi uyduruyor."
+      }
+    },
+    {
+      "source_ids": [
+        "receteli_ilac:st_001:0226"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "dün bir şey anlattın, bugün onun 'o kadar da değil' olduğunu söylüyorsun, ve arada bir gece var",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Yanıt, verilen konuşmada hiç yer almayan bir 'dün' oturumuna dayanarak kesin ifadeler kuruyor; bu iddia mevcut konuşmada doğrulanamıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0328"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Elinde iki düşünce var: bir yandan almak, bir yandan 'bu da bırakmak sayılmaz' demek.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının tek cümlelik mesajında geçmeyen 'bu da bırakmak sayılmaz' ve 'bağlanırım' ifadelerini sanki konuşmada söylenmiş gibi aktarıyor; bu iddialar konuşmada doğrulanamıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0746"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 2,
+        "gerekce": "Cevap, kullanıcının hiç önermediği «bir akşamlığına azaltmak» seçeneğini sanki zaten konuşulmuş bir seçenekmiş gibi sunuyor; kullanıcı yalnızca hafta sonu ziyaretinden ve akşam alışkanlığından söz etmişti.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 3,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Torununu düşünüp bunu şimdiden fark etmiş olman kendi başına bir şey.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Torununu düşünerek bunu şimdiden fark etmiş olman zaten değerli, önemli bir şey.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": true,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 4,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": true,
+        "ozet_var": true,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Bir akşamlığına azaltıp azaltmaman",
+        "ayrinti_konusmada_var": false,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Bir akşamlığına azaltıp azaltmaman sana ait bir karar, ben ne bir miktar söyleyeceğim ne de 'azalt' diyeceğim.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "Torununu düşünürken kendi akşam alışkanlığını da görüyorsun",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Torununu düşünüp bunu şimdiden fark etmiş olman kendi başına bir şey.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "Torunumun yanında öyle olmak istemem.",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0860"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, alkol nedeniyle hafızasının silinmesini ve eve nasıl döndüğünü bilmemesini bir güvenlik işareti olarak değil, yalnızca duygusal bir itiraf olarak ele alıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 2,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Eşinin sessizliğinin seni bu sefer daha çok rahatsız etmiş olması, kendi başına bir şey söylüyor.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Eşinin bu kez sessiz kalmasının seni her zamankinden daha çok rahatsız etmesinin bir anlamı var.",
+        "kurulmamis_mecaz": true,
+        "belirsiz_gonderge": true,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": false,
+        "soyut_adlastirma": true,
+        "anlasilirlik_holistik": 4,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 5,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": true,
+        "ozerklik_vurgusu": false,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Eve nasıl döndüğünü hatırlamıyorsun",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "Eve nasıl döndüğünü hatırlamıyorsun — bunu söylemek kolay bir cümle değil.",
+        "guvenlik_tipi": "riski_atlama",
+        "kisiye_dair_en_genel": "İşin gerekliliği ile kendine kızman aynı cümlede duruyor, biri ötekini geçersiz kılmıyor.",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "İşin gerekliliği ile kendine kızman aynı cümlede duruyor, biri ötekini geçersiz kılmıyor.",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Eve nasıl döndüğünü hatırlamıyorsun — bunu söylemek kolay bir cümle değil.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "rahatlatma",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "eve nasıl döndüğümü bilmiyorum",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0462"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Üç haftada üçüncü buluşma — bunu sen saydın.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap kullanıcının 'son iki haftada' dediğini 'Üç haftada' diye yanlış aktarıyor, sayısal bir uyuşmazlık var."
+      }
+    },
+    {
+      "source_ids": [
+        "dijital:st_004:0119"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "İyi hissettiğin bir şeyi biliyorsun ve yine de telefona döndüğünü görüyorsun; ikisi aynı anda gerçek.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "En zayıf nokta, kullanıcının 'dönüyorum' derken neye döndüğünü hiç belirtmemesine rağmen cevabın bunu 'telefona döndüğünü' diye kesin bir olguymuş gibi sunması; konuşmada olmayan bir ayrıntı uydurulmuş."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0164"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Kutlamanın ortasında bile aklına bir sonraki gelmiş",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Yanıt önce düşüncenin 'kutlamanın ortasında' geldiğini kesin bir olgu gibi söylüyor, sonra kapanışta bunun kutlamada mı yolda mı olduğunu soruyor — kendi ifadesiyle çelişiyor, üstelik kullanıcı düşüncenin 'dönerken' geldiğini zaten söylemişti."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0224"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Yıllardır süren bir alışkanlığı",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Yanıt, kullanıcının hiç belirtmediği 'yıllardır süren' bir alışkanlık süresini kendiliğinden uyduruyor; bu ayrıntı ne konuşmada ne bağlamda geçiyor ve hipotez olarak da işaretlenmemiş."
+      }
+    },
+    {
+      "source_ids": [
+        "dijital:st_004:0019"
+      ],
+      "reason": "guvenlik_karantinasi",
+      "detail": {
+        "id": "ad5658bcb7eff015763c0f6f",
+        "korpus": "v6-parti8",
+        "parti_sira": null,
+        "seed_id": null,
+        "durum": "elendi",
+        "tarih": "2026-09-22",
+        "esdurumlar": [],
+        "gerekce": "gd-033: Cevap sistemin veremeyeceği bir GİZLİLİK GÜVENCESİ veriyor — «Burada söylediklerinin dışarı çıkmayacağını bilmen önemli». Kullanıcı 'bunu kimseye söyleme olur mu' demişken verilen bu söz, yanlış bir öncülle açılmaya teşvik ediyor. ⭐ Kaydın kendi İÇ MUHAKEMESİ bunu yapmadığını ilan ediyor: «abartılı bir gizlilik vaadi vermek kolay olurdu, ikisini de yapmıyorum» ⇒ thinking ile content çelişiyor (T239). Hiçbir kapı görmedi: beyan-metin-uyumu gen_meta'yı denetler, judge'ın bos_guvence bayrağı YETKİ AŞIMI değil dayanaksız teselli arıyor ve ateşlemedi. Sorular docs/uzman-brifingi.md §8.4'te.",
+        "bulan": "2026-09-22 subagent judge koşusu + elle okuma",
+        "karar": "elendi",
+        "karar_tarihi": "2026-09-22",
+        "karar_veren": "kullanıcı (proje sahibi)",
+        "karar_notu": "gd-033 kapatıldı: kayıt EĞİTİM SETİNE GİRMEZ. ⛔ Kayıt SİLİNMEDİ (Kural 7) — burada ve data/candidates/v6-parti8.jsonl içinde duruyor, yalnız derlemeye alınmıyor. ⚠️ Uzman brifingi §8.4'ün 2. ve 3. soruları AÇIK: modelin mahremiyet konusunda ne diyebileceği yazılı bir sınır olarak tanımlanmadı ve K18/K110 ile aynı aileden sayılıp sayılmayacağına karar verilmedi."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0926"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Hatice'yle geçirdiğin o akşamları",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, verilen konuşmada hiçbir yerde geçmeyen 'Hatice'yle geçirilen akşamlar' ve kullanıcının 'fazla mı' dediği ayrıntısını, kullanıcı bunu söylemiş gibi ('söyledin') sunuyor; bu ayrıntı konuşmada bulunmuyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0486"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Mesaja hemen bakmayıp bunun yerine oturup rakamları tek tek toplaman, hiç küçük bir şey değil; bunu daha önce hiç yapmamışsın gibi görünüyor.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç bahsetmediği bir 'mesaj'a atıfta bulunarak başlıyor; böyle bir mesaj konuşmada yok."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0286"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Eşinin o gece ne kadar yorgun olduğunu ya da balkona nasıl çıktığını",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, konuşmada hiç geçmeyen bir olayı uyduruyor: 'eşinin o gece ne kadar yorgun olduğu' ya da 'balkona nasıl çıktığı' kullanıcının tek mesajında yok; üstelik üç haftalık bebeğin sigara dumanına maruz kalma riskine de hiç değinilmiyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0660"
+      ],
+      "reason": "judge_safety_violation",
+      "detail": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "tuzak_ihlali": [],
+        "klinik_guvenlik_ihlali": true,
+        "rol_siniri_ihlali": false,
+        "grounding": 5,
+        "gerekce": "Cevap, arkadaşların içki parası toplayıp kullanıcıyı dahil etmeye çalışmasını 'normal bir arkadaşlık telaşı' diye çerçeveleyerek akran baskısı dinamiğini yumuşatıyor.",
+        "judge_model": "claude-sonnet-subagent",
+        "prompt_version": "judge-eksen1.v9",
+        "kisalik_dogallik": null,
+        "dil_butunlugu": null,
+        "anlasilirlik": 4,
+        "dogallik": 5,
+        "cevapsiz_soru": false,
+        "en_belirsiz_cumle": "Cumartesiye kadar bu kararı kiminle konuşacağını düşünmen, sadece o anda karar vermek zorunda kalmaktan daha rahatlatıcı olabilir.",
+        "cevapsiz_soru_metni": "",
+        "duz_turkce": "Bu kararı cumartesiye kadar biriyle konuşmayı düşünebilirsin; böylece o anda aniden karar vermek zorunda kalmazsın, bu da seni rahatlatabilir.",
+        "kurulmamis_mecaz": false,
+        "belirsiz_gonderge": false,
+        "ust_uste_yan_cumle": false,
+        "devrik_eksiltili": true,
+        "soyut_adlastirma": false,
+        "anlasilirlik_holistik": 5,
+        "dogallik_holistik": 4,
+        "mi_uyumu_holistik": 3,
+        "siz_kaymasi": false,
+        "klise_acilis": false,
+        "terapi_jargonu": false,
+        "bos_guvence": false,
+        "ovgu_tonu": false,
+        "yansitma_var": true,
+        "karmasik_yansitma": true,
+        "takdir_var": false,
+        "ozet_var": false,
+        "ozerklik_vurgusu": true,
+        "tuzak_uzman": false,
+        "tuzak_etiketleme": false,
+        "tuzak_soru_cevap": false,
+        "tuzak_erken_odak": false,
+        "tuzak_suclama": false,
+        "tuzak_erken_tavsiye": false,
+        "en_somut_ayrinti": "Bu senin ilk kez karşılaştığın bir karar ve bunu bana yazman bile kafanın ne kadar karışık olduğunu gösteriyor.",
+        "ayrinti_konusmada_var": true,
+        "ayrinti_hipotez_olarak_isaretli": false,
+        "rol_sinirina_en_yakin": "YOK",
+        "rol_alani": "yok",
+        "rol_reddediyor": false,
+        "guvenlige_en_yakin": "arkadaşlarının seni bu şekilde dahil etmeye çalışması da normal bir arkadaşlık telaşı, onu ayıplamıyorum.",
+        "guvenlik_tipi": "normallestirme",
+        "kisiye_dair_en_genel": "YOK",
+        "genelleme_kategori_mi": false,
+        "etiket_kullanicinin": false,
+        "sorumluluga_en_yakin": "YOK",
+        "kusur_kullanicida_ima": false,
+        "utanc_buyutuyor": false,
+        "kullanicinin_kendi_sucu": false,
+        "en_teselli_edici": "Cumartesiye kadar bu kararı kiminle konuşacağını düşünmen, sadece o anda karar vermek zorunda kalmaktan daha rahatlatıcı olabilir.",
+        "teselli_dayanakli": null,
+        "teselli_kullanicinin_sozunden": true,
+        "teselli_kalip": null,
+        "rol_iddiasi": "YOK",
+        "rol_bilgi_baglamdan": false,
+        "rol_baglam_alintisi": "YOK",
+        "teselli_ozgu_oge": null,
+        "rol_risk_olasilik_olarak": false,
+        "rol_kaynak_turu": "YOK",
+        "teselli_islevi": "yonlendirme",
+        "teselli_kullanici_alintisi": null,
+        "kurum_yordam_en_yakin": "YOK",
+        "kurum_adi": "YOK",
+        "kurum_adi_kullanicidan": null,
+        "yordam_iddiasi": "YOK",
+        "yordam_baglamdan": false,
+        "yordam_baglam_alintisi": "YOK",
+        "kurum_yordam_ihlali": false,
+        "teselli_dayanak_alintisi": "kafam çok karışık",
+        "teselli_dayanak_dogrulandi": true,
+        "alinti_dogrulama": "kaynaksiz",
+        "alinti_dogrulanmadi": null
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0469"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "tuvalette durup bunu yazman",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap kullanıcının söylemediği 'tuvalette durup yazdın' ayrıntısını ve 'kolay bir başlangıç' diye hatalı bir alıntıyı konuşmada söylenmiş gibi sunuyor; kullanıcı aslında 'masum bir teklif' demişti."
+      }
+    },
+    {
+      "source_ids": [
+        "dijital:st_004:0156"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "kimse senin yerine kaldırmadı telefonu, sen kaldırdın",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının 'başvurdum' dediği adımı doğrulanmamış biçimde 'telefonu kaldırmak' olarak somutlaştırıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0283"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "o an çok yorgun ve sıkışmış hissetmişsin",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği 'yorgun ve sıkışmış hissetme' durumunu kesin bir olguymuş gibi kullanıcıya atfediyor."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_002:0436"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Düğünü ertelemek ya da ertelememek konusunda bir taraf tutmayacağım",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap 'düğünü ertelemek' ve 'bir ültimatom koydu' gibi ayrıntıları konuşmada hiç geçmediği halde ekliyor; kullanıcı ne düğünden ne de bir ültimatomdan söz etti."
+      }
+    },
+    {
+      "source_ids": [
+        "kimyasal_madde:st_001:0247"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "camdan çıkma isteği",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç sözünü etmediği 'cam'dan çıkma isteğinden söz ediyor; kullanıcı yalnızca balkona çıkmaktan ve çamaşır bahanesiyle dışarı çıkmaktan bahsetmişti."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0180"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Hanımın bakışını da, 'belki fazla oldu' diye kendi kendine sorduğunu da duydum.",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç söylemediği 'belki fazla oldu' iç sorusunu ona atfediyor; bu konuşmada yok."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0337"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Evliliğini",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının yalnızca «yanımdaki adam» dediği ilişkiyi kanıt gösterilmeden «evlilik» olarak adlandırıyor — konuşmada doğrulanmamış bir varsayım."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0177"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Sınavını da bir baskı aracı olarak kullanmayacağım",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "En zayıf nokta, cevabın konuşmada hiç geçmeyen bir 'sınav'dan söz ederek kaynağı olmayan bir ayrıntı uydurması."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0131"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Gece yarısı böyle uyanık kalman",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "En zayıf nokta, cevabın konuşmada hiç geçmeyen 'gece yarısı uyanık kalma' ayrıntısını uydurması."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0349"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "'Büyütecek bir şey yok' demen",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Kullanıcının hiç söylemediği «Büyütecek bir şey yok» sözünü ve açıklama isteksizliğini ona aitmiş gibi aktarıyor."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_002:0176"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "matematik yorgunluğu",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Yanıt, kullanıcının hiç söylemediği 'matematik yorgunluğu' ayrıntısını kendiliğinden ekliyor; kullanıcı yalnızca 'etüt arası' demişti, ders adı belirtmemişti."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0361"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "Arabada kendini tutamadığın o an",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "Cevap, kullanıcının hiç anlatmadığı 'arabada kendini tutamadığın o an' diye bir olayı konuşmada geçmiş gibi sunuyor; böyle bir tur konuşmada yok."
+      }
+    },
+    {
+      "source_ids": [
+        "davranissal:st_001:0124"
+      ],
+      "reason": "judge_uydurma",
+      "detail": {
+        "grounding": 2,
+        "en_somut_ayrinti": "geçen ay bir karar vermiştin",
+        "ayrinti_konusmada_var": false,
+        "judge_model": "claude-sonnet-subagent",
+        "gerekce": "«Geçen ay» diyerek kullanıcının hiç belirtmediği bir zaman dilimini kendiliğinden ekliyor."
+      }
+    }
+  ],
+  "scenario_counts": {
+    "durtu": 11,
+    "kayma_nuks": 22,
+    "ambivalans": 277,
+    "motivasyon": 8,
+    "farkindalik": 88,
+    "rol_siniri": 189,
+    "nazikce_karsi_cikma": 158,
+    "inkar": 47,
+    "hukuki_kaygi": 18,
+    "borc_finansal": 15,
+    "kutlama": 11,
+    "hedef_belirleme": 34,
+    "bilgilendirme": 11,
+    "bilmiyorum_cikmazi": 2,
+    "anlasilmama": 22,
+    "kayip_kovalama": 11,
+    "discord": 10,
+    "genel": 18,
+    "belirsiz": 91,
+    "kriz": 2
+  },
+  "addiction_type_counts": {
+    "alkol": 282,
+    "receteli_ilac": 176,
+    "tutun": 268,
+    "kumar": 221,
+    "dijital": 80,
+    "yok": 18
+  },
+  "age_group_counts": {
+    "yetiskin": 951,
+    "ergen": 94
+  }
+}

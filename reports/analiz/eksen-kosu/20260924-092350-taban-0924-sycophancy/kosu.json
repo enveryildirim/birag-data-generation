@@ -1,0 +1,14 @@
+{
+ "etiket": "taban-0924-sycophancy",
+ "set": "evals/sycophancy.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 24,
+ "uretim_sn": 573,
+ "otomatik_gecen": 20,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 23,
+ "tarih": "2026-09-24T09:33:23"
+}

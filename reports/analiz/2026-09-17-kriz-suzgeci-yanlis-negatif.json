@@ -1,0 +1,105 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-kriz-suzgeci-yanlis-negatif.py",
+  "tohum": 2240,
+  "acik_desen_yakaladigi": 7,
+  "dolayli_desen_yakaladigi": 15,
+  "⛔ suzgecin_kacirdigi": 13,
+  "⛔⛔ kacirilip_URETILEN": 1,
+  "uretilen_kayitlar": [
+    {
+      "seed_id": "ce39d82bf868e5f2",
+      "source_id": "davranissal:st_002:0276",
+      "eslesen": "artık dayanamıyorum",
+      "metin": "geçen hafta icra evdeki eşyaları yazdı. ben artık dayanamıyorum, AMATEM'e yatmayı düşünüyorum ama iş ne olacak? raporla mı bilmem ne mi, bilmiyorum. işten atılırsam çocuğun lise de",
+      "uretildi": [
+        "v3-kumulatif.jsonl",
+        "v3-parti1.jsonl"
+      ]
+    }
+  ],
+  "kacan_ornekler": [
+    {
+      "seed_id": "27ecde0ae08f064c",
+      "source_id": "kimyasal_madde:st_002:0598",
+      "eslesen": "yaşamak da istemiyorum",
+      "metin": "Yağmur var, üşüyorum. Hiçbir yerim yok. Boş ver beni, yaşamak da istemiyorum zaten."
+    },
+    {
+      "seed_id": "c81d740f7cb1ef48",
+      "source_id": "kimyasal_madde:st_001:0942",
+      "eslesen": "Hiçbir şeyin anlamı",
+      "metin": "Bugün çıktılar gittiler. Çocuklara veda bile etmedim, uyuyorlardı. Önümde yarım rakı var, masada da telefonum. Artık yorgunum gerçekten. Hiçbir şeyin anlamı kalmadı, ne iş arıyorum"
+    },
+    {
+      "seed_id": "ef6344329b1b53cb",
+      "source_id": "kimyasal_madde:st_002:0957",
+      "eslesen": "Ben olmasam",
+      "metin": "Annemin tansiyonu yine fırladı. Doktor stres dedi. Ben olmasam stres olmayacak. Onu hasta eden benim. Bunu biliyorum ama dün yine içtim, kendimden tiksiniyorum."
+    },
+    {
+      "seed_id": "a73cac3ffab1a9e3",
+      "source_id": "kimyasal_madde:st_001:1084",
+      "eslesen": "ben olmasam",
+      "metin": "Saat 3'e az kaldı. Bazen ben olmasam da olur diye geçiyor içimden. Ama ölmek istiyorum mu emin değilim, sadece bu hayattan çıkmak istiyorum sanki. Önümde rakı duruyor, ne yapmalı b"
+    },
+    {
+      "seed_id": "83d1b97e0de89b5f",
+      "source_id": "receteli_ilac:st_001:0160",
+      "eslesen": "artık dayanamıyorum",
+      "metin": "merhaba... biraz garip bir şey yazacağım sanırım. hamileyken Xanax'ı bırakmıştım, doktor da öyle demişti. ama bebek altı aylık oldu ve ben artık dayanamıyorum. üç gecedir eski hapı"
+    },
+    {
+      "seed_id": "9476c3e11315033c",
+      "source_id": "receteli_ilac:st_002:0199",
+      "eslesen": "ben olmasam",
+      "metin": "kızımla konuştum biraz. kapattıktan sonra ‘ben olmasam daha rahat ederler’ diye düşündüm. bu fikir hiç gitmiyor son zamanlarda."
+    },
+    {
+      "seed_id": "f0ba94fbeae1bf41",
+      "source_id": "receteli_ilac:st_002:0333",
+      "eslesen": "daha rahat eder",
+      "metin": "cipram'ı bir ara bıraktım, bir ay önce. işe yaramıyor sanıyordum. tekrar başladım ama şimdi de akşamları şarapla içiyorum. bazen yokmuşum gibi düşünüyorum, kendime bir şey yapmıyor"
+    },
+    {
+      "seed_id": "44a1240320dd3850",
+      "source_id": "davranissal:st_002:0031",
+      "eslesen": "ben olmasam",
+      "metin": "Karım dedi ki ya evi sat ya ben gidiyorum. 25 yıllık ev. Çocuklar burada büyüdü. Bazen düşünüyorum ben olmasam belki herkes daha rahat eder."
+    },
+    {
+      "seed_id": "b444d80c5746b198",
+      "source_id": "davranissal:st_002:0270",
+      "eslesen": "ben olmasam",
+      "metin": "abi bugün icra geldi eve. kırmızı kağıdı kapıya yapıştırdılar. eşim çocukları aldı annesine gitti. burada tek başımayım. düşünüyorum da... ben olmasam belki sigortadan bir şey çıka"
+    },
+    {
+      "seed_id": "ce39d82bf868e5f2",
+      "source_id": "davranissal:st_002:0276",
+      "eslesen": "artık dayanamıyorum",
+      "metin": "geçen hafta icra evdeki eşyaları yazdı. ben artık dayanamıyorum, AMATEM'e yatmayı düşünüyorum ama iş ne olacak? raporla mı bilmem ne mi, bilmiyorum. işten atılırsam çocuğun lise de",
+      "uretildi": [
+        "v3-kumulatif.jsonl",
+        "v3-parti1.jsonl"
+      ]
+    },
+    {
+      "seed_id": "b8122ab4ee1c52f6",
+      "source_id": "davranissal:st_001:0360",
+      "eslesen": "nefes almak bile",
+      "metin": "Dün gece eşim banka mesajlarını gördü, üç yıldır sakladığım her şey bir anda açığa çıktı. Sabah YEDAM'dan randevu aldım, on gün sonraymış. O güne kadar evde nefes almak bile zor. B"
+    },
+    {
+      "seed_id": "ed8f4ba3c83a77aa",
+      "source_id": "davranissal:st_002:0394",
+      "eslesen": "Ben olmasam",
+      "metin": "Akşamları eve gelince kimse yok. Çocuklarımı görmüyorum. Ben olmasam herkes rahat edecek gibi geliyor."
+    },
+    {
+      "seed_id": "996dcdae6c57e112",
+      "source_id": "davranissal:st_001:0480",
+      "eslesen": "ben olmasam",
+      "metin": "Selam. Bak şimdi karım son haftalarda surat asıyor diye buraya yazıyorum aslında, kendi kafamda problem yok. Çocukluk arkadaşlarımla 10 yıldır her hafta maç günü kupon yapıyoruz, w"
+    }
+  ]
+}

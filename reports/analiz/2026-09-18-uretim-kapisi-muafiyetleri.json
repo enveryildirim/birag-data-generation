@@ -1,0 +1,1399 @@
+{
+  "tarih": "2026-09-18",
+  "toplam": {
+    "uretim_v2_baglam_muafiyeti": {
+      "kapsam": 4848,
+      "net": 9,
+      "ornek": [
+        {
+          "id": "b04849308b603c9442c3695a",
+          "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+        },
+        {
+          "id": "1df90d5997611fdab27a6be2",
+          "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+        },
+        {
+          "id": "4469c20d49dede3087a1b526",
+          "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+        }
+      ],
+      "kimlik": [
+        "1df90d5997611fdab27a6be2",
+        "4469c20d49dede3087a1b526",
+        "4cadbdf4a30391ceccffcde9",
+        "4d52b79aabb756e8b687744a",
+        "51c96a26dcd3171778c70ef6",
+        "78b8cb4d7c429b2e28ad0940",
+        "90b8d2e0816d7a70d082f598",
+        "ae48bb75efecdc7390245eda",
+        "b04849308b603c9442c3695a"
+      ],
+      "tekil": 9
+    },
+    "replay_persona_muafiyeti": {
+      "kapsam": 216,
+      "net": 12,
+      "ornek": [
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        },
+        {
+          "id": "1a401482bacae4651e325a07",
+          "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+        }
+      ],
+      "kimlik": [
+        "1a401482bacae4651e325a07"
+      ],
+      "tekil": 1
+    }
+  },
+  "dosyalar": [
+    {
+      "dosya": "datasets/v0.0.1/train.jsonl",
+      "sha256_16": "cff23210d80ebd81",
+      "kayit": 20,
+      "gecen": 20,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 20,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.10/train.jsonl",
+      "sha256_16": "0e196e88815defea",
+      "kayit": 571,
+      "gecen": 571,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 472,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.2/train.jsonl",
+      "sha256_16": "b78103aecb627e63",
+      "kayit": 117,
+      "gecen": 117,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 18,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.3/train.jsonl",
+      "sha256_16": "b50f7588e085f212",
+      "kayit": 155,
+      "gecen": 155,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 56,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.4/train.jsonl",
+      "sha256_16": "8c15ee2349e45124",
+      "kayit": 155,
+      "gecen": 155,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 56,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.5/train.jsonl",
+      "sha256_16": "d8e465c50bea4fca",
+      "kayit": 155,
+      "gecen": 155,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 56,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.6/train.jsonl",
+      "sha256_16": "20164ce4cbd853e8",
+      "kayit": 214,
+      "gecen": 214,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 115,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.7/train.jsonl",
+      "sha256_16": "f7b5f27fdc7e2c6a",
+      "kayit": 272,
+      "gecen": 272,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 173,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.8/train.jsonl",
+      "sha256_16": "5d605d7c7d7e9890",
+      "kayit": 571,
+      "gecen": 571,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 472,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "datasets/v0.0.9/train.jsonl",
+      "sha256_16": "667ec2c580cb7b59",
+      "kayit": 571,
+      "gecen": 571,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 472,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/doz-yonlendirme-ekleri.jsonl",
+      "sha256_16": "f0ecf4507cbef29e",
+      "kayit": 26,
+      "gecen": 0,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/expert-70.jsonl",
+      "sha256_16": "ee61043de8d38187",
+      "kayit": 70,
+      "gecen": 68,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 68,
+          "net": 9,
+          "ornek": [
+            {
+              "id": "b04849308b603c9442c3695a",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            },
+            {
+              "id": "1df90d5997611fdab27a6be2",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            },
+            {
+              "id": "4469c20d49dede3087a1b526",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            },
+            {
+              "id": "90b8d2e0816d7a70d082f598",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            },
+            {
+              "id": "51c96a26dcd3171778c70ef6",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            },
+            {
+              "id": "4cadbdf4a30391ceccffcde9",
+              "sebep": "uzunluk (None) · soru sayısı None · thinking dili None · bağlam (context[1] `sentetik` bayrağı yok (§7b-3)) · replay system prompt"
+            }
+          ],
+          "id": [
+            "b04849308b603c9442c3695a",
+            "1df90d5997611fdab27a6be2",
+            "4469c20d49dede3087a1b526",
+            "90b8d2e0816d7a70d082f598",
+            "51c96a26dcd3171778c70ef6",
+            "4cadbdf4a30391ceccffcde9",
+            "78b8cb4d7c429b2e28ad0940",
+            "ae48bb75efecdc7390245eda",
+            "4d52b79aabb756e8b687744a"
+          ]
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/replay-v1.jsonl",
+      "sha256_16": "d543e8c66edbb855",
+      "kayit": 18,
+      "gecen": 18,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 18,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v0.0.1.jsonl",
+      "sha256_16": "416cb3499e007843",
+      "kayit": 20,
+      "gecen": 20,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 20,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v0.0.4-doz10.jsonl",
+      "sha256_16": "d0159f7b014f8ef4",
+      "kayit": 155,
+      "gecen": 155,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 56,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v0.0.5-doz25.jsonl",
+      "sha256_16": "f36387f857f43b78",
+      "kayit": 155,
+      "gecen": 155,
+      "muafiyet": {
+        "replay_persona_muafiyeti": {
+          "kapsam": 18,
+          "net": 1,
+          "ornek": [
+            {
+              "id": "1a401482bacae4651e325a07",
+              "sebep": "uzunluk (completion uzunluk 5 sınır dışı (10-2000))"
+            }
+          ],
+          "id": [
+            "1a401482bacae4651e325a07"
+          ]
+        },
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 56,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v3-kumulatif.jsonl",
+      "sha256_16": "5867e31fc49e3dbf",
+      "kayit": 104,
+      "gecen": 104,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v3-parti1.jsonl",
+      "sha256_16": "db683f22b74ec56b",
+      "kayit": 40,
+      "gecen": 40,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v3-parti2-baglam.jsonl",
+      "sha256_16": "30792cb2d9ec4ed0",
+      "kayit": 8,
+      "gecen": 8,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v3-parti2-tam.jsonl",
+      "sha256_16": "a7c2eb307e1cd71c",
+      "kayit": 40,
+      "gecen": 40,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v3-parti2.jsonl",
+      "sha256_16": "5730e59266e31474",
+      "kayit": 32,
+      "gecen": 32,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v3-parti3.jsonl",
+      "sha256_16": "d4c5b8086943547a",
+      "kayit": 24,
+      "gecen": 24,
+      "muafiyet": {}
+    },
+    {
+      "dosya": "data/candidates/v4-parti1.jsonl",
+      "sha256_16": "ea596190dd998935",
+      "kayit": 40,
+      "gecen": 40,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 40,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v4-parti1.v8.jsonl",
+      "sha256_16": "9bf6ea1e6bbaf4c4",
+      "kayit": 40,
+      "gecen": 40,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 40,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v4-parti2.jsonl",
+      "sha256_16": "4154385d9d39d244",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v4-parti2.v2.jsonl",
+      "sha256_16": "2867eb01834e3e41",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v4-parti2.v3.jsonl",
+      "sha256_16": "36c99c2aa3934c00",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.jsonl",
+      "sha256_16": "746e25e983550681",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v2.jsonl",
+      "sha256_16": "18ab94595be21076",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v3.jsonl",
+      "sha256_16": "20d8fd0443be60bb",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v4.jsonl",
+      "sha256_16": "435f29c3d0a11a69",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v5.jsonl",
+      "sha256_16": "0843ed1d09fb5ccd",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v6.jsonl",
+      "sha256_16": "f872e29c59cc2703",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti3.v7.jsonl",
+      "sha256_16": "f297eb548e3c7ce8",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.blok1.jsonl",
+      "sha256_16": "ddfbcf1026c86232",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.blok2.jsonl",
+      "sha256_16": "f0578e7159830853",
+      "kayit": 13,
+      "gecen": 13,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 13,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.blok3a.jsonl",
+      "sha256_16": "e638c551c8bf078f",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.blok3b.jsonl",
+      "sha256_16": "32748645a141bc58",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.jsonl",
+      "sha256_16": "8f10f3414c02b5ef",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.v2.arinmis.jsonl",
+      "sha256_16": "0384d3a7afc90df5",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.v2.jsonl",
+      "sha256_16": "f9591e84aa45eeed",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.v3.jsonl",
+      "sha256_16": "917a60679a47396e",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.v4.jsonl",
+      "sha256_16": "09e1e240e4df79b6",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti4.v5.jsonl",
+      "sha256_16": "92215eb54511b6aa",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.arinmis.jsonl",
+      "sha256_16": "0d507c03920335bb",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.blok1.jsonl",
+      "sha256_16": "3f7bdc0d9805f47e",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.blok2.jsonl",
+      "sha256_16": "7eb905497b0ef197",
+      "kayit": 13,
+      "gecen": 13,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 13,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.blok3a.jsonl",
+      "sha256_16": "7201490d44844ed0",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.blok3b.jsonl",
+      "sha256_16": "016ff90810fcc70d",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.jsonl",
+      "sha256_16": "8c5bf9a18982624a",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.v3.jsonl",
+      "sha256_16": "88c3ca92e83b9524",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.v4.jsonl",
+      "sha256_16": "a1751f2c595e6058",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti5.v5.jsonl",
+      "sha256_16": "a1e0d9b9988b04d8",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.arinmis.jsonl",
+      "sha256_16": "a22425efaede4f65",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.blok1.jsonl",
+      "sha256_16": "f40bf648478c6a8b",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.blok2.jsonl",
+      "sha256_16": "b5000f918d9a1624",
+      "kayit": 13,
+      "gecen": 13,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 13,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.blok3a.jsonl",
+      "sha256_16": "bb13601a9444aa36",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.blok3b.jsonl",
+      "sha256_16": "397aa33260b4ef28",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.jsonl",
+      "sha256_16": "b8b351bfbada9e2b",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.v3.jsonl",
+      "sha256_16": "ed9ece2dc20557e8",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.v4.jsonl",
+      "sha256_16": "47daf856d6da4825",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.v5.jsonl",
+      "sha256_16": "25acf8e97de4915d",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti6.v6.jsonl",
+      "sha256_16": "e5dfcc5f0279e94c",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.arinmis.jsonl",
+      "sha256_16": "4b9cccb2cd74b616",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.blok1.jsonl",
+      "sha256_16": "2a3d3b69e7ede41b",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.blok2.jsonl",
+      "sha256_16": "eda07d9eba9f9ae8",
+      "kayit": 14,
+      "gecen": 14,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 14,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.blok3a.jsonl",
+      "sha256_16": "2042d74d7d4d4446",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.blok3b.jsonl",
+      "sha256_16": "30bbb9ac049e055d",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.jsonl",
+      "sha256_16": "317f23d17f855435",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.v3.jsonl",
+      "sha256_16": "1888b35bf23b51c0",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.v4.jsonl",
+      "sha256_16": "9583543b016daa88",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.v5.jsonl",
+      "sha256_16": "008368c9eaa169de",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti7.v6.jsonl",
+      "sha256_16": "d407c2be24702a9c",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.arinmis.jsonl",
+      "sha256_16": "abf553ba7f938eba",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.blok1.jsonl",
+      "sha256_16": "59976be748d09c31",
+      "kayit": 15,
+      "gecen": 15,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 15,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.blok2.jsonl",
+      "sha256_16": "9867870ddb5777bc",
+      "kayit": 12,
+      "gecen": 12,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 12,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.blok3a.jsonl",
+      "sha256_16": "07a4e722e2d1bb8b",
+      "kayit": 17,
+      "gecen": 17,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 17,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.blok3b.jsonl",
+      "sha256_16": "38795cd5f4da9514",
+      "kayit": 16,
+      "gecen": 16,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 16,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.jsonl",
+      "sha256_16": "ad4276805d3f07c3",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.v3.jsonl",
+      "sha256_16": "b136c76562a9d18d",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.v4.jsonl",
+      "sha256_16": "0699605a7a64d3c2",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.v5.jsonl",
+      "sha256_16": "0fd9e2d13a2e70e4",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    },
+    {
+      "dosya": "data/candidates/v5-parti8.v6.jsonl",
+      "sha256_16": "53160d3befe5e442",
+      "kayit": 60,
+      "gecen": 60,
+      "muafiyet": {
+        "uretim_v2_baglam_muafiyeti": {
+          "kapsam": 60,
+          "net": 0,
+          "ornek": [],
+          "id": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "tarih": "2026-09-18",
+  "bagis": 13,
+  "yerinde": 12,
+  "kusur": [
+    {
+      "parti": "v5-parti4",
+      "sira": 3,
+      "oge": "aynı hafta"
+    }
+  ],
+  "kural_benimsendi": false
+}

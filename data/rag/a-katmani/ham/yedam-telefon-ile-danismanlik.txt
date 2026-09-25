@@ -1,0 +1,9 @@
+# kaynak_url: https://www.yedam.org.tr/telefon-ile-danismanlik
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+Telefon ile Danışmanlık
+
+YEDAM 115 numaralı hat üzerinden bağımlılara, bağımlı yakınlarına veya bağımlılıkla ilgili bilgi almak isteyenlere danışmanlık hizmeti sunmaktadır. Telefonun ucunda bağımlılık alanında özel eğitim almış psikolog kadronun görev yaptığı YEDAM Danışma Hattı, ülkemizin tüm illerinde alkol, tütün, madde, kumar ve internet bağımlılıkları konusunda hizmet vermektedir. Danışma hattı, yalnızca bilgi vermenin ötesinde hem doğru yönlendirme yapmak hem de alkol, tütün, madde, kumar ve internet bağımlılığı olan kişilerin destek alma ihtiyaçlarına yönelik adımlar atmaları için teşvik etmektedir. Görüşmelerin ardından bağımlı bireyler veya yakınları ile randevu planlandığında bulundukları ildeki Yeşilay Danışmanlık Merkezlerine bilgi aktarımı sağlanıp, kısa sürede randevu planlanması gerçekleştirilmektedir. Danışma Hattı ile alkol, tütün, madde, kumar ve internet bağımlılığı ile ilgili soruları, sorunları olan herkesin alanında yetkin olan psikologlar tarafından, nitelikli bilgilere ulaşmaları sağlanmaktadır.

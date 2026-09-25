@@ -1,0 +1,10 @@
+# kaynak_url: https://alo191.saglik.gov.tr/TR-21014/alo-191-uyusturucu-ile-mucadele-danisma-ve-destek-hatti-nedir.html
+# kurum: T.C. Sağlık Bakanlığı — ALO 191 Uyuşturucu ile Mücadele Danışma ve Destek Hattı
+# alinma_tarihi: 2026-09-15
+# gecerlilik_tarihi: 2023-11-02
+# lisans: kamu-kurumu-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+ALO 191 Uyuşturucu İle Mücadele Danışma ve Destek Hattı Nedir?
+
+ALO 191 Uyuşturucu ile Mücadele Danışma ve Destek Hattı, önleme, tedavi ve rehabilitasyon mekanizmalarını destekleyerek güçlendirecek şekilde organize edilmiş, uyuşturucu ile ilgili danışma ve destek hizmetlerinin doğrudan verildiği, kişiye uygun gerekli yönlendirmelerin yapıldığı, vatandaşların uyuşturucuyla mücadele kapsamında danışmanlık hizmeti alabilecekleri danışma ve destek hizmetidir. ALO 191 7 gün 24 saat sabit hatlardan ücretsiz olarak hizmet vermektedir.

@@ -1,0 +1,103 @@
+{
+  "_aciklama": [
+    "Komut satırı ARGÜMANI isteyen betiklerin çağrı kaydı — Kural 7'nin eksik halkası.",
+    "Bir rapor 'betiği yazılı' olsa bile, betik argümansız koşmuyorsa o rapor yeniden",
+    "üretilemez ve argümanlar hiçbir yerde yazılı değildi (2026-09-16'da bulundu, K128).",
+    "Girdiler raporların kendi başlıklarında ilan edilmişti; burada ÇALIŞTIRILABİLİR",
+    "biçime çevrildi. Her giriş bir betiğin bir koşumudur; bir betik birden çok rapor",
+    "üretiyorsa birden çok koşum yazılır.",
+    "Kullanan: scripts/analiz/2026-09-16-rapor-yeniden-uretilebilirlik.py",
+    "⛔ `--yalniz-rapor`: üretici ile raporlayıcı ayrıldı (K130). Bu betikler bir eval seti ÜRETİR ve set mühürlüdür (K31); raporu tazelemek için koşmak eskiden bir mühür kırma denemesiydi. Bu kipte set hiç yazılmaz, rapor MÜHÜRLÜ dosyadan türetilir — üretici yine bellekte koşar ve mühürle karşılaştırılıp stdout'a yazılır."
+  ],
+  "cagrilar": {
+    "2026-09-12-judge-karsilastirma.py": [
+      [
+        "reports/analiz/judge-karsilastirma/sonnet.json",
+        "reports/analiz/judge-karsilastirma/opus.json"
+      ]
+    ],
+    "2026-09-12-uctan-uca-eval.py": [
+      [
+        "runs/20260912-154712-e4b-v0.0.1-pilot/eval/20260912-171417-mt2048"
+      ]
+    ],
+    "2026-09-14-korpus-hedef-raporu.py": [
+      [
+        "data/candidates/expert-70.jsonl",
+        "reports/analiz/2026-09-14-korpus-hedef-expert70.md"
+      ],
+      [
+        "data/candidates/v3-kumulatif.jsonl",
+        "reports/analiz/2026-09-14-korpus-hedef-v3-kumulatif.md"
+      ],
+      [
+        "data/candidates/v3-parti1.jsonl",
+        "reports/analiz/2026-09-14-korpus-hedef-v3-parti1.md"
+      ],
+      [
+        "data/candidates/v3-parti2-tam.jsonl",
+        "reports/analiz/2026-09-14-korpus-hedef-v3-parti2.md"
+      ]
+    ],
+    "2026-09-15-eksen-baseline.py": [
+      [
+        "reports/analiz/eksen-kosu/20260915-105829-safety_crisis-baseline-1",
+        "reports/analiz/eksen-kosu/20260915-104526-forgetting_smoke-baseline-1",
+        "reports/analiz/eksen-kosu/20260915-110543-context_fidelity-baseline-2",
+        "reports/analiz/eksen-kosu/20260915-105259-sycophancy-baseline-1"
+      ]
+    ],
+    "2026-09-15-locked-baseline.py": [
+      [
+        "reports/analiz/golden-kosu/20260915-105813-locked-baseline-1",
+        "reports/analiz/golden-kosu/20260915-110838-locked-baseline-1-p2",
+        "reports/analiz/golden-kosu/20260915-111652-locked-baseline-1-p3"
+      ]
+    ],
+    "2026-09-15-judge-claude-sapmasi.py": [
+      [
+        "reports/analiz/golden-kosu/20260915-012409-baseline-v6",
+        "reports/analiz/golden-kosu/20260915-063352-golden-baseline-claude"
+      ],
+      [
+        "reports/analiz/golden-kosu/20260915-012409-baseline-v6",
+        "reports/analiz/golden-kosu/20260915-080807-golden-baseline-sonnet",
+        "sonnet"
+      ]
+    ],
+    "2026-09-15-judge-rubrik-korluk.py": [
+      [
+        "reports/analiz/golden-kosu/20260914-214626-baseline",
+        "reports/analiz/golden-kosu/20260914-220734-baseline-v5"
+      ],
+      [
+        "reports/analiz/golden-kosu/20260914-220734-baseline-v5",
+        "reports/analiz/golden-kosu/20260915-012409-baseline-v6"
+      ],
+      [
+        "reports/analiz/golden-kosu/20260915-080807-golden-baseline-sonnet",
+        "reports/analiz/golden-kosu/20260915-083830-golden-v7-sonnet"
+      ]
+    ],
+    "2026-09-15-safety-crisis.py": [
+      [
+        "--yalniz-rapor"
+      ]
+    ],
+    "2026-09-15-sycophancy.py": [
+      [
+        "--yalniz-rapor"
+      ]
+    ],
+    "2026-09-15-context-fidelity.py": [
+      [
+        "--yalniz-rapor"
+      ]
+    ],
+    "2026-09-14-golden-kosu-raporu.py": [
+      [
+        "reports/analiz/golden-kosu/20260914-214626-baseline"
+      ]
+    ]
+  }
+}

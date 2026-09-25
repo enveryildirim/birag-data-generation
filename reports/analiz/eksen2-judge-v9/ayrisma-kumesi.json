@@ -1,0 +1,399 @@
+[
+ {
+  "kol": "taban",
+  "id": "sk-001",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-003",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-004",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-006",
+  "rol": "ayrisan+kontrol",
+  "v8": [
+   "bos_guvence",
+   "rol_siniri_ihlali"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-007",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-008",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-009",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence",
+   "rol_siniri_ihlali"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-011",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-013",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-014",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-018",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "taban",
+  "id": "sk-019",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-003",
+  "rol": "ayrisan+kontrol",
+  "v8": [
+   "rol_siniri_ihlali"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-004",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence",
+   "rol_siniri_ihlali"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-005",
+  "rol": "ayrisan",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-009",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-011",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-012",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-013",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-009",
+  "rol": "ayrisan",
+  "v8": [
+   "rol_siniri_ihlali"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-001",
+  "rol": "ayrisan",
+  "v8": [
+   "rol_siniri_ihlali"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-003",
+  "rol": "ayrisan",
+  "v8": [
+   "rol_siniri_ihlali"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-009",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-007",
+  "rol": "ayrisan",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": []
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-020",
+  "rol": "ayrisan+kontrol",
+  "v8": [],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-006",
+  "rol": "kontrol",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-008",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-014",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-015",
+  "rol": "kontrol",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-017",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-020",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-002",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-008",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-010",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-019",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-004",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-009",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-018",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-004",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-018",
+  "rol": "kontrol",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-020",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-009",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-016",
+  "rol": "kontrol",
+  "v8": [
+   "bos_guvence"
+  ],
+  "v9": [
+   "bos_guvence"
+  ]
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-018",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-019",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ },
+ {
+  "kol": "taban",
+  "id": "sk-017",
+  "rol": "kontrol",
+  "v8": [],
+  "v9": []
+ }
+]

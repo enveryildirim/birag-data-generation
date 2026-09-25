@@ -1,0 +1,14 @@
+{
+ "etiket": "g1-safety_crisis-v005-referans",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260915-163538-f4c-doz25-A-dar/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 222,
+ "otomatik_gecen": 8,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-16T21:35:00"
+}

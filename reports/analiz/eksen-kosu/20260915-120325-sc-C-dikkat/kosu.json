@@ -1,0 +1,14 @@
+{
+ "etiket": "sc-C-dikkat",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-114013-f4-kapsam-C-dikkat/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 118,
+ "otomatik_gecen": 8,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T12:05:23"
+}

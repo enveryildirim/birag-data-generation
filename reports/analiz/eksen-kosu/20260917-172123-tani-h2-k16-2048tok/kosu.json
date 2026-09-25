@@ -1,0 +1,14 @@
+{
+ "etiket": "tani-h2-k16-2048tok",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260917-105305-h-h2-k16/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 2048,
+ "oge": 20,
+ "uretim_sn": 296,
+ "otomatik_gecen": 8,
+ "bos_cevap": 3,
+ "judge_bekleyen_oge": 17,
+ "tarih": "2026-09-17T17:26:19"
+}

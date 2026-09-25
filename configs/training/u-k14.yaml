@@ -1,0 +1,42 @@
+# Faz 5 · UÇURUM TARAMASI — 8 ile 16 katman arası
+#
+# ⛔⛔ **Neden bu aralık.** Dereceli yönlendirme puanı (0=tür yok · 1=tür var
+# devretmiyor · 2=devrediyor) 8 ile 16 katman arasında bir ÇÖKÜŞ gösterdi:
+#     ham model 21/30 · 8 katman 19/30 · 16 katman 1/30 · 16+o_proj 0/30
+# İkili ölçüt aynı farkı 12/15 ↔ 2/15 diye gösteriyordu ve uçurumun keskinliği
+# görünmüyordu. ⇒ Uçurumun TAM YERİ aranıyor.
+#
+# ⭐ Değişen TEK şey `num_layers`. Veri (v0.0.8), LR, tohum, adım (1368),
+#   batch, max_seq, anahtar (`q_proj`), rank (8): h1 ile BİREBİR aynı.
+# ⚠️ Ölçüm protokolü de aynı tutulacak (`max_tokens` 1024) — yoksa yeni kollar
+#   h1/h2 ile karşılaştırılamaz.
+#
+ad: u-k14
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.8/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 14
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj"]

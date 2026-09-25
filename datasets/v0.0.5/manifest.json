@@ -1,0 +1,43 @@
+{
+  "version": "v0.0.5",
+  "date": "2026-09-15",
+  "git_rev": "5e26f3d",
+  "input_file": "data/judged/v0.0.5.jsonl",
+  "input_sha256_16": "c61a40e538fa6653",
+  "n_total": 155,
+  "n_kept": 155,
+  "n_dropped": 0,
+  "dropped": [],
+  "scenario_counts": {
+    "durtu": 4,
+    "kayma_nuks": 7,
+    "ambivalans": 23,
+    "motivasyon": 7,
+    "farkindalik": 25,
+    "rol_siniri": 14,
+    "nazikce_karsi_cikma": 9,
+    "inkar": 10,
+    "hukuki_kaygi": 4,
+    "borc_finansal": 2,
+    "kutlama": 5,
+    "hedef_belirleme": 10,
+    "bilgilendirme": 7,
+    "bilmiyorum_cikmazi": 2,
+    "anlasilmama": 3,
+    "kayip_kovalama": 2,
+    "discord": 3,
+    "genel": 18
+  },
+  "addiction_type_counts": {
+    "alkol": 46,
+    "receteli_ilac": 19,
+    "tutun": 31,
+    "kumar": 27,
+    "dijital": 14,
+    "yok": 18
+  },
+  "age_group_counts": {
+    "yetiskin": 134,
+    "ergen": 21
+  }
+}

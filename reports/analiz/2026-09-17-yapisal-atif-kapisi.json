@@ -1,0 +1,296 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-yapisal-atif-kapisi.py",
+  "taranan_dosya": 1,
+  "girdiler": [
+    {
+      "dosya": "train.jsonl",
+      "sha256_16": "d22d99bf7d8019c9"
+    }
+  ],
+  "sinanan_iddia": 42,
+  "otomatik_ihlal": [],
+  "elle_okunacak": [
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 33,
+      "cumle": "Haklı olabileceklerini söylüyorsun ve aynı cümlede bunu kabul etmenin zor olduğunu da yazıyorsun."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 13,
+      "cumle": "Bırakamadığını da aynı cümlede söyledin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 39,
+      "cumle": "İkisini de aynı cümlede yazmışsın."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 3,
+      "cumle": "Bırakmak istediğini de aynı cümlede söyledin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 25,
+      "cumle": "İkisi de aynı cümlede."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 24,
+      "cumle": "Ve aynı cümlede aileni de düşünmüşsün."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 42,
+      "cumle": "Telefonu bırakamadığını da aynı cümlede yazdın."
+    },
+    {
+      "korpus": "train",
+      "duzey": "tur",
+      "sira": 46,
+      "cumle": "Sigarayı da severek oynamayı da aynı mesajda tuttun — birini diğerine feda etmeden."
+    },
+    {
+      "korpus": "train",
+      "duzey": "tur",
+      "sira": 21,
+      "cumle": "İkisi aynı mesajda duruyor ve ikisini de sen fark ettin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 22,
+      "cumle": "Ağrınız olduğunu, doktorunuzun verdiğini ve sizin aldığınızı da aynı cümlede söylediniz."
+    },
+    {
+      "korpus": "train",
+      "duzey": "tur",
+      "sira": 29,
+      "cumle": "İkisini aynı mesajda yazmışsın."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 43,
+      "cumle": "İkisini aynı cümlede söyleyen sensin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 12,
+      "cumle": "Bırakamamak ile bunları yapmak aynı cümlede durabiliyor."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 47,
+      "cumle": "İkisini aynı cümlede tutmuşsun, birini öbürüyle silmemişsin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 53,
+      "cumle": "Suçluluk ve kızgınlığı aynı cümlede söyledin."
+    },
+    {
+      "korpus": "train",
+      "duzey": "tur",
+      "sira": 21,
+      "cumle": "Dün gece iki şeyi birden izlediğini de aynı mesajda yazdın."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 27,
+      "cumle": "Yani hesabın seni durdurmadığını da aynı cümlede söylüyorsun."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 36,
+      "cumle": "İkisi de aynı cümleden çıkmış."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 33,
+      "cumle": "İki şeyi aynı cümlede söyledin: alındığını ve onun abarttığını."
+    },
+    {
+      "korpus": "train",
+      "duzey": "cümle",
+      "sira": 40,
+      "cumle": "İkisi aynı cümlede."
+    }
+  ],
+  "muafiyet_ozeti": {
+    "tek_tur_mesaj_duzeyi": 16,
+    "olumsuz_kip": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "c3419959d0685c1d24d5cce0",
+      "oge": "Aynı mesajda üç pazardır bitkin uyandığını, başının çatladığ",
+      "baglam": "Aynı mesajda üç pazardır bitkin uyandığını, başının çatladığını ve planlarını iptal ettiğini de yazdın."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "34ee4b88cad58794d476e208",
+      "oge": "Öğle arası çıkıp yaktığını da aynı mesajda söyledin.",
+      "baglam": "Öğle arası çıkıp yaktığını da aynı mesajda söyledin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 60,
+      "id": "fc06767f8f119e4e88370ffa",
+      "oge": "Üst kattaki oğlundan da aynı mesajda söz ettin.",
+      "baglam": "Üst kattaki oğlundan da aynı mesajda söz ettin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 55,
+      "id": "9356fa644d3cb308bd55800c",
+      "oge": [
+        "Odaklanmak için içiyorum",
+        "o farkı düşünmeye dayanamam"
+      ],
+      "baglam": "\"Odaklanmak için içiyorum\" ile \"o farkı düşünmeye dayanamam\" aynı mesajda duruyor ve ikisi aynı şey değil: biri odaklanmak, öteki düşünmemek."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 23,
+      "id": "e279f4f4412d0796be764658",
+      "oge": [
+        "sonra bir tane daha"
+      ],
+      "baglam": "Kahvaltı etmediğini ve \"sonra bir tane daha\" dediğini aynı mesajda yazdın."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 31,
+      "id": "f795a1bc8b2a3f44959f680f",
+      "oge": "İkisini aynı mesajda yazmak kolay değil.",
+      "baglam": "İkisini aynı mesajda yazmak kolay değil."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "91b9b2115544382ac3bac34f",
+      "oge": "Ama ikisini aynı mesajda tutabilmek zaten bir şey.",
+      "baglam": "Ama ikisini aynı mesajda tutabilmek zaten bir şey."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 16,
+      "id": "53d8896213919c0d73b48188",
+      "oge": "İki şeyi aynı mesajda söyledin: hesabı yapmaya korkuyorsun v",
+      "baglam": "İki şeyi aynı mesajda söyledin: hesabı yapmaya korkuyorsun ve onsuz yol gitmiyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 37,
+      "id": "16550563dc66339330e64b59",
+      "oge": [
+        "İçim ezildi",
+        "artırmışım belki"
+      ],
+      "baglam": "\"İçim ezildi\" ile \"artırmışım belki\" aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "8945dfe7a716d4aba488c851",
+      "oge": "İkisini aynı mesajda yazdın ama aynı şey değiller.",
+      "baglam": "İkisini aynı mesajda yazdın ama aynı şey değiller."
+    },
+    {
+      "muafiyet": "olumsuz_kip",
+      "tip": "muafiyet",
+      "parti_sira": 48,
+      "id": "fae0f73c1ea32c38677bc982",
+      "oge": [
+        "istediğim an bırakırım",
+        "neden sileyim ki"
+      ],
+      "baglam": "Bir şeye katılmıyorum: \"istediğim an bırakırım\" ile \"neden sileyim ki\" aynı cümlede duramaz."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "4ac842925e92992aa26cbf60",
+      "oge": "İkisini birbirine bağlayan bir şey var mı, onu ben bilemem —",
+      "baglam": "İkisini birbirine bağlayan bir şey var mı, onu ben bilemem — ama ikisini aynı mesajda yazan sensin."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 20,
+      "id": "2df10702dd0ab93f0ad26c43",
+      "oge": [
+        "net kazanmışım"
+      ],
+      "baglam": "Bir şeye de katılmıyorum: \"net kazanmışım\" diyorsun ama aynı mesajda tam rakamı eşinin bilmediğini söylüyorsun."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "935dfac08ec6ae71e46a0836",
+      "oge": "Üç haftadır uyuyamadığını da aynı mesajda söylüyorsun — yani",
+      "baglam": "Üç haftadır uyuyamadığını da aynı mesajda söylüyorsun — yani dalmak çözülmüş, uyumak çözülmemiş."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 44,
+      "id": "9476b9dac20d66f5313fd14a",
+      "oge": "İkisi aynı mesajda duruyor.",
+      "baglam": "İkisi aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "1c34e236dfe1935787aa2f05",
+      "oge": [
+        "alıştı bedenim",
+        "Geceleri biraz öksürüyorum"
+      ],
+      "baglam": "Bir şeye katılmıyorum: \"alıştı bedenim\" ile \"Geceleri biraz öksürüyorum\" aynı mesajda duruyor."
+    },
+    {
+      "muafiyet": "tek_tur_mesaj_duzeyi",
+      "tip": "muafiyet",
+      "parti_sira": 15,
+      "id": "06ce9ab5ebb06a4eaa9718d4",
+      "oge": [
+        "Tek zevkim",
+        "maaşın yarısı"
+      ],
+      "baglam": "\"Tek zevkim\" ile \"maaşın yarısı\" aynı mesajda duruyor."
+    }
+  ]
+}

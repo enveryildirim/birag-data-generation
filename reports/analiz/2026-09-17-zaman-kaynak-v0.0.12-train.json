@@ -1,0 +1,483 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "datasets/v0.0.12/train.jsonl",
+  "girdi_sha256_16": "d22d99bf7d8019c9",
+  "kayit": 571,
+  "isaretli_kayit": 3,
+  "bulgu": [
+    {
+      "parti_sira": 36,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 10,
+      "tip": "zaman",
+      "oge": "dün gece"
+    },
+    {
+      "parti_sira": 19,
+      "tip": "zaman",
+      "oge": "bir hafta önce"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "rol_adlandirma_baglacli": 3,
+    "anaforik_demir": 14,
+    "rol_adlandirma_bitisik": 12,
+    "rol_adlandirma_bitisik [ZATEN YERDE]": 2,
+    "sure_birim_eslesme": 8,
+    "belirsiz_artikel": 16,
+    "belirsiz_artikel [ZATEN YERDE]": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "rol_adlandirma_baglacli",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "049c62fa00f632d6d5ddcfec",
+      "oge": "hekimin",
+      "baglam": "hekimin . Benim yapabileceğim, kararı verirken neye baktığını seninle birlikte görmek. Şu an iki ş"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 9,
+      "id": "7a52578e178fdcd6cf9d783f",
+      "oge": "o hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 24,
+      "id": "aaa1c9a0ba4f4435314762b0",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 34,
+      "id": "802a014fe91ebbc2259680bc",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 3,
+      "id": "846f79e04a483eb6daff7358",
+      "oge": "hekimin",
+      "baglam": "hekimin alanı"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "6954878fbeac6fa73e55583b",
+      "oge": "aynı gece",
+      "baglam": "gece"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "7a2be624a947e7c8b09763dd",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 21,
+      "id": "dec0afd13a3f0325f7199553",
+      "oge": "hekimin",
+      "baglam": "hekimin alanı"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 22,
+      "id": "b8e128bb4e8654cc36537364",
+      "oge": "aynı gece",
+      "baglam": "gece"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "d5769c9c10c3ce1aca3fe5a8",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "fb634d744db01ab6856764e3",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 9,
+      "id": "099f66bc20561343d08385db",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_baglacli",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "4583458d68eb4ac8bdc47ecd",
+      "oge": "hekimin",
+      "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi; bende o karar yok.\n\nAma sen iki şeyi "
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "17908b5136dfcd99cda91e58",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "30e65d55e8860b2ffda3feb8",
+      "oge": "altı ay önce",
+      "baglam": "alti ay"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 33,
+      "id": "d5624c918b37e416bb34e2ee",
+      "oge": "o hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "34ee4b88cad58794d476e208",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 56,
+      "id": "d708ce9c559209e918e073ba",
+      "oge": "aynı gece",
+      "baglam": "gece"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "d5e2ec4c8fc3d7c91a49bca0",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 14,
+      "id": "8325fed79c8b5e89fdcb084b",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "rol_adlandirma_baglacli",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "1f14f47ee701cc5b1573366e",
+      "oge": "hekimin",
+      "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi. Söyleyebilecek olan da onlar: reçetey"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 37,
+      "id": "277e97b617b85cb512629b93",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 40,
+      "id": "be104a2d1ae0cf31448c31bc",
+      "oge": "Üç yıl önce",
+      "baglam": "üç yil"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 43,
+      "id": "ab063ce6da795a30da6bd8de",
+      "oge": "aynı sabah",
+      "baglam": "sabah"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a9395c50fe4",
+      "oge": "Üç yıl önce",
+      "baglam": "üç yil"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "249eb88592bff64af466b863",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 53,
+      "id": "370e69f38f4a161cba226828",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 2,
+      "id": "d2ea5136d517a5cf78ab6d8a",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "557a476341f48f683a3efb0e",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 32,
+      "id": "50f5ebb517f6c02e833e650d",
+      "oge": "aynı akşam",
+      "baglam": "akşam"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 42,
+      "id": "7d826fd5775ea1f33ef845a2",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bcd3e2f049",
+      "oge": "o akşam",
+      "baglam": "akşam"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 29,
+      "id": "82f85f4ed372ce4ea527c896",
+      "oge": "İki hafta önce",
+      "baglam": "iki hafta"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 51,
+      "id": "830a77104a742390c8537c90",
+      "oge": "altı hafta önce",
+      "baglam": "alti hafta"
+    },
+    {
+      "muafiyet": "belirsiz_artikel [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "96bd28d2306a884f3d9b2ad7",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "9144ede456de9e755436aad3",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 52,
+      "id": "59bfb2dfcc368e109bf6b636",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "7fe5381b461cde46978ddc7b",
+      "oge": "Üç hafta önce",
+      "baglam": "üç hafta"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "e16647732e0e025de94cbb2a",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "e16647732e0e025de94cbb2a",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "2f7d954e6e163d9580fc508d",
+      "oge": "Üç gün önce",
+      "baglam": "üç gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "816a557dc8324f3ab44edc90",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 34,
+      "id": "2826dd3558765875c58db7da",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 42,
+      "id": "74b13b187255800ce8b7c5a2",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 54,
+      "id": "526d1cf03a43cc9a421940d0",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "5a4684b995d4de5358f9e185",
+      "oge": "aynı sabah",
+      "baglam": "sabah"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 1,
+      "id": "c272e5cfcff9f2e7eb78ea2b",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 13,
+      "id": "765ae0a99533e2278f260ecf",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "f0a5311fbb22d8bbfc13c37b",
+      "oge": "doktorunun",
+      "baglam": "doktorunun alanı"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 39,
+      "id": "8945dfe7a716d4aba488c851",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 46,
+      "id": "453c9934259620a87f15418d",
+      "oge": "aynı hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "3a31b8ca96a792ff2e4b4496",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "935dfac08ec6ae71e46a0836",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 45,
+      "id": "94129bb5e6c6919c85267524",
+      "oge": "Üç ay önce",
+      "baglam": "üç ay"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 26,
+      "id": "899e4cc94a5a0337cdb57c7a",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "91bec3d2d64b48d1d6909db5",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v4-parti2.v2.jsonl",
+  "girdi_sha256_16": "2867eb01834e3e41",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 1,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 49,
+      "alinti": "son olsun"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "5ac8471111f7ca2382835519",
+      "oge": "bıraktım",
+      "baglam": "Bugünü   diye de anlatmadın, olanı anlattın"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+[
+ {
+  "kol": "taban",
+  "id": "sk-001",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-007",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-002",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-011",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-003",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-013",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-004",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-014",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-005",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-017",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-006",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-020",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-008",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-009",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-010",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-012",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-015",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-016",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-018",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "taban",
+  "id": "sk-019",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-001",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-005",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-002",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-008",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-003",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-014",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-004",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-015",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-006",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-016",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-007",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-017",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-009",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-019",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-010",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-020",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-011",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-012",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-013",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-018",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-007",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-008",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-011",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-014",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-008",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-009",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-011",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-012",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-018",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-019",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-019",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-001",
+  "rol": "kontrol"
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-020",
+  "rol": "isaretli"
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-002",
+  "rol": "kontrol"
+ }
+]

@@ -1,0 +1,44 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "datasets/v0.0.8/train.jsonl",
+  "girdi_sha256_16": "5d605d7c7d7e9890",
+  "kayit": 571,
+  "isaretli_kayit": 7,
+  "bulgu": [
+    {
+      "parti_sira": 1,
+      "tip": "kaynak_atfi",
+      "oge": "eşin"
+    },
+    {
+      "parti_sira": 30,
+      "tip": "kaynak_atfi",
+      "oge": "Eşin"
+    },
+    {
+      "parti_sira": 36,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 15,
+      "tip": "kaynak_atfi",
+      "oge": "Eşinin"
+    },
+    {
+      "parti_sira": 20,
+      "tip": "kaynak_atfi",
+      "oge": "Eşin"
+    },
+    {
+      "parti_sira": 10,
+      "tip": "zaman",
+      "oge": "dün gece"
+    },
+    {
+      "parti_sira": 19,
+      "tip": "zaman",
+      "oge": "bir hafta önce"
+    }
+  ]
+}

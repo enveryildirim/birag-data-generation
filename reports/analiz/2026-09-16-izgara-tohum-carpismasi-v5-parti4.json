@@ -1,0 +1,22 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-izgara-tohum-carpismasi.py",
+  "girdi": [
+    "data/plan/v5-parti4.jsonl",
+    "data/seeds.jsonl"
+  ],
+  "plan_sha256": "75db13aa210234af4b0f1eed0f9efa0ced74be1db1869554ff30b782e79392e4",
+  "tohum_sha256_16": "0631c02ec7510af3",
+  "satir": 60,
+  "tam_uyum": 60,
+  "duzlestirme": 0,
+  "uydurma": 0,
+  "gecis_tablosu": {
+    "ic_motivasyon -> ic": 26,
+    "tetikleyici_olay -> ic": 18,
+    "aile_baskisi -> aile_baskisi": 15,
+    "yasal_zorunluluk -> yasal_zorunluluk": 1
+  },
+  "uydurma_satirlari": [],
+  "duzlestirme_satirlari": []
+}

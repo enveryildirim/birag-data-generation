@@ -1,0 +1,14 @@
+{
+ "etiket": "g1-v006-adimsabit",
+ "set": "evals/golden.dev.jsonl",
+ "adapter": "runs/20260916-200318-g1-olcek-v006-adimsabit/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "judge_model": null,
+ "judge_rubrik": "judge-eksen1.v9",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 48,
+ "uretim_sn": 555,
+ "judge_sn": 0,
+ "tarih": "2026-09-16T20:40:27"
+}

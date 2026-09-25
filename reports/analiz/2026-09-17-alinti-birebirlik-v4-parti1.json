@@ -1,0 +1,17 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v4-parti1.jsonl",
+  "girdi_sha256_16": "ea596190dd998935",
+  "kayit": 40,
+  "karsi_olgusal_muaf": 0,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 12,
+      "alinti": "Ne diyeyim bilmiyorum"
+    }
+  ],
+  "muafiyet_ozeti": {},
+  "muafiyet": []
+}

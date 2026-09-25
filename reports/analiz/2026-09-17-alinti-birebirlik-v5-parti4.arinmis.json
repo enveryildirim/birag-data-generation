@@ -1,0 +1,27 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti4.arinmis.jsonl",
+  "girdi_sha256_16": "ee8d1855f9c086d8",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 4,
+  "isaretli_kayit": 4,
+  "bulgu": [
+    {
+      "parti_sira": 60,
+      "alinti": "sen değil"
+    },
+    {
+      "parti_sira": 19,
+      "alinti": "nasıl geçireceğim bilmiyorum"
+    },
+    {
+      "parti_sira": 49,
+      "alinti": "bağımlılık yok"
+    },
+    {
+      "parti_sira": 29,
+      "alinti": "Hiç hazır olmayacağım"
+    }
+  ]
+}

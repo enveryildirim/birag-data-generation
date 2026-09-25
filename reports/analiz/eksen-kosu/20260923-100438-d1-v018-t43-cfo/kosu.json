@@ -1,0 +1,14 @@
+{
+ "etiket": "d1-v018-t43-cfo",
+ "set": "evals/context_fidelity.ortusmez.jsonl",
+ "adapter": "runs/20260922-120809-d1-veri2x-k8qo-v018-t43/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 15,
+ "uretim_sn": 171,
+ "otomatik_gecen": 5,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 15,
+ "tarih": "2026-09-23T10:04:38"
+}

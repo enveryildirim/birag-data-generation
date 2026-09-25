@@ -1,0 +1,40 @@
+# Faz 5 · ÖLÇEK EĞRİSİ — kol "v006-adimsabit" · korpus v0.0.6 (214 kayıt)
+#
+# ⭐ KONTROL KOLU (K113). `3epoch` kolundan tek farkı `iters`: 372, yani
+# `f4c-doz25-A-dar`ın (v0.0.5, 124 eğitim kaydı) adım sayısının AYNISI.
+# Böylece "veri mi yardı, adım mı" sorusu ayrıştırılabilir:
+#   · 3epoch vs adimsabit -> ADIM etkisi (veri sabit, doğrulama kümesi aynı)
+#   · adimsabit vs f4c-doz25-A-dar -> VERİ etkisi (adım sabit)
+#     ⛔ ama bu ikincisinde val loss okunamaz (farklı doğrulama kümesi);
+#        yalnızca sabit eval setleri karşılaştırılabilir.
+ad: g1-olcek-v006-adimsabit
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.6/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 8             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 372
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys: ["self_attn.q_proj"]

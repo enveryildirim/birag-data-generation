@@ -1,0 +1,58 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v5-parti3.blok1.jsonl",
+  "girdi_sha256_16": "3b0fc2df63c18afa",
+  "kayit": 6,
+  "taranan_alinti": 13,
+  "bulunamayan": [
+    {
+      "parti_sira": 8,
+      "id": "6d58d2be062f68c9",
+      "alinti": "Yanlış düşünüyorsun",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 8,
+      "id": "6d58d2be062f68c9",
+      "alinti": "ikimiz de bilmiyoruz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "nereden başlanır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "Nasıl bırakılır",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "o an ne geçti",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 14,
+      "id": "8325fed79c8b5e89",
+      "alinti": "Paranoya mı bu",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "80061daeacd8774e",
+      "alinti": "Neden korktun",
+      "sinif": "siniflanmadi"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 0,
+    "parafraz": 0,
+    "hayalet": 0,
+    "siniflanmadi": 7
+  },
+  "elle_okunan_korpus": "v4-parti2.v2"
+}

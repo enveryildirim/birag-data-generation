@@ -1,0 +1,181 @@
+{
+  "tarih": "2026-09-18",
+  "bulgu": [
+    {
+      "id": "7a52578e178fdcd6cf9d783f",
+      "alinti": "hiçbir işe yaramıyor",
+      "kullanici": "hiç bir işe yaramıyor galiba",
+      "oran": 0.83,
+      "dusen": [
+        "hiç",
+        "bir",
+        "galiba"
+      ]
+    },
+    {
+      "id": "61591116b3c65b55e822deba",
+      "alinti": "yanlış mı bilmiyorum, garip hissediyorum",
+      "kullanici": "Yanlış mı bilmiyorum, biraz garip hissediyorum bunu",
+      "oran": 0.88,
+      "dusen": [
+        "biraz",
+        "bunu"
+      ]
+    },
+    {
+      "id": "cd735e3f2b7153087d4eadbf",
+      "alinti": "icra dosyasına bir nefes olur, kimsenin haberi olmaz",
+      "kullanici": "'icra dosyasına bir nefes olur, eşim duymaz, kimsenin haberi olmaz'",
+      "oran": 0.87,
+      "dusen": [
+        "'icra",
+        "eşim",
+        "duymaz,",
+        "olmaz'"
+      ]
+    },
+    {
+      "id": "189d550d6d2c887f2cfc6565",
+      "alinti": "ben de katılıyorum",
+      "kullanici": "ben de aslında buna katılıyorum",
+      "oran": 0.73,
+      "dusen": [
+        "aslinda",
+        "buna"
+      ]
+    },
+    {
+      "id": "16c95f92088abd542fb8aa9a",
+      "alinti": "Kumardan diyemezsin di mi",
+      "kullanici": "kumardan diyemezsin ki di mi? bide",
+      "oran": 0.85,
+      "dusen": [
+        "ki",
+        "mi?",
+        "bide"
+      ]
+    },
+    {
+      "id": "4d240718c16600981b958df7",
+      "alinti": "niye hep yalnızım",
+      "kullanici": "'niye ben hep yalnızım' vardı",
+      "oran": 0.74,
+      "dusen": [
+        "'niye",
+        "ben",
+        "yalnizim'",
+        "vardi"
+      ]
+    },
+    {
+      "id": "f9550f5bce7b9ca46f3812f2",
+      "alinti": "Gerçeği söylemek mümkün değil",
+      "kullanici": "gerçeği söylemek de mümkün değil.",
+      "oran": 0.94,
+      "dusen": [
+        "de",
+        "değil."
+      ]
+    },
+    {
+      "id": "5348c211fa9bcc90253b291c",
+      "alinti": "İçim buna razı değil",
+      "kullanici": "içim de buna razı değil aslında.",
+      "oran": 0.77,
+      "dusen": [
+        "de",
+        "aslinda."
+      ]
+    },
+    {
+      "id": "71bb2b5678dc211b035bf2ff",
+      "alinti": "Hak ettim galiba",
+      "kullanici": "kadeh. Hak ettim bunu galiba.",
+      "oran": 0.71,
+      "dusen": [
+        "kadeh.",
+        "bunu",
+        "galiba."
+      ]
+    },
+    {
+      "id": "69776ab9b10c60fc928b7bda",
+      "alinti": "nasıl uzak dururum",
+      "kullanici": "Bu fikirden nasıl uzak durabilirim?",
+      "oran": 0.6,
+      "dusen": [
+        "bu",
+        "fikirden",
+        "durabilirim?"
+      ]
+    },
+    {
+      "id": "f37585290d3ee12d84b615d7",
+      "alinti": "İçim bir tuhaf",
+      "kullanici": "ama içim de bir tuhaf,",
+      "oran": 0.78,
+      "dusen": [
+        "ama",
+        "de",
+        "tuhaf,"
+      ]
+    },
+    {
+      "id": "605a7e888d3f3c7f2bbab4ab",
+      "alinti": "Ortada büyük bir şey yok",
+      "kullanici": "ortada büyük bir şey de yok. İlk",
+      "oran": 0.86,
+      "dusen": [
+        "de",
+        "yok.",
+        "ilk"
+      ]
+    },
+    {
+      "id": "f3c15ff6bcfe53ac351b9366",
+      "alinti": "eşim bilse zaten anlamaz.",
+      "kullanici": "eşim de bilse zaten anlamaz. Bilmiyorum,",
+      "oran": 0.77,
+      "dusen": [
+        "de",
+        "bilmiyorum,"
+      ]
+    },
+    {
+      "id": "c978e3762186c88aef446166",
+      "alinti": "Benim bildiğim bir şey var ki onlar bilmiyor.",
+      "kullanici": "Ama benim bildiğim bir şey var ki onlar bilmiyor, o",
+      "oran": 0.92,
+      "dusen": [
+        "ama",
+        "bilmiyor,",
+        "o"
+      ]
+    },
+    {
+      "id": "73c8a8cc38de9439e437e8fd",
+      "alinti": "hak etmiyorum bu cümleyi.",
+      "kullanici": "bir yandan 'hak etmiyorum bu cümleyi'",
+      "oran": 0.77,
+      "dusen": [
+        "bir",
+        "yandan",
+        "'hak",
+        "cümleyi'"
+      ]
+    },
+    {
+      "id": "5d24f424239fa0ad6eb783de",
+      "alinti": "Babam da idare etti",
+      "kullanici": "etti. Ben de idare ederim.",
+      "oran": 0.53,
+      "dusen": [
+        "etti.",
+        "ben",
+        "de",
+        "ederim."
+      ]
+    }
+  ],
+  "edat_dusen": 6
+}

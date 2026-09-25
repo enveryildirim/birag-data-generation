@@ -1,0 +1,12 @@
+{
+ "kol": "C-dikkat",
+ "kaynak_kosu": "20260915-141743-sc2-C-dikkat",
+ "kor_etiket": "e2-99b69ab4",
+ "judge_model": "claude-sonnet-subagent",
+ "judge_rubrik": "judge-eksen1.v7",
+ "k": 1,
+ "judge_toplandi": 20,
+ "eksik": [],
+ "bozuk": [],
+ "tarih": "2026-09-15T19:10:54"
+}

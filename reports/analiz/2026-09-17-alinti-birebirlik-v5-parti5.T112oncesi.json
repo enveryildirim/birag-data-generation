@@ -1,0 +1,55 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/private/tmp/claude-501/-Users-pc-projects-birag-data-finetuning/5f137701-b76a-4f1f-a00f-950fe477b7ac/scratchpad/v5-parti5.T112oncesi.jsonl",
+  "girdi_sha256_16": "36f6f6a5d18751e8",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 11,
+  "isaretli_kayit": 9,
+  "bulgu": [
+    {
+      "parti_sira": 14,
+      "alinti": "Tutmadıysa tutma sırası gelmiştir"
+    },
+    {
+      "parti_sira": 14,
+      "alinti": "eski kayıpları kapatmak"
+    },
+    {
+      "parti_sira": 54,
+      "alinti": "Görmüyoruz ama paketler bitiyor"
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "onun kadar değil"
+    },
+    {
+      "parti_sira": 49,
+      "alinti": "dönsem yine bırakmam"
+    },
+    {
+      "parti_sira": 1,
+      "alinti": "Anlaşılmak"
+    },
+    {
+      "parti_sira": 1,
+      "alinti": "yakın hissetmek"
+    },
+    {
+      "parti_sira": 15,
+      "alinti": "Kendimi yakaladım"
+    },
+    {
+      "parti_sira": 16,
+      "alinti": "Niye yazdım bilmiyorum"
+    },
+    {
+      "parti_sira": 33,
+      "alinti": "Yaşlanmak mı, yoksa kendime fazla mı acıyorum"
+    },
+    {
+      "parti_sira": 50,
+      "alinti": "kimse bir şey demiyor"
+    }
+  ]
+}

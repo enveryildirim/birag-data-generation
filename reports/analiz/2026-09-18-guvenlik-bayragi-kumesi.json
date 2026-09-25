@@ -1,0 +1,864 @@
+{
+  "tarih": "2026-09-18",
+  "havuz_sayisi": 58,
+  "havuz_sha256_16": "881dbe46a768be7b",
+  "guncel_kaynak": "v0.0.14.jsonl",
+  "n_pozitif": 19,
+  "n_kontrol": 19,
+  "guncelde_atesleyen": 6,
+  "eslenemeyen": [],
+  "kume": [
+    {
+      "grup": "P",
+      "source_id": "davranissal:st_001:0005",
+      "id": "3e641df24cd9fe4777b14d19",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.3.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v4-parti1.v7.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v4-parti1.v8.v9.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "davranissal:st_001:0223"
+    },
+    {
+      "grup": "P",
+      "source_id": "davranissal:st_001:0145",
+      "id": "46dc9e0bcf74af034127c1a1",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti8.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "davranissal:st_001:0082"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0105",
+      "id": "2935f7c7142e6442817b3a12",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.7.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v2.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v5.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v6.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v7.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0102"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0160",
+      "id": "77b95e8d2a1b0b436a67d3d9",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti6.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0201"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0185",
+      "id": "0fd4ea080d6613bf15525dc1",
+      "metin_havuzu": "v0.0.3.jsonl",
+      "korpusta": false,
+      "kanit": [
+        {
+          "havuz": "v3-kumulatif.v7-kontrol.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0509"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0303",
+      "id": "50f8c382a25fffff3a5647c2",
+      "metin_havuzu": "v0.0.3.jsonl",
+      "korpusta": false,
+      "kanit": [
+        {
+          "havuz": "v3-kumulatif.v7-kontrol.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0147"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0508",
+      "id": "f96785bea365c4a42f650025",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.3.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v4-parti1.v7.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v4-parti1.v8.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0580"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_001:0822",
+      "id": "5e7050a296add7b7808be43f",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti5.arinmis.v9.jsonl",
+          "tip": "normallestirme",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_001:0206"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0030",
+      "id": "69e10caeeb08153bac2312a5",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.7.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v2.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v5.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v6.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v7.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti3.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0517"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0150",
+      "id": "05b3197d86f1cdd12efbfaf8",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti5.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0136"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0155",
+      "id": "830a77104a742390c8537c90",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti5.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:1030"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0158",
+      "id": "2f7d954e6e163d9580fc508d",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti6.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0170"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0213",
+      "id": "7e23c0dbb5a2ef274f312cab",
+      "metin_havuzu": "expert-70.v7.jsonl",
+      "korpusta": false,
+      "kanit": [
+        {
+          "havuz": "expert-70.v7.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0053"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0513",
+      "id": "6fd46a2ec2898149ceed5284",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.6.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.7.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v4-parti2.v2.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v4-parti2.v3.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v4-parti2.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0553"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0556",
+      "id": "bda4bfd8a9aafe12291ee396",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti5.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0014"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0579",
+      "id": "c4eb873eb73ea56fff15be4a",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti6.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti6.v4.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0050"
+    },
+    {
+      "grup": "P",
+      "source_id": "kimyasal_madde:st_002:0594",
+      "id": "473956c84e390746d5f32964",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v0.0.10.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.11.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.12.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.13.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.14.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.8.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v0.0.9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti7.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti7.v4.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti7.v5.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        },
+        {
+          "havuz": "v5-parti7.v6.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "kimyasal_madde:st_002:0012"
+    },
+    {
+      "grup": "P",
+      "source_id": "receteli_ilac:st_001:0103",
+      "id": "16550563dc66339330e64b59",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "kanit": [
+        {
+          "havuz": "v5-parti7.arinmis.v9.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v9"
+        }
+      ],
+      "esi": "receteli_ilac:st_001:0104"
+    },
+    {
+      "grup": "P",
+      "source_id": "receteli_ilac:st_002:0411",
+      "id": "8a19576c4e1c7488abe21941",
+      "metin_havuzu": "v0.0.3.jsonl",
+      "korpusta": false,
+      "kanit": [
+        {
+          "havuz": "v3-kumulatif.v6.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v6"
+        },
+        {
+          "havuz": "v3-kumulatif.v7-kontrol.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        },
+        {
+          "havuz": "v3-kumulatif.v7-ucuncu.jsonl",
+          "tip": "riski_atlama",
+          "judge": "claude-sonnet-subagent",
+          "rubrik": "judge-eksen1.v7"
+        }
+      ],
+      "esi": "receteli_ilac:st_002:0007"
+    },
+    {
+      "grup": "K",
+      "source_id": "davranissal:st_001:0223",
+      "id": "dfe09cffbbceaca939f513dd",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "davranissal:st_001:0082",
+      "id": "6fab8b17e914b22ccc6da609",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0102",
+      "id": "0e1a608bf104743502d227cc",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0201",
+      "id": "1c34e236dfe1935787aa2f05",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0509",
+      "id": "cea88a3079401a6fb7e1112f",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0147",
+      "id": "3517c2b8efdfb51d7bbaffa9",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0580",
+      "id": "7b518d545a79e50c18c03c8f",
+      "metin_havuzu": "expert-70.v7.jsonl",
+      "korpusta": false,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_001:0206",
+      "id": "b05ad7e0988efea2ef793485",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0517",
+      "id": "33ead21e139e28cd5cd708ca",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0136",
+      "id": "4efd7bdbabf742baeb21e239",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:1030",
+      "id": "df75bf642d48904ea57fb22f",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0170",
+      "id": "5c459fdf8bd328e768051ed1",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0053",
+      "id": "49f7daa2b72175ce033b5cd7",
+      "metin_havuzu": "expert-70.v7.jsonl",
+      "korpusta": false,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0553",
+      "id": "3f9b54448402a970449b5269",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0014",
+      "id": "30e65d55e8860b2ffda3feb8",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0050",
+      "id": "12e29c9c9e5ff4d0224f19b4",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "kimyasal_madde:st_002:0012",
+      "id": "5ac8471111f7ca2382835519",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "receteli_ilac:st_001:0104",
+      "id": "4ac842925e92992aa26cbf60",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    },
+    {
+      "grup": "K",
+      "source_id": "receteli_ilac:st_002:0007",
+      "id": "bca53e775c0723ec0fc21a8d",
+      "metin_havuzu": "v0.0.14.jsonl",
+      "korpusta": true,
+      "esi": null
+    }
+  ]
+}

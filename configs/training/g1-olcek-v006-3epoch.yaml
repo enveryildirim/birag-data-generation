@@ -1,0 +1,48 @@
+# Faz 5 · ÖLÇEK EĞRİSİ — kol "v006-3epoch" · korpus v0.0.6 (214 kayıt)
+#
+# ⛔ f4/f4b/f4c aileleri DEĞİŞTİRİLMEDİ — Kural 7. Bu dördüncü aile ayrı yazıldı.
+#
+# SORU: veri 155 -> 214 çıkınca ne oluyor. ⚠️ 155'ten 214'e geçerken İKİ değişken
+# birden oynuyor (veri hacmi + 3-epoch kuralı gereği adım sayısı) ve K113 bunun
+# kontrol kolu gerektirdiğini zaten ölçtü. Bu yüzden iki kol:
+#   · bu kol      : 3 epoch (171 eğitim kaydı x 3 = 513 adım)
+#   · adimsabit   : 372 adım — v0.0.5 kolundaki adım sayısının AYNISI
+#
+# ⛔⛔ VAL LOSS KOLLAR ARASI HER ZAMAN KARŞILAŞTIRILAMAZ: doğrulama kümesi
+# datasetin kendi %20'si. Bu kol ile `adimsabit` AYNI doğrulama kümesini
+# kullanıyor (aynı dataset, aynı seed) ⇒ aralarında val loss okunabilir.
+# `f4c-doz25-A-dar` (v0.0.5) BAŞKA bir doğrulama kümesi kullanıyor ⇒ ona karşı
+# val loss okunamaz; o karşılaştırma yalnızca SABİT eval setleri üzerinden yapılır.
+#
+# LoRA kapsamı, LR, tohum, template: f4c-doz25-A-dar ile BİREBİR aynı.
+ad: g1-olcek-v006-3epoch
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.6/train.jsonl
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 8             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 513
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys: ["self_attn.q_proj"]

@@ -1,0 +1,259 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v5-parti3.jsonl",
+  "girdi_sha256_16": "746e25e983550681",
+  "kayit": 60,
+  "taranan_alinti": 105,
+  "bulunamayan": [
+    {
+      "parti_sira": 8,
+      "id": "6d58d2be062f68c9",
+      "alinti": "Yanlış düşünüyorsun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 8,
+      "id": "6d58d2be062f68c9",
+      "alinti": "ikimiz de bilmiyoruz",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "nereden başlanır",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "Nasıl bırakılır",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 13,
+      "id": "1475abda78afb23a",
+      "alinti": "o an ne geçti",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 14,
+      "id": "8325fed79c8b5e89",
+      "alinti": "Paranoya mı bu",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 15,
+      "id": "80061daeacd8774e",
+      "alinti": "Neden korktun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 28,
+      "id": "df1bb280dcf3a88f",
+      "alinti": "mükemmeliyetçisin, büyütüyorsun",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 47,
+      "id": "52b7faacb2c64214",
+      "alinti": "bu metin ilgisiz",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 47,
+      "id": "52b7faacb2c64214",
+      "alinti": "yine yaktım",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 49,
+      "id": "cb84af23776b6bca",
+      "alinti": "formda da öyle geçiyordur, değil mi",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 49,
+      "id": "cb84af23776b6bca",
+      "alinti": "bence yapabilirsin",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 50,
+      "id": "7e266a508efc67a0",
+      "alinti": "Haklı görünmek istemiyorum",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 57,
+      "id": "33187fab6f685891",
+      "alinti": "ne istiyorsanız söyleyin, bitirelim",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 4,
+      "id": "9b3fd43f070e21aa",
+      "alinti": "Çıkarsam bırakmış olurum",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 4,
+      "id": "9b3fd43f070e21aa",
+      "alinti": "sana kim söyledi",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 4,
+      "id": "9b3fd43f070e21aa",
+      "alinti": "kimse",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 9,
+      "id": "fc25f1cfd3d43b23",
+      "alinti": "Bırakmayı düşünmüyorum",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 12,
+      "id": "45d03b5935ce84b3",
+      "alinti": "belki şaşırmıştır",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 12,
+      "id": "45d03b5935ce84b3",
+      "alinti": "kötü niyetli değildir",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 17,
+      "id": "6388d914034ba279",
+      "alinti": "Şablon mesajdır",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 27,
+      "id": "1f14f47ee701cc5b",
+      "alinti": "hekimine söyle",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 27,
+      "id": "1f14f47ee701cc5b",
+      "alinti": "Neden",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 53,
+      "id": "1557d302c08edf53",
+      "alinti": "azaltmak",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 3,
+      "id": "56a571893af58e83",
+      "alinti": "Neden tutamıyorsun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 5,
+      "id": "aa8fc42a6cb2a9ed",
+      "alinti": "Bravo",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 5,
+      "id": "aa8fc42a6cb2a9ed",
+      "alinti": "nasıl hissettin",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 16,
+      "id": "2fbce5884eb4d183",
+      "alinti": "Ne zamandır",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 16,
+      "id": "2fbce5884eb4d183",
+      "alinti": "ne bu",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 20,
+      "id": "cec3f3b20d078329",
+      "alinti": "Bağımlı değilim",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 26,
+      "id": "3bcb254586244da4",
+      "alinti": "Harika bir şey yaptın",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 30,
+      "id": "5a635d6c6059c1dd",
+      "alinti": "Şans diye bir şey yok",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 34,
+      "id": "78a8a8da0ded5cf6",
+      "alinti": "haklı",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 34,
+      "id": "78a8a8da0ded5cf6",
+      "alinti": "haksız",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 37,
+      "id": "277e97b617b85cb5",
+      "alinti": "Alakası var",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 39,
+      "id": "1f791e5b68cd5e41",
+      "alinti": "bugün seni buna iten ne oldu",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 43,
+      "id": "ab063ce6da795a30",
+      "alinti": "haklıydı",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 43,
+      "id": "ab063ce6da795a30",
+      "alinti": "haksızdı",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 45,
+      "id": "c212c942bb293bed",
+      "alinti": "söylesen iyi olur",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 54,
+      "id": "92a16fd61bf1aa70",
+      "alinti": "Nasıl başardın",
+      "sinif": "karsiolgusal"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 32,
+    "parafraz": 8,
+    "hayalet": 0,
+    "siniflanmadi": 0
+  },
+  "elle_okunan_korpus": [
+    "v4-parti2.v2",
+    "v5-parti3"
+  ]
+}

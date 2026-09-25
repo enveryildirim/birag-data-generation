@@ -1,0 +1,15 @@
+{
+  "tarih": "2026-09-20",
+  "havuz": 2240,
+  "uretilmis": 1029,
+  "kalan": 1211,
+  "sert": 39,
+  "uygun": 1172,
+  "kriz_icerigi": 50,
+  "esik": 3.0,
+  "hic_uretilmemis": {
+    "senaryo=kayma_nuks": 10,
+    "risk_seviyesi=cok_yuksek": 20
+  },
+  "acik": {}
+}

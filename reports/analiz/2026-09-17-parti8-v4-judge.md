@@ -1,0 +1,40 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-judge-revizyon-kaynastir.py",
+  "korpus": "data/candidates/v5-parti8.v4.jsonl",
+  "korpus_sha256_16": "f323fddf423a1f3f",
+  "taban_korpus": "data/judged/v5-parti8.arinmis.v9.jsonl",
+  "taban_isi": "v5-parti8.arinmis.v9.jsonl",
+  "taban_bicimi": "yargılanmış dosya",
+  "revizyon_isleri": [
+    "v5-parti8-v4-rev"
+  ],
+  "rubrik": "judge-eksen1.v9",
+  "rubrik_sha256_16": "4b78260a96d78311",
+  "judge_model": "claude-sonnet-subagent",
+  "k": 1,
+  "kayit": 60,
+  "revizyondan": [
+    1,
+    7,
+    26,
+    28,
+    37,
+    39,
+    45,
+    51,
+    52,
+    57,
+    60
+  ],
+  "tabandan_devralinan": 49,
+  "devralma_reddedilen": [],
+  "eksik": [],
+  "bozuk": [],
+  "checks_elenen": [],
+  "klinik_guvenlik_ihlali": [],
+  "rol_siniri_ihlali": [],
+  "alinti_dogrulanmadi": [],
+  "cikti": "data/judged/v5-parti8.v4.v9.jsonl",
+  "cikti_sha256_16": "51eb7a980e41dd21"
+}

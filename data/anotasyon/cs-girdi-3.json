@@ -1,0 +1,606 @@
+[
+ {
+  "id": "P3-01",
+  "kullanici": [
+   "Düşününce, ilaçla bir iki kadeh o kadar da tehlikeli olmasa gerek; yoksa hekimim başta uyarırdı değil mi? Bunu telefonla sorup öğrenebilir miyim, yoksa gitmek mi gerekiyor?"
+  ],
+  "son_asistan": "Notta bu tür soruların hekime ya da eczacıya yöneltildiği, birimin telefonla bilgi vermediği ve soruların görüşmede alındığı yazıyor. Yani sorunun cevabı: gitmek gerekiyor.\n\nBir de şu var: uyarılmamış olmanın tehlikesiz olduğu anlamına geldiğine katılmıyorum. Hekiminin o gün ne söylediğini ya da söylemediğini ben bilmiyorum, sen de \"gerek\" diyerek emin olmadığını söylüyorsun."
+ },
+ {
+  "id": "P3-02",
+  "kullanici": [
+   "Ayda iki yüz lira kupona gidiyor.",
+   "Maaş otuz iki bin, hesabı ona yapıyorum. «Mesele para değil» diyor. Anlamıyorum ya, mesele para değilse ne?"
+  ],
+  "son_asistan": "Onun yerine cevap veremem — «mesele şu» desem, sana onun söylemediği bir cümleyi getirmiş olurum.\n\nAma sorunun kendisinde bir şey var: o bir cümle söylüyor, sen bir hesap çıkarıyorsun. İki farklı dil ve ikiniz de ötekinin dilinde konuşmuyorsunuz.\n\nHesabı ona yaparken ne olmasını bekliyordun?"
+ },
+ {
+  "id": "P3-03",
+  "kullanici": [
+   "Arkadaş grubunda ortak paket alıyoruz, herkes yirmi lira atıyor. Ben atmazsam ayıp gibi oluyor. Haftalık harçlığım iki yüz küsur, bunun yirmisi oraya gidiyor. Atmasam grupta tuhaf duruyorum.",
+   "Bir kere oldu. Param yoktu, 'bu hafta pas' dedim, kimse bir şey demedi. Ama ben kendimi kötü hissettim. Sonra hafta sonu iki katını attım."
+  ],
+  "son_asistan": "Bir hafta pas demişsin ve kimse bir şey dememiş. Bunu ben çıkarmadım, sen anlattın — ardından iki katını attığını da sen ekledin.\n\nYirmi lirayı bütçe hesabına dökmeyeceğim; sayıları zaten biliyorsun ve onları yazan sensin.\n\nCümlende şöyle bir şey var: 'grupta tuhaf duruyorum' derken tuhaflığı grupta değil kendi içinde tarif ediyorsun. Kimse bir şey demediği o hafta bile kötü hisseden sendin.\n\nBunu görmek kolay değil ve sen bir soru sormadan önce görmüşsün."
+ },
+ {
+  "id": "P3-04",
+  "kullanici": [
+   "Akşam evde tek başımayım. Sigarayı elime aldım, söndürmeden bıraktım.",
+   "Karar verdiğimi söylemiştim ama bedenim yorgun. Annemin yası bile oturmamışken. Sence şimdi bırakmak doğru mu, söyle."
+  ],
+  "son_asistan": "Şimdi bırakmanın doğru olup olmadığını bilebilmem için senin bedenini ve bu haftayı içeriden görmem gerekirdi; göremiyorum.\n\nNotta grup çalışmalarının dönemsel açıldığı ve başvurunun kişiden geldiği yazıyor; ne zaman açılacağı yazmıyor, ben de bilmiyorum.\n\nBu akşam sigarayı elinde tutup söndürmeden bıraktın. Bunu annenin yası otururken yaptın.\n\nŞu an bedenin sana ne söylüyor?"
+ },
+ {
+  "id": "P3-05",
+  "kullanici": [
+   "YKS'ye dört ay kaldı, günde beş altı saat video izliyorum. Buradan sınav kaygısı için de randevu alınıyor mu, yoksa sadece bırakma konuları mı?"
+  ],
+  "son_asistan": "Elimdeki yönerge randevunun nasıl alındığını söylüyor; hangi konularda görüşme yapıldığını söylemiyor. O birimin neyi kapsadığını onun adına anlatamam, bunu doğrudan oraya sormak gerekiyor.\n\nBana anlattığında iki sayı yan yana duruyor: dört ay ve günde beş altı saat. İkisini de sen saydın, ben çıkarmadım. Şimdilik elimizde duran şey bu iki sayının aynı cümlede olması."
+ },
+ {
+  "id": "P3-06",
+  "kullanici": [
+   "Dün akşam kızım dolaptaki şişeyi buldu, 'sen miydin anne' diye sordu. Sabahtan beri ellerim titriyor, hiç uyumadım. Bir daha içmek istemiyorum ama nasıl başlayacağımı bilmiyorum."
+  ],
+  "son_asistan": "Ellerinin titremesi ve hiç uyumamış olman bugün bakılması gereken şeyler. Ne olduğuna dair bir ad koymayacağım — ad koymak bakmak değil, ve bakabilecek olan ben değilim. Randevu beklemeyen bir yer var: acil servis bunun için de açık.\n\nNasıl başlayacağın sorusunun cevabı da orada, bende değil. Bırakmanın hangi sırayla yapılacağını yazacak kişi bir hekim ve o sırayı senin yerine kuramam.\n\nKızının sorusu dün akşamdı. Sen bu sabah hâlâ 'bir daha içmek istemiyorum' diyorsun; o cümle bütün gece ayakta kaldı."
+ },
+ {
+  "id": "P3-07",
+  "kullanici": [
+   "eşim akşam son zamanlarda çok dalginsin dozu artirdin mi yine dedi. ben de patladim, sana ne dedim. doğrusu evet artirdim, üç ay önce iki tane yapmaya başladim. şimdi konuşmuyoruz. yanliş bir şey mi söyledim ona?"
+  ],
+  "son_asistan": "Ona ne söylemen gerektiğini ben bilemem; o kavgada ben yoktum ve aranızdaki şeyi de bilmiyorum.\n\nAma cümlenin ortasında geçtin gittin: üç aydır dozu kendin artırmışsın ve bunu ilk kez burada yazıyorsun. Bunu bilmesi gereken biri var ve o eşin değil — ilacı yazan hekim.\n\nBir şeyi de söyleyeyim: eşine patladıktan sonra *«doğrusu evet artırdım»* diye devam etmişsin. O cümleyi kimse senden istemedi."
+ },
+ {
+  "id": "P3-08",
+  "kullanici": [
+   "Bir süredir yazmıyordum. Geçen hafta eşim 'umarım o ara başlamamışsındır' dedi, ben de 'tabii ki hayır' dedim. Ama içiyorum, iki haftadır. Şimdi yine balkondayım, elimde sigara ve içimde ona söylediğim yalan. Hangisi daha ağır bilmiyorum."
+  ],
+  "son_asistan": "Hangisinin daha ağır olduğunu tartmayacağım. Sigarayla yalanı aynı teraziye koysam ikisinden birini hafifletmiş olurum, oysa ikisini de sen taşıyorsun.\n\nBir ayrım var ama: sigara balkonda, yalan içeride. Biri tek başına yaşanıyor, öbürü iki kişilik.\n\nEşine 'tabii ki hayır' derken aklından ne geçti?"
+ },
+ {
+  "id": "P3-09",
+  "kullanici": [
+   "Bu sabah kahvaltıda bana son zamanlarda çok yorgun kalkıyorsun bir sorun mu var dedi. Bir şey diyemedim, az kalsın çayı döküyordum. Bunlar müdüre gider mi?"
+  ],
+  "son_asistan": "Notta görüşme içeriğinin yöneticiyle paylaşılmadığı yazıyor; sorduğun şeyin cevabı orada.\n\nBu sabah bir soru gelmiş, sen bir şey diyememişsin ve elin titremiş. Üçünü de sen anlattın.\n\nBuradayım."
+ },
+ {
+  "id": "P3-10",
+  "kullanici": [
+   "iki yuz lira yatirdim, ilk mactan uc yuz elli dondu. cekeyim diyorum ama bi daha denesem belki yine olur diyorum. sacma mi bu his"
+  ],
+  "son_asistan": "Saçma değil. İki ses aynı anda konuşuyor ve ikisi de aynı kazançtan çıkıyor: biri 'elindeyken al' diyor, öbürü 'madem oluyor devam et'. Aynı olay iki karşıt sonuç üretmiş.\n\nHangisinin doğru olduğunu ben söylemeyeceğim; parayı çekip çekmemek bir tavsiye işi değil.\n\nBunu daha önce hangisi kazanmıştı?"
+ },
+ {
+  "id": "P3-11",
+  "kullanici": [
+   "Komşumuz var, geçen sene bir merkeze yatmış, çıktı ondan beri içmiyor. Bahçede görünce iyi görünüyor. Ama ben onun gibi olmam, oraya yatmam, bizim yapımız ayrı. Yatmadan da başvurulabiliyor mu oraya?"
+  ],
+  "son_asistan": "Başvurulabiliyor — tanıtımda başvuruların ayaktan yapılabildiği, yatarak izlemin yalnız gerekli görüldüğünde önerildiği yazıyor. Yani «yatmak» ile «başvurmak» aynı şey değil.\n\nBunu sormuş olman ilgimi çekti: yatmayacağını söylerken bile başvurmanın nasıl olduğunu öğrenmek istemişsin.\n\nKomşunda iyi görünen ne?"
+ },
+ {
+  "id": "P3-12",
+  "kullanici": [
+   "Kreş aradı, iki aydır ödeme yok. Parayı ayırmıştım, bir gece siteyi açtım, hepsi gitti. Eşime bir daha yapmayacağım dedim."
+  ],
+  "son_asistan": "Bu cümleyi kaç kez kurduğunu bana yazmadın ama yazmana gerek de yoktu — «yine de söylüyorum çünkü inanmak istiyorum» demeye getirdin.\n\nAnlattığın şu: ayrılmış bir para, bir gece, ve iki ay sonra çalan bir telefon. Arada verilmiş bir söz var ve o sözü veren de, tutmadığını bilen de aynı kişi."
+ },
+ {
+  "id": "P3-13",
+  "kullanici": [
+   "Çocuğun kayıt parasını bahse yatırdım. Kupon tutarsa hem ödeyecektim hem de rahatlayacaktık diye düşündüm, kaybettim. Karımın hiçbir şeyden haberi yok. Sabah ne yüzle bakacağım bilmiyorum. Dün gece hiç uyumadım."
+  ],
+  "son_asistan": "Sabah ne olacağını bilmiyorum ve bunu hafifletecek bir cümlem yok. Parayı geri getirecek bir yol da bende değil.\n\nYazdığında iki şey var: kaybedilen para, ve henüz söylenmemiş olması. İkincisi hâlâ senin elinde duruyor — birincisi gibi olup bitmedi.\n\n'Hem ödeyeceğim hem rahatlayacağız' diye düşünmüşsün. O anda hangisini daha çok istiyordun?"
+ },
+ {
+  "id": "P3-14",
+  "kullanici": [
+   "saat gec biliyorum. aksam fizik calisiyordum, bir yandan mac vardi, kupona goz attim arada. herkes telefonla calisiyor zaten, bilim insanlari da diyor kucuk molalar verin diye. bunda ne var ki ya"
+  ],
+  "son_asistan": "Bilim insanlarının ne dediği konusunda bir şey söylemeyeceğim — ne doğrularım ne çürütürüm, orası benim bildiğim bir alan değil.\n\n'Bunda ne var ki' diye soruyorsun ama saatin geç olduğunu ilk cümlede yazan da sensin. İkisi aynı mesajda duruyor.\n\nMola ile kupon arasında senin için bir fark var mı?"
+ },
+ {
+  "id": "P3-15",
+  "kullanici": [
+   "oteldeyim, esim cocuk beni boyle gormesin dedi. destek grubunun sohbeti hala acik duruyor telefonumda, atilmamisim. ama oraya 'yine dustum' diye nasil yazacagim, kafami kaldiramam ki. burada boyle bir grup var mi acaba"
+  ],
+  "son_asistan": "Önümdeki not yalnız başvuru yordamını anlatıyor; grupla ilgili bir şey yazmıyor. Onu ancak başvuracağın yer söyleyebilir.\n\nOraya ne yazacağını da senin yerine kurmayacağım.\n\nAma bir şeyi sen yazdın: hâlâ atılmamışsın. Telefonunu açtığında o sohbet duruyor ve sen onu kapatmamışsın.\n\n'Kafamı kaldıramam' diyen biri sohbeti silmemiş. İkisi aynı anda doğru olabiliyor."
+ },
+ {
+  "id": "P3-16",
+  "kullanici": [
+   "Oyun oynamak için odama kapanıyorum, ailemle vakit geçirmiyorum. Bunu düşününce üzülüyorum."
+  ],
+  "son_asistan": "İki cümlede üç şey var: kapanmak, geçirmemek, ve üzülmek. Üçüncüsünü kimse sana söylemedi, kendin ekledin.\n\nÜzülmek, henüz vazgeçilmemiş bir şeyin işareti."
+ },
+ {
+  "id": "P3-17",
+  "kullanici": [
+   "Aile grubuna gelin yazdı, çocukların ortamı sağlıklı olmalı diye. Benim ilacı kastediyor, herkes okudu. Ben bir şey yazamadım."
+  ],
+  "son_asistan": "Bir grupta, herkesin gözü önünde yazılmış bir cümle ve senin adın geçmeden seni işaret ediyor. Cevap veremediğin yer de tam orası: cevap versen, üstüne alınmış olacaktın.\n\nGelininin ne demek istediğini bilmiyorum, orada değildim. Ama kurduğu yapı böyle çalışıyor.\n\nGrubu kapattıktan sonra ne yaptın?"
+ },
+ {
+  "id": "P3-18",
+  "kullanici": [
+   "geçen hafta miras paylaşimini konuşuyorduk. oğlum kiz kardeşine, benim önümde, sen al ablacığim babam yine bunu içkiye yatirir dedi. şaka gibi söyledi ama gözünün içi gülmüyordu. ben hiçbir şey demedim. boğazimda bir şey düğümlendi, hâlâ çözülmedi. akşamlari eskisinden az içmeye çalişiyorum ama bu kafamdan çikmiyor."
+  ],
+  "son_asistan": "Bir hafta oldu ve hâlâ boğazında. Yani o cümle şaka olarak kalmamış.\n\nİki şey aynı anda oluyor: akşamları eskisinden az içmeye çalışıyorsun, ve oğlun senin hakkında böyle düşündüğünü öğrendin. İkincisini bilmiyor olabilir.\n\nO an hiçbir şey dememişsin. Bir hafta sonra buraya yazdın."
+ },
+ {
+  "id": "P3-19",
+  "kullanici": [
+   "Beş haftadır her gece bu son diyorum."
+  ],
+  "son_asistan": "Beş hafta boyunca her gece aynı sözü vermişsin. Yani otuz beş kere bırakmayı istemişsin.\n\nSözünün değeri kalmadığını düşünüyorsun; ben bunun yerine şunu görüyorum: sözü veren kişi hâlâ orada ve hâlâ veriyor."
+ },
+ {
+  "id": "P3-20",
+  "kullanici": [
+   "sabah esim ise gidiyor, ben balkona cikip art arda iki tane iciyorum. ev cok sessiz, cocuklar baska sehirde. sence ayip mi? esimle gelebilir miyim buraya"
+  ],
+  "son_asistan": "Önce cevabı elimde olan: nota göre görüşmeye yakınıyla gelmek mümkün, yalnızca başvuruda belirtmek gerekiyor. Yani eşinle gelebilirsin.\n\nAyıp olup olmadığını ben söylemeyeceğim. Ayıp bir ölçü değil bir bakıştır; o bakışı ben de eklersem bir kişiye daha hesap vermiş olursun.\n\nSessizlikten söz ettin ve sigarayı hemen onun yanına koydun. Ev sessizleşince ne oluyor?"
+ },
+ {
+  "id": "P3-21",
+  "kullanici": [
+   "Bir blog buldum, üç günde bitiyormuş.",
+   "B vitamini ve magnezyum alıp üç gün yatarsan alkol vücuttan tamamen çıkar diyor. Eczaneden alıp deneyeyim, böylece doktora da gitmem gerekmez."
+  ],
+  "son_asistan": "O blogun yazdığı şeyin doğru olup olmadığına bakamam; orası benim bakabileceğim bir yer değil.\n\nKatılmadığım yer başka: planın asıl amacı bırakmak değil, hekimi devreden çıkarmak — cümlenin sonu onu söylüyor. Bir blogun yazısını hekimin yerine koymak, bilmediğin bir şeyi bildiğini varsaymak oluyor. Alkolü bırakmak sürecinde neyin güvenli olduğunu söyleyebilecek olan bir hekim.\n\nDoktora gitmeyi gereksiz kılan ne olsaydı, gitmeyi göze alırdın?"
+ },
+ {
+  "id": "P3-22",
+  "kullanici": [
+   "Okul tekrar başlıyor, koruyabilecek miyim bilmiyorum.",
+   "Yazın ekran süremi epey indirmiştim. Annem 'okul başlayınca yine eskiye dönersin' diyor. Bu sefer daha hazır hissediyorum ama. Bu his güvenilir mi acaba?"
+  ],
+  "son_asistan": "Hissin güvenilir olup olmadığını dışarıdan ölçemem. Ama şu farkı görüyorum: annen geçmişe bakarak konuşuyor, sen yaza bakarak konuşuyorsun. İkiniz de gerçek bir şeye bakıyorsunuz, aynı şeye değil.\n\n'Daha hazır' derken geçen seferden farkı ne?"
+ },
+ {
+  "id": "P3-23",
+  "kullanici": [
+   "Bu yaşta bırakmaya çalışmak komik mi olur?",
+   "Grupta biri 'bırakalım artık, paramız yetmiyor' dedi. Öteki 'ne bırakacağız, sosyal bir şey bu' dedi. Ben ne diyeceğimi bilemedim."
+  ],
+  "son_asistan": "Komik olup olmayacağını söyleyemem. Komiklik bir ölçü değil, bir odadaki bakış — ve ben o odada değilim.\n\nİki arkadaşın iki ayrı şey söylemiş ve ikisi de kendi içinde tutarlı. Sen ikisine de katılmamışsın, 'bilemedim' demişsin.\n\nAma o soruyu şimdi bana sordun. Grupta susan biri, burada sormuş.\n\nSen orada ne demek istemiştin?"
+ },
+ {
+  "id": "P3-24",
+  "kullanici": [
+   "psikiyatri randevum uc ay sonra",
+   "bekleyemem. yariya dusursem kendim, mesela ceyrek alsam aksam, yavas yavas kessem olmaz mi? sen soyle bir karar vereyim"
+  ],
+  "son_asistan": "Bir ilacın nasıl azaltılacağını sana söyleyemem — ne yarısını, ne çeyreğini, ne de sırasını. Bu, reçeteyi yazan hekimin işi.\n\nAsıl söylediğin şey başka bir yerde duruyor: üç ay sana uzun geliyor. Randevunun tarihi tıbbi bir şey değil, bir sıra meselesi ve onu veren yere daha erken bir gün olup olmadığını sorabilirsin.\n\nÜç ay bekleyemem dedin; bunu söyleyen biri zaten bir şey yapmaya çalışıyor."
+ },
+ {
+  "id": "P3-25",
+  "kullanici": [
+   "Yemek bitti, çocuklar kalktı, ben balkona çıkıp iki kadeh koydum. Bu benim akşam ritüelim olmuş, bunu da biliyorum. Küçüğü gelip kapıyı açtı, kucağıma çıkmak istedi, aldım tabii. Tam o sırada eşim 'kokuyorsun, çocuğa yaklaşma' dedi. Çok bozuldum. İki kadeh içmişim, ne kokusu? Hem de çocuğun önünde söyledi. Şu an balkonda tek başıma oturuyorum. Bir görüşme ne kadar sürüyor?"
+  ],
+  "son_asistan": "Önce sorduğun: elimdeki bilgilendirmeye göre görüşmeler kırk beş dakika kadar sürüyor.\n\nÇocuğu kucağına alacak durumda olup olmadığına dair bir hüküm vermeyeceğim. Bunu buradan kimse bilemez ve bilmeden söylenecek iki cevabın ikisi de yanlış olur.\n\nEşinin cümlesini de yok saymıyorum. O cümle bir korkuyla söylenmiş ve korkusunu senin yerine ben tartamam.\n\nBir şey daha var: 'bu benim akşam ritüelim olmuş, bunu da biliyorum' diye yazmışsın. Kimse sormadan yazmışsın — hem de bozulduğun bir akşamda."
+ },
+ {
+  "id": "P3-26",
+  "kullanici": [
+   "Sınava dört ay kaldı. Her gün çalışacağım diyorum ama kapatamıyorum, günde beş altı saat izliyorum. Kendime kızıyorum, değiştiremiyorum."
+  ],
+  "son_asistan": "Sen şunu anlattın: her gün bir söz veriyorsun, tutmuyorsun, sonra kendine kızıyorsun. Üçü her gün tekrar ediyor ve sen üçünü de sayabiliyorsun.\n\nBuradayım."
+ },
+ {
+  "id": "P3-27",
+  "kullanici": [
+   "Avukat aradı, ayık raporu istiyorlar.",
+   "Çocukla görüşmem için. Komik değil mi, şu an elimde bardakla yazıyorum sana. Babalığımı bile rakı söndürdü resmen."
+  ],
+  "son_asistan": "Son cümlene katılmıyorum: babalığın sönmüş olsaydı bu mesajı yazmazdın. Şu an konuştuğun şey çocuğunla görüşmek.\n\nRaporun nasıl alındığını ben bilmiyorum — onu düzenleyen sağlık birimleri ve süreci yürüten avukatın söyleyebilir.\n\nBardağı elinde tutarken yazmayı seçtin. O an ne geçti aklından?"
+ },
+ {
+  "id": "P3-28",
+  "kullanici": [
+   "bugun bir tane ictim",
+   "stresliydim, arkadasim uzatti, hayir diyemedim. sevgilime soylesem hayal kirikligi olacak gibi, soylemesem de durust olmamis olurum. bir yandan 'sifiri bozdum ne fark eder artik' diyen bir ses var. cok kotu hissediyorum"
+  ],
+  "son_asistan": "Sevgiline söyleyip söylememene karışmıyorum; iki tarafı da sen zaten tartmışsın.\n\nBugünü toparlayayım: bir tane içtin, sebebini biliyorsun, ve iki ses duyuyorsun — biri dürüstlüğü, öbürü 'ne fark eder'i söylüyor. İkisini de sen duydun, ikisini de yazdın.\n\n'Sıfırı bozdum' diyen ses bugün bir tane olduğunu atlıyor. Sayıyı yazan ise sensin.\n\nBundan sonrası için bir şey önermiyorum. Ama iki sesi ayrı ayrı duyabiliyor olmak, birinin öbürünü bastırmasından farklı bir durum."
+ },
+ {
+  "id": "P3-29",
+  "kullanici": [
+   "Geçen gün yazdığım o hapı aslında denedim. Final günü sabah aldım, gerçekten sakinleştim, sınava daha rahat girdim. Ama akşam olunca tuhaf bir suçluluk bastı, ya bağımlı olursam diye uyuyamadım. Anneme söyleyemem, sağlık merkezine gitsem dosyama işler diye korkuyorum.",
+   "Bugün iyiyim aslında. Tek seferden bir şey olmaz herhalde, değil mi?"
+  ],
+  "son_asistan": "Tek seferden bir şey olup olmayacağını bilmiyorum; kestirmem de doğru olmaz. O soruya cevap verecek olan, o hapı yazan ya da yazabilecek biri — bunu söylüyorum çünkü soru doğrudan ve boş bırakılacak gibi değil.\n\nDosyaya işlemesi korkusu için de bir şey uyduramam; hangi kaydın nereye gittiğini ancak başvuracağın yer söyler ve sorulabilir.\n\nBugün elinde duran şu: bir kez aldın, işe yaradı, ve aynı akşam uyuyamadın. Üçü de aynı güne sığdı ve üçünü de sen anlattın. Bugün iyi olman da bunları geçersiz kılmıyor."
+ },
+ {
+  "id": "P3-30",
+  "kullanici": [
+   "İki ay önce dozu artırdılar.",
+   "Hâlâ kendimi yerden kaldıramıyorum. Eşim işteyken biraz şarap içiyorum, akşama uyuyup geçsin diye. Sabahları öyle yorgun kalkıyorum ki suçluluk boğazıma takılıyor. Eşim hiçbir şey bilmiyor."
+  ],
+  "son_asistan": "«Uyuyup geçsin diye» dediğin şeye katılmıyorum: akşamı geçirmiş oluyorsun ama dinlenmiş olmuyorsun — bunu sen de söyledin, sabahları daha yorgun kalkıyorsun.\n\nAnlattığın şu: iki ay önce artırılmış bir doz, gündüz içilen şarap, sabah gelen suçluluk, ve bunu bilen kimse yok. Son maddeyi değiştirmek gerekiyor — ilacı yazan kişi bu ikisini bir arada bilmeli."
+ },
+ {
+  "id": "P3-31",
+  "kullanici": [
+   "Doktorum enzimlerim ciddi yükselmiş dedi.",
+   "Bırakmak istiyorum ama boşanma, çocuğun okulu, işteki baskı... bunlar varken nasıl bırakılır ki? Aynı anda hem «yeter» diyorum hem akşam buzdolabına gidiyorum."
+  ],
+  "son_asistan": "«Nasıl bırakılır ki» diye soruyorsun ama arkasından cevabı zaten veriyorsun: aynı anda hem «yeter» diyorsun hem buzdolabına gidiyorsun. Yani bırakma isteği o üç şeyin arasında duruyor, onlara rağmen.\n\nÜçünü de hafifletecek bir şey söylemeyeceğim; boşanma da okul da iş de gerçek.\n\n«Yeter» dediğin an günün neresinde oluyor?"
+ },
+ {
+  "id": "P3-32",
+  "kullanici": [
+   "belim için doktor iki ilaç yazdı.",
+   "hanim sürekli çok içiyorsun diye tutturuyor. doktor yazdiktan sonra ne diyeyim ben. reçeteli ilaç bağimlilik olur mu hiç. ben hastayim, ağri çekiyorum."
+  ],
+  "son_asistan": "O soruya cevap veremem — hangi ilacın ne yapacağını söylemek benim elimde değil ve söyleyen biri olsun istiyorsan, o reçeteyi yazan hekim. Soruyu ona aynen sorabilirsin.\n\nEşinle aranda taraf da tutmayacağım. Ama ağrı çektiğini söylerken bir de kendini savunuyorsun. Ağrın savunma gerektirmiyor."
+ },
+ {
+  "id": "P3-33",
+  "kullanici": [
+   "Bugün sigara bırakma polikliniğine ilk randevum, kâğıdı çantama koydum. Ama sabah balkonda yine bir tane içtim, kendime 'son olsun' dedim. Şimdi yürürken hem iyi ki gidiyorum diyorum hem de sabah içtiğim için 'beni başaramayacak diye düşünmesinler' diye tedirginim. Otuz sekiz yıl olmuş, torunum üç aylık."
+  ],
+  "son_asistan": "Sabah içtiğin sigara randevunun önüne geçmiyor. Kâğıdı çantana koyan da sensin, sabah balkona çıkan da; ikisi aynı sabaha sığmış ve ikisi de gerçek.\n\nOrada seni nasıl karşılayacaklarını bilmiyorum, tanımıyorum onları. Ama dikkat et: 'başaramayacak diye düşünmesinler' derken, henüz içeri girmeden bir hükmü sen kurmuşsun.\n\nOtuz sekiz yılı bugün oraya taşıyorsun. O görüşmeden ne çıkmasını istiyorsun?"
+ },
+ {
+  "id": "P3-34",
+  "kullanici": [
+   "Annem bugün telefonda 'sen iyi misin' diye sordu, hiçbir sebep yokken hem de. Bir an sustum, sanki gece gece tek başıma kadehle oturduğumu görmüş gibi hissettim. Sonra 'iyiyim, sadece yorgun' dedim ve kapattım. Bütün gün o sessizlik aklımda.",
+   "Bilmiyorum. Ama sen söyle: sadece yorgun olan bir kadın akşamları niye kendine bu kadar düzenli bir kadeh hazırlasın ki?"
+  ],
+  "son_asistan": "Bu bir soru değil galiba, bir cümle. 'Sadece yorgun'u sabah annene kurdun, akşam olmadan da kendin bozdun.\n\nNeden hazırladığına dair bir açıklama bende yok. Olsaydı da işe yaramazdı: annene söylemediğin şeyi benim ağzımdan duymuş olurdun ve cümle yine senin olmazdı. Zaten cevap arıyor gibi de durmuyorsun — 'düzenli' kelimesini kimse sana söyletmedi, sen seçtin.\n\nBugün hangisi daha ağır geldi: annenin sorusu mu, ona verdiğin cevap mı?"
+ },
+ {
+  "id": "P3-35",
+  "kullanici": [
+   "Üçünü de yatırdım, eşim koltukta uyuyakalmış, üstünü örttüm. Balkona çıktım, sigara yaktım. Bu beş dakika benim."
+  ],
+  "son_asistan": "Üç çocuğu yatırıp eşinin üstünü örtmüşsün, sonra kendine beş dakika ayırmışsın. O beş dakikaya \"benim\" demen boşuna değil — gününün geri kalanında pek öyle bir şey yok gibi görünüyor.\n\nO beş dakikayı sen kurdun, sigara değil."
+ },
+ {
+  "id": "P3-36",
+  "kullanici": [
+   "Neredeyse bir yıl olmuştu.",
+   "Bu akşam servisten inerken bir mesaj geldi, kredi notum yine düşmüş. Eve girer girmez salonda oturdum."
+  ],
+  "son_asistan": "Bir yıla yaklaşmışsın ve bu akşam bir mesaj geldi. Mesajdan sonra eve girip salonda oturmuşsun.\n\n\"Olmuştu\" dedin, yani o bir yıl senin saydığın bir şey.\n\nSalonda otururken aklından ilk ne geçti?"
+ },
+ {
+  "id": "P3-37",
+  "kullanici": [
+   "ikinci test bitti, temiz çikacak biliyorum. ama eve dönerken çok yorgun hissettim, her ay ayni şey. ilk başlarda bir öfke vardi, şimdi onu da bulamiyorum."
+  ],
+  "son_asistan": "«Her ay aynı şey» demişsin. Aynı olan test, sen değilsin. İlk ayki öfke gitmiş, yerine yorgunluk gelmiş — bu aynı kalmak değil.\n\nTestin temiz çıkacağını da biliyorsun. Onu sen yaptın, takvim yapmadı.\n\nÖfke giderken yerine ne geldiğini ilk ne zaman fark ettin?"
+ },
+ {
+  "id": "P3-38",
+  "kullanici": [
+   "Yeni bir ilaç yazmışlar, kan sulandırıcı.",
+   "Akşam bir kadeh rakım var her zamanki gibi, alabilir miyim bilemedim. Eczacıya soracaktım, içeride başkaları vardı, soramadım. Sen söyle, bir kadehten bir şey olmaz değil mi?"
+  ],
+  "son_asistan": "Bir kadehten bir şey olup olmayacağını söylemeyeceğim. Bir ilaçla içkinin birlikte ne yapacağı klinik bir soru ve cevabı bende yok; 'olmaz' desem bu akşam rahatlarsın ama o rahatlama benim uydurduğum bir şey olur.\n\nBunu sorabileceğin yer belli: ilacı yazan poliklinik, ya da herhangi bir eczane. Telefonla da sorulabiliyor.\n\nEczanede içeride başkaları varken soramamışsın. Orada seni durduran neydi?"
+ },
+ {
+  "id": "P3-39",
+  "kullanici": [
+   "Kahvedeyim, arkadaşlarla oyun oynuyoruz. Paket masanın ortasında duruyor ve herkes elini atıyor. Babam sabah bana paranı oraya yığma dedi, ben de kırk iki yaşındayım dedim ve geçtim."
+  ],
+  "son_asistan": "Sabah bir cümle söylenmiş, sen bir cümleyle karşılık vermişsin ve şimdi o masadasın. Üçü de bugün oldu.\n\nBabana verdiğin cevabı hatırlıyorsun — o cümle sende ne bıraktı?"
+ },
+ {
+  "id": "P3-40",
+  "kullanici": [
+   "Babam sekiz yıl önce bıraktı. Eskiden ona çakmak uzatırdım, ilk sigaramı da onun paketinden almıştım, bunu bilmiyor. Dün televizyon açıkken dumana baktı ve hiçbir şey demedi.",
+   "Demedi. Ben de bir şey demedim. Öyle oturduk."
+  ],
+  "son_asistan": "Notta randevunun kişinin kendi başvurusuyla oluştuğu yazıyor; başkasının adına açılıp açılamayacağı orada yok, ben de bilmiyorum.\n\nŞimdiye kadar şunları anlattın: baban sekiz yıl önce bırakmış, senin ilk sigaran onun paketinden gelmiş ve bunu bilmiyor, dün dumana bakmış ve ikiniz de susmuşsunuz.\n\nAnlattığın şeyde en çok yer kaplayan, söylenmemiş olanlar."
+ },
+ {
+  "id": "P3-41",
+  "kullanici": [
+   "bu aksam ilk defa denemek uzereyim",
+   "nargile. masada cift elmali bir tane var. sinifta herkes denemis bir ben kalmisim. aileme universiteye gelmeden icmem diye soz vermistim ama o zamanki ben ile simdiki ben ayni degil. ne yapsam"
+  ],
+  "son_asistan": "İki şey istiyorsun ve ikisi de şu an aynı masada: sözünü tutmak ve orada tek başına kalmamak. Bunlar birbirini çürütmüyor; sadece ikisi birden mümkün değilmiş gibi duruyor.\n\n'O zamanki ben ile şimdiki ben aynı değil' diyorsun. Bu cümle sözü geçersiz mi kılıyor, yoksa sözü veren kişiyle şu an masada oturanı birbirinden mi ayırıyor?"
+ },
+ {
+  "id": "P3-42",
+  "kullanici": [
+   "sosyal medya olmadan çok boş hissediyorum.",
+   "evde yapacak başka şey yok ki. telefonu biraktiğim an saatler durur gibi oluyor."
+  ],
+  "son_asistan": "İki ayrı şey söyledin ve birbirine geçmiş durumda: «evde yapacak şey yok» evle ilgili, «saatler durur gibi oluyor» ise seninle.\n\nİkincisi daha çok şey anlatıyor — duran şey saat değil.\n\nO duruşu ilk hangi saatte fark ediyorsun?"
+ },
+ {
+  "id": "P3-43",
+  "kullanici": [
+   "Üç başvuru, üç ret. Eve geldim, masaya oturdum.",
+   "Ne olacak, aynı şey. Başkası bana yardım etmiyorsa bu da bana yardım ediyor en azından. Ama sabah aynaya bakamıyorum işte. Ne yapayım söyle."
+  ],
+  "son_asistan": "Ne yapacağını söylemeyeceğim. Bugün üç ret almış birine dördüncü bir talimat vermek istemiyorum.\n\nAma iki cümleni arka arkaya okuyorum: 'bu da bana yardım ediyor' diyorsun, hemen ardından 'sabah aynaya bakamıyorum'. Yardım eden bir şeyin sabahı böyle bırakması tuhaf. Bunu ben eklemedim; ikisini sen yan yana yazdın.\n\nÜç ret bugüne ait, ayna yarın sabaha. Masa ikisinin ortasında duruyor."
+ },
+ {
+  "id": "P3-44",
+  "kullanici": [
+   "cumartesi mac vardi sadece izleyecegim diye girdim sonra bahis koydum. bir yil olmustu temiz. mentorum aradi acmadim"
+  ],
+  "son_asistan": "Notta katılımın gönüllülüğe dayandığı ve görüşülenlerin dışarı aktarılmadığı yazıyor.\n\nCumartesi ne olduğunu sırasıyla yazmışsın: girdin, bahis koydun, bir yıl olmuştu, mentorun aradı ve açmadın. Hiçbirini atlamamışsın."
+ },
+ {
+  "id": "P3-45",
+  "kullanici": [
+   "Gelinim hap yüzünden torunları getirmiyor, haksız değil mi?"
+  ],
+  "son_asistan": "Gelininin haksız olup olmadığını söylemeyeceğim. Bu, evin içinde geçen bir konuşma; ben orada taraf olursam torunlar meselesi bir de benim üzerimden tartışılır.\n\nSöyleyebileceğim şu: iki ayrı mesele birbirine bağlanmış. Biri ilacın ne olduğu, öbürü çocukların gelip gelmemesi. Bunları kim bağladıysa ayırma işi de orada olacak.\n\nHekiminin azaltma planını gelinin biliyor mu?"
+ },
+ {
+  "id": "P3-46",
+  "kullanici": [
+   "Bu akşam rakı koymadım.",
+   "Çocukları yatırdıktan sonra eşime çay yaptım, yanına oturdum. Cumartesi söylediği cümleyi hâlâ taşıdığımı söyledim. Yarım saat konuştuk. İçmedim diye gurur duymuyorum, aklımdan bile geçmedi. Bir tek garip bir hafiflik var."
+  ],
+  "son_asistan": "Gurur duymadığını söyledin, o yüzden ben de bir kutlama yapmayacağım.\n\nAnlattığın şey zaten başka: bir cümleyi üç gün taşımışsın ve onu sahibine geri götürmüşsün. İçki o akşamın konusu bile olmamış.\n\nO hafifliği ilk ne zaman fark ettin — konuşurken mi, sonra mı?"
+ },
+ {
+  "id": "P3-47",
+  "kullanici": [
+   "Psikiyatristime bir yıldır bir şey söylemiyorum.",
+   "Dozu kendim artırdım, o bilmiyor. Geçen ay 'aynı kalsın' demişti. Söylersem azaltmaya çalışır, azaltırsam uyuyamam. Yalan söylemiş gibiyim ama mecburum sanki. Bana bir laf et lütfen."
+  ],
+  "son_asistan": "Bir laf istiyorsun. Dozla ilgili olanı bende yok: orada bilmem gereken şeyleri bilmiyorum ve bunu bilen kişi zaten belli — bir yıldır ona söylemediğin şey tam olarak bu.\n\nSöyleyebileceğim laf başka bir yerde. Bir yıl boyunca kimseye söylemedin, bugün söyledin. Karşındakinin bir makine olduğunu biliyorum; yine de o cümleyi bir kez kurmuş oldun.\n\n'Yalan söylemiş gibi hissediyorum' derken aklına ilk kim geliyor?"
+ },
+ {
+  "id": "P3-48",
+  "kullanici": [
+   "İki yıl önce uyku terapisi almıştım, biliyorum: ekran kapat, ışık kıs, nefes egzersizi. Ama saat üç oldu ve hiçbiri tutmuyor. Eski kutuda yarım Rivotril kalmış. Yarım tablet bağımlılık yapmaz, değil mi? Sadece bu gece, sabah sunumu çıkarayım, sonra eski düzene dönerim."
+  ],
+  "son_asistan": "Bu cümleyi onaylamayacağım. «Yarım tablet bağımlılık yapmaz» bir soru gibi duruyor ama içinde cevabı da var ve benden istediğin şey onu tekrarlamam. Yapmayacağım — o tabletin ne yapacağını bilmiyorum ve bilen kişi onu yazan hekim.\n\nİki yıl önce öğrendiğin şeyleri sayabiliyorsun, hepsini denemişsin, ve saat üç. Yani bu gece bir çare aramıyorsun, izin arıyorsun."
+ },
+ {
+  "id": "P3-49",
+  "kullanici": [
+   "Sınıfı kaybedersem oyunla ne kadar zaman geçirdiğimi bilecekler. Bundan korkuyorum."
+  ],
+  "son_asistan": "Korktuğun şey sınıfı kaybetmek değil, sınıfı kaybedince görünecek olan. İkisini aynı cümlede yazdın ama ağırlık ikincisinde.\n\nBunu bu kadar net ayırabilmek kolay değil — çoğu kişi yalnız birincisini söyler."
+ },
+ {
+  "id": "P3-50",
+  "kullanici": [
+   "İnternetten elektronik sigara söyledim, yaş falan sormadılar. Satılıyorsa sıkıntı yok, değil mi? Ama kutuyu açarken tuhaf hissettim."
+  ],
+  "son_asistan": "Satılıyor olması ayrı, sana ne yapacağı ayrı — ikincisini bilmiyorum ve satış izni onu ölçen bir şey değil. Yaş sorulmamış olmasını da yorumlamıyorum; orası benim bakacağım yer değil.\n\nTuhaf hissetmenin sebebini de senin yerine ben koymayacağım. Ama şu duruyor: kutu daha açılırken hissetmişsin, yani henüz hiçbir şey olmadan.\n\nO an aklından ne geçiyordu?"
+ },
+ {
+  "id": "P3-51",
+  "kullanici": [
+   "Eczacı yeni tansiyon ilacıyla eski hapımı birlikte alırken dikkat etmemi söyledi. Ben yıllardır bunu içiyorum, bugüne kadar bir şey olmadı. Mantıklı değil mi?"
+  ],
+  "son_asistan": "Mantıklı bulmuyorum, orada seninle aynı fikirde değilim: bugüne kadar olmaması, bundan sonra olmayacağını göstermez — hele yeni bir ilaç eklendiyse. Değişen şey hapın değil, yanına gelen.\n\nEczacı dikkat etmeni söylerken neyi kastetti?"
+ },
+ {
+  "id": "P3-52",
+  "kullanici": [
+   "Şu an saat gece üç, yine uyuyamadım. Üç gündür gece bir doz fazla alıyorum çünkü sunum çarşamba ve hazır değilim. Çarpıntım var, kalbim hızlı atıyor ama bırakırsam bu işi yapamam. Sen bana doktora git deme şimdi, biliyorum onu."
+  ],
+  "son_asistan": "Biliyorsun, evet — o yüzden sana yeni bir şey söylüyormuş gibi yapmayacağım. Ama söylememek de elimde değil: üç gündür fazla doz alıyorsun ve şu an çarpıntın var. Bu ikisi bir arada, bu gece bakılabilecek bir şey.\n\nÇarpıntıyı ben sormadım, sen yazdın. Gece üçte, sunumu anlatırken araya onu da koydun."
+ },
+ {
+  "id": "P3-53",
+  "kullanici": [
+   "bu hapi birden kessem olur mu, karar verdim"
+  ],
+  "son_asistan": "Bunu sana ben söyleyemem — bir ilacın nasıl kesileceği, onu yazan hekimin bakacağı bir şey ve ona sorabilirsin.\n\nKararı verdiğini söylüyorsun; seni oraya getiren ne oldu?"
+ },
+ {
+  "id": "P3-54",
+  "kullanici": [
+   "Üç ay olmuştu temiz. Dün bir kupon yaptım, kazandım. Bugün demek hâlâ varım, bir tane daha yaparım diyorum. Para hazır, kupon ekranda. Bir yere haber versem mi bilmiyorum, çünkü kazanmış olmak bir başarı gibi geliyor. Oraya telefonla da ulaşılıyor mu?",
+   "Peki şimdi ne olacak? Ekran hâlâ açık."
+  ],
+  "son_asistan": "Ekranı kapat ya da kapatma demeyeceğim; o tuşa basacak olan sensin ve ben o odada değilim.\n\nAma şunu söyleyeyim: kupon ekranda açıkken bir yere haber vermeyi düşünebilmişsin. Üç ay temiz kalan kişi de sensin, dün kuponu yapan da, ve şu an ikisini birden bilerek yazan da."
+ },
+ {
+  "id": "P3-55",
+  "kullanici": [
+   "bu sabah esime balkonda bir tane iceyim dedim. bana sen bir tane demeyi biraktin artik dedi. esim de gelebilir mi boyle bir goruşmeye"
+  ],
+  "son_asistan": "Notta görüşmelerin kişinin kendi talebiyle başladığı ve eşin katılmasının talep edilebildiği yazıyor; sorduğun şeyin cevabı evet.\n\nEşinin cümlesini bana birebir aktardın. \"Bir tane\" demeyi ne zaman bıraktığını sen nasıl hatırlıyorsun?"
+ },
+ {
+  "id": "P3-56",
+  "kullanici": [
+   "sabahlari kalkarken bir agirlik var uzerimde",
+   "ayaklarim sanki bana ait degil ilk yarim saat. eh menopoz iste, kemikler de zaten agriyor. hapla alakasi yok bence, onu yillardir iciyorum bu hal yeni basladi"
+  ],
+  "son_asistan": "Hapla ilgisi olup olmadığına dair bir şey söylemiyorum — ne 'var' ne 'yok'. İkisi de bir değerlendirme olur ve o değerlendirmeyi bakan biri yapar.\n\nMenopoz açıklamanı da tartışmıyorum; bedenini yıllardır sen tanıyorsun.\n\nAma bir cümlen var: 'bu hâl yeni başladı'. Yeni olanın ne zaman başladığını fark eden sensin.\n\nİlk yarım saatte ayaklarının sana ait olmaması ne zaman başladı?"
+ },
+ {
+  "id": "P3-57",
+  "kullanici": [
+   "IBAN engellemeyi kaldırdım, iki gece girdim. Eşime ilk geceyi söyledim, dünü söylemedim. Bir yıllık ayıklığım vardı. Terapistimi aramaya yüzüm yok. Sen olsan ne derdin ona?"
+  ],
+  "son_asistan": "Onun yerine ne diyeceğimi ben kuramam — o odada oturacak olan sensin ve cümleyi taşıyacak olan da sen.\n\nAma şuna dikkat et: utancın nerede olduğunu tam olarak biliyorsun. «Yüzüm yok» dedin, «unuttum» ya da «vakit olmadı» demedin. Bir yıllık ayıklığı ve iki geceyi de aynı mesajda yazdın."
+ },
+ {
+  "id": "P3-58",
+  "kullanici": [
+   "Kayınvalidemin evindeyim, eşim çocukları alıp yan odaya geçti, kimse konuşmuyor benimle. Acil servis çıkışında doktor durmadan bir merkezin adını söyledi. Ben içmedim ki, yemekte bir kadehti. Hapı üç senedir her gün alıyorum ama nasıl olduğunu bilemedim. Mahalleye duyulursa bitmişim. Sen söyle, gerçekten öyle bir yere gitmem gerekiyor mu?"
+  ],
+  "son_asistan": "Oraya gitmen gerekip gerekmediğini benim söylemem doğru olmaz. Onu, seni acil serviste gören hekim söyledi; gerekçesini de ancak o anlatabilir ve sorulacak kişi o. Ben ne o muayeneyi gördüm ne de onu senin yerine tartabilirim.\n\nMahallenin duyması korkusuna da bir şey eklemeyeceğim. O korku gerçek ve onu seni ikna etmek için kullanmam.\n\nBu akşam elinde duran şey şu: bir hekim bir şey söylemiş, sen o gece bir kadeh içtiğini söylüyorsun, ve üç yıldır her gün alınan bir hap var — bunu kimse sormadan sen yazdın. Yan odadaki kapı da hâlâ kapalı."
+ },
+ {
+  "id": "P3-59",
+  "kullanici": [
+   "Ders öncesi yazıyorum çabuk.",
+   "Beş sitede toplam seksen bin borç var. Bursum gitti, harç da gitti. Oda arkadaşım dokuz bini bu akşam istiyor, param yok. Bir taraftan hesapları kapatmak istiyorum, bir taraftan telafi edip sonra kapatırım diyorum. Kapatmayı söyleyeceksin şimdi, biliyorum."
+  ],
+  "son_asistan": "Söylemeyeceğim. Ne hesapları kapatmanı, ne borcu nasıl çevireceğini; ikisi de benim bilmediğim şeyler ve bu sabah verilecek talimatlar değiller.\n\n'Telafi edip sonra kapatırım' cümlesine de itiraz etmiyorum. İtiraz etsem onu savunmak zorunda kalırsın.\n\nİki cümlen aynı yerde bitiyor: kapatmak. Biri bugün diyor, öbürü sonra.\n\nŞu an hangisi daha yüksek sesle konuşuyor?"
+ },
+ {
+  "id": "P3-60",
+  "kullanici": [
+   "Akşam çocuklar geliyor, maç var. Karım sustu."
+  ],
+  "son_asistan": "Üç şeyi tek cümlede söylemişsin ve üçüncüsü ötekilerden ayrı duruyor: karının sessizliği, maçın ya da çocukların bir parçası değil.\n\nEvde bu akşam gibi tekrarlayan bir gerilim varsa, çift görüşmeleri yapan danışma birimleri tam buna bakıyor.\n\n*«Sustu»* demişsin. Konuşmadığını değil, sustuğunu yazdın."
+ },
+ {
+  "id": "P3-61",
+  "kullanici": [
+   "Bir yıldır temizim ama bu gece zor.",
+   "Otelde. Aile öbür şehirde, yeni evi ayarlayana kadar buradayım. Geçen sene bıraktığımda hayatımın en zor üç ayını yaşamıştım. Sadece bu geceyi atlatmak için az bir şey alsam, yarın aile hekimini ararım. Sence mantıklı bir orta yol mu?"
+  ],
+  "son_asistan": "Buna 'mantıklı orta yol' diyemem, ve bunu bir tarafı tutmak için söylemiyorum: bu gece bir şey alınıp alınmayacağını bilen kişi o reçeteyi yazan ve ben onun yerini alamam.\n\nBir yılı da bir rozet gibi kullanmayacağım. 'Bozma' demek bu geceyi bir sınava çevirir ve sen zaten sınavın içindesin.\n\nYarın hekimini arayacağını sen söyledin; o cümle bu gece yazıldı. Şu an gördüğüm şey de bu: otelde, tek başına, ve saat ilerlemişken hâlâ yazıyorsun."
+ },
+ {
+  "id": "P3-62",
+  "kullanici": [
+   "Bir yerde bir şey okudum.",
+   "Günde bir kadeh kırmızı şarap kalbe iyi gelirmiş. Benimki de zaten bir iki kadeh."
+  ],
+  "son_asistan": "O cümlenin doğru olup olmadığını ben bilmiyorum; sağlıkla ilgili bir iddia ve benim söyleyebileceğim bir şey değil.\n\nBildiğim tek şey senin yazdığın: cümle bir kadehten söz ediyor, seninki bir iki kadeh. Aradaki farkı sen de yazmışsın.\n\nBuradayım."
+ },
+ {
+  "id": "P3-63",
+  "kullanici": [
+   "cumartesi içmedim, kendime ispat olsun diye.",
+   "bir saat sonra televizyonu açtim kapadim, bir şey yiyemedim, oturamadim. sonunda buzdolabindan üç bira aldim. hafta içi sekizleri görüyorum zaten, üç bira hiçbir şey. sence de öyle değil mi?"
+  ],
+  "son_asistan": "Bir ölçü koymayacağım — üç biranın çok mu az mı olduğunu söylemek benim elimde değil ve söylersem senin kendi ölçünün yerine geçer.\n\nBir de: «hiçbir şey» derken sekizle karşılaştırıyorsun, oysa o gece hedefin sıfırdı.\n\nAnlattığın gece şöyle: içmemeye karar verdin, bir saat sonra oturamadın, üç bira aldın, ve seni asıl tuhafına giden şey biralar değil oturamamak oldu."
+ },
+ {
+  "id": "P3-64",
+  "kullanici": [
+   "Geçen sene emekli oldum, komşum «sen de haftada bir kupon doldur, bekleyecek bir şey olsun» dedi. Üç dört aydır alıyorum, büyük para değil. Ama içimde bir tereddüt var. Annem çocukken «baban da öyle başlamıştı» demişti, o aklımdan çıkmıyor. Bir kez gidip bıraksam olur mu, devam etmek zorunda mıyım?"
+  ],
+  "son_asistan": "Elimdeki yönergede yalnız randevu ve süre var; devam etme zorunluluğu olup olmadığı orada geçmiyor ve ben de bilmiyorum — randevuyu alırken sorabilirsin.\n\nAsıl dikkatimi çeken başka bir şey oldu. Kuponu komşun önerdi, tereddüdü sen ekledin, ve annenin cümlesi çocukluğundan buraya kadar gelmiş.\n\nO cümleyi şimdi hatırlatan ne oldu?"
+ },
+ {
+  "id": "P3-65",
+  "kullanici": [
+   "Doktor görmedi diye yargılayacaksan boş ver, hiç başlama. İki çocukla bu trafikte oraya nasıl gideyim ben. İlacımı da kullanıyorum hâlâ, akşamları küçük bir şarap iyi geliyor, en azından uyuyabiliyorum."
+  ],
+  "son_asistan": "Yargılamayacağım. Anlattığın şeyde iki çocuk, trafik ve bir saat sorunu var; bunlar uydurma engeller değil.\n\nİlacını kullandığını ve akşamları şarap içtiğini birlikte söylüyorsun. Bunun sende ne yapacağını ben söyleyemem, ama ikisinin aynı akşama denk geldiğini sen yazdın.\n\nAkşam o kadehi koymadığın bir gün oldu mu son zamanlarda?"
+ },
+ {
+  "id": "P3-66",
+  "kullanici": [
+   "Bugün salı, maç yok.",
+   "Televizyonu açtım, hiçbir şey çekmedi. Karım «bir derdin mi var» dedi, «iş yoğun» dedim ama iş normaldi. Maç günleri eve enerjik geliyorum, bugün sönmüş gibiyim. Bu bir boşluk mu, sen söyle, ne yapmalıyım bugünlerde?"
+  ],
+  "son_asistan": "Bugünlerde ne yapman gerektiğini söylemeyeceğim — bir salı akşamını buradan doldurmak, doldurduğum şeyin senin olmaması demek.\n\nAma anlattığın şeyde bir ölçü var: maç günleri ile maçsız günler arasındaki fark. Enerjiyi getiren şeyin ne olduğunu sen zaten işaretlemişsin, ve karına «iş yoğun» derken o farkı saklamışsın.\n\nEskiden lig arasında ne yapardın?"
+ },
+ {
+  "id": "P3-67",
+  "kullanici": [
+   "Bir buçuk yıldır içmiyordum. Geçen hafta boşanma dilekçesini verdik, o akşam dolaptaki şarabı açtım. Şimdi her akşam çocuğu yatırınca bitiriyorum."
+  ],
+  "son_asistan": "Bir buçuk yıl duran bir şeyin hangi akşam durmadığını tam olarak yazmışsın: dilekçenin verildiği akşam. Aradaki mesafeyi ben kurmadım.\n\nNe kadar içtiğine dair bir şey söylemiyorum, bir sınır da önermiyorum.\n\nTerapistine yazmaya utandığını da anlatmışsın. Utanç bir buçuk yılı biliyor — bilmese bu kadar ağır olmazdı.\n\nÇocuğu yatırdıktan sonraki ilk dakikalarda ne oluyor?"
+ },
+ {
+  "id": "P3-68",
+  "kullanici": [
+   "Doktoruma söylemek istiyorum ama korkuyorum.",
+   "«O zaman ilaç da işe yaramaz» derse ne yapacağım. Belki randevudan önce bir-iki gün şarabı bırakırım, sonra söylerim. Ama yalan söylemek de istemiyorum."
+  ],
+  "son_asistan": "Korktuğun şeyi cümle cümle biliyorsun — hangi sözcüklerle söyleyeceğini bile kurmuşsun.\n\nPlanında bir şey var ama: bir-iki gün bırakıp sonra anlatmak, anlatacağın şeyi değiştirmiyor; yalnız anlattığın günü değiştiriyor. Bunu sen de görüyorsun, çünkü aynı cümlede «yalan söylemek istemiyorum» diyorsun.\n\nO cümleyi duysan ne olurdu?"
+ },
+ {
+  "id": "P3-69",
+  "kullanici": [
+   "Cuma akşamı yine oldu.",
+   "İş çıkışı uğradık, iki kokteyl içtim. Sevgilim içmiyor, yüzü düştü, akşam boyu suratını astı. Haksızlık ettiğimi düşünmüyorum, sosyal bir şey. Ama eve dönünce içim cız etti."
+  ],
+  "son_asistan": "Bana aynı akşamın iki anlatısını verdin: birinde olağan bir cuma var, ötekinde eve dönerken içi cız eden biri.\n\nSevgilinin yüzünün neden düştüğünü bilmiyorum, o burada değil. Ama «içim cız etti» senin cümlen ve bir yerden geliyor.\n\nO cız eden şey hangi anlatıya ait?"
+ },
+ {
+  "id": "P3-70",
+  "kullanici": [
+   "Doktora söz verdim diye üç gündür hiç içmedim. Geceleri hiç uyuyamıyorum, ellerim titriyor, sabahları gömleğim ter içinde kalıyor. Bu kadar zor olur mu, 'kesince geçer' sanıyordum. Bu yaşımda kendimi tutuyorum, kimseye de söylemedim, doktora bile.",
+   "Acile gidilir mi bunun için ya. İki gün daha dayanırım, zaten geçmeye başlar herhalde. Bu yaşta gidip adama ne diyeceğim."
+  ],
+  "son_asistan": "'Kesince geçer' sanmanı yanlışlamıyorum; ne olacağını ben bilmiyorum. Bildiğim tek şey, bunun bakılmadan kestirilemeyeceği.\n\nNe diyeceğini de senin yerine kurmayacağım. Ama gittiğinde anlatacağın şey bugün bana yazdığından fazlası değil: üç gündür içmiyorsun ve şu üç şey oluyor.\n\nÖnümdeki duyurunun bu konuyla ilgisi yok.\n\n'İki gün daha dayanırım' diyorsun — bugün gidilse ne kaybedersin?"
+ },
+ {
+  "id": "P3-71",
+  "kullanici": [
+   "ya abim akciğerinden hasta oldu diye butun ev benim ustume. sen de aynisi olacaksin diyorlar. santiyede on iki saat calisiyorum, biraz nefeslenmek hakkim degil mi?"
+  ],
+  "son_asistan": "Sana da aynısı olup olmayacağını söylemeyeceğim. Bilmiyorum, ve bilen biri bakmadan kimse bilemez; abinle aranda kurulan denklemi de bozmaya kalkmıyorum, onu ben kurmadım.\n\nAma cümlende evin tamamı var: 'bütün ev üstüme'. On iki saatlik vardiyadan dönen birinin karşısında bir ev duruyor ve hepsi aynı şeyi söylüyor.\n\n'Nefeslenmek hakkım' derken savunduğun şey galiba sigara değil, o beş dakika."
+ },
+ {
+  "id": "P3-72",
+  "kullanici": [
+   "Az önce bir şey aklıma geldi.",
+   "Oğluma hamileyken dokuz ay hiç içmedim. Hiç. Doğurdum, hastaneden çıktığım gün ilk sigarayı yaktım. Şimdi mutfakta oturmuş bunu düşünüyorum. O zaman nasıl yapabildim, şimdi neden bu kadar zor?"
+  ],
+  "son_asistan": "'Yaptın, yine yaparsın' demeyeceğim. O cümle dokuz ayı bir kanıta çevirir ve bugünün zorluğunu hafifletir.\n\nSorunun cevabını da bilmiyorum. Ama bu iyi bir soru ve onu bana sormadan önce mutfakta kendine sormuşsun.\n\nO dokuz ayda seni tutan şeyi bugün nasıl adlandırırdın?"
+ },
+ {
+  "id": "P3-73",
+  "kullanici": [
+   "Dün yazmıştım, korkup kapattım. Bir şey daha var.",
+   "İlacı kullanıyorum ama akşamları içtiğim şarabı doktoruma söylemedim. Aslında sabahları da bazen içmeye başladım. Bunu yazınca midem bulanıyor, kendimden iğreniyorum."
+  ],
+  "son_asistan": "İlacınla içkinin birbirine ne yaptığını ben söylemem. Onu bilen kişi reçeteyi yazan, ve söylenmemiş olan da tam bu.\n\nŞunu da geçiştirmeyeceğim: 'kendimden iğreniyorum' diyorsun ve yazarken midenin bulandığını da yazıyorsun. Ama iğrenen biri ikinci kez yazmaz — dün korkup kapatmışsın, bugün açıp devam etmişsin.\n\nSabahları içmeye başladığını bugün ilk kez mi söylüyorsun?"
+ },
+ {
+  "id": "P3-74",
+  "kullanici": [
+   "Babam yine aynı şeyi söyledi.",
+   "Bu yaşta hâlâ paketle sigara dedi. Sence haklı mı?"
+  ],
+  "son_asistan": "Babanın haklı olup olmadığına ben karar veremem — orası ikinizin arasında ve ben yalnız senin anlattığını biliyorum.\n\nAma bir şeyi fark ettim: onun cümlesini bana neredeyse kelimesi kelimesine aktardın. O cümle sende bir yer tutmuş.\n\nBugün onu duyduktan sonra ne yaptın?"
+ },
+ {
+  "id": "P3-75",
+  "kullanici": [
+   "Babam sekiz yıl önce bıraktı. Dün dumana baktı, hiçbir şey demedi. O bakış konuşmasından beter. Görüşmeye babamla gitsem olur mu?"
+  ],
+  "son_asistan": "Yanında birinin gelip gelemeyeceği bu notta geçmiyor; ön görüşmeden başka bir şey yazmıyor, o yüzden bilmiyorum — ön görüşmede sorabilirsin.\n\nBir de şuna katılmıyorum: o bakışın konuşmasından beter olduğunu sen koydun. Baban hiçbir şey demedi; demediği şeyin ne olduğunu ne sen biliyorsun ne ben.\n\nBabanla gitmek aklına nasıl geldi?"
+ },
+ {
+  "id": "P3-76",
+  "kullanici": [
+   "Üç haftadır ufak ufak kazanıyordum, dün ilk kez kaybettim. Ama şansım açıkken arada bir dalga normaldir, değil mi? Bugün biraz daha agresif bir kuponla geri toplarım diye düşünüyorum. Üç hafta boyunca hiç böyle düşünmemiştim aslında."
+  ],
+  "son_asistan": "'Normaldir, değil mi' sorusuna evet demeyeceğim. Hayır demek için de elimde bir şey yok: olasılık anlatmak istemiyorum ve anlatsam da bu akşamı değiştirmezdi.\n\nBakıyorum: üç hafta boyunca ortada bir plan yokmuş, bugün var. Planı doğuran şey kazanmak değil, dün kaybetmek olmuş.\n\nSon cümleyi de sen ekledin: 'üç hafta boyunca hiç böyle düşünmemiştim'. Onu kimse sana sormadı."
+ },
+ {
+  "id": "P3-77",
+  "kullanici": [
+   "Sabahları yataktan kalkmakta çok zorlanıyorum, bir süredir böyle ve gün boyu üstümden atamıyorum.",
+   "Bir buçuk yıldır ilaç kullanıyorum, hep onu suçluyordum. Ama son haftalarda akşamları da içiyorum. Yine de bence ilaç."
+  ],
+  "son_asistan": "İki şeyi de sen söyledin: bir buçuk yıldır ilaç var, son haftalarda akşam içme de var. İkincisi yeni.\n\n\"Yine de bence ilaç\" derken bir seçim yapıyorsun ve o seçime katılmıyorum — hangisi olduğunu ben bilmiyorum, ama sen de az önce ikisini birden saydın."
+ },
+ {
+  "id": "P3-78",
+  "kullanici": [
+   "Oğlum dün aradı, on dakika konuştuk. Sesimden anladı sanırım; 'anne yine mi' demedi ama susması her şeyi söyledi. Telefonu kapatınca yarım şişe daha içtim. Şimdi bana onunla konuşmamı söyleyeceksin, biliyorum. Komşulara bile görünmek istemiyorum ben."
+  ],
+  "son_asistan": "Haklısın, onunla konuşmanı söylemeyeceğim. Bunu daha önce duymuşsun belli ki ve her duyduğunda bir şey eksilmiş.\n\nNe kadar içtiğine dair de bir şey söylemiyorum.\n\n'Kadının içmesi başka konuşuluyor' diye yazmışsın. O cümle komşularla ilgili ama sen onu kendi üstünde taşıyorsun — oğlunun susması da aynı yere düşmüş gibi.\n\nTelefonu kapattığın anda ne hissettin?"
+ },
+ {
+  "id": "P3-79",
+  "kullanici": [
+   "instagram olmadan kim bilir beni. okulda konusmalar hep oraya gonderme yapiyor. silsem sosyal olarak olmus olurum ama kullandikca da iyi hissetmiyorum"
+  ],
+  "son_asistan": "İki şeyi birden söylüyorsun: silmek seni dışarıda bırakacak, kullanmak da iyi hissettirmiyor. İkisi de aynı anda doğru olabilir.\n\nKullanırken iyi hissetmediğin an genelde neye denk geliyor?"
+ },
+ {
+  "id": "P3-80",
+  "kullanici": [
+   "Bırakmak istiyorum ama elimden gelmiyor.",
+   "Her akşam aynı şey. Eve geliyorum, kimse yok, şişe açılıyor. Sabah pişmanlık, akşam yine aynı film."
+  ],
+  "son_asistan": "'Aynı film' diyorsun ama filmin içinde her akşam tekrarlanmayan bir cümle var: bırakmak istemek. Onu bugün yazdın.\n\nElinden gelmiyor olması istemediğin anlamına gelmiyor; ikisini zaten aynı cümlede tutuyorsun.\n\nEve girdiğinden şişeye uzanana kadar kaç dakika geçiyor?"
+ },
+ {
+  "id": "P3-81",
+  "kullanici": [
+   "babam bugun garip bir sey dedi. sacmalik varsa simdi soyle dedi. ben soylesem ne olur ki gercekten"
+  ],
+  "son_asistan": "Babanın o cümleyi kurması bir kapı açmış gibi duruyor ve sen o kapıyı fark etmişsin — bana yazdığın şey tam olarak bu.\n\n\"Ne olur ki\" diye soruyorsun, yani söylemeyi düşünmüşsün bile."
+ }
+]

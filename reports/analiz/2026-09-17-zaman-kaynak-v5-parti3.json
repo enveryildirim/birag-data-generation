@@ -1,0 +1,77 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti3.jsonl",
+  "girdi_sha256_16": "746e25e983550681",
+  "kayit": 60,
+  "isaretli_kayit": 4,
+  "bulgu": [
+    {
+      "parti_sira": 2,
+      "tip": "kaynak_atfi",
+      "oge": "doktorunun"
+    },
+    {
+      "parti_sira": 19,
+      "tip": "zaman",
+      "oge": "bir hafta önce"
+    },
+    {
+      "parti_sira": 21,
+      "tip": "zaman",
+      "oge": "aynı akşam"
+    },
+    {
+      "parti_sira": 39,
+      "tip": "zaman",
+      "oge": "öğleden sonra"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "rol_adlandirma_bitisik": 1,
+    "rol_adlandirma_baglacli": 1,
+    "anaforik_demir": 2,
+    "sure_birim_eslesme": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "d5e2ec4c8fc3d7c91a49bca0",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_baglacli",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "1f14f47ee701cc5b1573366e",
+      "oge": "hekimin",
+      "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi. Söyleyebilecek olan da onlar: reçetey"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 32,
+      "id": "2935f7c7142e6442817b3a12",
+      "oge": "aynı hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 40,
+      "id": "be104a2d1ae0cf31448c31bc",
+      "oge": "Üç yıl önce",
+      "baglam": "üç yil"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 43,
+      "id": "ab063ce6da795a30da6bd8de",
+      "oge": "aynı sabah",
+      "baglam": "sabah"
+    }
+  ]
+}

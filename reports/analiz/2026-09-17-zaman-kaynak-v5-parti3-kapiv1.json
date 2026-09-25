@@ -1,0 +1,34 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti3.jsonl",
+  "girdi_sha256_16": "746e25e983550681",
+  "kayit": 60,
+  "isaretli_kayit": 5,
+  "bulgu": [
+    {
+      "parti_sira": 27,
+      "tip": "kaynak_atfi",
+      "oge": "hekimin"
+    },
+    {
+      "parti_sira": 2,
+      "tip": "kaynak_atfi",
+      "oge": "doktorunun"
+    },
+    {
+      "parti_sira": 21,
+      "tip": "zaman",
+      "oge": "aynı akşam"
+    },
+    {
+      "parti_sira": 39,
+      "tip": "zaman",
+      "oge": "öğleden sonra"
+    },
+    {
+      "parti_sira": 43,
+      "tip": "zaman",
+      "oge": "aynı sabah"
+    }
+  ]
+}

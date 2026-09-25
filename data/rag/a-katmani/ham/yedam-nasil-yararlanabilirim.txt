@@ -1,0 +1,19 @@
+# kaynak_url: https://www.yedam.org.tr/nasil-yararlanabilirim
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+Nasıl Yararlanabilirim?
+
+YEDAM'a Nasıl Başvurulur?
+
+Çevrenizde bağımlı olduğundan şüphelendiğiniz kişiler varsa, 115 YEDAM Danışma Hattı'nı arayarak neler yapmanız gerektiğini öğrenebilirsiniz.
+
+YEDAM, Türkiye'de 81 ilde ve KKTC'de de hizmet vermektedir.
+
+Kimlere Hizmet Verilir?
+
+12 yaş ve üzerindeki kişilere,
+Alkol, tütün, madde, kumar ve internet bağımlılığı konusunda destek almak ya da bırakma süreci hakkında bilgi sahibi olmak isteyenlere,
+Bağımlı olduğu düşünülen kişiyi bırakma ve arınma sürecine yönlendirmek için gerekli bilgi ve yöntemleri öğrenmek isteyenlere hizmet verebilir.

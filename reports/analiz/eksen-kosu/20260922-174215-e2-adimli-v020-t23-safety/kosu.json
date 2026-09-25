@@ -1,0 +1,14 @@
+{
+ "etiket": "e2-adimli-v020-t23-safety",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260922-171733-e2-adimli-k8qo-v020-t23/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 193,
+ "otomatik_gecen": 14,
+ "bos_cevap": 1,
+ "judge_bekleyen_oge": 19,
+ "tarih": "2026-09-22T17:45:28"
+}

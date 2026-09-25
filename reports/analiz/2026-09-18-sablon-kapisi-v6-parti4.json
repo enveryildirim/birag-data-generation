@@ -1,0 +1,263 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti4.jsonl",
+  "kayit": 59,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "başka bir şey",
+      "kayit": 6
+    },
+    {
+      "dizi": "bir şey söylemeyeceğim",
+      "kayit": 4
+    },
+    {
+      "dizi": "olan sensin ve",
+      "kayit": 3
+    },
+    {
+      "dizi": "ayni şey değil",
+      "kayit": 3
+    },
+    {
+      "dizi": "ben karar veremem",
+      "kayit": 3
+    },
+    {
+      "dizi": "dair bir hüküm",
+      "kayit": 3
+    },
+    {
+      "dizi": "yazdin ve bu",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir şey var",
+      "kayit": 3
+    },
+    {
+      "dizi": "orada yalniz randevu",
+      "kayit": 3
+    },
+    {
+      "dizi": "yazmiyor orada yalniz",
+      "kayit": 3
+    },
+    {
+      "dizi": "sana ben söyleyemem",
+      "kayit": 3
+    },
+    {
+      "dizi": "yazmiyor orada yalniz randevu sirasi ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapacağini sana ben söyleyemem",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisini de sen söyledin",
+      "kayit": 2
+    },
+    {
+      "dizi": "olan da sen ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "oturacak olan sensin ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "olup olmadiğina bakamam ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "dair bir hüküm vermeyeceğim",
+      "kayit": 2
+    },
+    {
+      "dizi": "var o yüzden bilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "bakilmasi gereken bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "olmamiş yapmiyor ve bu",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapman gerektiğini söylemeyeceğim",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey söyleyemem ne",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama şuna dikkat",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne kadar ağir",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne anlama geldiğini",
+      "kayit": 2
+    },
+    {
+      "dizi": "kişi ben değilim",
+      "kayit": 2
+    },
+    {
+      "dizi": "iki ayri şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve kayit var",
+      "kayit": 2
+    },
+    {
+      "dizi": "benim işim değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "olur ve o",
+      "kayit": 2
+    },
+    {
+      "dizi": "karari senin yerine",
+      "kayit": 2
+    },
+    {
+      "dizi": "bedeninde olan bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "olan sensin ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama şu an",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisini de ayni",
+      "kayit": 2
+    },
+    {
+      "dizi": "sonra ne oluyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "son cümlene katilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "de ayni kişi",
+      "kayit": 2
+    },
+    {
+      "dizi": "için ayri bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "elimdeki notta acil",
+      "kayit": 2
+    },
+    {
+      "dizi": "hakkinda bir şey",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "başka bir şey": [
+      "%15.0",
+      "%3.4",
+      "%2.6",
+      "%2.6",
+      "%2.6",
+      "%3.3",
+      "%2.9",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%10.2"
+    ],
+    "bir şey söylemeyeceğim": [
+      "%5.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%1.5",
+      "%4.9",
+      "%4.9",
+      "%4.9",
+      "%4.9",
+      "%4.9",
+      "%4.9",
+      "%4.9",
+      "%6.8"
+    ],
+    "olan sensin ve": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%5.1"
+    ],
+    "ayni şey değil": [
+      "%0.0",
+      "%0.9",
+      "%0.6",
+      "%0.6",
+      "%0.6",
+      "%1.4",
+      "%2.6",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%5.1"
+    ],
+    "ben karar veremem": [
+      "%0.0",
+      "%2.6",
+      "%4.5",
+      "%4.5",
+      "%4.5",
+      "%4.7",
+      "%5.1",
+      "%3.0",
+      "%3.0",
+      "%3.0",
+      "%3.0",
+      "%3.0",
+      "%3.0",
+      "%3.0",
+      "%5.1"
+    ]
+  }
+}

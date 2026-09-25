@@ -1,0 +1,205 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v4-parti2.v2.jsonl",
+  "girdi_sha256_16": "2867eb01834e3e41",
+  "kayit": 60,
+  "taranan_alinti": 88,
+  "bulunamayan": [
+    {
+      "parti_sira": 4,
+      "id": "0e672a319d7fea6e",
+      "alinti": "tamamen bırakmadım",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 4,
+      "id": "0e672a319d7fea6e",
+      "alinti": "eskisi gibi değilim",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 4,
+      "id": "0e672a319d7fea6e",
+      "alinti": "yeterince ciddi miyim",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 5,
+      "id": "d383afea73768f1a",
+      "alinti": "şöyle işler",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 8,
+      "id": "fb634d744db01ab6",
+      "alinti": "hekimine söyle",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 9,
+      "id": "099f66bc20561343",
+      "alinti": "neden",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 9,
+      "id": "099f66bc20561343",
+      "alinti": "Neden",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 11,
+      "id": "ee3af4cdad15604c",
+      "alinti": "Böyle bir şey düşünmemelisin",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 12,
+      "id": "17908b5136dfcd99",
+      "alinti": "yapamam",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 17,
+      "id": "92ece2a209490788",
+      "alinti": "Benim alanım değil",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 22,
+      "id": "52fdc9ac7d860bfd",
+      "alinti": "endişelenme",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 26,
+      "id": "9c5895b2b1ceea31",
+      "alinti": "ama onlar gerçek değil",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 28,
+      "id": "2c880b42a7761f25",
+      "alinti": "Grup biter",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 29,
+      "id": "c91450867c98022d",
+      "alinti": "Dayanıklısın",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 30,
+      "id": "8a5c347d02ce0cf0",
+      "alinti": "istemekle yapabilmek arasındaki aralık",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 31,
+      "id": "dc5694bd80edd668",
+      "alinti": "Bir kupon tuttursam borçlar biter",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 36,
+      "id": "b97625376d4ce01f",
+      "alinti": "Neden üç tane aldın",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 37,
+      "id": "f275b30d87bfb22a",
+      "alinti": "Suçlu hissediyorsun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 42,
+      "id": "5e7c920fc1897ef3",
+      "alinti": "Bırakmak istiyorum ama",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 42,
+      "id": "5e7c920fc1897ef3",
+      "alinti": "Ne kaçırmış olurdun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 42,
+      "id": "5e7c920fc1897ef3",
+      "alinti": "ne olur",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 44,
+      "id": "7c1bfe08fa82452f",
+      "alinti": "Tuhaf rahatlama",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 50,
+      "id": "049a74e23fe0b956",
+      "alinti": "azaltmak istiyorum",
+      "sinif": "parafraz"
+    },
+    {
+      "parti_sira": 51,
+      "id": "8802f474d98a3243",
+      "alinti": "Ne düşünüyorsun",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 52,
+      "id": "33ead21e139e28cd",
+      "alinti": "Elimdeki metin ilgisiz",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 56,
+      "id": "d708ce9c559209e9",
+      "alinti": "bebeğin için",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 57,
+      "id": "606da4bf3d523b94",
+      "alinti": "Evet",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 57,
+      "id": "606da4bf3d523b94",
+      "alinti": "hayır",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 57,
+      "id": "606da4bf3d523b94",
+      "alinti": "Neden yalan söyledin",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 58,
+      "id": "f1f1e12484fe7c1e",
+      "alinti": "Sözünü tutmalısın",
+      "sinif": "karsiolgusal"
+    },
+    {
+      "parti_sira": 60,
+      "id": "fc06767f8f119e4e",
+      "alinti": "Üç kuşak",
+      "sinif": "karsiolgusal"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 22,
+    "parafraz": 9,
+    "hayalet": 0,
+    "siniflanmadi": 0
+  },
+  "elle_okunan_korpus": [
+    "v4-parti2.v2",
+    "v5-parti3"
+  ]
+}

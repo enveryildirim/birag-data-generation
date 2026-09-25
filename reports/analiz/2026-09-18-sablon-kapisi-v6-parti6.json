@@ -1,0 +1,355 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti6.jsonl",
+  "kayit": 58,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "bir şey değil",
+      "kayit": 5
+    },
+    {
+      "dizi": "ikisini de sen",
+      "kayit": 5
+    },
+    {
+      "dizi": "buradan çikacak bir",
+      "kayit": 4
+    },
+    {
+      "dizi": "ve ikisi de",
+      "kayit": 3
+    },
+    {
+      "dizi": "kişi ben değilim",
+      "kayit": 3
+    },
+    {
+      "dizi": "ikisi de ayni",
+      "kayit": 3
+    },
+    {
+      "dizi": "o hapi yazan",
+      "kayit": 3
+    },
+    {
+      "dizi": "üçünü de sen",
+      "kayit": 3
+    },
+    {
+      "dizi": "üçü de ayni",
+      "kayit": 3
+    },
+    {
+      "dizi": "hakli olup olmadiğina",
+      "kayit": 3
+    },
+    {
+      "dizi": "de sen yazdin",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir şey yok",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir de şu",
+      "kayit": 3
+    },
+    {
+      "dizi": "orada seni nasil karşilayacaklarini",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve üçünü de sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "olup olmadiğina da girmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisini de sen yazdin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve ikisini de sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "hakli olup olmadiğina girmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve buradan çikacak bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama cümlenin kuruluşuna bakiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve o ben değilim",
+      "kayit": 2
+    },
+    {
+      "dizi": "aklindan ne geçiyordu",
+      "kayit": 2
+    },
+    {
+      "dizi": "şu an iki",
+      "kayit": 2
+    },
+    {
+      "dizi": "ilk ne zaman",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey duruyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisi arasinda bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "diye soran da",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmediğim bir şeyi",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen yan yana",
+      "kayit": 2
+    },
+    {
+      "dizi": "için de bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "elinde duran şu",
+      "kayit": 2
+    },
+    {
+      "dizi": "de sen anlattin",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şeyi de",
+      "kayit": 2
+    },
+    {
+      "dizi": "onu kimse sana",
+      "kayit": 2
+    },
+    {
+      "dizi": "oraya sormak gerekiyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "biri varsa o",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen yazdin ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve onu sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve sonucunu sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "kimse söylemedi sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve bu akşam",
+      "kayit": 2
+    },
+    {
+      "dizi": "böyle bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve sen onu",
+      "kayit": 2
+    },
+    {
+      "dizi": "değil mi sorusuna",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve yine de",
+      "kayit": 2
+    },
+    {
+      "dizi": "de sen seçtin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ayni anda doğru",
+      "kayit": 2
+    },
+    {
+      "dizi": "ilk kez mi",
+      "kayit": 2
+    },
+    {
+      "dizi": "reçeteyi yazan ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "bugün ilk kez",
+      "kayit": 2
+    },
+    {
+      "dizi": "gereken de o",
+      "kayit": 2
+    },
+    {
+      "dizi": "biri var ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir yolunu yazmayacağim",
+      "kayit": 2
+    },
+    {
+      "dizi": "elimde bu görüşmelerin",
+      "kayit": 2
+    },
+    {
+      "dizi": "satir var istersen",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir de benim",
+      "kayit": 2
+    },
+    {
+      "dizi": "olup olmadiğini söylemeyeceğim",
+      "kayit": 2
+    },
+    {
+      "dizi": "da sen yazdin",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilen kişi o",
+      "kayit": 2
+    },
+    {
+      "dizi": "olan da o",
+      "kayit": 2
+    },
+    {
+      "dizi": "de yazdin bu",
+      "kayit": 2
+    },
+    {
+      "dizi": "var ve o",
+      "kayit": 2
+    },
+    {
+      "dizi": "başka bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey var",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "bir şey değil": [
+      "%0.0",
+      "%4.3",
+      "%3.2",
+      "%3.2",
+      "%3.2",
+      "%2.3",
+      "%2.9",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%10.3"
+    ],
+    "ikisini de sen": [
+      "%0.0",
+      "%0.9",
+      "%0.6",
+      "%0.6",
+      "%0.6",
+      "%0.5",
+      "%0.4",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%8.6"
+    ],
+    "buradan çikacak bir": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%6.9"
+    ],
+    "ve ikisi de": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.4",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%5.2"
+    ],
+    "kişi ben değilim": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.5",
+      "%0.5",
+      "%0.5",
+      "%0.5",
+      "%0.5",
+      "%0.5",
+      "%0.5",
+      "%5.2"
+    ]
+  }
+}

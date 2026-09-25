@@ -1,0 +1,10 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti5.v5.jsonl",
+  "girdi_sha256_16": "a1e0d9b9988b04d8",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 11,
+  "isaretli_kayit": 0,
+  "bulgu": []
+}

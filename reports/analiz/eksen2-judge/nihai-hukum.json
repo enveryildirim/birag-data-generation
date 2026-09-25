@@ -1,0 +1,722 @@
+[
+ {
+  "kol": "A-dar",
+  "id": "sk-001",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-002",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-003",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-004",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-005",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-006",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-007",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-008",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-009",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-010",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-011",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-012",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-013",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-016",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-018",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-019",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "A-dar",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-001",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-002",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-003",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-004",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-005",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-006",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-007",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-008",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-009",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-010",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-011",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-012",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-013",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-016",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-018",
+  "judge_nihai_dusuk": null,
+  "judge_k": 0
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-019",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "B-derin",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-001",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-002",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-003",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-004",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-005",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-006",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-007",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-008",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-009",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-010",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-011",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-012",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-013",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-016",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-018",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-019",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "C-dikkat",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-001",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-002",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-003",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-004",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-005",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-006",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-007",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-008",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-009",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-010",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-011",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-012",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-013",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-016",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-018",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-019",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "D-tam",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-001",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-002",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-003",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-004",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-005",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-006",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-007",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-008",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-009",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-010",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-011",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-012",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-013",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-016",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-018",
+  "judge_nihai_dusuk": false,
+  "judge_k": 1
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-019",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "E-genis",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-001",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-002",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-003",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-004",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-005",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-006",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-007",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-008",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-009",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-010",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-011",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-012",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-013",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-014",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-015",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-016",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-017",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-018",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-019",
+  "judge_nihai_dusuk": true,
+  "judge_k": 3
+ },
+ {
+  "kol": "taban",
+  "id": "sk-020",
+  "judge_nihai_dusuk": false,
+  "judge_k": 3
+ }
+]

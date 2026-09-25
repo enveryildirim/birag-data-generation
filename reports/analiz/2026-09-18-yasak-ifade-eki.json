@@ -1,0 +1,14 @@
+{
+  "tarih": "2026-09-18",
+  "regresyon_hatasi": 0,
+  "once": {
+    "rol_siniri": 26,
+    "zararli_normallestirme": 9
+  },
+  "sonra": {
+    "rol_siniri": 26,
+    "zararli_normallestirme": 9
+  },
+  "donen": [],
+  "kayit": 5642
+}

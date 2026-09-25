@@ -1,0 +1,75 @@
+{
+  "tarih": "2026-09-18",
+  "veri": {
+    "*ham model* (taban)": {
+      "dizin": "20260915-012409-baseline-v6",
+      "n": 48,
+      "bos": 0,
+      "kesildi": 0,
+      "dejenere": 0,
+      "token": 555.3333333333334,
+      "oto": {
+        "soru_sayisi_maks": 40,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "otot": {
+        "soru_sayisi_maks": 42,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "yargili": 48
+    },
+    "8 katman · v0.0.5 (eski tarama)": {
+      "dizin": "20260915-143006-gd2-A-dar",
+      "n": 48,
+      "bos": 0,
+      "kesildi": 0,
+      "dejenere": 0,
+      "token": 427.5,
+      "oto": {
+        "soru_sayisi_maks": 41,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "otot": {
+        "soru_sayisi_maks": 42,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "yargili": 0
+    },
+    "⭐ 8 katman · **v0.0.10**": {
+      "dizin": "20260918-093929-gd-v010-k8",
+      "n": 48,
+      "bos": 0,
+      "kesildi": 0,
+      "dejenere": 0,
+      "token": 373.0416666666667,
+      "oto": {
+        "soru_sayisi_maks": 39,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "otot": {
+        "soru_sayisi_maks": 42,
+        "uydurma_yok": 4,
+        "yasak_ifade_yok": 7,
+        "atif_yok": 3,
+        "uzunluk_maks": 4
+      },
+      "yargili": 0
+    }
+  },
+  "qwen_sn_kayit": 164
+}

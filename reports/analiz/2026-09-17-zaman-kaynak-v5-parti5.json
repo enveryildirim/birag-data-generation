@@ -1,0 +1,38 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti5.jsonl",
+  "girdi_sha256_16": "8c5bf9a18982624a",
+  "kayit": 60,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "anaforik_demir": 1,
+    "sure_birim_eslesme": 2
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bcd3e2f049",
+      "oge": "o akşam",
+      "baglam": "akşam"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 29,
+      "id": "82f85f4ed372ce4ea527c896",
+      "oge": "İki hafta önce",
+      "baglam": "iki hafta"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 51,
+      "id": "830a77104a742390c8537c90",
+      "oge": "altı hafta önce",
+      "baglam": "alti hafta"
+    }
+  ]
+}

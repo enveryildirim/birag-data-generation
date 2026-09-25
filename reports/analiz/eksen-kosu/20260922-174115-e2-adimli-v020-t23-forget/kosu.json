@@ -1,0 +1,14 @@
+{
+ "etiket": "e2-adimli-v020-t23-forget",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "runs/20260922-171733-e2-adimli-k8qo-v020-t23/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 60,
+ "otomatik_gecen": 28,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-22T17:42:15"
+}

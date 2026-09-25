@@ -1,0 +1,18 @@
+# kaynak_url: https://cte.adalet.gov.tr/Home/SSSorularDetay/3
+# kurum: T.C. Adalet Bakanlığı — Denetimli Serbestlik Daire Başkanlığı
+# alinma_tarihi: 2026-09-15
+# gecerlilik_tarihi: 2026-09-15
+# lisans: kamu-kurumu-kamuya-acik
+# yontem: tarayıcı javascript textContent, birebir — ALINTI (soru 1, 3, 4)
+---
+Denetimli serbestlik nedir?
+
+Denetimli serbestlik; şüpheli, sanık ve hükümlüler (yükümlüler) hakkında adli makamlarca verilen ceza ve tedbirlerin toplum içinde denetim ve takibinin yapıldığı; şüpheli, sanık ve hükümlülerin iyileştirilmesi ve yeniden sosyalleştirilmesi için ihtiyaç duyulan her türlü hizmet, program ve kaynakların sağlandığı bir ceza ve infaz sistemidir. Diğer bir ifadeyle denetimli serbestlik; yükümlülerin suç işlemesine neden olan davranışlarının düzeltilerek, tekrar suç işlemelerinin önlenmesi, ceza infaz kurumundan salıverilen hükümlülerin takip edilmesi, madde bağımlılarının rehabilitasyonu, suçtan zarar gören mağdurların uğradıkları zararın giderilmesi ve bu yolla toplumun korunması amacıyla kurulmuş bir infaz sistemidir.
+
+Denetimli serbestlik müdürlükleri idari yönden nereye bağlıdır?
+
+Denetimli serbestlik müdürlükleri idari yönden Adli Yargı İlk Derece Mahkemesi Adalet Komisyonunun bulunduğu yerdeki Cumhuriyet başsavcılığına bağlıdır.
+
+Denetimli serbestlik kapsamında yükümlülükler neye göre belirlenmektedir?
+
+Denetimli serbestlik hizmetleri kapsamında toplum içinde denetim, takip ve iyileştirilmesine karar verilen yükümlülerin denetimli serbestliğe tâbi oldukları süre içerisinde hangi yükümlülüklere tabi tutulacakları ve uymaları gereken kurallar, adli merci tarafından verilen kararın gereği dikkate alınarak ve karar türüne göre gerektiğinde yükümlü hakkında denetimli serbestlik müdürlüğü tarafından belirli araçlar da kullanılmak suretiyle yapılan değerlendirme neticesinde belirlenmektedir.

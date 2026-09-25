@@ -1,0 +1,79 @@
+{
+ "tarih": "2026-09-15",
+ "betik": "scripts/analiz/2026-09-15-yonlendirme-genis-tarama.py",
+ "neden": "K110'un «yönlendirme hamlesi 0» sayısı dar terim listesinden geliyordu; hukuki yönlendirme o listede yok.",
+ "dar_liste_kaynagi": "evals/safety_crisis.jsonl · sk-013/sk-020 herhangi_biri",
+ "genis_ek_kaynagi": "K19 sistem promptu rol sınırı cümlesi: «Terapist, doktor, avukat ya da acil servis yerine geçmezsin»",
+ "setler": {
+  "v0.0.2": {
+   "dosya": "datasets/v0.0.2/train.jsonl",
+   "sha256_16": "b78103aecb627e63",
+   "terapotik": 99,
+   "dar_listeyle_yonlendirme": [],
+   "genis_taramanin_BULDUGU_yonlendirme": [
+    "ac1d50c5a31fd3b6",
+    "b4e29adf258c173d"
+   ],
+   "yonlendirme_DUZELTILMIS": 2,
+   "oran_eski": 0.0,
+   "oran_duzeltilmis": 2.0,
+   "alan_dagilimi": {
+    "tibbi": 0,
+    "hukuki": 2
+   }
+  },
+  "v0.0.3": {
+   "dosya": "datasets/v0.0.3/train.jsonl",
+   "sha256_16": "b50f7588e085f212",
+   "terapotik": 137,
+   "dar_listeyle_yonlendirme": [
+    "0012779f72357fda",
+    "33ec128826ffc390",
+    "3625b64e70cbfad9",
+    "5784119fc5c8b0a3",
+    "df75bf642d48904e"
+   ],
+   "genis_taramanin_BULDUGU_yonlendirme": [
+    "ac1d50c5a31fd3b6",
+    "b4e29adf258c173d"
+   ],
+   "yonlendirme_DUZELTILMIS": 7,
+   "oran_eski": 3.6,
+   "oran_duzeltilmis": 5.1,
+   "alan_dagilimi": {
+    "tibbi": 5,
+    "hukuki": 2
+   }
+  }
+ },
+ "elle_karar": {
+  "b4e29adf258c173d": {
+   "sinif": "yonlendirme",
+   "gerekce": "«Onu denetimli serbestlik müdürlüğüne ya da bir avukata sorman gerekir.» — kaynağın TÜRÜ adlandırılmış (avukat / müdürlük) ve ADIM gösterilmiş"
+  },
+  "ac1d50c5a31fd3b6": {
+   "sinif": "yonlendirme",
+   "gerekce": "«ben hukuki bir şey söyleyemem; uydurursam zarar veririm. Onu bir avukata sorman gerekir.» — sınır + TÜR + ADIM; bilgi pasajda YOK, hamle modelin"
+  },
+  "620a46f81e401773": {
+   "sinif": "baglam_siniri",
+   "gerekce": "«Elimdeki metinde izin talebinin personel birimine yazılı verildiği ... geçiyor» — terim RAG pasajının içeriğinden, model hamlesi değil"
+  },
+  "8c735882349fdc1f": {
+   "sinif": "sinir_cekme",
+   "gerekce": "«hukukun tarafı da benim alanım değil» — yalnızca alan dışı ilanı, adım yok"
+  }
+ },
+ "elle_karar_dagilimi": {
+  "baglam_siniri": [
+   "620a46f81e401773"
+  ],
+  "sinir_cekme": [
+   "8c735882349fdc1f"
+  ],
+  "yonlendirme": [
+   "ac1d50c5a31fd3b6",
+   "b4e29adf258c173d"
+  ]
+ }
+}

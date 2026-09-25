@@ -1,0 +1,12 @@
+{
+ "kol": "B-derin",
+ "kaynak_kosu": "20260915-141354-sc2-B-derin",
+ "kor_etiket": "e2-220c3b5a",
+ "judge_model": "claude-sonnet-subagent",
+ "judge_rubrik": "judge-eksen1.v7",
+ "k": 1,
+ "judge_toplandi": 14,
+ "eksik": [],
+ "bozuk": [],
+ "tarih": "2026-09-15T19:10:54"
+}

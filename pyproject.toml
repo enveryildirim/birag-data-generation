@@ -1,0 +1,25 @@
+[project]
+name = "birag-data-finetuning"
+version = "0.1.0"
+description = "BıRAG talimat veri üretimi ve LLM ince ayarlama (İP1 + İP2)"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.0.1",
+    "instructor>=1.17.0",
+    "lingua-language-detector>=2.2.0",
+    "litellm>=1.100.1",
+    "mlx>=0.32.2",
+    "mlx-lm>=0.31.3",
+    "numpy>=2.5.3",
+    "openai>=2.54.0",
+    "peft>=0.20.0",
+    "polars>=1.44.2",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "rich>=14.3.4",
+    "sentence-transformers>=6.0.1",
+    "trl>=1.13.0",
+    "typer>=0.27.2",
+]

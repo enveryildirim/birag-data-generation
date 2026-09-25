@@ -1,0 +1,15 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-tohum-beyan-kriz-kapisi.py",
+  "tohum": 2240,
+  "tohum_sha256_16": {
+    "seeds.jsonl": "0631c02ec7510af3",
+    "seeds.v2.jsonl": "3399f543c8b882c7"
+  },
+  "beyanla_sert": 40,
+  "beyanla_persona": 32,
+  "taranan_dosya": 1,
+  "uretilmis_sert": [],
+  "uretilmis_persona": [],
+  "bulgu": []
+}

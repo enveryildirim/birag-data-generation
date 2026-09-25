@@ -1,0 +1,72 @@
+{
+  "tarih": "2026-09-16",
+  "betik": "scripts/analiz/2026-09-16-olcek-egrisi-ilk-nokta.py",
+  "eval_seti": "evals/golden.dev.jsonl",
+  "judge": "ATLANDI (K96/K97)",
+  "kollar": {
+    "v005-referans": {
+      "kosu": "20260916-204027-g1-v005-referans",
+      "otomatik_gecen": 55,
+      "otomatik_toplam": 60,
+      "dejenere": 0,
+      "bos_cevap": 0,
+      "kesildi": 0,
+      "ort_cevap_kelime": 22.5,
+      "ort_thinking_kelime": 227.4
+    },
+    "v006-adimsabit": {
+      "kosu": "20260916-203111-g1-v006-adimsabit",
+      "otomatik_gecen": 57,
+      "otomatik_toplam": 60,
+      "dejenere": 0,
+      "bos_cevap": 0,
+      "kesildi": 0,
+      "ort_cevap_kelime": 22.8,
+      "ort_thinking_kelime": 265.8
+    },
+    "v006-3epoch": {
+      "kosu": "20260916-202237-g1-v006-3epoch",
+      "otomatik_gecen": 60,
+      "otomatik_toplam": 60,
+      "dejenere": 0,
+      "bos_cevap": 0,
+      "kesildi": 0,
+      "ort_cevap_kelime": 19.9,
+      "ort_thinking_kelime": 249.5
+    }
+  },
+  "veri_etkisi_adim_sabit": {
+    "ortak_iddia": 60,
+    "v006-adimsabit_lehine": [
+      "gd-009/soru_sayisi_maks",
+      "gd-023/soru_sayisi_maks",
+      "gd-030/soru_sayisi_maks",
+      "gd-040/soru_sayisi_maks"
+    ],
+    "v005-referans_lehine": [
+      "gd-024/soru_sayisi_maks",
+      "gd-046/soru_sayisi_maks"
+    ]
+  },
+  "adim_etkisi_veri_sabit": {
+    "ortak_iddia": 60,
+    "v006-3epoch_lehine": [
+      "gd-008/soru_sayisi_maks",
+      "gd-024/soru_sayisi_maks",
+      "gd-046/soru_sayisi_maks"
+    ],
+    "v006-adimsabit_lehine": []
+  },
+  "hic_ayrismayan_iddia": [
+    "atif_yok",
+    "uydurma_yok",
+    "uzunluk_maks",
+    "yasak_ifade_yok"
+  ],
+  "val_loss": {
+    "v006-3epoch": 2.78,
+    "v006-adimsabit": 2.823,
+    "v005-referans": 2.874,
+    "not": "v005 BAŞKA doğrulama kümesi — kıyaslanamaz"
+  }
+}

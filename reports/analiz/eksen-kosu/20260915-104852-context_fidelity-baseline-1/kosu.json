@@ -1,0 +1,14 @@
+{
+ "etiket": "context_fidelity-baseline-1",
+ "set": "evals/context_fidelity.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 246,
+ "otomatik_gecen": 14,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T10:52:58"
+}

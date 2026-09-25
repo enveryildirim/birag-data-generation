@@ -1,0 +1,181 @@
+{
+ "K01": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti2#46"
+ },
+ "K02": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#18"
+ },
+ "K03": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#8"
+ },
+ "K04": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#34"
+ },
+ "K05": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#7"
+ },
+ "K06": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti2#41"
+ },
+ "K07": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti1#40",
+  "alt": "a_var"
+ },
+ "K08": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti3#21",
+  "alt": "a_var"
+ },
+ "K09": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#22"
+ },
+ "K10": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti4#7",
+  "alt": "a_var"
+ },
+ "K11": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#34"
+ },
+ "K12": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#14"
+ },
+ "K13": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#26"
+ },
+ "K14": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti7#50",
+  "alt": "a_var"
+ },
+ "K15": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti3#10",
+  "alt": "a_var"
+ },
+ "K16": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti6#54"
+ },
+ "K17": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#58"
+ },
+ "K18": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti4#38",
+  "alt": "a_yok"
+ },
+ "K19": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti4#18",
+  "alt": "a_var"
+ },
+ "K20": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#54"
+ },
+ "K21": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti4#24"
+ },
+ "K22": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#1"
+ },
+ "K23": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti2#22",
+  "alt": "a_yok"
+ },
+ "K24": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti2#7"
+ },
+ "K25": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti4#19",
+  "alt": "a_yok"
+ },
+ "K26": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti4#52"
+ },
+ "K27": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti3#6",
+  "alt": "a_yok"
+ },
+ "K28": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#11"
+ },
+ "K29": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti2#58",
+  "alt": "a_var"
+ },
+ "K30": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#59"
+ },
+ "K31": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti4#20"
+ },
+ "K32": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti5#7"
+ },
+ "K33": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti1#28",
+  "alt": "a_var"
+ },
+ "K34": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti1#8"
+ },
+ "K35": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti4#51"
+ },
+ "K36": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#44"
+ },
+ "K37": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti6#39",
+  "alt": "a_yok"
+ },
+ "K38": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti4#55"
+ },
+ "K39": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti4#12",
+  "alt": "a_yok"
+ },
+ "K40": {
+  "grup": "kontrol",
+  "kimlik": "v6-parti7#43",
+  "alt": "a_yok"
+ },
+ "K41": {
+  "grup": "ayrisan",
+  "kimlik": "v6-parti3#11"
+ }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "v0.0.1",
+  "date": "2026-09-12",
+  "git_rev": "b3d87df",
+  "input_file": "data/judged/v0.0.1.jsonl",
+  "input_sha256_16": "d7d1e578e8a39977",
+  "n_total": 20,
+  "n_kept": 20,
+  "n_dropped": 0,
+  "dropped": [],
+  "scenario_counts": {
+    "farkindalik": 8,
+    "kayma_nuks": 2,
+    "hedef_belirleme": 2,
+    "ambivalans": 1,
+    "nazikce_karsi_cikma": 2,
+    "rol_siniri": 3,
+    "inkar": 1,
+    "bilgilendirme": 1
+  },
+  "addiction_type_counts": {
+    "alkol": 4,
+    "dijital": 4,
+    "kumar": 4,
+    "receteli_ilac": 4,
+    "tutun": 4
+  },
+  "age_group_counts": {
+    "yetiskin": 15,
+    "ergen": 5
+  }
+}

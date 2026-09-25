@@ -1,0 +1,138 @@
+{
+  "h1-capa-k8": {
+    "dizin": "20260917-104611-h-h1-capa-k8",
+    "tam": true,
+    "katman": 8,
+    "anahtar": 1,
+    "rank": 8,
+    "tr_ilk": 3.547,
+    "tr_son": 2.622,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      2.654
+    ],
+    "va_son": 2.654,
+    "sure": 410.8,
+    "adim": 1368
+  },
+  "h2-k16": {
+    "dizin": "20260917-105305-h-h2-k16",
+    "tam": true,
+    "katman": 16,
+    "anahtar": 1,
+    "rank": 8,
+    "tr_ilk": 3.355,
+    "tr_son": 2.365,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      2.428
+    ],
+    "va_son": 2.428,
+    "sure": 491.9,
+    "adim": 1368
+  },
+  "h3-k24": {
+    "dizin": "20260917-110120-h-h3-k24",
+    "tam": true,
+    "katman": 24,
+    "anahtar": 1,
+    "rank": 8,
+    "tr_ilk": 3.142,
+    "tr_son": 2.133,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      2.209
+    ],
+    "va_son": 2.209,
+    "sure": 555.2,
+    "adim": 1368
+  },
+  "h4-k32": {
+    "dizin": "20260917-111039-h-h4-k32",
+    "tam": true,
+    "katman": 32,
+    "anahtar": 1,
+    "rank": 8,
+    "tr_ilk": 3.1,
+    "tr_son": 2.045,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      2.126
+    ],
+    "va_son": 2.126,
+    "sure": 603.8,
+    "adim": 1368
+  },
+  "h5-k16-qo": {
+    "dizin": "20260917-112047-h-h5-k16-qo",
+    "tam": true,
+    "katman": 16,
+    "anahtar": 2,
+    "rank": 8,
+    "tr_ilk": 2.877,
+    "tr_son": 2.007,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      2.073
+    ],
+    "va_son": 2.073,
+    "sure": 491.7,
+    "adim": 1368
+  },
+  "h6-k24-qo": {
+    "dizin": "20260917-112902-h-h6-k24-qo",
+    "tam": true,
+    "katman": 24,
+    "anahtar": 2,
+    "rank": 8,
+    "tr_ilk": 2.664,
+    "tr_son": 1.725,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      1.856
+    ],
+    "va_son": 1.856,
+    "sure": 537.3,
+    "adim": 1368
+  },
+  "h7-k24-qo-r16": {
+    "dizin": "20260917-113802-h-h7-k24-qo-r16",
+    "tam": true,
+    "katman": 24,
+    "anahtar": 2,
+    "rank": 16,
+    "tr_ilk": 2.563,
+    "tr_son": 1.594,
+    "va_ilk": 3.834,
+    "va_min": [
+      1368,
+      1.809
+    ],
+    "va_son": 1.809,
+    "sure": 538.6,
+    "adim": 1368
+  },
+  "h8-capa-k42-qo": {
+    "dizin": "20260917-114704-h-h8-capa-k42-qo",
+    "tam": false,
+    "katman": 42,
+    "anahtar": 2,
+    "rank": 8,
+    "tr_ilk": 2.581,
+    "tr_son": 1.732,
+    "va_ilk": 3.834,
+    "va_min": [
+      456,
+      1.838
+    ],
+    "va_son": 1.838,
+    "sure": null,
+    "adim": 600
+  }
+}

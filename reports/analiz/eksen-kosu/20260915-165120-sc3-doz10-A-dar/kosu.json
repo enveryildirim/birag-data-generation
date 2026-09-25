@@ -1,0 +1,14 @@
+{
+ "etiket": "sc3-doz10-A-dar",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-162051-f4c-doz10-A-dar/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 220,
+ "otomatik_gecen": 8,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T16:55:00"
+}

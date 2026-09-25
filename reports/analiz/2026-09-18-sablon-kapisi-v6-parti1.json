@@ -1,0 +1,351 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti1.jsonl",
+  "kayit": 59,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "bunun sende ne",
+      "kayit": 4
+    },
+    {
+      "dizi": "bir şey değil",
+      "kayit": 4
+    },
+    {
+      "dizi": "bir hekimin bilmesi",
+      "kayit": 4
+    },
+    {
+      "dizi": "ne yapacağin senin",
+      "kayit": 4
+    },
+    {
+      "dizi": "bunu senin yerine",
+      "kayit": 4
+    },
+    {
+      "dizi": "olup olmadiğini ben",
+      "kayit": 4
+    },
+    {
+      "dizi": "bunu bir hekimin bilmesi",
+      "kayit": 3
+    },
+    {
+      "dizi": "ne yapacağin senin kararin",
+      "kayit": 3
+    },
+    {
+      "dizi": "olup olmadiğini ben söyleyemem",
+      "kayit": 3
+    },
+    {
+      "dizi": "bilmiyorum sen de",
+      "kayit": 3
+    },
+    {
+      "dizi": "ikisi de ayni",
+      "kayit": 3
+    },
+    {
+      "dizi": "sende ne yapacağini",
+      "kayit": 3
+    },
+    {
+      "dizi": "sen karar vereceksin",
+      "kayit": 3
+    },
+    {
+      "dizi": "doğru olup olmadiğini",
+      "kayit": 3
+    },
+    {
+      "dizi": "ben de bilmiyorum",
+      "kayit": 3
+    },
+    {
+      "dizi": "kişinin kendi başvurusuyla",
+      "kayit": 3
+    },
+    {
+      "dizi": "notta randevunun kişinin kendi başvurusuyla oluştuğu yaziyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen karar vereceksin bunu senin yerine",
+      "kayit": 2
+    },
+    {
+      "dizi": "senin kararin bunu senin yerine söylemem",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunu bir hekimin bilmesi gerekiyor ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "an genelde neye denk geliyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir hekimin bilmesi gereken şeylerden",
+      "kayit": 2
+    },
+    {
+      "dizi": "bu bir bilgi eksikliği değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "geliyor ne yapacağin senin kararin",
+      "kayit": 2
+    },
+    {
+      "dizi": "birlikte söylüyorsun bunun sende ne",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisinin bir arada ne yapacağini",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapacağini bilmiyorum ve bilmeden",
+      "kayit": 2
+    },
+    {
+      "dizi": "ben bilmiyorum sen de",
+      "kayit": 2
+    },
+    {
+      "dizi": "gibi duruyor ve sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunun sende ne yapacağini",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapacağina sen karar",
+      "kayit": 2
+    },
+    {
+      "dizi": "başvurunun kişinin kendisinden geldiği",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunun sende ne yaptiğini",
+      "kayit": 2
+    },
+    {
+      "dizi": "seninle ayni yerde değilim",
+      "kayit": 2
+    },
+    {
+      "dizi": "yazmiyor ben de bilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve ikisini de sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisi de ayni anda",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmeden söylemek yanliş olur",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama şunu fark ettim",
+      "kayit": 2
+    },
+    {
+      "dizi": "doğru olup olmadiğini ben",
+      "kayit": 2
+    },
+    {
+      "dizi": "olduklarini sen de",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen de onu",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen ikisini de",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapacağini ben",
+      "kayit": 2
+    },
+    {
+      "dizi": "iki şeyi birden",
+      "kayit": 2
+    },
+    {
+      "dizi": "yanliş bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "senin kararin ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve şu an",
+      "kayit": 2
+    },
+    {
+      "dizi": "biri var mi",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen de yazmişsin",
+      "kayit": 2
+    },
+    {
+      "dizi": "şimdiye kadar şunlari",
+      "kayit": 2
+    },
+    {
+      "dizi": "ayni akşama denk",
+      "kayit": 2
+    },
+    {
+      "dizi": "ben söyleyemem ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir yandan da",
+      "kayit": 2
+    },
+    {
+      "dizi": "ayni cümlede söyledin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisinin arasinda bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir de şunu",
+      "kayit": 2
+    },
+    {
+      "dizi": "sana ben söyleyemem",
+      "kayit": 2
+    },
+    {
+      "dizi": "olur ve yanlişi",
+      "kayit": 2
+    },
+    {
+      "dizi": "şey var o",
+      "kayit": 2
+    },
+    {
+      "dizi": "sağlikla ilgili bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "farki sen de",
+      "kayit": 2
+    },
+    {
+      "dizi": "aklindan ne geçti",
+      "kayit": 2
+    },
+    {
+      "dizi": "kimse sana söylemedi",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "bunun sende ne": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%6.8"
+    ],
+    "bir şey değil": [
+      "%0.0",
+      "%4.3",
+      "%3.2",
+      "%3.2",
+      "%3.2",
+      "%2.3",
+      "%2.9",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%6.8"
+    ],
+    "bir hekimin bilmesi": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%1.6",
+      "%2.1",
+      "%2.1",
+      "%2.1",
+      "%2.1",
+      "%2.1",
+      "%2.1",
+      "%6.8"
+    ],
+    "ne yapacağin senin": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%1.4",
+      "%6.8"
+    ],
+    "bunu senin yerine": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%6.8"
+    ]
+  }
+}

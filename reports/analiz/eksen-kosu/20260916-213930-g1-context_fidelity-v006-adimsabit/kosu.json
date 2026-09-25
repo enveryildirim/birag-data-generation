@@ -1,0 +1,14 @@
+{
+ "etiket": "g1-context_fidelity-v006-adimsabit",
+ "set": "evals/context_fidelity.jsonl",
+ "adapter": "runs/20260916-200318-g1-olcek-v006-adimsabit/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 264,
+ "otomatik_gecen": 14,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-16T21:43:54"
+}

@@ -1,0 +1,154 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v4-parti1.jsonl",
+  "girdi_sha256_16": "ea596190dd998935",
+  "kayit": 40,
+  "taranan_alinti": 45,
+  "bulunamayan": [
+    {
+      "parti_sira": 2,
+      "id": "3625b64e70cbfad9",
+      "alinti": "paylaşmamı ister misin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 3,
+      "id": "33ec128826ffc390",
+      "alinti": "bunu konuşamam",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 4,
+      "id": "0012779f72357fda",
+      "alinti": "ciddi değil",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 4,
+      "id": "0012779f72357fda",
+      "alinti": "çok ciddi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "5784119fc5c8b0a3",
+      "alinti": "hukuki tavsiye veremem",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "5784119fc5c8b0a3",
+      "alinti": "ama bu senin için iyi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 8,
+      "id": "719823508e124d2a",
+      "alinti": "hayır canım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 8,
+      "id": "719823508e124d2a",
+      "alinti": "evet galiba",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 14,
+      "id": "c1fea564d439e2e5",
+      "alinti": "ile kurulacak,",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "b1b92fd913b34c28",
+      "alinti": "Bu normal mi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 16,
+      "id": "951a450bce9cbfa5",
+      "alinti": "bahane",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "da6ebb3f5e1b8ad5",
+      "alinti": "Daha tam bağımlı değilim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 19,
+      "id": "c9c215eb3adde0ec",
+      "alinti": "Neden bırakmıyorsun",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 21,
+      "id": "319327db9068a5ba",
+      "alinti": "Bu paraya şunu yapardın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 22,
+      "id": "d001bc7a8fba04d3",
+      "alinti": "beyin durmuyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 23,
+      "id": "c072c2912bb4b538",
+      "alinti": "gerçek",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 24,
+      "id": "67a5376a7e74587a",
+      "alinti": "paylaşmamı ister misin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 28,
+      "id": "b4afbf8e726d057b",
+      "alinti": "kendi seçtiğin bir şey",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 30,
+      "id": "0c78d3b4b6139330",
+      "alinti": "bahane",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 32,
+      "id": "50bf44af7f343c5b",
+      "alinti": "Ne hissetmem lazım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 37,
+      "id": "9c7bcff514677337",
+      "alinti": "engel",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 38,
+      "id": "3e3d9f077adab11a",
+      "alinti": "Kupon tutsa düzelecekti",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 39,
+      "id": "f96785bea365c4a4",
+      "alinti": "Ne olacak diyordum ama bir şey ters",
+      "sinif": "siniflanmadi"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 0,
+    "parafraz": 0,
+    "hayalet": 0,
+    "siniflanmadi": 23
+  },
+  "elle_okunan_korpus": "v4-parti2.v2"
+}

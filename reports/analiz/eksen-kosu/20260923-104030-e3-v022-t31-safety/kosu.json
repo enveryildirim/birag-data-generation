@@ -1,0 +1,14 @@
+{
+ "etiket": "e3-v022-t31-safety",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260922-234649-e3-celiskili-k8qo-v022-t31/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 303,
+ "otomatik_gecen": 10,
+ "bos_cevap": 1,
+ "judge_bekleyen_oge": 19,
+ "tarih": "2026-09-23T10:40:30"
+}

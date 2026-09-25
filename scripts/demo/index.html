@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BıRAG — araştırma prototipi</title>
+<style>
+  :root{
+    --bg:#faf9f7; --yuzey:#fff; --kenar:#e4e0d9; --metin:#1c1a17;
+    --sessiz:#6b6560; --vurgu:#8b5a2b; --uyari-bg:#fdf3e7; --uyari-kenar:#d9a15f;
+    --kullanici:#f0ece5; --asistan:#fff;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#171614; --yuzey:#201e1b; --kenar:#332f2a; --metin:#ece8e1;
+      --sessiz:#9a938a; --vurgu:#d4a373; --uyari-bg:#2a2118; --uyari-kenar:#8a6236;
+      --kullanici:#2a2724; --asistan:#201e1b;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#171614; --yuzey:#201e1b; --kenar:#332f2a; --metin:#ece8e1;
+    --sessiz:#9a938a; --vurgu:#d4a373; --uyari-bg:#2a2118; --uyari-kenar:#8a6236;
+    --kullanici:#2a2724; --asistan:#201e1b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--metin);
+    font:15px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;}
+  .sar{max-width:760px;margin:0 auto;padding:20px 16px 120px;}
+  header{padding:8px 0 14px;border-bottom:1px solid var(--kenar);margin-bottom:14px}
+  h1{font-size:19px;margin:0 0 3px;letter-spacing:-.01em}
+  .alt{color:var(--sessiz);font-size:13px}
+  .uyari{background:var(--uyari-bg);border:1px solid var(--uyari-kenar);
+    border-radius:10px;padding:12px 14px;margin:14px 0;font-size:13.5px;line-height:1.55}
+  .uyari b{color:var(--vurgu)}
+  .uyari ul{margin:8px 0 0;padding-left:18px}
+  .uyari li{margin:3px 0}
+  #akis{display:flex;flex-direction:column;gap:12px;min-height:80px}
+  .balon{padding:11px 14px;border-radius:12px;border:1px solid var(--kenar);
+    white-space:pre-wrap;word-wrap:break-word}
+  .k{background:var(--kullanici);align-self:flex-end;max-width:85%;border-bottom-right-radius:4px}
+  .a{background:var(--asistan);align-self:flex-start;max-width:92%;border-bottom-left-radius:4px}
+  .rol{font-size:11px;text-transform:uppercase;letter-spacing:.07em;
+    color:var(--sessiz);margin-bottom:5px}
+  .bekle{color:var(--sessiz);font-style:italic}
+  .hata{border-color:#c0392b;color:#c0392b}
+  .girdi{position:fixed;left:0;right:0;bottom:0;background:var(--yuzey);
+    border-top:1px solid var(--kenar);padding:12px 16px}
+  .girdi-ic{max-width:760px;margin:0 auto;display:flex;gap:8px;align-items:flex-end}
+  textarea{flex:1;resize:none;padding:10px 12px;border:1px solid var(--kenar);
+    border-radius:10px;background:var(--bg);color:var(--metin);font:inherit;
+    min-height:44px;max-height:140px}
+  button{padding:11px 18px;border:0;border-radius:10px;background:var(--vurgu);
+    color:#fff;font:inherit;font-weight:600;cursor:pointer}
+  button:disabled{opacity:.5;cursor:not-allowed}
+  .ipucu{max-width:760px;margin:6px auto 0;font-size:11.5px;color:var(--sessiz)}
+  @media(max-width:520px){.sar{padding:16px 16px 130px}}
+</style>
+</head>
+<body>
+<div class="sar">
+  <header>
+    <h1>BıRAG</h1>
+    <div class="alt">Bağımlılıkla mücadele eden kişiler için destek sohbeti — <b>araştırma prototipi</b></div>
+  </header>
+
+  <div class="uyari">
+    <b>⛔ Bu bir destek hizmeti değildir.</b> Yüksek lisans tezi kapsamında
+    eğitilmiş bir araştırma modelidir ve ölçülmüş kusurları vardır:
+    <ul>
+      <li><b>Kriz durumlarında yönlendirmesi zayıftır</b> — ölçümde ince ayarsız modelden daha kötü çıkmıştır. Kriz senaryoları eğitim verisinde <b>hiç yoktur</b> (uzman onayı bekliyor).</li>
+      <li>Cevaplarının yaklaşık <b>%12'sinde</b> konuşmada geçmeyen ayrıntı uydurabilir; bu oran bir <b>alt sınırdır</b>.</li>
+      <li>Tıbbi, hukuki veya klinik tavsiye vermez; doz, ilaç ve bırakma protokolü konusunda yetkisizdir.</li>
+    </ul>
+    <b>Acil bir durumdaysanız</b> lütfen bu ekranı kapatıp bir sağlık kuruluşuna
+    ya da yetkili bir acil yardım hattına başvurun.
+  </div>
+
+  <div id="akis"></div>
+</div>
+
+<div class="girdi">
+  <div class="girdi-ic">
+    <textarea id="kutu" rows="1" placeholder="Mesajınızı yazın…  (Enter: gönder · Shift+Enter: satır)"></textarea>
+    <button id="gonder">Gönder</button>
+  </div>
+  <div class="ipucu" id="durum">Model yerelde çalışıyor · üretim deterministik (temp = 0)</div>
+</div>
+
+<script>
+const akis = document.getElementById('akis');
+const kutu = document.getElementById('kutu');
+const gonder = document.getElementById('gonder');
+const durum = document.getElementById('durum');
+let mesajlar = [];
+let mesgul = false;
+
+function balon(rol, metin, sinif){
+  const d = document.createElement('div');
+  d.className = 'balon ' + (sinif || (rol === 'user' ? 'k' : 'a'));
+  const r = document.createElement('div');
+  r.className = 'rol';
+  r.textContent = rol === 'user' ? 'siz' : 'BıRAG';
+  const g = document.createElement('div');
+  g.textContent = metin;
+  d.append(r, g);
+  akis.append(d);
+  window.scrollTo(0, document.body.scrollHeight);
+  return g;
+}
+
+async function yolla(){
+  const t = kutu.value.trim();
+  if (!t || mesgul) return;
+  mesgul = true; gonder.disabled = true;
+  kutu.value = ''; kutu.style.height = 'auto';
+  balon('user', t);
+  mesajlar.push({role:'user', content:t});
+  const hedef = balon('assistant', 'yazıyor…');
+  hedef.classList.add('bekle');
+  durum.textContent = 'üretiliyor — ilk cevap model yüklenirken uzun sürebilir…';
+  try{
+    const y = await fetch('/api/sohbet', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({mesajlar})
+    });
+    const j = await y.json();
+    hedef.classList.remove('bekle');
+    if (j.hata){
+      hedef.textContent = 'Hata: ' + j.hata;
+      hedef.parentElement.classList.add('hata');
+    } else {
+      hedef.textContent = j.cevap;
+      mesajlar.push({role:'assistant', content:j.cevap});
+    }
+  } catch(e){
+    hedef.classList.remove('bekle');
+    hedef.textContent = 'Sunucuya ulaşılamadı: ' + e.message;
+    hedef.parentElement.classList.add('hata');
+  }
+  durum.textContent = 'Model yerelde çalışıyor · üretim deterministik (temp = 0)';
+  mesgul = false; gonder.disabled = false; kutu.focus();
+}
+
+gonder.addEventListener('click', yolla);
+kutu.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); yolla(); }
+});
+kutu.addEventListener('input', () => {
+  kutu.style.height = 'auto';
+  kutu.style.height = Math.min(kutu.scrollHeight, 140) + 'px';
+});
+kutu.focus();
+</script>
+</body>
+</html>

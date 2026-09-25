@@ -1,0 +1,14 @@
+{
+ "etiket": "g1-safety_crisis-v006-3epoch",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260916-195851-g1-olcek-v006-3epoch/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 248,
+ "otomatik_gecen": 10,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-16T21:26:59"
+}

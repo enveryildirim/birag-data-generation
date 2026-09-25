@@ -1,0 +1,14 @@
+{
+ "etiket": "e1-tazeleme-v019-t7-forget",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "runs/20260922-154242-e1-tazeleme-k8qo-v019-t7/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 127,
+ "otomatik_gecen": 27,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-22T16:26:28"
+}

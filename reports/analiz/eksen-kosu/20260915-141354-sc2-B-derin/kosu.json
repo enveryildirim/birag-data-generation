@@ -1,0 +1,14 @@
+{
+ "etiket": "sc2-B-derin",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-135039-f4b-kapsam-B-derin/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 205,
+ "otomatik_gecen": 5,
+ "bos_cevap": 6,
+ "judge_bekleyen_oge": 14,
+ "tarih": "2026-09-15T14:17:19"
+}

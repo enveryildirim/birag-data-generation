@@ -1,0 +1,102 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-tohum-beyan-kriz-kapisi.py",
+  "tohum": 2240,
+  "tohum_sha256_16": {
+    "seeds.jsonl": "0631c02ec7510af3",
+    "seeds.v2.jsonl": "3399f543c8b882c7"
+  },
+  "beyanla_sert": 40,
+  "beyanla_persona": 32,
+  "taranan_dosya": 1,
+  "uretilmis_sert": [],
+  "uretilmis_persona": [
+    "04b30ffedda60c2e",
+    "0e730dfbc6ebb1f6",
+    "486d77fc961937bd",
+    "9f8a9ed483209166",
+    "ae72db862592a0fc"
+  ],
+  "bulgu": [
+    {
+      "seed_id": "04b30ffedda60c2e",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti7.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "0e730dfbc6ebb1f6",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti7.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "486d77fc961937bd",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti7.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "9f8a9ed483209166",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti7.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "ae72db862592a0fc",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti7.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    }
+  ]
+}

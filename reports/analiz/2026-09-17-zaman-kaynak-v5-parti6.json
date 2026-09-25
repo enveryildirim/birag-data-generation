@@ -1,0 +1,89 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti6.jsonl",
+  "girdi_sha256_16": "b8b351bfbada9e2b",
+  "kayit": 60,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "belirsiz_artikel [ZATEN YERDE]": 1,
+    "anaforik_demir": 3,
+    "belirsiz_artikel": 2,
+    "sure_birim_eslesme": 2,
+    "rol_adlandirma_bitisik": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "belirsiz_artikel [ZATEN YERDE]",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "96bd28d2306a884f3d9b2ad7",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 28,
+      "id": "9144ede456de9e755436aad3",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 52,
+      "id": "59bfb2dfcc368e109bf6b636",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "7fe5381b461cde46978ddc7b",
+      "oge": "Üç hafta önce",
+      "baglam": "üç hafta"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 25,
+      "id": "e16647732e0e025de94cbb2a",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "2f7d954e6e163d9580fc508d",
+      "oge": "Üç gün önce",
+      "baglam": "üç gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 30,
+      "id": "816a557dc8324f3ab44edc90",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "belirsiz_artikel",
+      "tip": "muafiyet",
+      "parti_sira": 42,
+      "id": "74b13b187255800ce8b7c5a2",
+      "oge": "hekimin",
+      "baglam": "bir hekimin"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 59,
+      "id": "5a4684b995d4de5358f9e185",
+      "oge": "aynı sabah",
+      "baglam": "sabah"
+    }
+  ]
+}

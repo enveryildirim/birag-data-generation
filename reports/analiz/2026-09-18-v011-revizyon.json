@@ -1,0 +1,83 @@
+{
+  "tarih": "2026-09-18",
+  "girdi_sha256_16": "f761ad0811c5b333",
+  "cikti_sha256_16": "eb8170396c096bcc",
+  "duzeltme": [
+    {
+      "id": "693dea93d2ec0a8cc9742ebb",
+      "sozcuk": "hanım",
+      "degisim": [
+        [
+          "Bugün eşin bir şey söylemedi",
+          "Bugün hanımın bir şey söylemedi"
+        ]
+      ],
+      "parti": null,
+      "sira": 1
+    },
+    {
+      "id": "27723f592229e5775cbbea62",
+      "sozcuk": "karı",
+      "degisim": [
+        [
+          "Eşin oğlunu alıp annesine gitmiş",
+          "Karın oğlunu alıp annesine gitmiş"
+        ]
+      ],
+      "parti": null,
+      "sira": 30
+    },
+    {
+      "id": "dc5a22d008dee048c3c14861",
+      "sozcuk": "karı",
+      "degisim": [
+        [
+          "eşinin avukatla konuştuğunu söylemesi",
+          "karının avukatla konuştuğunu söylemesi"
+        ],
+        [
+          "Eşinin avukatla konuşması",
+          "Karının avukatla konuşması"
+        ]
+      ],
+      "parti": "v3-parti2",
+      "sira": 15
+    },
+    {
+      "id": "5d24f424239fa0ad6eb783de",
+      "sozcuk": "hanım",
+      "degisim": [
+        [
+          "Eşin bir an baktı",
+          "Hanımın bir an baktı"
+        ]
+      ],
+      "parti": "v3-parti3",
+      "sira": 20
+    },
+    {
+      "id": "92ece2a2094907884d417375",
+      "sozcuk": "hanım",
+      "degisim": [
+        [
+          "eşine ne diyeceğini",
+          "hanımına ne diyeceğini"
+        ]
+      ],
+      "parti": "v4-parti2",
+      "sira": 17
+    },
+    {
+      "id": "32e9e8ad5750695088bcf54d",
+      "sozcuk": "karı",
+      "degisim": [
+        [
+          "eşinin kurduğu cümle",
+          "karının kurduğu cümle"
+        ]
+      ],
+      "parti": "v4-parti2",
+      "sira": 40
+    }
+  ]
+}

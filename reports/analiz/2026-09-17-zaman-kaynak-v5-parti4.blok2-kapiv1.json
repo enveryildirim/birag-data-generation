@@ -1,0 +1,14 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v5-parti4.blok2.jsonl",
+  "girdi_sha256_16": "bade600f05c62eda",
+  "kayit": 13,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 52,
+      "tip": "zaman",
+      "oge": "aynı gece"
+    }
+  ]
+}

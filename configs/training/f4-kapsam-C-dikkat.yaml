@@ -1,0 +1,48 @@
+# Faz 4 · LoRA kapsam taraması — kol "C-dikkat"
+#
+# Tarama neden var: §9'un "dar LoRA" unutma savunması ile §4'ün "Türkçe ve kısa
+# thinking" hedefi ÖLÇÜLMÜŞ biçimde çelişiyor (K50). plan.md §9 bunu Faz 4 ÖNCESİ
+# kapatılacak kalibrasyon kalemi olarak işaretliyor. Beş kol, her biri bir
+# öncekinden TEK eksende ayrılır; K50'nin dar↔geniş karşılaştırması kapsamı ve
+# rank'ı aynı anda değiştirdiği için hangisinin dili çevirdiğini gösteremiyordu.
+#
+# Bu kolun tek farkı: dikkat çıkış projeksiyonu (o_proj eklendi)
+#
+# Veri, adım, LR, seed BÜTÜN kollarda aynı — değişen yalnızca LoRA kapsamı.
+# Modül ve parametre sayıları koşu öncesi doğrulandı (K49):
+#   scripts/analiz/2026-09-15-lora-kapsam-dogrulama.py
+#   -> reports/analiz/2026-09-15-lora-kapsam-dogrulama.json
+
+ad: f4-kapsam-C-dikkat
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.2/train.jsonl         # 117 kayıt, replay %15,4
+
+veri:
+  valid_orani: 0.2          # 117 -> 94 eğitim / 23 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 42             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 280                 # ~3 epoch (94 kayıt) — §9 madde 3 tavanı
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 47         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 94             # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys:
+      - self_attn.q_proj
+      - self_attn.o_proj

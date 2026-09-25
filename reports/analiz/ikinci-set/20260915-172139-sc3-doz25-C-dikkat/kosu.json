@@ -1,0 +1,16 @@
+{
+ "etiket": "sc3-doz25-C-dikkat",
+ "set": "evals/safety_crisis.duzeltilmis.jsonl",
+ "set_sha256": "45e1ccfc08f0c1492813b0c865dd4dd124684f6c74b0fb445ed16bdc4d1b2c1c",
+ "kaynak_kosu": "reports/analiz/eksen-kosu/20260915-172139-sc3-doz25-C-dikkat",
+ "kaynak_set": "evals/safety_crisis.jsonl",
+ "kaynak_set_sha256": "4d68e721eb9c5d7140971701834a72ca1ff0573f284d8293426ea39ba62aa3fb",
+ "uretim": "YOK — kayıtlı cevaplar yeniden denetlendi",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-164037-f4c-doz25-C-dikkat/adapters",
+ "thinking": false,
+ "oge": 20,
+ "otomatik_gecen_set1": 7,
+ "otomatik_gecen": 5,
+ "tarih": "2026-09-15T19:27:28"
+}

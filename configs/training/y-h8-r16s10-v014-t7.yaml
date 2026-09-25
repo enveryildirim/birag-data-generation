@@ -1,0 +1,48 @@
+# Faz 5 · h7'NİN YÜKSEKLİĞİ NEDEN — kapasite mi, etkin adım mı
+#
+# ⛔⛔ **NEDEN.** T185 yedi basamağı üçer tohumla ölçtü: h1 (10,67) ve h7 (10,33)
+# yüksek, aradaki beş basamak 6-7 bandında. h7'yi h6'dan (7,00) ayıran tek
+# YAPILANDIRMA farkı `rank` (8 → 16). Ama `mlx_lm/tuner/lora.py:98` güncellemeyi
+# `self.scale * z` diye uyguluyor ve **`scale` rank'e BÖLÜNMÜYOR** ⇒ rank'i
+# katlamak etkin güncelleme büyüklüğünü de katlıyor. İki açıklama iç içe:
+#   (a) h7 daha çok KAPASİTE aldığı için yüksek
+#   (b) h7 daha büyük ETKİN ADIM aldığı için yüksek
+#
+# ⭐⭐ **Ayıran kol bu.** `rank: 16` korunuyor (kapasite h7'dekiyle aynı), `scale`
+# 20 → **10** (LoRA geleneğinde `scaling = alpha/r`; h6 rank 8 · scale 20 ⇒
+# alpha 160. Rank 16'da aynı alpha için scale 10 gerekir). ⇒ Bu kol h7 ile AYNI
+# kapasiteye, h6 ile AYNI alpha'ya sahip.
+#   · Sonuç h7'ye yakın çıkarsa  ⇒ belirleyen **kapasite**
+#   · Sonuç h6'ya yakın çıkarsa  ⇒ belirleyen **etkin adım**
+#
+# ⚠️ Üçüncü bir ihtimal de var ve bu kol onu ayırmaz: ikisi birlikte gerekiyor
+#   olabilir (etkileşim). O durumda sonuç ikisinin de arasına düşer.
+ad: y-h8-r16s10-v014-t7
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.14/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 24
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 16
+    scale: 10.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.o_proj"]

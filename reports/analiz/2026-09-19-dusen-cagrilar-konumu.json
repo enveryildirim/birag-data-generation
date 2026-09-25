@@ -1,0 +1,42 @@
+{
+  "tarih": "2026-09-19",
+  "n": 24,
+  "sira_tohumu": 11,
+  "ozet": {
+    "C (09-18, ikinci çekiliş)": {
+      "konumlar": [
+        13,
+        18,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ortanca": 20.5,
+      "son_ceyrekte": 5
+    },
+    "E (09-19, ikinci çekiliş)": {
+      "konumlar": [
+        9,
+        13,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "ortanca": 19,
+      "son_ceyrekte": 6
+    }
+  },
+  "iki_gunde_ortak": [
+    "1475abda",
+    "1f14f47e",
+    "3bcb2545",
+    "5a4684b9",
+    "c8b282be",
+    "ea39a038"
+  ]
+}

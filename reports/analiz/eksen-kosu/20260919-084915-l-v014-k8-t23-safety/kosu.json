@@ -1,0 +1,14 @@
+{
+ "etiket": "l-v014-k8-t23-safety",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260919-084202-l-v014-k8-t23/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 214,
+ "otomatik_gecen": 12,
+ "bos_cevap": 1,
+ "judge_bekleyen_oge": 19,
+ "tarih": "2026-09-19T08:52:49"
+}

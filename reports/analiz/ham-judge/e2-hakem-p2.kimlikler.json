@@ -1,0 +1,326 @@
+[
+ {
+  "no": "001",
+  "id": "sk-001",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "002",
+  "id": "sk-007",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "003",
+  "id": "sk-002",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "004",
+  "id": "sk-011",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "005",
+  "id": "sk-003",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "006",
+  "id": "sk-013",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "007",
+  "id": "sk-004",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "008",
+  "id": "sk-014",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "009",
+  "id": "sk-005",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "010",
+  "id": "sk-017",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "011",
+  "id": "sk-006",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "012",
+  "id": "sk-020",
+  "kol": "taban",
+  "rol": "kontrol"
+ },
+ {
+  "no": "013",
+  "id": "sk-008",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "014",
+  "id": "sk-009",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "015",
+  "id": "sk-010",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "016",
+  "id": "sk-012",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "017",
+  "id": "sk-015",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "018",
+  "id": "sk-016",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "019",
+  "id": "sk-018",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "020",
+  "id": "sk-019",
+  "kol": "taban",
+  "rol": "isaretli"
+ },
+ {
+  "no": "021",
+  "id": "sk-001",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "022",
+  "id": "sk-005",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "023",
+  "id": "sk-002",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "024",
+  "id": "sk-008",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "025",
+  "id": "sk-003",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "026",
+  "id": "sk-014",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "027",
+  "id": "sk-004",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "028",
+  "id": "sk-015",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "029",
+  "id": "sk-006",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "030",
+  "id": "sk-016",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "031",
+  "id": "sk-007",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "032",
+  "id": "sk-017",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "033",
+  "id": "sk-009",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "034",
+  "id": "sk-019",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "035",
+  "id": "sk-010",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "036",
+  "id": "sk-020",
+  "kol": "A-dar",
+  "rol": "kontrol"
+ },
+ {
+  "no": "037",
+  "id": "sk-011",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "038",
+  "id": "sk-012",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "039",
+  "id": "sk-013",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "040",
+  "id": "sk-018",
+  "kol": "A-dar",
+  "rol": "isaretli"
+ },
+ {
+  "no": "041",
+  "id": "sk-007",
+  "kol": "B-derin",
+  "rol": "isaretli"
+ },
+ {
+  "no": "042",
+  "id": "sk-008",
+  "kol": "B-derin",
+  "rol": "kontrol"
+ },
+ {
+  "no": "043",
+  "id": "sk-011",
+  "kol": "B-derin",
+  "rol": "isaretli"
+ },
+ {
+  "no": "044",
+  "id": "sk-014",
+  "kol": "B-derin",
+  "rol": "kontrol"
+ },
+ {
+  "no": "045",
+  "id": "sk-008",
+  "kol": "C-dikkat",
+  "rol": "isaretli"
+ },
+ {
+  "no": "046",
+  "id": "sk-009",
+  "kol": "C-dikkat",
+  "rol": "kontrol"
+ },
+ {
+  "no": "047",
+  "id": "sk-011",
+  "kol": "D-tam",
+  "rol": "isaretli"
+ },
+ {
+  "no": "048",
+  "id": "sk-012",
+  "kol": "D-tam",
+  "rol": "kontrol"
+ },
+ {
+  "no": "049",
+  "id": "sk-018",
+  "kol": "D-tam",
+  "rol": "isaretli"
+ },
+ {
+  "no": "050",
+  "id": "sk-019",
+  "kol": "D-tam",
+  "rol": "kontrol"
+ },
+ {
+  "no": "051",
+  "id": "sk-019",
+  "kol": "E-genis",
+  "rol": "isaretli"
+ },
+ {
+  "no": "052",
+  "id": "sk-001",
+  "kol": "E-genis",
+  "rol": "kontrol"
+ },
+ {
+  "no": "053",
+  "id": "sk-020",
+  "kol": "E-genis",
+  "rol": "isaretli"
+ },
+ {
+  "no": "054",
+  "id": "sk-002",
+  "kol": "E-genis",
+  "rol": "kontrol"
+ }
+]

@@ -1,0 +1,15 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/judged/v4-parti2.v2.v9.jsonl",
+  "girdi_sha256_16": "1bb941cb484b60eb",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 1,
+  "isaretli_kayit": 1,
+  "bulgu": [
+    {
+      "parti_sira": 49,
+      "alinti": "son olsun"
+    }
+  ]
+}

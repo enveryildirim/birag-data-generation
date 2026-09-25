@@ -1,0 +1,49 @@
+# Faz 4 · T30 DOZ-YANIT EĞRİSİ — kol "C-dikkat" · korpus v0.0.5 (yönlendirme %24,1)
+#
+# ⛔ `f4-kapsam-*.yaml` (birinci koşu, v0.0.2) ve `f4b-kapsam-*.yaml` (ikinci koşu,
+# v0.0.3) DEĞİŞTİRİLMEDİ — Kural 7. Bu üçüncü aile ayrı yazıldı.
+#
+# NEDEN: T30 negatif çıktı — yönlendirmeyi %5,1 dozunda geri koymak refleksi geri
+# getirmedi. İki açıklama ayırt edilemedi: (a) doz yetersiz, (b) ilişki asimetrik.
+# Doz-yanıt eğrisi bunu ayıran tek deney. Ölçülü noktalar: %2,0 · %5,1. Bu aile
+# %10,2 ve %24,1 noktalarını ekliyor.
+#
+# ⭐ TEK DEĞİŞKEN: `dataset`. Adım sayısı, LR, tohum, LoRA kapsamı, valid bölmesi —
+# hepsi `f4b-kapsam-C-dikkat.yaml` ile BİREBİR aynı. Korpus boyu 155 kayıtta sabit
+# tutulduğu için §9'un 3-epoch kuralı adımı oynatmıyor: 124 eğitim kaydı, 372 adım.
+# K113'te iki değişken birden oynamıştı (veri + adım) ve kontrol kolu gerekmişti;
+# bu ailede o karışma YOK.
+
+ad: f4c-doz25-C-dikkat
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.5/train.jsonl         # 155 kayıt — v0.0.3 ile AYNI boy, yönlendirme %24,1
+
+veri:
+  valid_orani: 0.2          # 155 -> 124 eğitim / 31 doğrulama
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5 — loss yalnızca thinking + completion
+  num_layers: 42             # mlx-lm SON N katmanı seçer
+  batch_size: 1
+  iters: 372                 # ~3 epoch (124 kayıt) — §9 madde 3 tavanı
+  learning_rate: 1.0e-5      # §9 madde 3. Kollar arası SABİT: kapasite farkını
+                             # LR ile telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 20
+  steps_per_eval: 62         # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 124            # epoch başına bir kontrol noktası (Pareto seçimi, Kural 5)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    # ⚠️ k_proj/v_proj YALNIZCA katman 0-23'te var (üst 18 katman KV paylaşımlı).
+    # num_layers 42'ye açılsa bile bilerek dışarıda: kollar arası tek fark ilkesi.
+    keys:
+      - self_attn.q_proj
+      - self_attn.o_proj

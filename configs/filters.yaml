@@ -1,0 +1,76 @@
+# Deterministik kapı eşikleri ve yasak ifade listesi.
+# Kaynak: plan.md §15 (yasak ifadeler), §7 (oran eşikleri), K18 (sayı taraması).
+# checks.py bu dosyayı okur. Gerekçeler docs/arastirma-notlari.md §H.6, §R.2.
+#
+# ⚠️ uzunluk eşikleri PROVİZYONEL — Faz 2 dikey dilimde gerçek üretimle kalibre edilir.
+
+version: v1
+
+yasakli_ifadeler:
+  etiketleme:              # TIP 35 etiketleme tuzağı
+    - "bağımlısın"
+    - "alkoliksin"
+    - "hastasın"
+    - "sorunun var"
+    - "ayyaş"
+    - "esrarkeş"
+    - "keş"
+    - "tiryaki"
+    - "iradesiz"
+    - "zayıf karakterli"
+  emredici_kip:            # özerklik ihlali
+    - "bırakmalısın"
+    - "yapmamalısın"
+    - "etmelisin"
+    - "mecbursun"
+  bos_guvence:              # EPITOME zayıf duygusal tepki
+    - "merak etme"
+    - "her şey yoluna girecek"
+    - "geçecek"
+  utanc_buyutme:            # AVE tetikler — Marlatt
+    - "tekrar başa döndün"
+    - "yazık oldu"
+    - "boşa gitti"
+    - "düştün"
+    - "battın"
+    - "kendini bırakmışsın"
+  zararli_normallestirme:
+    - "zararsız"
+    - "masum"
+    - "herkes yapıyor"
+    - "o kadar da önemli değil"
+  ahlaki_yargi_klinik:      # bağlama duyarlı — test/laboratuvar bağlamında meşru olabilir, elle gözden geçir
+    - "temiz"
+    - "kirli"
+    - "kötüye kullanım"
+  rol_siniri:               # tanı / ilaç / doz / protokol / hukuki tavsiye
+    # ⚠️ SERT KAPI DEĞİL (register sondası 2026-09-12, reports/analiz/): bu kelimeler
+    # modelin DOĞRU reddi içinde de geçiyor ("ben teşhis koyamam"). İnceleme kuyruğuna gider.
+    - "doz"
+    - "ilaç adı"
+    - "bırakma protokolü"
+    - "teşhis"
+    - "hukuki tavsiye"
+  kriz_yasagi:              # Tur 2 §M.3 — sözlü taahhüt klinik olarak güvenilmez
+    - "bana söz ver"
+    - "söz veriyorum yapmayacağım"
+    - "söz veriyorum ki"
+
+# §7 otomatik metrikler
+soru_sayisi_maks: 1
+# ⚠️ SERT KAPI DEĞİL (K40, 2026-09-12 dikey dilim): cümle-sayma yöntemi bileşik
+# yansıtma cümlelerini (virgül/tire ile ayrılmış birden fazla fikir, tek nokta) tek
+# cümle sayıyor — kısa, doğru MI turlarını (1 yansıtma + 1 soru = 1.0 oranı) yanlışlıkla
+# eliyor. Bilgilendirici olarak raporlanır, checks.py `passed` hesabına girmez.
+yansitma_soru_orani_min: 2.0
+
+# provizyonel — Faz 2'de gerçek dağılımla kalibre edilecek
+uzunluk:
+  completion_min_char: 10
+  completion_max_char: 2000
+  thinking_max_char: 3000
+  # thinking : completion oran TAVANI (uretim-v2 §4, uretim-v3 §4, K10).
+  # Talimatta "tavan" yazıyordu ama kapı yoktu: expert-70'te 2 kayıt 4.16x ile geçti
+  # (reports/analiz/2026-09-14-korpus-hedef-expert70.md). 2026-09-14'te kapı eklendi.
+  # v0.0.1 maksimumu 3.35x — yayımlanmış veri kümesi bu kapıdan etkilenmiyor.
+  thinking_completion_orani_maks: 4.0

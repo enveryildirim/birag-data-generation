@@ -1,0 +1,561 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-izgara-sapma-defteri.py",
+  "dosya_sha256": {
+    "doz-yonlendirme-ekleri": {
+      "sha256_16": "f0ecf4507cbef29e",
+      "kayit": 26
+    },
+    "expert-70": {
+      "sha256_16": "ee61043de8d38187",
+      "kayit": 70
+    },
+    "replay-v1": {
+      "sha256_16": "d543e8c66edbb855",
+      "kayit": 18
+    },
+    "v0.0.1": {
+      "sha256_16": "416cb3499e007843",
+      "kayit": 20
+    },
+    "v0.0.4-doz10": {
+      "sha256_16": "d0159f7b014f8ef4",
+      "kayit": 155
+    },
+    "v0.0.5-doz25": {
+      "sha256_16": "f36387f857f43b78",
+      "kayit": 155
+    },
+    "v3-parti1": {
+      "sha256_16": "db683f22b74ec56b",
+      "kayit": 40
+    },
+    "v3-parti2-baglam": {
+      "sha256_16": "30792cb2d9ec4ed0",
+      "kayit": 8
+    },
+    "v3-parti2-tam": {
+      "sha256_16": "a7c2eb307e1cd71c",
+      "kayit": 40
+    },
+    "v3-parti2": {
+      "sha256_16": "5730e59266e31474",
+      "kayit": 32
+    },
+    "v3-parti3": {
+      "sha256_16": "d4c5b8086943547a",
+      "kayit": 24
+    },
+    "v4-parti1": {
+      "sha256_16": "ea596190dd998935",
+      "kayit": 40
+    },
+    "v4-parti2": {
+      "sha256_16": "4154385d9d39d244",
+      "kayit": 60
+    },
+    "v4-parti2.v2": {
+      "sha256_16": "2867eb01834e3e41",
+      "kayit": 60
+    },
+    "v5-parti3": {
+      "sha256_16": "746e25e983550681",
+      "kayit": 60
+    },
+    "v5-parti3.v2": {
+      "sha256_16": "18ab94595be21076",
+      "kayit": 60
+    },
+    "v5-parti3.v3": {
+      "sha256_16": "20d8fd0443be60bb",
+      "kayit": 60
+    },
+    "v5-parti4.blok1": {
+      "sha256_16": "ddfbcf1026c86232",
+      "kayit": 15
+    },
+    "v5-parti4.blok2": {
+      "sha256_16": "f0578e7159830853",
+      "kayit": 13
+    },
+    "v5-parti4.blok3a": {
+      "sha256_16": "e638c551c8bf078f",
+      "kayit": 16
+    },
+    "v5-parti4.blok3b": {
+      "sha256_16": "32748645a141bc58",
+      "kayit": 16
+    },
+    "v5-parti4": {
+      "sha256_16": "8f10f3414c02b5ef",
+      "kayit": 60
+    },
+    "v5-parti4.v2": {
+      "sha256_16": "f9591e84aa45eeed",
+      "kayit": 60
+    },
+    "v5-parti5.blok1": {
+      "sha256_16": "3f7bdc0d9805f47e",
+      "kayit": 15
+    },
+    "v5-parti5.blok2": {
+      "sha256_16": "7eb905497b0ef197",
+      "kayit": 13
+    },
+    "v5-parti5.blok3a": {
+      "sha256_16": "7201490d44844ed0",
+      "kayit": 16
+    },
+    "v5-parti5.blok3b": {
+      "sha256_16": "016ff90810fcc70d",
+      "kayit": 16
+    },
+    "v5-parti5": {
+      "sha256_16": "8c5bf9a18982624a",
+      "kayit": 60
+    },
+    "v5-parti6.blok1": {
+      "sha256_16": "f40bf648478c6a8b",
+      "kayit": 15
+    },
+    "v5-parti6.blok2": {
+      "sha256_16": "b5000f918d9a1624",
+      "kayit": 13
+    },
+    "v5-parti6.blok3a": {
+      "sha256_16": "bb13601a9444aa36",
+      "kayit": 16
+    },
+    "v5-parti6.blok3b": {
+      "sha256_16": "397aa33260b4ef28",
+      "kayit": 16
+    },
+    "v5-parti6": {
+      "sha256_16": "b8b351bfbada9e2b",
+      "kayit": 60
+    },
+    "v5-parti7.blok1": {
+      "sha256_16": "2a3d3b69e7ede41b",
+      "kayit": 15
+    },
+    "v5-parti7.blok2": {
+      "sha256_16": "eda07d9eba9f9ae8",
+      "kayit": 14
+    },
+    "v5-parti7.blok3a": {
+      "sha256_16": "2042d74d7d4d4446",
+      "kayit": 16
+    },
+    "v5-parti7.blok3b": {
+      "sha256_16": "30bbb9ac049e055d",
+      "kayit": 15
+    },
+    "v5-parti7": {
+      "sha256_16": "317f23d17f855435",
+      "kayit": 60
+    },
+    "v5-parti8.blok1": {
+      "sha256_16": "59976be748d09c31",
+      "kayit": 15
+    },
+    "v5-parti8.blok2": {
+      "sha256_16": "9867870ddb5777bc",
+      "kayit": 12
+    },
+    "v5-parti8.blok3a": {
+      "sha256_16": "07a4e722e2d1bb8b",
+      "kayit": 17
+    },
+    "v5-parti8.blok3b": {
+      "sha256_16": "38795cd5f4da9514",
+      "kayit": 16
+    },
+    "v5-parti8": {
+      "sha256_16": "ad4276805d3f07c3",
+      "kayit": 60
+    }
+  },
+  "toplam_sapma": 30,
+  "guvenlik_sapmasi": 24,
+  "ilan_bicimi": {
+    "str": 26,
+    "dict": 4
+  },
+  "parti_basina": {
+    "v4-parti2": {
+      "sapma": 4,
+      "kayit": 60,
+      "oran": 6.7
+    },
+    "v5-parti3": {
+      "sapma": 3,
+      "kayit": 60,
+      "oran": 5.0
+    },
+    "v5-parti4": {
+      "sapma": 5,
+      "kayit": 60,
+      "oran": 8.3
+    },
+    "v5-parti5": {
+      "sapma": 1,
+      "kayit": 60,
+      "oran": 1.7
+    },
+    "v5-parti6": {
+      "sapma": 6,
+      "kayit": 60,
+      "oran": 10.0
+    },
+    "v5-parti7": {
+      "sapma": 5,
+      "kayit": 60,
+      "oran": 8.3
+    },
+    "v5-parti8": {
+      "sapma": 6,
+      "kayit": 60,
+      "oran": 10.0
+    }
+  },
+  "sapma": [
+    {
+      "parti": "v5-parti3.v3",
+      "sira": 14,
+      "seed_id": "d408fc3d79a37e37",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "yalnizca_yansitma",
+      "ilan": "⛔ GÜVENLİK SAPMASI (geriye dönük, 2026-09-17). Izgara `sinir_tipi: yok` diyordu ve kayıt o hâliyle üretilmişti. `uretim-v5` §5a″ ölçütü yazıldıktan sonra yapılan geriye dönük tarama (T115), aynı tablonun v5-parti6'da ZORUNLU sapma sayıldığını gösterdi. Aynı tabloya iki farklı davranış öğretmek güvenlik ekseninde tutarsızlık üretir ⇒ kayıt ölçüte göre düzeltildi. Orijinali `v5-parti3.v2` dosyasında olduğu gibi duruyor."
+    },
+    {
+      "parti": "v5-parti3.v3",
+      "sira": 37,
+      "seed_id": "7810a1860f2e80a7",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (geriye dönük, 2026-09-17). Izgara `sinir_tipi: yok` diyordu ve kayıt o hâliyle üretilmişti. `uretim-v5` §5a″ ölçütü yazıldıktan sonra yapılan geriye dönük tarama (T115), aynı tablonun v5-parti6'da ZORUNLU sapma sayıldığını gösterdi. Aynı tabloya iki farklı davranış öğretmek güvenlik ekseninde tutarsızlık üretir ⇒ kayıt ölçüte göre düzeltildi. Orijinali `v5-parti3.v2` dosyasında olduğu gibi duruyor."
+    },
+    {
+      "parti": "v5-parti3.v3",
+      "sira": 42,
+      "seed_id": "43718910e6fc40db",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": false,
+      "sinir_tipi": "yok",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "Izgara is_negative=0 diyor; kullanıcı eşini yanıltacak bir BAHANE yazmamı istiyor ve bu kapsam dışı bir istektir (K16). Reddetmeden yazılamaz, reddedip 'red yok' diye beyan etmek de yanlış beyan olurdu."
+    },
+    {
+      "parti": "v4-parti2.v2",
+      "sira": 44,
+      "seed_id": "1f629a28a226d210",
+      "ilan_bicimi": "dict",
+      "eksenler": [
+        "motivasyon"
+      ],
+      "guvenlik_mi": false,
+      "sinir_tipi": "yok",
+      "turn_ending": "ozet",
+      "ilan": "motivasyon: ızgara bu satırda tohumda OLMAYAN bir motivasyon iddia ediyor; onurlandırmak hukuki/kurumsal bir durum UYDURMAK olurdu (Kural 3). Tohumun kendi meta değeri esas alındı. Ölçüm: reports/analiz/2026-09-16-izgara-tohum-carpismasi.json"
+    },
+    {
+      "parti": "v4-parti2.v2",
+      "sira": 46,
+      "seed_id": "513c19bb654a1cda",
+      "ilan_bicimi": "dict",
+      "eksenler": [
+        "motivasyon"
+      ],
+      "guvenlik_mi": false,
+      "sinir_tipi": "yok",
+      "turn_ending": "yalnizca_yansitma",
+      "ilan": "motivasyon: ızgara bu satırda tohumda OLMAYAN bir motivasyon iddia ediyor; onurlandırmak hukuki/kurumsal bir durum UYDURMAK olurdu (Kural 3). Tohumun kendi meta değeri esas alındı. Ölçüm: reports/analiz/2026-09-16-izgara-tohum-carpismasi.json · tohumun `notlar.motivasyon_notu` alanı «okul yönlendirmesi» diyor; yani hukuki değil KURUMSAL zorunluluk."
+    },
+    {
+      "parti": "v4-parti2.v2",
+      "sira": 57,
+      "seed_id": "7e28d2eef50b6781",
+      "ilan_bicimi": "dict",
+      "eksenler": [
+        "motivasyon"
+      ],
+      "guvenlik_mi": false,
+      "sinir_tipi": "yok",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "motivasyon: ızgara bu satırda tohumda OLMAYAN bir motivasyon iddia ediyor; onurlandırmak hukuki/kurumsal bir durum UYDURMAK olurdu (Kural 3). Tohumun kendi meta değeri esas alındı. Ölçüm: reports/analiz/2026-09-16-izgara-tohum-carpismasi.json"
+    },
+    {
+      "parti": "v4-parti2.v2",
+      "sira": 59,
+      "seed_id": "0d89a27a50ab7818",
+      "ilan_bicimi": "dict",
+      "eksenler": [
+        "motivasyon"
+      ],
+      "guvenlik_mi": false,
+      "sinir_tipi": "yok",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "motivasyon: ızgara bu satırda tohumda OLMAYAN bir motivasyon iddia ediyor; onurlandırmak hukuki/kurumsal bir durum UYDURMAK olurdu (Kural 3). Tohumun kendi meta değeri esas alındı. Ölçüm: reports/analiz/2026-09-16-izgara-tohum-carpismasi.json"
+    },
+    {
+      "parti": "v5-parti4.v2",
+      "sira": 14,
+      "seed_id": "1187add27f0b1ac5",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "yok",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "§5a′ — ızgara `yalnizca_yansitma` (soru yasak) diyordu; kullanıcı «çıkış göremiyorum, karanlık çok ağır» dedi ve bu bir güvenlik sinyali olabilir. §5a′ güvenlik yoklamasını turn_ending kotasına tabi tutmuyor: beyan `acik_uclu_soru`ya çevrildi. T98'in açtığı kalem."
+    },
+    {
+      "parti": "v5-parti4.v2",
+      "sira": 17,
+      "seed_id": "4e0c94a5f4d769fe",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `yonlendirme_gereksiz` diyor (yönlendirme YASAK); kullanıcı göğüs sıkışması + çarpıntı anlatıyor ve başkasının reçeteli ilacını alkolle birlikte almayı düşünüyor. §5a′'nın ilkesi genelleştirildi: güvenlik ekseni §8b'nin dilim kotasına da tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; §8b payı 9 -> 10 oldu."
+    },
+    {
+      "parti": "v5-parti4.v2",
+      "sira": 2,
+      "seed_id": "a1e0da19da7c450a",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "yalnizca_yansitma",
+      "ilan": "⛔ GÜVENLİK SAPMASI (geriye dönük, 2026-09-17). Izgara `sinir_tipi: yok` diyordu ve kayıt o hâliyle üretilmişti. `uretim-v5` §5a″ ölçütü yazıldıktan sonra yapılan geriye dönük tarama (T115), aynı tablonun v5-parti6'da ZORUNLU sapma sayıldığını gösterdi. Aynı tabloya iki farklı davranış öğretmek güvenlik ekseninde tutarsızlık üretir ⇒ kayıt ölçüte göre düzeltildi. Orijinali `v5-parti4` dosyasında olduğu gibi duruyor."
+    },
+    {
+      "parti": "v5-parti4.v2",
+      "sira": 16,
+      "seed_id": "38daffc5decb5d9b",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor (yönlendirme yasak); kullanıcı ödeme tehdidi alıyor ve evde yalnız. Sistem promptu güvenlik riski sezildiğinde uygun profesyonel desteğe yönlendirmeyi şart koşuyor (K19). §5a′'nın ilkesi: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; §8b payı 10 -> 11 oldu."
+    },
+    {
+      "parti": "v5-parti4.v2",
+      "sira": 42,
+      "seed_id": "2a684a8ef06de2a1",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı üç gündür uyumadığını, ellerinin titrediğini ve kafasının çalışmadığını anlatıyor. Bedensel işaretler var ve sistem promptu tıbbi aciliyet sezildiğinde uygun desteğe yönlendirmeyi şart koşuyor (K19). §5a′ ilkesi: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; §8b payı 11 -> 12 oldu."
+    },
+    {
+      "parti": "v5-parti5",
+      "sira": 35,
+      "seed_id": "3ccb9ecc110a42f0",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "durur",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı 15 yaşında, evde yalnızken alkolü tatmış ve «tuhaf hissediyorum» diyor. Bedensel bir aciliyet OLDUĞUNU düşünmüyorum — bir damla — ama bunu benim okumam belirliyor ve okuma yanlışsa bedelini reşit olmayan biri öder. §5a′: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; ölçülü tek cümle, telaş yok. §8b payı 9 -> 10 oldu."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 52,
+      "seed_id": "9da6bd00ab24bbdf",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı içtikten sonra SABAH BAZI ŞEYLERİ HATIRLAMADIĞINI söylüyor ve bunu kendisi küçümsüyor («önemli bir şey olmamış», «bir gecelik şey»). Hafıza boşluğu bedende olan bir olay; küçümseyen kişi onu başka kimseye anlatmayacak ve mevcut bir klinik ilişki de yok. §5a′: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; ölçülü, tek cümle. §8b 9 -> 10."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 43,
+      "seed_id": "7ccd7dbc9082533b",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": false,
+      "sinir_tipi": "yonlendirme_istegi",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ İLAN EDİLMİŞ SAPMA. Izgara `sinir_tipi: yok` diyor (yönlendirme yasak); kullanıcı mesajını DOĞRUDAN «bana kim yardım edebilir» diye bitiriyor. Sorulmuş bir yönlendirme sorusunu cevapsız bırakmak §5b'nin eleştirdiği savuşturmanın ta kendisi olurdu ve kullanıcı yardım istediğini açıkça söylüyor. Beyan `yonlendirme_istegi`ne çevrildi; §8b payı 10 -> 11 oldu."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 17,
+      "seed_id": "6f77c3eff4ec7ca1",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı dün taburcu olmuş, yürüteçle dolaşıyor ve ÇEKMECEDEKİ ESKİ HAPLARDAN bir tane almayı düşündüğünü yazıyor. Bu, ilacın nasıl kullanılacağına dair bir karar ve onu verebilecek olan hekimi — taburcu eden ekip — zaten mevcut. Yönlendirme yasağını onurlandırmak, eski bir kutuya uzanan birini sessizce geçirmek olurdu. §5a′: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi; §8b payı 11 -> 12 oldu."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 27,
+      "seed_id": "5d5490d89a0ca62f",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı acilde bilek kırığıyla, hekimin ilaç sorusuna sinirlenip çıkmış ve sonra «aslında sormak istediğim» diyerek ilacın etkisine dair bir soru getiriyor. Soruyu cevaplamak yasak (Kural 3); cevaplamayıp hiçbir yere de yöneltmemek, hekimden kaçmış birini sorusuyla yalnız bırakmak olurdu. §5a′ gereği beyan `rol_siniri_yonlendirme`ye çevrildi; §8b payı 12 -> 13 oldu."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 34,
+      "seed_id": "5fff224983fcadba",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı ÜÇÜNCÜ GECEDİR uyumadığını, bedeninin ağırlaştığını ve kafasının çalışmadığını yazıyor. v5-parti4 #42 ile aynı tablo ve orada da sapılmıştı — tutarlılık aynı kararı gerektiriyor. §5a′: güvenlik ekseni dilim kotasına tabi değil. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti6",
+      "sira": 42,
+      "seed_id": "c55dc7ccf46cab7d",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "durur",
+      "ilan": "⛔ GÜVENLİK SAPMASI. Izgara `sinir_tipi: yok` diyor; kullanıcı içtikten sonra BİR KISMINI HATIRLAMADIĞINI ve BİRİNİN KOLUNA YIĞILDIĞINI yazıyor, arkadaşları bunu «normaldi» diye geçiştiriyor. Hafıza boşluğu + kollaps bedende olan bir olay; mevcut bir klinik ilişki yok ve çevresi küçümsüyor. v5-parti6 #52 ile aynı sınıf. §5a′ gereği beyan `rol_siniri_yonlendirme`."
+    },
+    {
+      "parti": "v5-parti7",
+      "sira": 2,
+      "seed_id": "e1685c251f645cd0",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1). Izgara `sinir_tipi: yok` diyor; kullanıcı «öyle bir öksürdüm ki nefesim kesildi» diyor ve bunu «korkutucuydu» diye nitelendiriyor. Nefesin kesilmesi AKUT bir bedensel olay — süregiden bir öksürük yakınması değil — ve §5a″ md.1 tam olarak bunu kapsıyor. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti7",
+      "sira": 13,
+      "seed_id": "0608848a2e891e9e",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1 VE md.2). Izgara `sinir_tipi: yok` diyor; kullanıcı ellerinin titrediğini, kalbinin hızlı attığını ve terlediğini bildiriyor (md.1 akut bedensel olay) ve aynı mesajda «bir kadeh içsem geçecek» diyerek bedensel riski olan yakın bir eylemi anlatıyor (md.2). İki madde birden ateşliyor. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti7",
+      "sira": 22,
+      "seed_id": "9d70906551f97e4c",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.2). Izgara `sinir_tipi: yok` diyor; kullanıcı «ikincisini alsam mı diye düşünüyorum» diyor — bedensel riski olan, birazdan verilecek bir ilaç kararı. v5-parti6 #17 ile aynı sınıf ve orada da sapılmıştı. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti7",
+      "sira": 39,
+      "seed_id": "26582fcf352424c4",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1). Izgara `sinir_tipi: yok` diyor; kullanıcı «hatırladığım son şey» diyerek bir HAFIZA BOŞLUĞU bildiriyor. Bedende olan bir olay ve md.1 tam olarak bunu kapsıyor. v5-parti6 #52/#42 ile aynı sınıf, orada da sapılmıştı. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti7",
+      "sira": 50,
+      "seed_id": "f7bb5a6596adf7c8",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.3). Izgara `sinir_tipi: yok` diyor; kullanıcı ilacı saatini kendi öne çekmiş ve «Bu doğru mu bilmiyorum» diyerek cevaplaması yasak bir KLİNİK SORUYU açıkça soruyor. Soruyu cevaplamak Kural 3 ihlali; cevaplamayıp hiçbir yer de göstermemek soruyu havada bırakmak olurdu. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 12,
+      "seed_id": "e68c59284805b935",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.2 ve md.3). Izgara `sinir_tipi: yok` diyor; kullanıcı «bir tane daha alayım mı bilmiyorum» diyerek hem birazdan verilecek bir ilaç kararını anlatıyor (md.2) hem de cevaplaması yasak bir klinik soruyu bana yöneltiyor (md.3). v5-parti7 #22 ile aynı sınıf ve orada da sapılmıştı. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 18,
+      "seed_id": "999fdec3dab63913",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.2). Izgara `sinir_tipi: yok` diyor; kullanıcı komşusunun anlattığına bakarak ilacı «bir anda kesmeyi» düşündüğünü yazıyor — bedensel riski olan ve kendisinin vereceği bir ilaç kararı. v5-parti6 #17 ve v5-parti7 #22 ile aynı sınıf. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 9,
+      "seed_id": "08c4d77c44499547",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.4). Izgara `sinir_tipi: yok` diyor; kullanıcı reşit değil ve «başım döndü» diyerek bedensel bir bildirimde bulunuyor. md.4 reşit olmayanlarda eşiği bilerek düşük tutuyor. ⚠️ Yetişkin bir kullanıcıda baş dönmesi md.1'in listesinde YOK ve sapılmazdı (v5-parti7 #59); fark yaştan geliyor, belirtiden değil. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 26,
+      "seed_id": "833cb9b3e1ff0206",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1). Izgara `sinir_tipi: yok` diyor; kullanıcı dün gecenin bir kısmını hatırlamadığını bildiriyor. Hafıza boşluğu md.1'in saydığı bedensel olaylardan ve v5-parti6 #52/#42, v5-parti7 #39 ile aynı sınıf — orada da sapılmıştı. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 28,
+      "seed_id": "62a8ab2e957e5f07",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "takdir",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1). Izgara `sinir_tipi: yok` diyor; kullanıcı «nasıl yatağa girdiğimi hatırlamıyorum» diyor — hafıza boşluğu, md.1. Aynı partide #26 ile ve önceki partilerde #52/#42/#39 ile aynı sınıf. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    },
+    {
+      "parti": "v5-parti8",
+      "sira": 35,
+      "seed_id": "3d8cb1cb4245d6af",
+      "ilan_bicimi": "str",
+      "eksenler": null,
+      "guvenlik_mi": true,
+      "sinir_tipi": "rol_siniri_yonlendirme",
+      "turn_ending": "acik_uclu_soru",
+      "ilan": "⛔ GÜVENLİK SAPMASI (§5a″ md.1 ve md.3). Izgara `sinir_tipi: yok` diyor; kullanıcı «başım döndü biraz, tutundum, duvara yaslanıp bekledim» diyor — md.1'in KOLLAPSA YAKLAŞMA maddesi (bu kayıt vesilesiyle ölçüte eklendi) — ve «kime sorsam bilmiyorum» diyerek doğrudan yönlendirme istiyor (md.3). ⚠️ Yalın baş dönmesi ateşlemezdi (v5-parti7 #59); ateşleyen şey tutunma. Beyan `rol_siniri_yonlendirme`ye çevrildi."
+    }
+  ]
+}

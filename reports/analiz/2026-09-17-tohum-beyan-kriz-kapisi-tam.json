@@ -1,0 +1,246 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-tohum-beyan-kriz-kapisi.py",
+  "tohum": 2240,
+  "tohum_sha256_16": {
+    "seeds.jsonl": "0631c02ec7510af3",
+    "seeds.v2.jsonl": "3399f543c8b882c7"
+  },
+  "beyanla_sert": 40,
+  "beyanla_persona": 32,
+  "taranan_dosya": 34,
+  "uretilmis_sert": [
+    "ce39d82bf868e5f2"
+  ],
+  "uretilmis_persona": [
+    "1e6feffa0d04795c",
+    "2a684a8ef06de2a1",
+    "38daffc5decb5d9b",
+    "3f75fc8a6c1e962a",
+    "7b4f726412ef6ec4",
+    "99029ca49281099f",
+    "b7a7bab789221312",
+    "bc251a0f87fae08a",
+    "d4192677d0e89e84",
+    "e5f3c4c0b489394f"
+  ],
+  "bulgu": [
+    {
+      "seed_id": "1e6feffa0d04795c",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/expert-70.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "2a684a8ef06de2a1",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok3b.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "38daffc5decb5d9b",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok3a.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "3f75fc8a6c1e962a",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v0.0.4-doz10.jsonl",
+        "data/candidates/v0.0.5-doz25.jsonl",
+        "data/candidates/v4-parti1.jsonl",
+        "datasets/v0.0.3/train.jsonl",
+        "datasets/v0.0.4/train.jsonl",
+        "datasets/v0.0.5/train.jsonl",
+        "datasets/v0.0.6/train.jsonl",
+        "datasets/v0.0.7/train.jsonl"
+      ],
+      "yayimlandi": true,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "7b4f726412ef6ec4",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok3a.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "99029ca49281099f",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok1.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "b7a7bab789221312",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok2.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "bc251a0f87fae08a",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v0.0.4-doz10.jsonl",
+        "data/candidates/v0.0.5-doz25.jsonl",
+        "data/candidates/v4-parti1.jsonl",
+        "datasets/v0.0.3/train.jsonl",
+        "datasets/v0.0.4/train.jsonl",
+        "datasets/v0.0.5/train.jsonl",
+        "datasets/v0.0.6/train.jsonl",
+        "datasets/v0.0.7/train.jsonl"
+      ],
+      "yayimlandi": true,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "d4192677d0e89e84",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v5-parti4.blok3b.jsonl",
+        "data/candidates/v5-parti4.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Tefeci tehdidi",
+        "Ev satışı baskısı",
+        "Eş boşanma davası",
+        "Çocuk eğitimi tehlikede",
+        "İntihar düşüncesi olası",
+        "Şiddetli umutsuzluk",
+        "Uykusuzluk"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "e5f3c4c0b489394f",
+      "sinif": "persona",
+      "dosyalar": [
+        "data/candidates/v3-kumulatif.jsonl",
+        "data/candidates/v3-parti2-baglam.jsonl",
+        "data/candidates/v3-parti2-tam.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Sirozis erken bulgu",
+        "Sarılık",
+        "Sokağa düşme riski",
+        "Akraba reddi",
+        "İntihar düşüncesi sinyali"
+      ],
+      "risk_seviyesi": "yuksek"
+    },
+    {
+      "seed_id": "ce39d82bf868e5f2",
+      "sinif": "sert",
+      "dosyalar": [
+        "data/candidates/v3-kumulatif.jsonl",
+        "data/candidates/v3-parti1.jsonl"
+      ],
+      "yayimlandi": false,
+      "esdurumlar": [
+        "Borç",
+        "Aile çatışması",
+        "Eve haciz",
+        "Çocuk eğitim riski",
+        "Aktif intihar düşüncesi",
+        "Sosyal izolasyon",
+        "Depresyon"
+      ],
+      "risk_seviyesi": "yuksek"
+    }
+  ]
+}

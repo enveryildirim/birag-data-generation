@@ -1,0 +1,31 @@
+{
+  "tarih": "2026-09-18",
+  "girdi_sha256_16": "d55171dffb82edb9",
+  "cikti_sha256_16": "be4ab717f6ba2291",
+  "duzeltme": [
+    {
+      "id": "afeb9133c01e8f71961cc3a6",
+      "eski": "hekimin planlayacağı bir şey",
+      "yeni": "bir hekimin planlayacağı bir şey",
+      "gerekce": "belirli → belirsiz: §8b rol adlandırmayı ister ama var olmayan bir hekime gönderme yapmadan",
+      "parti": null,
+      "sira": 36
+    },
+    {
+      "id": "44cd5dddffa56418d193053a",
+      "eski": "dün gece ekranı en son kapatabildiğin an hangisiydi",
+      "yeni": "ekranı en son kapatabildiğin an hangisiydi",
+      "gerekce": "kullanıcı ALIŞKANLIK anlattı, belirli bir geceyi değil ⇒ çıpa kaldırıldı",
+      "parti": "v4-parti1",
+      "sira": 10
+    },
+    {
+      "id": "047041e8b1d03e59e3a7d2b1",
+      "eski": "bir hafta önce bilmediğin bir şeyi bu hafta öğrendin",
+      "yeni": "daha önce bilmediğin bir şeyi bu hafta öğrendin",
+      "gerekce": "kullanıcı yalnız *«bu hafta»*yı çıpaladı ⇒ belirsiz geçmişe çevrildi",
+      "parti": "v5-parti3",
+      "sira": 19
+    }
+  ]
+}

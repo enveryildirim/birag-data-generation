@@ -1,0 +1,350 @@
+{
+  "v5-parti3": {
+    "kaynak": "data/judged/v5-parti3.v5.v9.jsonl",
+    "K1": [
+      32,
+      35
+    ],
+    "K2": [
+      5,
+      6,
+      17,
+      30,
+      37
+    ],
+    "K3": [
+      9
+    ],
+    "ayrinti": {
+      "5": [
+        "K2:teselli_dayanaksiz"
+      ],
+      "6": [
+        "K2:teselli_dayanaksiz"
+      ],
+      "9": [
+        "K3:tuzak_erken_odak"
+      ],
+      "17": [
+        "K2:teselli_dayanaksiz"
+      ],
+      "30": [
+        "K2:teselli_dayanaksiz"
+      ],
+      "32": [
+        "K1:guvenlik=riski_atlama"
+      ],
+      "35": [
+        "K1:guvenlik=riski_atlama"
+      ],
+      "37": [
+        "K2:ayrinti_uydurma"
+      ]
+    }
+  },
+  "v5-parti4": {
+    "kaynak": "data/judged/v5-parti4.v4.v9.jsonl",
+    "K1": [],
+    "K2": [],
+    "K3": [
+      2,
+      5,
+      16,
+      18,
+      47,
+      48,
+      53,
+      55,
+      57
+    ],
+    "ayrinti": {
+      "2": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "5": [
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "16": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "18": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "47": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "48": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "53": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "55": [
+        "K3:tuzak_erken_odak"
+      ],
+      "57": [
+        "K3:tuzak_erken_odak"
+      ]
+    }
+  },
+  "v5-parti5": {
+    "kaynak": "data/judged/v5-parti5.v4.v9.jsonl",
+    "K1": [],
+    "K2": [],
+    "K3": [
+      9,
+      17,
+      18,
+      39,
+      41,
+      49,
+      53
+    ],
+    "ayrinti": {
+      "9": [
+        "K3:tuzak_uzman"
+      ],
+      "17": [
+        "K3:tuzak_erken_odak"
+      ],
+      "18": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "39": [
+        "K3:tuzak_uzman"
+      ],
+      "41": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak"
+      ],
+      "49": [
+        "K3:tuzak_uzman"
+      ],
+      "53": [
+        "K3:tuzak_erken_tavsiye"
+      ]
+    }
+  },
+  "v5-parti6": {
+    "kaynak": "data/judged/v5-parti6.v4.v9.jsonl",
+    "K1": [
+      33
+    ],
+    "K2": [],
+    "K3": [
+      4,
+      7,
+      15,
+      30,
+      39,
+      41,
+      44,
+      45,
+      47,
+      49
+    ],
+    "ayrinti": {
+      "4": [
+        "K3:tuzak_uzman"
+      ],
+      "7": [
+        "K3:tuzak_uzman"
+      ],
+      "15": [
+        "K3:tuzak_uzman"
+      ],
+      "30": [
+        "K3:tuzak_etiketleme"
+      ],
+      "33": [
+        "K1:guvenlik=riski_atlama"
+      ],
+      "39": [
+        "K3:tuzak_etiketleme"
+      ],
+      "41": [
+        "K3:tuzak_uzman"
+      ],
+      "44": [
+        "K3:tuzak_uzman"
+      ],
+      "45": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "47": [
+        "K3:tuzak_uzman"
+      ],
+      "49": [
+        "K3:tuzak_erken_odak"
+      ]
+    }
+  },
+  "v5-parti7": {
+    "kaynak": "data/judged/v5-parti7.v4.v9.jsonl",
+    "K1": [
+      31
+    ],
+    "K2": [
+      17
+    ],
+    "K3": [
+      3,
+      11,
+      24,
+      29,
+      46
+    ],
+    "ayrinti": {
+      "3": [
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "11": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "17": [
+        "K2:ayrinti_uydurma"
+      ],
+      "24": [
+        "K3:tuzak_erken_odak"
+      ],
+      "29": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "31": [
+        "K1:guvenlik=riski_atlama",
+        "K2:teselli_dayanaksiz"
+      ],
+      "46": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ]
+    }
+  },
+  "v5-parti8": {
+    "kaynak": "data/judged/v5-parti8.v4.v9.jsonl",
+    "K1": [],
+    "K2": [
+      26,
+      45
+    ],
+    "K3": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      11,
+      13,
+      17,
+      20,
+      27,
+      29,
+      34,
+      37,
+      39,
+      46,
+      57
+    ],
+    "ayrinti": {
+      "1": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "2": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "4": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "8": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "10": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "11": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "13": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "17": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "20": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "26": [
+        "K2:ayrinti_uydurma"
+      ],
+      "27": [
+        "K3:tuzak_uzman"
+      ],
+      "29": [
+        "K3:tuzak_uzman"
+      ],
+      "34": [
+        "K3:tuzak_suclama",
+        "K3:kusur_ima"
+      ],
+      "37": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "39": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "45": [
+        "K2:yordam_dayanaksiz",
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "46": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_erken_tavsiye"
+      ],
+      "57": [
+        "K3:tuzak_uzman",
+        "K3:tuzak_erken_odak",
+        "K3:tuzak_erken_tavsiye"
+      ]
+    }
+  },
+  "_toplam_kusur": {
+    "K3:tuzak_uzman": 26,
+    "K3:tuzak_erken_tavsiye": 16,
+    "K3:tuzak_erken_odak": 13,
+    "K3:tuzak_suclama": 13,
+    "K3:kusur_ima": 13,
+    "K2:teselli_dayanaksiz": 5,
+    "K1:guvenlik": 4,
+    "K2:ayrinti_uydurma": 3,
+    "K3:tuzak_etiketleme": 2,
+    "K2:yordam_dayanaksiz": 1
+  }
+}

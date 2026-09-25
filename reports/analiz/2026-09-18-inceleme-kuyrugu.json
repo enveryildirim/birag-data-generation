@@ -1,0 +1,114 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "datasets/v0.0.9/train.jsonl",
+  "sha256_16": "667ec2c580cb7b59",
+  "kayit": 571,
+  "kuyruk": {
+    "yansitma_soru_orani": [
+      {
+        "id": "0d95d9459fa717b080ba9237",
+        "oge": "oran 1.0",
+        "cumle": "İstediğin şey hesap değilmiş, bir cümleymiş: güvendiğini duymak.\n\nO cümleyi duymanı yakınlaştıracak ilk şey ne olurdu?",
+        "yer": "—"
+      },
+      {
+        "id": "c978e3762186c88aef446166",
+        "oge": "oran 1.0",
+        "cumle": "Yıllardır bilen tek kişi sensin ve bu hafta ilk kez birinin görebileceğini düşündün.\n\nGörülmek neden şimdi ağırlaştı?",
+        "yer": "—"
+      },
+      {
+        "id": "0709175b768ecce8c8e9a55c",
+        "oge": "oran 0.0",
+        "cumle": "Aldığınız eğitimden ne kadar memnunsunuz?",
+        "yer": "⚠️ **replay — persona kapıları kapsam dışı**"
+      },
+      {
+        "id": "c1b1687028dfffc33673b36a",
+        "oge": "oran 1.0",
+        "cumle": "\"Çıkış göremiyorum\" dedin ve bunu hafife almayacağım.\n\nŞunu doğrudan sormam gerekiyor: kendine zarar vermeyi düşündüğün bir an oldu mu?",
+        "yer": "—"
+      }
+    ],
+    "sayi_adayi": [
+      {
+        "id": "08f589bc4c991eccf1708b2d",
+        "oge": "1919",
+        "cumle": "Versailles Antlaşması, Birinci Dünya Savaşı'nın sonunda 1919'da imzalandı ve İkinci Dünya Savaşı'nın önemli bir nedeni olarak görülüyor.",
+        "yer": "⛔ asistanın kendi cümlesi"
+      },
+      {
+        "id": "d83c64b2364a2d72bf524c53",
+        "oge": "6900",
+        "cumle": "The AMD Radeon RX 6900XTX has 80 compute units (CUs).",
+        "yer": "⚠️ **kullanıcı da yazmış**"
+      }
+    ],
+    "rol_siniri": [
+      {
+        "id": "fb634d744db01ab6856764e3",
+        "oge": "doz",
+        "cumle": "Bunu bilmesi gereken kişi, dozu azaltan hekim.",
+        "yer": "⚠️ **kullanıcı da yazmış**"
+      },
+      {
+        "id": "dcbfd63a3ee25efbfaf03ba2",
+        "oge": "doz",
+        "cumle": "Dozun yüksek olup olmadığını, başka bir şeyle etkileşip etkileşmediğini ben söyleyemem.",
+        "yer": "⚠️ **kullanıcı da yazmış**"
+      },
+      {
+        "id": "16550563dc66339330e64b59",
+        "oge": "doz",
+        "cumle": "Ama şunu söyleyeceğim: dozu kendin artırmış olabileceğini yazdın.",
+        "yer": "⚠️ **kullanıcı da yazmış**"
+      }
+    ],
+    "klinik_ad_izi": [
+      {
+        "id": "c977b4d0eaade6bcd3e2f049",
+        "oge": "tanI",
+        "cumle": "Programa katılmak için konulmuş bir tanı aranmaz; başvuru kişinin kendi isteğiyle yapılır. Program sekiz haftalık görüşmelerden oluşur ve görüşmeler a",
+        "yer": "bağlam pasajı · `dijital iyi oluş programı tanıtım metni`"
+      },
+      {
+        "id": "f795a1bc8b2a3f44959f680f",
+        "oge": "tedavI",
+        "cumle": "Gündüz tedavi ünitelerinde geceleme yapılmaz; ünite kapanış saatinde kapanır. Yatışlı servislerde refakatçi kalabilir ve refakatçi değişimi gün içinde",
+        "yer": "bağlam pasajı · `hastane refakatçi düzeni metni`"
+      },
+      {
+        "id": "02e4d2e3d81958c17f7a5e7b",
+        "oge": "tanI",
+        "cumle": "Araç bir tarama aracıdır ve tanı koymaz. Sonuç, kişinin son on iki aya ilişkin kendi yanıtlarından üretilir. Yanıtlar oturum kapandığında cihazda sakl",
+        "yer": "bağlam pasajı · `öz değerlendirme aracı kullanım notu`"
+      },
+      {
+        "id": "27e8728cd510ee5b7aaf3a27",
+        "oge": "tanI",
+        "cumle": "Araç tanı koymaz; sonuç kişinin kendi yanıtlarından üretilir. Yanıtlar kaydedilmez ve üçüncü kişilerle paylaşılmaz.",
+        "yer": "bağlam pasajı · `çevrim içi öz değerlendirme aracı kullanım notu`"
+      },
+      {
+        "id": "f91237779b6d9e022ad786a2",
+        "oge": "tanI",
+        "cumle": "Araç tanı koymaz. Sonuç kişinin son on iki aya ilişkin kendi yanıtlarından üretilir ve yalnızca kişinin kendisine gösterilir.",
+        "yer": "bağlam pasajı · `öz değerlendirme aracı kullanım notu`"
+      },
+      {
+        "id": "182a334d93f05a6b6dc5c3dc",
+        "oge": "Ilaçlar",
+        "cumle": "Nöbetçi eczaneler gece boyunca açıktır. Reçeteli ilaçlar için reçete aranır; reçetesiz danışma için bir belge gerekmez.",
+        "yer": "bağlam pasajı · `nöbetçi eczane hizmet notu`"
+      }
+    ],
+    "zararli_normallestirme": [
+      {
+        "id": "43e6092f6a87adf3c19084f4",
+        "oge": "herkes yapıyor",
+        "cumle": "Ama \"herkes yapıyor\" cümlesini bir kenara koyuyorum: kaç kişinin ne yaptığı, senin ne kadar içtiğin hakkında bir şey söylemiyor.",
+        "yer": "⚠️ **kullanıcı da yazmış** · ⚠️ **tırnak içinde**"
+      }
+    ]
+  }
+}

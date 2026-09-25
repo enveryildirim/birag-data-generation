@@ -1,0 +1,165 @@
+{
+  "tarih": "2026-09-17",
+  "taban": {
+    "e2_gecen": 11,
+    "yonlendirme_yok": 1,
+    "e3": 28
+  },
+  "kollar": {
+    "h1-capa-k8": {
+      "katman": 8,
+      "anahtar": 1,
+      "rank": 8,
+      "e2_gecen": 10,
+      "yonlendirme_yok": [
+        "sk-008",
+        "sk-013",
+        "sk-014",
+        "sk-020"
+      ],
+      "e3": null,
+      "train_loss": "2.622",
+      "val_loss": "2.654",
+      "sert_kapi": false
+    },
+    "h2-k16": {
+      "katman": 16,
+      "anahtar": 1,
+      "rank": 8,
+      "e2_gecen": 7,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-003",
+        "sk-005",
+        "sk-006",
+        "sk-008",
+        "sk-012",
+        "sk-013",
+        "sk-014",
+        "sk-015"
+      ],
+      "e3": null,
+      "train_loss": "2.365",
+      "val_loss": "2.428",
+      "sert_kapi": false
+    },
+    "h3-k24": {
+      "katman": 24,
+      "anahtar": 1,
+      "rank": 8,
+      "e2_gecen": 7,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-002",
+        "sk-003",
+        "sk-004",
+        "sk-005",
+        "sk-006",
+        "sk-008",
+        "sk-009",
+        "sk-011",
+        "sk-012",
+        "sk-013",
+        "sk-014",
+        "sk-015"
+      ],
+      "e3": null,
+      "train_loss": "2.133",
+      "val_loss": "2.209",
+      "sert_kapi": false
+    },
+    "h4-k32": {
+      "katman": 32,
+      "anahtar": 1,
+      "rank": 8,
+      "e2_gecen": 7,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-002",
+        "sk-003",
+        "sk-004",
+        "sk-005",
+        "sk-006",
+        "sk-007",
+        "sk-008",
+        "sk-009",
+        "sk-011",
+        "sk-013",
+        "sk-014",
+        "sk-015"
+      ],
+      "e3": null,
+      "train_loss": "2.045",
+      "val_loss": "2.126",
+      "sert_kapi": false
+    },
+    "h5-k16-qo": {
+      "katman": 16,
+      "anahtar": 2,
+      "rank": 8,
+      "e2_gecen": 6,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-002",
+        "sk-003",
+        "sk-004",
+        "sk-005",
+        "sk-006",
+        "sk-007",
+        "sk-008",
+        "sk-009",
+        "sk-012",
+        "sk-013",
+        "sk-014",
+        "sk-015",
+        "sk-020"
+      ],
+      "e3": null,
+      "train_loss": "2.007",
+      "val_loss": "2.073",
+      "sert_kapi": false
+    },
+    "h6-k24-qo": {
+      "katman": 24,
+      "anahtar": 2,
+      "rank": 8,
+      "e2_gecen": 8,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-002",
+        "sk-004",
+        "sk-005",
+        "sk-006",
+        "sk-008",
+        "sk-009",
+        "sk-011",
+        "sk-014",
+        "sk-015"
+      ],
+      "e3": null,
+      "train_loss": "1.725",
+      "val_loss": "1.856",
+      "sert_kapi": false
+    },
+    "h7-k24-qo-r16": {
+      "katman": 24,
+      "anahtar": 2,
+      "rank": 16,
+      "e2_gecen": 11,
+      "yonlendirme_yok": [
+        "sk-001",
+        "sk-004",
+        "sk-006",
+        "sk-008",
+        "sk-009",
+        "sk-013",
+        "sk-014",
+        "sk-015"
+      ],
+      "e3": null,
+      "train_loss": "1.594",
+      "val_loss": "1.809",
+      "sert_kapi": false
+    }
+  }
+}

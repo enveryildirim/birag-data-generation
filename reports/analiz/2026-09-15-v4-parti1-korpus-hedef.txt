@@ -1,0 +1,110 @@
+# uretim-v4 korpus hedef raporu · v4-parti1.jsonl
+girdi sha256: ea596190dd998935 · kayıt: 40
+betik: scripts/analiz/2026-09-15-v4-korpus-hedef-raporu.py
+
+### bicim (§ hedefi)
+değer                  adet      %  hedef   fark
+kisa                     16   40.0   40.0   +0.0
+orta                     14   35.0   35.0   +0.0
+uzun                     10   25.0   25.0   +0.0
+
+### register (§ hedefi)
+değer                  adet      %  hedef   fark
+bozuk                    10   25.0   25.0   +0.0
+duzgun                   30   75.0   75.0   +0.0
+
+### konusma_durumu (§ hedefi)
+değer                  adet      %  hedef   fark
+tetikleyici_an           14   35.0   35.0   +0.0
+suregiden_durum           8   20.0   20.0   +0.0
+iyi_giden_paylasim        6   15.0   15.0   +0.0
+plan_yapma                6   15.0   15.0   +0.0
+merak_sorusu              4   10.0   10.0   +0.0
+aradan_donus              2    5.0    5.0   +0.0
+
+### turn_ending (§ hedefi)
+değer                  adet      %  hedef   fark
+acik_uclu_soru           20   50.0   50.0   +0.0
+takdir                    6   15.0   15.0   +0.0
+ozet                      6   15.0   15.0   +0.0
+yalnizca_yansitma         6   15.0   15.0   +0.0
+durur                     2    5.0    5.0   +0.0
+
+### mi_process (§ hedefi)
+değer                  adet      %  hedef   fark
+engaging                 16   40.0   40.0   +0.0
+focusing                  8   20.0   20.0   +0.0
+evoking                  10   25.0   25.0   +0.0
+planning                  6   15.0   15.0   +0.0
+
+### turn_type (§ hedefi)
+değer                  adet      %  hedef   fark
+multi                    16   40.0   40.0   +0.0
+single                   24   60.0   60.0   +0.0
+
+### beyan ↔ metin tutarsızlıkları
+  yok ✅
+
+### §8b · sinir_tipi beyanları
+  yonlendirme_istegi         2  % 5.0  (hedef ~%6)
+  rol_siniri_yonlendirme     3  % 7.5  (hedef ~%8)
+  yonlendirme_gereksiz       2  % 5.0  (hedef ~%5)
+  sinir_cekme                3  % 7.5  (kota yok)
+  yok                       30  %75.0  (kota yok)
+
+### §8b düzeltme ölçütü — ÖLÇÜT 1/2 için ADAY listesi (karar elle okunur)
+
+  [ 1] yonlendirme_istegi  terim=['danışmanlık', 'merkez', 'birim']
+       · Böyle durumlarda iki tür yere gidiliyor: bağımlılık alanında danışmanlık veren merkezler, bir de hastanelerin bağımlılık birimleri.
+
+  [ 2] yonlendirme_istegi  terim=['danışmanlık', 'merkez']
+       · Böyle yerler var — bağımlılık alanında danışmanlık veren merkezler.
+
+  [ 3] rol_siniri_yonlendirme  terim=['hekim']
+       · Kaç tane alınacağına, azaltılıp azaltılmayacağına ben karar veremem; o karar ilacı yazan hekiminle senin arasında.
+
+  [ 4] rol_siniri_yonlendirme  terim=['hekim']
+       · Bir grafide ne göründüğüne ve bunun ne kadar ağır olduğuna seni muayene eden hekim karar verir; ben buradan konuşursam bilmediğim bir şeyi biliyormuş 
+
+  [ 5] rol_siniri_yonlendirme  terim=['avukat', 'müdürlük']
+       · Bunu tahminden değil kaynağından öğrenebilirsin: yükümlülüğünü takip eden müdürlük, bir de bir avukat.
+
+  [ 6] yonlendirme_gereksiz  terim=—
+       · (yönlendirme/sınır cümlesi yok)
+
+  [ 7] yonlendirme_gereksiz  terim=—
+       · (yönlendirme/sınır cümlesi yok)
+
+  [ 8] sinir_cekme  terim=['hekim']
+       · İki ağırlığı aynı anda taşıyorsun: hekimin haklı olma ihtimali, bir de o soru.
+
+  [ 9] sinir_cekme  terim=['amatem']
+       · AMATEM'i de ben getirmiyorum, geçen hafta sana söylemişler ve sen gitmemişsin.
+
+  [10] sinir_cekme  terim=—
+       · (yönlendirme/sınır cümlesi yok)
+
+### §8b düzeltme ölçütü 1 ve 2 — ELLE KARAR
+  [ 1] GECTI  «iki tür yere gidiliyor: … danışmanlık veren merkezler … bağımlılık birimleri» — tür + adım
+  [ 2] GECTI  «Böyle yerler var — … danışmanlık veren merkezler» — doğrudan soruya cevap, tür + adım
+  [ 3] GECTI  adım cümlesi TERİMSİZ: «bir sonraki görüşmede bunu olduğu gibi anlatmak, buradan atılabilecek en yakın adım»
+  [ 4] GECTI  «bu soruyu soracak kişi bu sabah zaten karşında oturuyordu … ilk cümlen o olabilir» — tür + adım
+  [ 5] GECTI  «yükümlülüğünü takip eden müdürlük, bir de bir avukat» — tür (özel ad yok) + adım
+  [ 6] GECTI  yönlendirme cümlesi yok; kullanıcı «bir şey sormayacağım» dedi ve tırmandırma yapılmadı
+  [ 7] GECTI  yönlendirme cümlesi yok; «kafayı yiyecem» mecazı kriz sayılmadı
+  → ölçüt 1 ve 2: TUTTU ✅
+
+### §8b düzeltme ölçütü 3 — rakam ve kurum özel adı (makine)
+  ihlal yok ✅
+
+### K31 · eval metniyle çakışma (üretim tarafı denetimi)
+  çakışma yok ✅
+
+### uzunluk
+completion ortanca 41.5 kelime · thinking ortanca 65.0 kelime · thinking:completion (karakter) ortanca 1.60x, maks 3.37x (tavan 4x)
+system promptu: {'canon': 31, 'paraphrase': 9}
+özerklik vurgusu: 11/40
+bağlam (RAG): 4/40 · is_negative: 6/40
+bağımlılık türü: {'alkol': 12, 'kumar': 8, 'receteli_ilac': 5, 'tutun': 12, 'dijital': 3}
+yaş: {'yetiskin': 34, 'ergen': 6} · motivasyon: {'ic': 34, 'yasal_zorunluluk': 3, 'aile_baskisi': 3}
+senaryo: {'farkindalik': 7, 'ambivalans': 7, 'rol_siniri': 6, 'hedef_belirleme': 4, 'inkar': 3, 'bilgilendirme': 3, 'durtu': 2, 'kutlama': 2, 'anlasilmama': 2, 'hukuki_kaygi': 1, 'motivasyon': 1, 'discord': 1, 'kayip_kovalama': 1}

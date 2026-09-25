@@ -1,0 +1,89 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti8.jsonl",
+  "girdi_sha256_16": "ad4276805d3f07c3",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 7,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "kisa_alinti": 2,
+    "karsi_olgusal": 6,
+    "anma_oneri": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "182a334d93f05a6b6dc5c3dc",
+      "oge": "al",
+      "baglam": "incisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne \"alma\". Bunu sö"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "182a334d93f05a6b6dc5c3dc",
+      "oge": "alma",
+      "baglam": "İkincisini alıp almayacağına dair bir şey söylemeyeceğim — ne \"al\" ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "682a0223bab840e6423df5ad",
+      "oge": "olur",
+      "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne   ne \"olmaz\""
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "682a0223bab840e6423df5ad",
+      "oge": "olmaz",
+      "baglam": "Bir anda kesmeye dair hiçbir şey söylemeyeceğim — ne \"olur\" ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 47,
+      "id": "2a25a632508dc51f6724ef1e",
+      "oge": "olur",
+      "baglam": "Ne kadar aldığına dair de bir şey söylemeyeceğim — ne \"fazla\" ne  "
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 52,
+      "id": "8e13276144f4e14f74558db9",
+      "oge": "az",
+      "baglam": "an verilmiş. Cevabı veren sensin, doktorun değil.\n\nÖksürüğü \"az\" diye niteleyen de "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "0c1b10e70123d4717fd96ea5",
+      "oge": "stresli misin",
+      "baglam": " Sevgilin   demedi, \"çok içiyorsun\" dedi — sen sebep getirdin"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 35,
+      "id": "2077ab38c8669f464eeb9c03",
+      "oge": "başım döndü, tutundum.",
+      "baglam": ", bu cümleyi olduğu gibi söylemek olabilir — \"başım döndü, tutundum.\"\n\nİlaçla ilgisi olup olmadığı"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "5b819dbad1467c9fe9e0af10",
+      "oge": "bana verdiler",
+      "baglam": "\"Masada içiyorlardı\" dedin,   demedin"
+    }
+  ]
+}

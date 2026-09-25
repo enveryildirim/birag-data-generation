@@ -1,0 +1,35 @@
+{
+ "tarih": "2026-09-15",
+ "betik": "scripts/analiz/2026-09-15-doz-yanit-derleme.py",
+ "yeni_karne": {
+  "dosya": "data/judged/doz-yama.v7.jsonl",
+  "kayit": 26,
+  "judge_model": [
+   "claude-sonnet-subagent"
+  ],
+  "rubrik": [
+   "judge-eksen1.v7"
+  ]
+ },
+ "yamasi_geri_alinan": [],
+ "setler": {
+  "v0.0.4": {
+   "dosya": "data/judged/v0.0.4.jsonl",
+   "kayit": 155,
+   "terapotik": 137,
+   "yonlendirme": 14,
+   "oran": 10.2,
+   "yamasi_geri_alinan": [],
+   "sha256_16": "e0e0ca6464ddf74f"
+  },
+  "v0.0.5": {
+   "dosya": "data/judged/v0.0.5.jsonl",
+   "kayit": 155,
+   "terapotik": 137,
+   "yonlendirme": 33,
+   "oran": 24.1,
+   "yamasi_geri_alinan": [],
+   "sha256_16": "c61a40e538fa6653"
+  }
+ }
+}

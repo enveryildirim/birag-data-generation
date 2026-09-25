@@ -1,0 +1,79 @@
+{
+ "model": "models/gemma-4-E4B-it-bf16-train",
+ "kollar": [
+  {
+   "kol": "A-dar",
+   "num_layers": 8,
+   "rank": 8,
+   "keys": [
+    "self_attn.q_proj"
+   ],
+   "not": "Faz 2 config'i — değişmeyen taban",
+   "modul": 8,
+   "egitilebilir": 327680,
+   "toplam": 7463341098,
+   "oran_yuzde": 0.0044
+  },
+  {
+   "kol": "B-derin",
+   "num_layers": 42,
+   "rank": 8,
+   "keys": [
+    "self_attn.q_proj"
+   ],
+   "not": "A + bütün katmanlar (tek fark: derinlik)",
+   "modul": 42,
+   "egitilebilir": 1662976,
+   "toplam": 7464676394,
+   "oran_yuzde": 0.0223
+  },
+  {
+   "kol": "C-dikkat",
+   "num_layers": 42,
+   "rank": 8,
+   "keys": [
+    "self_attn.q_proj",
+    "self_attn.o_proj"
+   ],
+   "not": "B + o_proj (tek fark: dikkat çıkışı)",
+   "modul": 84,
+   "egitilebilir": 3325952,
+   "toplam": 7466339370,
+   "oran_yuzde": 0.0445
+  },
+  {
+   "kol": "D-tam",
+   "num_layers": 42,
+   "rank": 8,
+   "keys": [
+    "self_attn.q_proj",
+    "self_attn.o_proj",
+    "mlp.gate_proj",
+    "mlp.up_proj",
+    "mlp.down_proj"
+   ],
+   "not": "C + mlp (tek fark: ileri besleme)",
+   "modul": 210,
+   "egitilebilir": 16228352,
+   "toplam": 7479241770,
+   "oran_yuzde": 0.217
+  },
+  {
+   "kol": "E-genis",
+   "num_layers": 42,
+   "rank": 32,
+   "keys": [
+    "self_attn.q_proj",
+    "self_attn.o_proj",
+    "mlp.gate_proj",
+    "mlp.up_proj",
+    "mlp.down_proj"
+   ],
+   "not": "D + rank 32 (tek fark: rank) = K50 geniş kolu",
+   "modul": 210,
+   "egitilebilir": 64913408,
+   "toplam": 7527926826,
+   "oran_yuzde": 0.8623
+  }
+ ]
+}

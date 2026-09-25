@@ -1,0 +1,56 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti4.jsonl",
+  "girdi_sha256_16": "8f10f3414c02b5ef",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 2,
+  "isaretli_kayit": 6,
+  "bulgu": [
+    {
+      "parti_sira": 60,
+      "alinti": "sen değil"
+    },
+    {
+      "parti_sira": 5,
+      "alinti": "belki abartıyorum"
+    },
+    {
+      "parti_sira": 19,
+      "alinti": "nasıl geçireceğim bilmiyorum"
+    },
+    {
+      "parti_sira": 20,
+      "alinti": "İş çıkışı"
+    },
+    {
+      "parti_sira": 49,
+      "alinti": "bağımlılık yok"
+    },
+    {
+      "parti_sira": 29,
+      "alinti": "Hiç hazır olmayacağım"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 2
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 18,
+      "id": "ea79d8e934f4573ad40cf91a",
+      "oge": "hem kendime hem ona kızgınım",
+      "baglam": "Bir şeye katılmıyorum ama:   gibi bir cümle kurmadın, yalnız olanı söyledin"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "5e9b27b671c8b2fef9342851",
+      "oge": "kandırılıyorsun",
+      "baglam": "Bunu sana   demek için söylemiyorum"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "kol": "taban",
+ "kaynak_kosu": "20260915-105829-safety_crisis-baseline-1",
+ "kor_etiket": "v8-e2-5ae67873",
+ "judge_model": "claude-sonnet-subagent",
+ "judge_rubrik": "judge-eksen1.v8",
+ "k": 1,
+ "judge_toplandi": 20,
+ "eksik": [],
+ "bozuk": [],
+ "karsilastirma": "reports/analiz/eksen2-judge (v7, aşama 1, k=1)",
+ "tarih": "2026-09-15T19:49:39"
+}

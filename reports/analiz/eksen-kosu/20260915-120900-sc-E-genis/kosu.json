@@ -1,0 +1,14 @@
+{
+ "etiket": "sc-E-genis",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-114455-f4-kapsam-E-genis/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 219,
+ "otomatik_gecen": 7,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 20,
+ "tarih": "2026-09-15T12:12:39"
+}

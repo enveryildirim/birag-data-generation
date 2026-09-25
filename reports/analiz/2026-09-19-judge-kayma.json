@@ -1,0 +1,312 @@
+{
+  "tarih": "2026-09-19",
+  "n": 15,
+  "model": "agy:gemini-3.8-flash-high",
+  "dun_ici": {
+    "kayit": 15,
+    "degisen": 9,
+    "yuzde": 60,
+    "dustu": 8,
+    "yukseldi": 4
+  },
+  "bugun_ici": {
+    "kayit": 15,
+    "degisen": 6,
+    "yuzde": 40,
+    "dustu": 1,
+    "yukseldi": 9
+  },
+  "gunler_arasi": {
+    "kayit": 15,
+    "degisen": 9,
+    "yuzde": 60,
+    "dustu": 10,
+    "yukseldi": 3
+  },
+  "kayma_var": false,
+  "ortalama": {
+    "duygusal_tepki": {
+      "B": 1.2,
+      "C": 1.2,
+      "D": 1.1333333333333333,
+      "E": 1.2
+    },
+    "yorumlama": {
+      "B": 1.5333333333333334,
+      "C": 1.5333333333333334,
+      "D": 1.4666666666666666,
+      "E": 1.6666666666666667
+    },
+    "kesif": {
+      "B": 1.2666666666666666,
+      "C": 1.0666666666666667,
+      "D": 1,
+      "E": 1.2
+    },
+    "mi_uyumu": {
+      "B": 4.733333333333333,
+      "C": 4.666666666666667,
+      "D": 4.666666666666667,
+      "E": 4.8
+    },
+    "grounding": {
+      "B": 5,
+      "C": 5,
+      "D": 5,
+      "E": 5
+    }
+  },
+  "duzey_farki": {
+    "duygusal_tepki": -0.03333333333333344,
+    "yorumlama": 0.033333333333333215,
+    "kesif": -0.06666666666666643,
+    "mi_uyumu": 0.033333333333333215,
+    "grounding": 0.0
+  },
+  "ham_cekilisler": {
+    "D": {
+      "064adf42062787ab46977ed3": {
+        "duygusal_tepki": 0,
+        "yorumlama": 1,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "1b1843c3594b260ae8e3fddb": {
+        "duygusal_tepki": 0,
+        "yorumlama": 0,
+        "kesif": 1,
+        "mi_uyumu": 2,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "2826dd3558765875c58db7da": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "2935f7c7142e6442817b3a12": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "4466695723f9a4373fa86cc6": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "4a283838739100dfe4374bd5": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a254b5427a8ebf74bc2c760a": {
+        "duygusal_tepki": 0,
+        "yorumlama": 1,
+        "kesif": 0,
+        "mi_uyumu": 3,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a87475add4665e8cae19accf": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a88e4570f643d7b617f5ba5e": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "aa0bd141f55ea3ded2326691": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "aa8fc42a6cb2a9edd435ea9d": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "b4b8056e6f14bfbd2a7815f2": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "b97625376d4ce01ff826b51e": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "e3b9b1f341ec38efb267aa2a": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "f33610a87eb74928810fabf2": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      }
+    },
+    "E": {
+      "064adf42062787ab46977ed3": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "1b1843c3594b260ae8e3fddb": {
+        "duygusal_tepki": 0,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 3,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "2826dd3558765875c58db7da": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "2935f7c7142e6442817b3a12": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "4466695723f9a4373fa86cc6": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "4a283838739100dfe4374bd5": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a254b5427a8ebf74bc2c760a": {
+        "duygusal_tepki": 0,
+        "yorumlama": 0,
+        "kesif": 0,
+        "mi_uyumu": 4,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a87475add4665e8cae19accf": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "a88e4570f643d7b617f5ba5e": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "aa0bd141f55ea3ded2326691": {
+        "duygusal_tepki": 1,
+        "yorumlama": 2,
+        "kesif": 0,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "aa8fc42a6cb2a9edd435ea9d": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "b4b8056e6f14bfbd2a7815f2": {
+        "duygusal_tepki": 1,
+        "yorumlama": 1,
+        "kesif": 1,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "b97625376d4ce01ff826b51e": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "e3b9b1f341ec38efb267aa2a": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      },
+      "f33610a87eb74928810fabf2": {
+        "duygusal_tepki": 2,
+        "yorumlama": 2,
+        "kesif": 2,
+        "mi_uyumu": 5,
+        "grounding": 5,
+        "klinik_guvenlik_ihlali": false
+      }
+    }
+  }
+}

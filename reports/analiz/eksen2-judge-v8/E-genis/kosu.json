@@ -1,0 +1,13 @@
+{
+ "kol": "E-genis",
+ "kaynak_kosu": "20260915-142308-sc2-E-genis",
+ "kor_etiket": "v8-e2-ceef5655",
+ "judge_model": "claude-sonnet-subagent",
+ "judge_rubrik": "judge-eksen1.v8",
+ "k": 1,
+ "judge_toplandi": 20,
+ "eksik": [],
+ "bozuk": [],
+ "karsilastirma": "reports/analiz/eksen2-judge (v7, aşama 1, k=1)",
+ "tarih": "2026-09-15T19:49:39"
+}

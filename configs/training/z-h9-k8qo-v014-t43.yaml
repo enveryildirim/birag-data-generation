@@ -1,0 +1,71 @@
+# Faz 5 · YAYILIM mı DERİNLİK mi — ÖLÇÜT KOŞUDAN ÖNCE İLAN EDİLDİ (K31 deseni)
+#
+# ⛔⛔ **NEDEN.** T187 güçlü bir hipotez buldu ama POST-HOC buldu: `h1` ile `h8`
+# toplam güncelleme enerjisinde eşitken (10,4 ↔ 10,5) dereceli puanda 16,33 ↔
+# 4,00 ayrıldılar ve aradaki tek yapısal fark **kaç modüle dokunulduğuydu**
+# (8 ↔ 48). Tabloya bakıp bulunan bir çift hipotezdir, kanıt değildir.
+#
+# ⚠️ Üstelik merdivenin tamamında iki şey İÇ İÇE gitmişti: kolları büyüttükçe
+# hem **katman derinliği** hem **modül sayısı** birlikte artıyordu. Hangisinin
+# belirlediği hiç ayrılmadı.
+#
+# ⭐⭐⭐ **BU KOL İKİSİNİ BİRDEN AYIRIR.** 8 katman (h1 ile AYNI derinlik) ama
+# q+o (h1'in iki katı modül = 16). Yani:
+#   · `h1` ile aynı KATMANLAR, iki katı MODÜL
+#   · `h2` ile aynı MODÜL SAYISI (16), yarısı KATMAN
+#
+# ⭐⭐ **ÖNCEDEN İLAN EDİLEN ÖLÇÜT** (koşudan önce yazıldı, dereceli puan):
+#   · h9 ≈ h1 (~16,3) çıkarsa  ⇒ belirleyen **KATMAN DERİNLİĞİ**; modül sayısı
+#     önemsiz ve T187'nin «yayılım» hipotezi ÇÜRÜR.
+#   · h9 ≈ h2 (~2,0) çıkarsa   ⇒ belirleyen **MODÜL SAYISI (yayılım)**; derinlik
+#     önemsiz ve T187 DOĞRULANIR.
+#   · arada (5-13) çıkarsa     ⇒ ikisi birlikte; hiçbiri tek başına açıklamıyor.
+# ⛔ Eşik keyfi değil: h1 ile h2'nin dereceli farkı 14,3 ve ölçülmüş eşik 2,4
+#   (T186) ⇒ üç bölge de gürültüden geniş.
+#
+# ⭐ Değişen tek şey `keys` (q → q+o). Veri, bölme, katman, rank, scale, LR,
+#   adım, batch: h1 kolundakiyle birebir — alan alan denetlendi.#
+# ⭐⭐ TOHUM GENİŞLETMESİ (2026-09-22, kullanıcı kararı). İlk üç tohumla
+# (7/13/23) fark −4,67 çıktı ama hata payı **±5,33** olduğu için OKUNAMADI
+# (T245). Güç hesabı: kol başına **8 tohum** hata payını **±3,27**'ye indirir
+# ⇒ gözlenen büyüklükteki bir fark ayırt edilebilir hâle gelir.
+#
+# ⛔⛔ **KOŞUDAN ÖNCE İLAN — üç sonuç da önceden yazılı:**
+#   · |fark| > 2·SE  ⇒ fark GERÇEK, yönü neyse o okunur
+#   · |fark| ≤ 2·SE  ⇒ yine OKUNAMAZ. ⭐ Bu durumda hüküm şudur: **bu ölçüt
+#     bu karşılaştırmayı taşıyamıyor** ve sıradaki iş tohum eklemek değil
+#     ÖLÇÜTÜ DEĞİŞTİRMEK — çünkü n=15 bile yalnız ±2,4'e iniyor ve maliyeti
+#     iki katından fazla.
+#   · varyans ilk üç tohumdakinden BÜYÜRSE hata payı da büyür; bu, ölçütün
+#     kararsızlığının ek kanıtı sayılır.
+# ⛔ Post-hoc güç uyarısı yazılı: n, GÖZLENEN etki büyüklüğüne göre seçildi
+#   ⇒ gerçek etki daha küçükse bu tasarım onu yine ayırt edemez.
+
+ad: z-h9-k8qo-v014-t43
+model: mlx-community/gemma-4-E4B-it-bf16
+dataset: datasets/v0.0.14/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7                    # bölme tohumu SABİT — bütün kollar aynı bölmeyi görür
+  chat_template: configs/chat_template_train.jinja
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true
+  num_layers: 8
+  batch_size: 1
+  iters: 1368               # 571 kayıt · 3 epoch
+  learning_rate: 1.0e-5
+  steps_per_report: 50
+  steps_per_eval: 228
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456
+  seed: 43
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.o_proj"]

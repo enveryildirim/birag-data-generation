@@ -1,0 +1,370 @@
+{
+  "tarih": "2026-09-20",
+  "havuz": 2240,
+  "uretilmis": 808,
+  "kalan": 1432,
+  "sert": 39,
+  "uygun": 1393,
+  "kriz_icerigi": 55,
+  "esik": -100.0,
+  "hic_uretilmemis": {
+    "senaryo=kayma_nuks": 10,
+    "risk_seviyesi=cok_yuksek": 20
+  },
+  "acik": {
+    "senaryo=belirsiz": {
+      "sette": 28.2,
+      "havuz": 23.7,
+      "fark": -4.5,
+      "uretilebilir_kalan": 303
+    },
+    "senaryo=ambivalans": {
+      "sette": 36.5,
+      "havuz": 37.3,
+      "fark": 0.8,
+      "uretilebilir_kalan": 539
+    },
+    "senaryo=inkar": {
+      "sette": 1.1,
+      "havuz": 0.9,
+      "fark": -0.2,
+      "uretilebilir_kalan": 11
+    },
+    "senaryo=nazikce_karsi_cikma": {
+      "sette": 13.7,
+      "havuz": 14.1,
+      "fark": 0.3,
+      "uretilebilir_kalan": 203
+    },
+    "senaryo=rol_siniri": {
+      "sette": 18.7,
+      "havuz": 21.4,
+      "fark": 2.7,
+      "uretilebilir_kalan": 311
+    },
+    "senaryo=kriz": {
+      "sette": 1.2,
+      "havuz": 1.8,
+      "fark": 0.5,
+      "uretilebilir_kalan": 20
+    },
+    "senaryo=discord": {
+      "sette": 0.5,
+      "havuz": 0.4,
+      "fark": -0.0,
+      "uretilebilir_kalan": 6
+    },
+    "senaryo=kayma_nuks": {
+      "sette": 0.0,
+      "havuz": 0.4,
+      "fark": 0.4,
+      "uretilebilir_kalan": 0
+    },
+    "risk_seviyesi=orta": {
+      "sette": 52.5,
+      "havuz": 54.9,
+      "fark": 2.4,
+      "uretilebilir_kalan": 806
+    },
+    "risk_seviyesi=dusuk": {
+      "sette": 6.8,
+      "havuz": 5.8,
+      "fark": -1.0,
+      "uretilebilir_kalan": 75
+    },
+    "risk_seviyesi=yuksek": {
+      "sette": 40.7,
+      "havuz": 38.4,
+      "fark": -2.3,
+      "uretilebilir_kalan": 512
+    },
+    "risk_seviyesi=cok_yuksek": {
+      "sette": 0.0,
+      "havuz": 0.9,
+      "fark": 0.9,
+      "uretilebilir_kalan": 0
+    },
+    "motivasyon_evresi=dusunme": {
+      "sette": 69.1,
+      "havuz": 67.2,
+      "fark": -1.9,
+      "uretilebilir_kalan": 918
+    },
+    "motivasyon_evresi=on_dusunme": {
+      "sette": 18.3,
+      "havuz": 17.0,
+      "fark": -1.4,
+      "uretilebilir_kalan": 232
+    },
+    "motivasyon_evresi=eylem": {
+      "sette": 2.8,
+      "havuz": 3.8,
+      "fark": 0.9,
+      "uretilebilir_kalan": 52
+    },
+    "motivasyon_evresi=hazirlik": {
+      "sette": 9.8,
+      "havuz": 12.1,
+      "fark": 2.3,
+      "uretilebilir_kalan": 191
+    },
+    "evre=tolerans": {
+      "sette": 52.7,
+      "havuz": 46.4,
+      "fark": -6.3,
+      "uretilebilir_kalan": 614
+    },
+    "evre=merak_deneme": {
+      "sette": 4.8,
+      "havuz": 6.2,
+      "fark": 1.4,
+      "uretilebilir_kalan": 101
+    },
+    "evre=sosyal_kullanim": {
+      "sette": 5.2,
+      "havuz": 4.9,
+      "fark": -0.3,
+      "uretilebilir_kalan": 68
+    },
+    "evre=birakma_cabasi": {
+      "sette": 9.3,
+      "havuz": 11.6,
+      "fark": 2.3,
+      "uretilebilir_kalan": 185
+    },
+    "evre=nuksetme": {
+      "sette": 7.7,
+      "havuz": 10.3,
+      "fark": 2.6,
+      "uretilebilir_kalan": 168
+    },
+    "evre=inkar": {
+      "sette": 11.6,
+      "havuz": 9.8,
+      "fark": -1.8,
+      "uretilebilir_kalan": 126
+    },
+    "evre=dibe_vurma": {
+      "sette": 8.7,
+      "havuz": 10.7,
+      "fark": 2.1,
+      "uretilebilir_kalan": 131
+    },
+    "profil=beyaz_yakali": {
+      "sette": 27.7,
+      "havuz": 24.6,
+      "fark": -3.2,
+      "uretilebilir_kalan": 317
+    },
+    "profil=mavi_yakali": {
+      "sette": 17.0,
+      "havuz": 10.3,
+      "fark": -6.7,
+      "uretilebilir_kalan": 93
+    },
+    "profil=lise_ergeni": {
+      "sette": 10.8,
+      "havuz": 12.5,
+      "fark": 1.7,
+      "uretilebilir_kalan": 193
+    },
+    "profil=universite_ogrencisi": {
+      "sette": 11.3,
+      "havuz": 12.5,
+      "fark": 1.2,
+      "uretilebilir_kalan": 179
+    },
+    "profil=kronik_issiz": {
+      "sette": 7.5,
+      "havuz": 8.0,
+      "fark": 0.5,
+      "uretilebilir_kalan": 99
+    },
+    "profil=emekli_yasli": {
+      "sette": 12.6,
+      "havuz": 13.4,
+      "fark": 0.8,
+      "uretilebilir_kalan": 198
+    },
+    "profil=yeni_ebeveyn": {
+      "sette": 5.9,
+      "havuz": 8.5,
+      "fark": 2.5,
+      "uretilebilir_kalan": 142
+    },
+    "profil=ev_kadini": {
+      "sette": 6.4,
+      "havuz": 8.5,
+      "fark": 2.0,
+      "uretilebilir_kalan": 138
+    },
+    "profil=diger": {
+      "sette": 0.7,
+      "havuz": 1.8,
+      "fark": 1.0,
+      "uretilebilir_kalan": 34
+    },
+    "yas_grubu=yetiskin": {
+      "sette": 57.4,
+      "havuz": 53.7,
+      "fark": -3.7,
+      "uretilebilir_kalan": 710
+    },
+    "yas_grubu=orta_yas": {
+      "sette": 8.9,
+      "havuz": 9.7,
+      "fark": 0.8,
+      "uretilebilir_kalan": 146
+    },
+    "yas_grubu=genc_yetiskin": {
+      "sette": 15.7,
+      "havuz": 16.4,
+      "fark": 0.7,
+      "uretilebilir_kalan": 231
+    },
+    "yas_grubu=ergen": {
+      "sette": 9.7,
+      "havuz": 11.4,
+      "fark": 1.8,
+      "uretilebilir_kalan": 178
+    },
+    "yas_grubu=yasli": {
+      "sette": 8.3,
+      "havuz": 8.7,
+      "fark": 0.4,
+      "uretilebilir_kalan": 128
+    },
+    "bagimlilik_turu=tutun": {
+      "sette": 29.2,
+      "havuz": 22.3,
+      "fark": -6.9,
+      "uretilebilir_kalan": 264
+    },
+    "bagimlilik_turu=alkol": {
+      "sette": 28.6,
+      "havuz": 26.8,
+      "fark": -1.8,
+      "uretilebilir_kalan": 369
+    },
+    "bagimlilik_turu=dijital": {
+      "sette": 7.1,
+      "havuz": 8.9,
+      "fark": 1.9,
+      "uretilebilir_kalan": 143
+    },
+    "bagimlilik_turu=receteli_ilac": {
+      "sette": 15.2,
+      "havuz": 18.8,
+      "fark": 3.5,
+      "uretilebilir_kalan": 297
+    },
+    "bagimlilik_turu=kumar": {
+      "sette": 19.9,
+      "havuz": 23.2,
+      "fark": 3.3,
+      "uretilebilir_kalan": 320
+    },
+    "siddet_seviyesi=orta": {
+      "sette": 68.7,
+      "havuz": 63.6,
+      "fark": -5.1,
+      "uretilebilir_kalan": 870
+    },
+    "siddet_seviyesi=hafif": {
+      "sette": 11.5,
+      "havuz": 13.8,
+      "fark": 2.3,
+      "uretilebilir_kalan": 217
+    },
+    "siddet_seviyesi=agir": {
+      "sette": 19.8,
+      "havuz": 22.5,
+      "fark": 2.7,
+      "uretilebilir_kalan": 306
+    },
+    "stres_tipi=is_stresi": {
+      "sette": 4.5,
+      "havuz": 2.4,
+      "fark": -2.0,
+      "uretilebilir_kalan": 18
+    },
+    "stres_tipi=ritüel_bagimliligi": {
+      "sette": 3.5,
+      "havuz": 1.5,
+      "fark": -2.0,
+      "uretilebilir_kalan": 5
+    },
+    "stres_tipi=akran_baskisi": {
+      "sette": 2.7,
+      "havuz": 2.2,
+      "fark": -0.5,
+      "uretilebilir_kalan": 28
+    },
+    "stres_tipi=fiziksel_yorgunluk": {
+      "sette": 2.0,
+      "havuz": 1.5,
+      "fark": -0.5,
+      "uretilebilir_kalan": 18
+    },
+    "stres_tipi=sosyal_karsilastirma": {
+      "sette": 1.2,
+      "havuz": 1.0,
+      "fark": -0.2,
+      "uretilebilir_kalan": 13
+    },
+    "stres_tipi=aile_catismasi": {
+      "sette": 3.2,
+      "havuz": 3.2,
+      "fark": -0.0,
+      "uretilebilir_kalan": 45
+    },
+    "stres_tipi=None": {
+      "sette": 2.0,
+      "havuz": 1.6,
+      "fark": -0.4,
+      "uretilebilir_kalan": 19
+    },
+    "stres_tipi=akademik_stres": {
+      "sette": 4.2,
+      "havuz": 3.4,
+      "fark": -0.8,
+      "uretilebilir_kalan": 42
+    },
+    "stres_tipi=yok": {
+      "sette": 70.2,
+      "havuz": 75.0,
+      "fark": 4.8,
+      "uretilebilir_kalan": 1093
+    },
+    "stres_tipi=yas_kayip": {
+      "sette": 0.6,
+      "havuz": 0.9,
+      "fark": 0.3,
+      "uretilebilir_kalan": 5
+    },
+    "stres_tipi=saglik_kaygisi": {
+      "sette": 2.1,
+      "havuz": 2.6,
+      "fark": 0.5,
+      "uretilebilir_kalan": 32
+    },
+    "stres_tipi=ekonomik_baski": {
+      "sette": 1.9,
+      "havuz": 0.8,
+      "fark": -1.1,
+      "uretilebilir_kalan": 3
+    },
+    "stres_tipi=yalnizlik": {
+      "sette": 1.4,
+      "havuz": 3.5,
+      "fark": 2.1,
+      "uretilebilir_kalan": 67
+    },
+    "stres_tipi=kronik_agri": {
+      "sette": 0.6,
+      "havuz": 0.4,
+      "fark": -0.2,
+      "uretilebilir_kalan": 5
+    }
+  }
+}

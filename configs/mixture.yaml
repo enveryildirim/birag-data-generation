@@ -1,0 +1,9 @@
+# Veri karışım oranları — kaynak: plan.md §6 (karar kaydı, tek gerçek kaynak).
+# build.py bu dosyayı okuyacak (Faz 4). Sayılar burada henüz TEKRARLANMADI —
+# plan.md §6 ile çift kayıt / drift riskini önlemek için Faz 2'de build.py
+# yazılırken buraya taşınacak ve o andan sonra tek kaynak burası olacak.
+
+version: v1
+kaynak: plan.md §6
+hacim_stratejisi: K34   # v0.0.1: 20 · v0.1.0: ~800-1200 · v0.2.0+: eğri karar verir
+dilimler: null          # TODO — Faz 2'de plan.md §6 tablosundan doldurulur

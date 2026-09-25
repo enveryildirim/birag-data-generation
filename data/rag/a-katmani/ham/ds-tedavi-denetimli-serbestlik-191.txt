@@ -1,0 +1,37 @@
+# kaynak_url: https://cte.adalet.gov.tr/Home/SSSorularDetay/3
+# kurum: T.C. Adalet Bakanlığı — Ceza ve Tevkifevleri Genel Müdürlüğü, Denetimli Serbestlik Daire Başkanlığı
+# alinma_tarihi: 2026-09-15
+# gecerlilik_tarihi: 2026-09-15
+# lisans: kamu-kurumu-kamuya-acik
+# yontem: tarayıcı javascript textContent (açılır panel içeriği), birebir — ALINTI
+#         (34 sorunun TCK 191/3 ile ilgili olanları: 15, 16, 17, 18, 25, 26, 32)
+# NOT: bu metin YORDAM anlatır, hukuki tavsiye DEĞİL (§17.3 sınırı).
+#      Modelin rolü aktarmaktır, yorumlamak değil.
+---
+Haklarında tedavi ve denetimli serbestlik kararı verilen kişiler ile ilgili olarak hangi işlemler yapılmaktadır?
+
+Hakkında tedavi ve denetimli serbestlik kararı verilen kişi denetimli serbestlik müdürlüğüne başvurduğunda ilgili sağlık kurumuna beş gün içerisinde müracaat etmek üzere sevk edilir. Sağlık kurumunca yapılan tedavi programına uyulması halinde tedavi bitiminde denetimli serbestlik müdürlüğünce Cumhuriyet savcılığı tarafından belirlenen denetim süresi içerisinde rehberlik ve iyileştirme çalışmaları gerçekleştirilir. Yükümlünün tedavi programına uymaması ve/veya uyuşturucu madde kullanmaya devam etmesi halinde ise hakkında kamu davası açılmak üzere dosyası kapatılarak Cumhuriyet başsavcılığına gönderilir.
+
+Haklarında tedavi ve denetimli serbestlik kararı verilen kişilerin tedavisi nasıl yapılmaktadır?
+
+Uyuşturucu veya uyarıcı madde kullananlar ve bulunduranlar hakkında mahkemelerce veya Cumhuriyet savcılıkları tarafından tedavi ve denetimli serbestlik kararı verilmektedir. Bu kişilerin tedavileri, Sağlık Bakanlığının 25 Mart 2015 tarih ve 2015/11 sayılı Genelgesi kapsamında Sağlık Bakanlığına bağlı Alkol ve Madde Tedavi Merkezlerinde (AMATEM'lerde) ve diğer yetkili sağlık kuruluşlarında yapılmaktadır.
+
+Haklarında denetimli serbestlik kararı verilen kişiler yurt dışına çıkabilir mi?
+
+Kişi hakkında başka bir suçtan dolayı mahkeme veya hâkim tarafından yurt dışına çıkamama adli kontrol tedbiri verilmediyse ve denetimli serbestlik kararı kapsamında belirlenen yükümlülüklerini aksatmaması koşuluyla kişinin yurt dışına çıkmasına engel bir durum bulunmamaktadır.
+
+Denetimli serbestlik kararlarının yerine getirilmesinde denetim ve takip işlemleri nasıl yapılmaktadır?
+
+Denetimli serbestlik altında bulunan yükümlülerin toplum içinde izlenmesi, denetimi ve takibi, denetim bürosunda görevli denetimli serbestlik memurları tarafından yerine getirilir. Denetim ve takipte kollukla işbirliği de yapılır. Yükümlü hakkında belirlenen tedbirin türüne, denetimin yoğunluğuna, suçun özelliğine ve yükümlünün durumuna göre, geceleri ve hafta sonlarını da kapsayacak şekilde denetim yapılır. Yükümlülerin denetim ve takibinde elektronik cihazlar kullanılabilir.
+
+Denetimli serbestlik kararlarının infazı sırasında kişinin yükümlülüklerini yerine getirmesine engel bir mazereti (hastalık, doğal afet, kaza vb) olması halinde ne yapmalıdır?
+
+Söz konusu mazeret derhal denetimli serbestlik müdürlüğünde ilgili vaka sorumlusuna bildirilmelidir.
+
+Denetimli serbestlikte yükümlülüklere ve kurallara uyulmadığında ne olur?
+
+Adli merciler tarafından verilen denetimli serbestlik kararlarının gereklerinin yerine getirilmemesi, yükümlüye tebliğ edilen kural ve yükümlülüklere uyulmaması halinde kararın türüne göre yükümlü hakkındaki tedbirin kaldırılmasına ya da cezasının kısmen veya tamamen ceza infaz kurumunda çektirilmesine karar verilebilir.
+
+Denetimli serbestlik müdürlüğü tarafından yapılan işlem ve eylemlere karşı itiraz ve şikâyet usulü nasıldır?
+
+Yükümlüler ile kanuni temsilcileri, infaz hizmetlerinin yürütülmesi sırasında müdürlükçe hazırlanan denetim planları ve raporları ile müdürlükçe yapılan uyarılar gibi işlem ve eylemlerin kanun, tüzük ve yönetmelik hükümlerine aykırı olduğu gerekçesiyle müdürlüğe itirazda ya da infaz hâkimliğine şikâyette bulunabilirler. Yükümlü, hakkındaki işlem ve eylemleri öğrendiği tarihten itibaren on beş gün, her halde işlem ve eylemlerin yapıldığı tarihten itibaren otuz gün içinde şikâyet yoluyla infaz hâkimliğine başvurabilir.

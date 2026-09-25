@@ -1,0 +1,109 @@
+{
+  "tarih": "2026-09-17",
+  "girdi": "data/candidates/v4-parti2.v2.jsonl",
+  "girdi_sha256_16": "2867eb01834e3e41",
+  "kayit": 60,
+  "isaretli_kayit": 3,
+  "bulgu": [
+    {
+      "parti_sira": 11,
+      "tip": "zaman",
+      "oge": "dün gece"
+    },
+    {
+      "parti_sira": 20,
+      "tip": "kaynak_atfi",
+      "oge": "arkadaşının"
+    },
+    {
+      "parti_sira": 20,
+      "tip": "kaynak_atfi",
+      "oge": "Arkadaşın"
+    },
+    {
+      "parti_sira": 34,
+      "tip": "zaman",
+      "oge": "aynı akşam"
+    }
+  ],
+  "muafiyet_ozeti": {
+    "rol_adlandirma_bitisik": 4,
+    "rol_adlandirma_baglacli": 1,
+    "sure_birim_eslesme": 1,
+    "anaforik_demir": 3
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "d5769c9c10c3ce1aca3fe5a8",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 8,
+      "id": "fb634d744db01ab6856764e3",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 9,
+      "id": "099f66bc20561343d08385db",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "rol_adlandirma_baglacli",
+      "tip": "muafiyet",
+      "parti_sira": 10,
+      "id": "4583458d68eb4ac8bdc47ecd",
+      "oge": "hekimin",
+      "baglam": "hekimin  ya da ruh sağlığı alanında çalışan bir uzmanın işi; bende o karar yok.\n\nAma sen iki şeyi "
+    },
+    {
+      "muafiyet": "rol_adlandirma_bitisik",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "17908b5136dfcd99cda91e58",
+      "oge": "hekimin",
+      "baglam": "hekimin işi"
+    },
+    {
+      "muafiyet": "sure_birim_eslesme",
+      "tip": "muafiyet",
+      "parti_sira": 27,
+      "id": "30e65d55e8860b2ffda3feb8",
+      "oge": "altı ay önce",
+      "baglam": "alti ay"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 33,
+      "id": "d5624c918b37e416bb34e2ee",
+      "oge": "o hafta",
+      "baglam": "hafta"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 41,
+      "id": "34ee4b88cad58794d476e208",
+      "oge": "aynı gün",
+      "baglam": "gün"
+    },
+    {
+      "muafiyet": "anaforik_demir",
+      "tip": "muafiyet",
+      "parti_sira": 56,
+      "id": "d708ce9c559209e918e073ba",
+      "oge": "aynı gece",
+      "baglam": "gece"
+    }
+  ]
+}

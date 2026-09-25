@@ -1,0 +1,105 @@
+{
+  "tarih": "2026-09-17",
+  "betik": "scripts/analiz/2026-09-17-alinti-birebirlik-kapisi.py",
+  "girdi": "/Users/pc/projects/birag/data-finetuning/data/candidates/v5-parti5.jsonl",
+  "girdi_sha256_16": "8c5bf9a18982624a",
+  "kayit": 60,
+  "karsi_olgusal_muaf": 10,
+  "isaretli_kayit": 0,
+  "bulgu": [],
+  "muafiyet_ozeti": {
+    "karsi_olgusal": 9,
+    "anma_oneri": 1,
+    "kisa_alinti": 1
+  },
+  "muafiyet": [
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 7,
+      "id": "c977b4d0eaade6bcd3e2f049",
+      "oge": "Bu kötü bir şey mi",
+      "baglam": "  diye sormadın ama soruların arasında o da duruyor gibi"
+    },
+    {
+      "muafiyet": "anma_oneri",
+      "tip": "muafiyet",
+      "parti_sira": 4,
+      "id": "c26ae5ee942ce96bbb8d8604",
+      "oge": "bir şeyim yok",
+      "baglam": "u sordun: \"nereye sorabilirim\". Bunu sormak, \"bir şeyim yok\" demekten farklı bir yerden g"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 5,
+      "id": "27405e150217c45ab3efb248",
+      "oge": "endişelenme",
+      "baglam": "Söylemediğim şey   değil; bilmediğimi söylüyorum, küçültmüyorum"
+    },
+    {
+      "muafiyet": "kisa_alinti",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "az",
+      "baglam": "ın ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne \"sak"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "çok",
+      "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne  , ne \"sakıncalı\""
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 19,
+      "id": "76587c40481b09ef772ed5a0",
+      "oge": "sakıncalı",
+      "baglam": "İlacın ne kadarının ne zaman alınacağına dair hiçbir şey söylemeyeceğim — ne \"az\", ne \"çok\", ne  "
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 36,
+      "id": "dc56a65b114c59f1482069bc",
+      "oge": "Bir şey değil",
+      "baglam": "  dememi istiyorsun ve onu demeyeceğim — çünkü bilmiyorum, ve bildiğimi varsayıp söylersem yanlış bir şeyi senin adına onaylamış olurum"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 12,
+      "id": "a9834c5f21fc581ad823e623",
+      "oge": "evet",
+      "baglam": "Buna   demeyeceğim"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 16,
+      "id": "4d4b316e814f3b6429aa065a",
+      "oge": "onun gibi değilim",
+      "baglam": "Babanla nasıl konuştuğunuzu bilmiyorum, o yüzden   diye bir iddiada da bulunmayacağım — bunu ancak sen görürsün"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 42,
+      "id": "56ed69532200b264f7745f7f",
+      "oge": "Yalan da değil, doğru da değil",
+      "baglam": "  diye bir şey yazmadın ama söylediğin tam olarak o: annene söylediğin cümle ile kendine söylediğin cümle aynı değil ve ikisini de sen biliyorsun"
+    },
+    {
+      "muafiyet": "karsi_olgusal",
+      "tip": "muafiyet",
+      "parti_sira": 50,
+      "id": "254a18a47fb206caa8a0cfbe",
+      "oge": "zarar verir",
+      "baglam": "Biranın derslere ne yaptığına dair bir şey söylemeyeceğim — ne   ne \"vermez\""
+    }
+  ]
+}

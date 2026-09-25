@@ -1,0 +1,14 @@
+{
+ "etiket": "fs3-doz10-E-genis",
+ "set": "evals/forgetting_smoke.jsonl",
+ "adapter": "/Users/pc/projects/birag/data-finetuning/runs/20260915-163205-f4c-doz10-E-genis/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 30,
+ "uretim_sn": 53,
+ "otomatik_gecen": 27,
+ "bos_cevap": 0,
+ "judge_bekleyen_oge": 0,
+ "tarih": "2026-09-15T17:11:04"
+}

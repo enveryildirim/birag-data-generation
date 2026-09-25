@@ -1,0 +1,235 @@
+{
+  "tarih": "2026-09-16",
+  "girdi": "data/candidates/v5-parti4.jsonl",
+  "girdi_sha256_16": "8f10f3414c02b5ef",
+  "kayit": 60,
+  "taranan_alinti": 90,
+  "bulunamayan": [
+    {
+      "parti_sira": 7,
+      "id": "405d3a57d139f35e",
+      "alinti": "Bu çok bağımlı gibi görünüyor, değil mi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 9,
+      "id": "709ba03d1af72c78",
+      "alinti": "dün yazdım",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "34ab7d4b39de933f",
+      "alinti": "bravo",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 11,
+      "id": "34ab7d4b39de933f",
+      "alinti": "Nasıl başardın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 27,
+      "id": "746ff883c4c331e2",
+      "alinti": "neden eğlenmiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 31,
+      "id": "8badc59f08235002",
+      "alinti": "Bravo",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 46,
+      "id": "239dfc645ff8487e",
+      "alinti": "Suçluluk",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 46,
+      "id": "239dfc645ff8487e",
+      "alinti": "utanç",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 48,
+      "id": "0d01b611365d78e3",
+      "alinti": "onunki daha fazlaydı",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a93",
+      "alinti": "ilgisiz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 59,
+      "id": "8d1f4fb213592a93",
+      "alinti": "Demek ki bırakmamışsın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 60,
+      "id": "760ddfff3f5d386a",
+      "alinti": "Bir kerelik bir de...",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "249eb88592bff64a",
+      "alinti": "Neden anlatmadın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 5,
+      "id": "249eb88592bff64a",
+      "alinti": "ne alıkoyuyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "299c4f459a45860e",
+      "alinti": "önemsiz",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 17,
+      "id": "299c4f459a45860e",
+      "alinti": "ciddi",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 36,
+      "id": "5e9b27b671c8b2fe",
+      "alinti": "belki kazanıyordur",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 41,
+      "id": "9fbcbad1bd01549c",
+      "alinti": "Eskiden bu kadar olmuyordu",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 49,
+      "id": "715dd5c97a96f5fb",
+      "alinti": "Bağımlısın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 53,
+      "id": "370e69f38f4a161c",
+      "alinti": "hekimine söyle",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 57,
+      "id": "026af316f169e648",
+      "alinti": "kimseye",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 8,
+      "id": "43686a05e5a9e20b",
+      "alinti": "görece büyük dilim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "6ad0be4adb8f8ed6",
+      "alinti": "koşullanma",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "6ad0be4adb8f8ed6",
+      "alinti": "tetikleyici",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 15,
+      "id": "6ad0be4adb8f8ed6",
+      "alinti": "İlk kez dışarıdan görmek",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 21,
+      "id": "ed2269fd9c8bb491",
+      "alinti": "Onlar seni anlamıyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 29,
+      "id": "4efd7bdbabf742ba",
+      "alinti": "Hazır olacaksın",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 34,
+      "id": "d5101e9cd66893a2",
+      "alinti": "belki",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 35,
+      "id": "374eeaf12d7d0ec0",
+      "alinti": "iyi ki içmedin",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 35,
+      "id": "374eeaf12d7d0ec0",
+      "alinti": "bilmiyorum",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 40,
+      "id": "ea2827b21de3fb42",
+      "alinti": "herkes yapıyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 44,
+      "id": "b2e737d4b528f771",
+      "alinti": "Tek başıma yapamayacak kadar mı kötüleştim",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 45,
+      "id": "1faa4addd15f4375",
+      "alinti": "Arkadaşın seni etkiliyor",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 50,
+      "id": "88261697d98930cf",
+      "alinti": "muhtemelen yargılamıyordu",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 50,
+      "id": "88261697d98930cf",
+      "alinti": "yargılıyordu",
+      "sinif": "siniflanmadi"
+    },
+    {
+      "parti_sira": 56,
+      "id": "21cd3fd8ede590cc",
+      "alinti": "Yine yaparsın",
+      "sinif": "siniflanmadi"
+    }
+  ],
+  "sinif_dagilimi": {
+    "karsiolgusal": 0,
+    "parafraz": 0,
+    "hayalet": 0,
+    "siniflanmadi": 36
+  },
+  "elle_okunan_korpus": [
+    "v4-parti2.v2",
+    "v5-parti3"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti5.jsonl",
+  "kayit": 60,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "bir şey var",
+      "kayit": 7
+    },
+    {
+      "dizi": "ve ikisi de",
+      "kayit": 5
+    },
+    {
+      "dizi": "bir şey değil",
+      "kayit": 4
+    },
+    {
+      "dizi": "bir şeyi de",
+      "kayit": 3
+    },
+    {
+      "dizi": "ikisini de sen",
+      "kayit": 3
+    },
+    {
+      "dizi": "gereken bir şey",
+      "kayit": 3
+    },
+    {
+      "dizi": "de sen yazdin",
+      "kayit": 3
+    },
+    {
+      "dizi": "olan ben değilim",
+      "kayit": 3
+    },
+    {
+      "dizi": "var ve onu",
+      "kayit": 3
+    },
+    {
+      "dizi": "olup olmadiğini sana ben söyleyemem",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve bakabilecek olan ben değilim",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey var ve onu",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir yerde de katilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey var mi",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve ikisini de sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmesi gereken bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "var ve onu sen",
+      "kayit": 2
+    },
+    {
+      "dizi": "açarim sen söyle",
+      "kayit": 2
+    },
+    {
+      "dizi": "dair bir hüküm",
+      "kayit": 2
+    },
+    {
+      "dizi": "di mi diye",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve sen onlari",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisi ayni anda",
+      "kayit": 2
+    },
+    {
+      "dizi": "senin yerine kuramam",
+      "kayit": 2
+    },
+    {
+      "dizi": "yan yana duruyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen onu bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "hanginizin hakli olduğunu",
+      "kayit": 2
+    },
+    {
+      "dizi": "ilgisi olmayan bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "sorusunun cevabi da",
+      "kayit": 2
+    },
+    {
+      "dizi": "elinde ne var",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmiyorum bilseydim de",
+      "kayit": 2
+    },
+    {
+      "dizi": "değil bir sira",
+      "kayit": 2
+    },
+    {
+      "dizi": "bu sabah hâlâ",
+      "kayit": 2
+    },
+    {
+      "dizi": "ama sen onu",
+      "kayit": 2
+    },
+    {
+      "dizi": "ikisi de ayni",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir ad koymayacağim",
+      "kayit": 2
+    },
+    {
+      "dizi": "beklemeyen bir yer",
+      "kayit": 2
+    },
+    {
+      "dizi": "kişi bir hekim",
+      "kayit": 2
+    },
+    {
+      "dizi": "şu an masada",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yaptiğini bilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "şey tam olarak",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmiyorum ve bunu",
+      "kayit": 2
+    },
+    {
+      "dizi": "başka bir şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "gösteriyor ve o",
+      "kayit": 2
+    },
+    {
+      "dizi": "bildiğin bir şey",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "bir şey var": [
+      "%0.0",
+      "%1.7",
+      "%3.9",
+      "%3.9",
+      "%3.9",
+      "%3.7",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%3.3",
+      "%11.7"
+    ],
+    "ve ikisi de": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.4",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%1.1",
+      "%8.3"
+    ],
+    "bir şey değil": [
+      "%0.0",
+      "%4.3",
+      "%3.2",
+      "%3.2",
+      "%3.2",
+      "%2.3",
+      "%2.9",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%6.7"
+    ],
+    "bir şeyi de": [
+      "%0.0",
+      "%0.0",
+      "%0.6",
+      "%0.6",
+      "%0.6",
+      "%0.5",
+      "%0.7",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%1.2",
+      "%6.7"
+    ],
+    "ikisini de sen": [
+      "%0.0",
+      "%0.9",
+      "%0.6",
+      "%0.6",
+      "%0.6",
+      "%0.5",
+      "%0.4",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%2.5",
+      "%5.0"
+    ]
+  }
+}

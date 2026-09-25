@@ -1,0 +1,296 @@
+{
+ "surum": "celiskili-pasaj-bankasi.v2",
+ "tarih": "2026-09-22",
+ "sinif": "celiskili",
+ "kural": "prompts/uretim-v5.md §7a″",
+ "gerekce": "v0.0.21'de celiskili payı %5,1; kota ~%10. 13 kayıt daha gerekiyor ve birinci bankanın 12 çifti tükendi.",
+ "not": "Çelişkinin tarafı SEÇİLMEZ: hiçbir pasaj doğru işaretlenmez. Doğru davranış çelişkiyi adlandırmak, birini seçmemek, birleştirmemek.",
+ "ciftler": [
+  {
+   "no": 13,
+   "konu": "görüşme yeri",
+   "celiski_alani": "yer",
+   "context": [
+    {
+     "kaynak": "birim tanıtım metni",
+     "metin": "Görüşmeler birimin kendi binasında yapılmaktadır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "hizmet akış metni",
+     "metin": "Görüşmeler bağlı bulunulan semt biriminde yürütülür.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "kendi binasında",
+    "semt biriminde"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 14,
+   "konu": "program uzunluğu",
+   "celiski_alani": "program",
+   "context": [
+    {
+     "kaynak": "program bilgi metni",
+     "metin": "Program toplam sekiz hafta sürmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "izlem düzeni metni",
+     "metin": "Program on iki hafta olarak uygulanır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "sekiz hafta",
+    "on iki hafta"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 15,
+   "konu": "devamsızlık sınırı",
+   "celiski_alani": "devamsizlik",
+   "context": [
+    {
+     "kaynak": "katılım koşulları metni",
+     "metin": "İki görüşmeye katılmayanların kaydı kapatılır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "işleyiş özeti metni",
+     "metin": "Devamsızlık sınırı dört görüşme olarak uygulanmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "iki görüşme",
+    "dört görüşme"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 16,
+   "konu": "kayıtların saklanması",
+   "celiski_alani": "saklama",
+   "context": [
+    {
+     "kaynak": "bilgi işlem bilgi metni",
+     "metin": "Görüşme kayıtları bir yıl süreyle saklanır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "belge düzeni metni",
+     "metin": "Görüşme kayıtları beş yıl boyunca saklanmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "bir yıl",
+    "beş yıl"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 17,
+   "konu": "grup mevcudu",
+   "celiski_alani": "mevcut",
+   "context": [
+    {
+     "kaynak": "grup çalışması bilgi metni",
+     "metin": "Gruplar en çok sekiz kişiden oluşmaktadır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "etkinlik düzeni metni",
+     "metin": "Grupların mevcudu on beş kişidir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "en çok sekiz kişi",
+    "on beş kişi"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 18,
+   "konu": "kapanış saati",
+   "celiski_alani": "kapanis",
+   "context": [
+    {
+     "kaynak": "birim çalışma düzeni metni",
+     "metin": "Birim saat on yediye kadar açıktır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "duyuru panosu metni",
+     "metin": "Birim akşam saat yirmiye kadar hizmet vermektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "on yediye kadar",
+    "yirmiye kadar"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 19,
+   "konu": "görüşmenin yapılış biçimi",
+   "celiski_alani": "gorusme_bicimi",
+   "context": [
+    {
+     "kaynak": "hizmet kapsamı metni",
+     "metin": "Görüşmeler yalnızca yüz yüze yapılmaktadır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "erişim bilgi metni",
+     "metin": "Görüşmeler telefon üzerinden de yürütülebilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yalnızca yüz yüze",
+    "telefon üzerinden de"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 20,
+   "konu": "sevk koşulu",
+   "celiski_alani": "sevk",
+   "context": [
+    {
+     "kaynak": "başvuru yönerge metni",
+     "metin": "Başvuru için hekim sevki gerekmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "başvuru bilgi notu",
+     "metin": "Başvurular sevk olmaksızın doğrudan alınmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "sevk gerekir",
+    "sevksiz doğrudan"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 21,
+   "konu": "üst yaş sınırı",
+   "celiski_alani": "ust_yas",
+   "context": [
+    {
+     "kaynak": "hizmet kapsamı özeti",
+     "metin": "Hizmet için üst yaş sınırı bulunmamaktadır.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "kapsam bilgi metni",
+     "metin": "Hizmet altmış beş yaşına kadar verilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "üst sınır yok",
+    "altmış beşe kadar"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 22,
+   "konu": "ikamet koşulu",
+   "celiski_alani": "ikamet",
+   "context": [
+    {
+     "kaynak": "başvuru koşulları özeti",
+     "metin": "Hizmetten ilçede ikamet edenler yararlanabilmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "sık sorulanlar notu",
+     "metin": "Hizmet için ikamet şartı aranmamaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "ilçede ikamet şartı",
+    "şart aranmaz"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 23,
+   "konu": "iptal bildirimi",
+   "celiski_alani": "iptal",
+   "context": [
+    {
+     "kaynak": "randevu düzeni metni",
+     "metin": "Görüşme iptalinin en az yirmi dört saat önce bildirilmesi gerekir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "işleyiş bilgi notu",
+     "metin": "İptal bildirimi için kırk sekiz saat önceden haber verilmelidir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yirmi dört saat",
+    "kırk sekiz saat"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 24,
+   "konu": "görüşme dili",
+   "celiski_alani": "dil",
+   "context": [
+    {
+     "kaynak": "hizmet bilgi özeti",
+     "metin": "Görüşmeler yalnızca Türkçe yürütülmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "erişim düzeni metni",
+     "metin": "Görüşmeler talep hâlinde başka dillerde de yapılabilmektedir.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yalnızca türkçe",
+    "başka dillerde de"
+   ],
+   "dogru_taraf": null
+  },
+  {
+   "no": 25,
+   "konu": "sonuç bildirimi",
+   "celiski_alani": "bildirim",
+   "context": [
+    {
+     "kaynak": "işleyiş özeti notu",
+     "metin": "Görüşme sonucu yazılı olarak bildirilmektedir.",
+     "sentetik": true
+    },
+    {
+     "kaynak": "birim bilgi metni",
+     "metin": "Sonuç bildirimi sözlü olarak yapılmaktadır.",
+     "sentetik": true
+    }
+   ],
+   "degerler": [
+    "yazılı olarak",
+    "sözlü olarak"
+   ],
+   "dogru_taraf": null
+  }
+ ]
+}

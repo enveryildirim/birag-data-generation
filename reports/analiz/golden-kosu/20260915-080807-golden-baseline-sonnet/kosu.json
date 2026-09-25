@@ -1,0 +1,14 @@
+{
+ "etiket": "golden-baseline-sonnet",
+ "set": "evals/golden.dev.jsonl",
+ "adapter": null,
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 48,
+ "uretim_sn": 584,
+ "judge_sn": 0,
+ "tarih": "2026-09-15T08:08:07",
+ "judge_rubrik": "judge-eksen1.v6",
+ "judge_model": "claude-sonnet-subagent"
+}

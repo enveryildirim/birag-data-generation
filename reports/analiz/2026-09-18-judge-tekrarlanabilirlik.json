@@ -1,0 +1,48 @@
+{
+  "tarih": "2026-09-18",
+  "sonda": {
+    "kayit": 12,
+    "degisen": 6,
+    "ornek": [
+      [
+        "65270a0059",
+        "duygusal_tepki 2→1 · yorumlama 2→1"
+      ],
+      [
+        "50f5ebb517",
+        "yorumlama 2→1"
+      ],
+      [
+        "3a992f1291",
+        "yorumlama 2→1 · kesif 2→1"
+      ],
+      [
+        "d4fb7f82a9",
+        "yorumlama 2→1"
+      ],
+      [
+        "ab063ce6da",
+        "duygusal_tepki 1→2"
+      ],
+      [
+        "59bfb2dfcc",
+        "yorumlama 2→1"
+      ]
+    ]
+  },
+  "yon": {
+    "yükseldi": 13,
+    "düştü": 25
+  },
+  "boyut": {
+    "yorumlama|yükseldi": 2,
+    "duygusal_tepki|yükseldi": 8,
+    "yorumlama|düştü": 11,
+    "duygusal_tepki|düştü": 5,
+    "kesif|düştü": 7,
+    "cevapsiz_soru|düştü": 1,
+    "mi_uyumu|yükseldi": 2,
+    "kesif|yükseldi": 1,
+    "mi_uyumu|düştü": 1
+  }
+}

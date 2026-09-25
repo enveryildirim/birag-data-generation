@@ -1,0 +1,57 @@
+# Faz 5 · VERİ İKİYE KATLANDI — ÖLÇÜT KOŞUDAN ÖNCE İLAN EDİLDİ (K31 deseni)
+#
+# ⭐ **NEDEN.** Son ince ayar kolu (`z-h9-k8qo-v014`) **571 kayıtla** koştu.
+# Korpus o günden bu yana **1033**'e çıktı (370 kayıt yargılandı, uydurma
+# kapısı 56 kayıt eledi). Veri neredeyse iki katı ve hiç eğitilmedi.
+#
+# ⭐⭐ **DEĞİŞEN TEK ŞEY VERİ.** Kapsam `z-h9` ile birebir: 8 katman,
+# q+o (16 modül), rank 8, scale 20, LR 1e-5, mask_prompt, batch 1,
+# max_seq 2048. Tohumlar da aynı üçlü (7/13/23) ⇒ kollar yan yana konabilir.
+#
+# ⛔⛔ **KOŞUDAN ÖNCE İLAN EDİLEN ÖLÇÜT.** Karşılaştırma kolu
+# `z-h9-k8qo-v014-t{7,13,23}`, ölçüm golden `dev` üzerinde dereceli puan:
+#   · fark **> +2,4**  ⇒ veriyi büyütmek işe yaradı (T186'nın ölçülmüş gürültü
+#     eşiği); bu, korpus büyütmenin kendi başına kazanç verdiğinin ilk kanıtı
+#   · fark **< −2,4**  ⇒ büyütmek BOZDU; uydurma kapısından sonra bile veri
+#     kalitesi seyrelmiş demektir
+#   · **|fark| ≤ 2,4** ⇒ OKUNAMAZ. ⭐ Bu da bir sonuçtur: iki katı veri ölçülebilir
+#     bir kazanç vermiyorsa, sıradaki iş veri ÜRETMEK değil veri KALİTESİ.
+# ⛔ Eşik keyfi değil: T186 gürültü tabanını 2,4 ölçtü. Üç tohumun ortalaması
+#   alınır — K213: tek koşu bir çekiliştir.
+#
+# ⛔⛔ **KARIŞTIRICI, KOŞUDAN ÖNCE YAZILI.** Epoch sabit tutuldu (3) ⇒ toplam
+# gradyan adımı 1368 → 2478'e çıkıyor. Adımı sabit tutmak da epoch'u
+# karıştırırdı; ikisi birden sabitlenemez. ⇒ Bu kol *«iki katı veri, üç
+# epoch»*u ölçer, *«iki katı veri, aynı adım»*ı DEĞİL.
+#
+# ⚠️ v0.0.18, v0.0.14'ün üst kümesi DEĞİL: uydurma kapısı (`grounding`=2)
+# eski kayıtlardan da 7 tanesini eledi. Fark yalnız «daha çok veri» değil,
+# «daha çok + biraz farklı süzülmüş veri».
+ad: d1-veri2x-k8qo-v018-t13
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.18/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7                    # bölme tohumu SABİT — kollar aynı bölmeyi görsün
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 8              # z-h9 ile AYNI
+  batch_size: 1
+  iters: 2478                # 826 eğitim × 3 epoch
+  learning_rate: 1.0e-5      # z-h9 ile AYNI
+  steps_per_report: 50
+  steps_per_eval: 413        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 826            # epoch başına bir kontrol noktası
+  seed: 13
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.o_proj"]

@@ -1,0 +1,2543 @@
+{
+ "tarih": "2026-09-21",
+ "havuz": 2240,
+ "uretilmis": 985,
+ "asgari": 20,
+ "hucre_sayisi": 362,
+ "acik": {
+  "senaryo=belirsiz&risk_seviyesi=orta": {
+   "sette": 12.39,
+   "havuz": 12.23,
+   "fark": -0.15,
+   "havuz_tohum": 274,
+   "set_tohum": 122
+  },
+  "senaryo=belirsiz&risk_seviyesi=dusuk": {
+   "sette": 2.94,
+   "havuz": 2.99,
+   "fark": 0.05,
+   "havuz_tohum": 67,
+   "set_tohum": 29
+  },
+  "senaryo=ambivalans&risk_seviyesi=dusuk": {
+   "sette": 2.74,
+   "havuz": 1.88,
+   "fark": -0.87,
+   "havuz_tohum": 42,
+   "set_tohum": 27
+  },
+  "senaryo=ambivalans&risk_seviyesi=orta": {
+   "sette": 26.6,
+   "havuz": 26.07,
+   "fark": -0.53,
+   "havuz_tohum": 584,
+   "set_tohum": 262
+  },
+  "senaryo=inkar&risk_seviyesi=orta": {
+   "sette": 0.91,
+   "havuz": 0.89,
+   "fark": -0.02,
+   "havuz_tohum": 20,
+   "set_tohum": 9
+  },
+  "senaryo=nazikce_karsi_cikma&risk_seviyesi=yuksek": {
+   "sette": 5.79,
+   "havuz": 4.87,
+   "fark": -0.92,
+   "havuz_tohum": 109,
+   "set_tohum": 57
+  },
+  "senaryo=ambivalans&risk_seviyesi=yuksek": {
+   "sette": 9.34,
+   "havuz": 9.33,
+   "fark": -0.01,
+   "havuz_tohum": 209,
+   "set_tohum": 92
+  },
+  "senaryo=rol_siniri&risk_seviyesi=yuksek": {
+   "sette": 13.2,
+   "havuz": 13.93,
+   "fark": 0.73,
+   "havuz_tohum": 312,
+   "set_tohum": 130
+  },
+  "senaryo=belirsiz&risk_seviyesi=yuksek": {
+   "sette": 9.85,
+   "havuz": 8.48,
+   "fark": -1.37,
+   "havuz_tohum": 190,
+   "set_tohum": 97
+  },
+  "senaryo=kriz&risk_seviyesi=yuksek": {
+   "sette": 1.22,
+   "havuz": 1.34,
+   "fark": 0.12,
+   "havuz_tohum": 30,
+   "set_tohum": 12
+  },
+  "senaryo=rol_siniri&risk_seviyesi=orta": {
+   "sette": 5.69,
+   "havuz": 7.19,
+   "fark": 1.5,
+   "havuz_tohum": 161,
+   "set_tohum": 56
+  },
+  "senaryo=nazikce_karsi_cikma&risk_seviyesi=orta": {
+   "sette": 8.02,
+   "havuz": 8.53,
+   "fark": 0.51,
+   "havuz_tohum": 191,
+   "set_tohum": 79
+  },
+  "senaryo=belirsiz&motivasyon_evresi=dusunme": {
+   "sette": 22.44,
+   "havuz": 20.04,
+   "fark": -2.39,
+   "havuz_tohum": 449,
+   "set_tohum": 221
+  },
+  "senaryo=belirsiz&motivasyon_evresi=on_dusunme": {
+   "sette": 1.32,
+   "havuz": 1.88,
+   "fark": 0.56,
+   "havuz_tohum": 42,
+   "set_tohum": 13
+  },
+  "senaryo=ambivalans&motivasyon_evresi=dusunme": {
+   "sette": 26.19,
+   "havuz": 24.87,
+   "fark": -1.33,
+   "havuz_tohum": 557,
+   "set_tohum": 258
+  },
+  "senaryo=ambivalans&motivasyon_evresi=eylem": {
+   "sette": 1.93,
+   "havuz": 2.14,
+   "fark": 0.21,
+   "havuz_tohum": 48,
+   "set_tohum": 19
+  },
+  "senaryo=nazikce_karsi_cikma&motivasyon_evresi=hazirlik": {
+   "sette": 2.54,
+   "havuz": 2.54,
+   "fark": 0.01,
+   "havuz_tohum": 57,
+   "set_tohum": 25
+  },
+  "senaryo=ambivalans&motivasyon_evresi=hazirlik": {
+   "sette": 2.74,
+   "havuz": 4.02,
+   "fark": 1.28,
+   "havuz_tohum": 90,
+   "set_tohum": 27
+  },
+  "senaryo=rol_siniri&motivasyon_evresi=hazirlik": {
+   "sette": 3.76,
+   "havuz": 3.71,
+   "fark": -0.05,
+   "havuz_tohum": 83,
+   "set_tohum": 37
+  },
+  "senaryo=kriz&motivasyon_evresi=dusunme": {
+   "sette": 1.12,
+   "havuz": 1.21,
+   "fark": 0.09,
+   "havuz_tohum": 27,
+   "set_tohum": 11
+  },
+  "senaryo=ambivalans&motivasyon_evresi=on_dusunme": {
+   "sette": 7.82,
+   "havuz": 6.25,
+   "fark": -1.57,
+   "havuz_tohum": 140,
+   "set_tohum": 77
+  },
+  "senaryo=rol_siniri&motivasyon_evresi=on_dusunme": {
+   "sette": 2.34,
+   "havuz": 2.68,
+   "fark": 0.34,
+   "havuz_tohum": 60,
+   "set_tohum": 23
+  },
+  "senaryo=nazikce_karsi_cikma&motivasyon_evresi=on_dusunme": {
+   "sette": 5.79,
+   "havuz": 4.96,
+   "fark": -0.83,
+   "havuz_tohum": 111,
+   "set_tohum": 57
+  },
+  "senaryo=nazikce_karsi_cikma&motivasyon_evresi=dusunme": {
+   "sette": 5.69,
+   "havuz": 6.29,
+   "fark": 0.61,
+   "havuz_tohum": 141,
+   "set_tohum": 56
+  },
+  "senaryo=rol_siniri&motivasyon_evresi=dusunme": {
+   "sette": 12.28,
+   "havuz": 14.06,
+   "fark": 1.78,
+   "havuz_tohum": 315,
+   "set_tohum": 121
+  },
+  "senaryo=rol_siniri&motivasyon_evresi=eylem": {
+   "sette": 0.71,
+   "havuz": 0.94,
+   "fark": 0.23,
+   "havuz_tohum": 21,
+   "set_tohum": 7
+  },
+  "senaryo=belirsiz&motivasyon_evresi=hazirlik": {
+   "sette": 1.42,
+   "havuz": 1.79,
+   "fark": 0.36,
+   "havuz_tohum": 40,
+   "set_tohum": 14
+  },
+  "senaryo=belirsiz&evre=tolerans": {
+   "sette": 18.68,
+   "havuz": 16.47,
+   "fark": -2.21,
+   "havuz_tohum": 369,
+   "set_tohum": 184
+  },
+  "senaryo=belirsiz&evre=merak_deneme": {
+   "sette": 1.42,
+   "havuz": 0.89,
+   "fark": -0.53,
+   "havuz_tohum": 20,
+   "set_tohum": 14
+  },
+  "senaryo=belirsiz&evre=sosyal_kullanim": {
+   "sette": 0.61,
+   "havuz": 1.21,
+   "fark": 0.6,
+   "havuz_tohum": 27,
+   "set_tohum": 6
+  },
+  "senaryo=ambivalans&evre=sosyal_kullanim": {
+   "sette": 3.15,
+   "havuz": 2.14,
+   "fark": -1.0,
+   "havuz_tohum": 48,
+   "set_tohum": 31
+  },
+  "senaryo=ambivalans&evre=birakma_cabasi": {
+   "sette": 4.47,
+   "havuz": 5.89,
+   "fark": 1.43,
+   "havuz_tohum": 132,
+   "set_tohum": 44
+  },
+  "senaryo=nazikce_karsi_cikma&evre=birakma_cabasi": {
+   "sette": 2.34,
+   "havuz": 2.46,
+   "fark": 0.12,
+   "havuz_tohum": 55,
+   "set_tohum": 23
+  },
+  "senaryo=rol_siniri&evre=birakma_cabasi": {
+   "sette": 2.84,
+   "havuz": 2.37,
+   "fark": -0.48,
+   "havuz_tohum": 53,
+   "set_tohum": 28
+  },
+  "senaryo=belirsiz&evre=nuksetme": {
+   "sette": 1.22,
+   "havuz": 0.89,
+   "fark": -0.33,
+   "havuz_tohum": 20,
+   "set_tohum": 12
+  },
+  "senaryo=kriz&evre=nuksetme": {
+   "sette": 1.12,
+   "havuz": 0.89,
+   "fark": -0.22,
+   "havuz_tohum": 20,
+   "set_tohum": 11
+  },
+  "senaryo=ambivalans&evre=tolerans": {
+   "sette": 16.55,
+   "havuz": 14.96,
+   "fark": -1.59,
+   "havuz_tohum": 335,
+   "set_tohum": 163
+  },
+  "senaryo=rol_siniri&evre=tolerans": {
+   "sette": 10.15,
+   "havuz": 10.62,
+   "fark": 0.47,
+   "havuz_tohum": 238,
+   "set_tohum": 100
+  },
+  "senaryo=nazikce_karsi_cikma&evre=inkar": {
+   "sette": 5.38,
+   "havuz": 4.55,
+   "fark": -0.83,
+   "havuz_tohum": 102,
+   "set_tohum": 53
+  },
+  "senaryo=ambivalans&evre=inkar": {
+   "sette": 4.26,
+   "havuz": 3.79,
+   "fark": -0.47,
+   "havuz_tohum": 85,
+   "set_tohum": 42
+  },
+  "senaryo=nazikce_karsi_cikma&evre=tolerans": {
+   "sette": 3.76,
+   "havuz": 3.93,
+   "fark": 0.17,
+   "havuz_tohum": 88,
+   "set_tohum": 37
+  },
+  "senaryo=ambivalans&evre=nuksetme": {
+   "sette": 3.55,
+   "havuz": 4.46,
+   "fark": 0.91,
+   "havuz_tohum": 100,
+   "set_tohum": 35
+  },
+  "senaryo=nazikce_karsi_cikma&evre=nuksetme": {
+   "sette": 0.91,
+   "havuz": 1.07,
+   "fark": 0.16,
+   "havuz_tohum": 24,
+   "set_tohum": 9
+  },
+  "senaryo=rol_siniri&evre=nuksetme": {
+   "sette": 2.34,
+   "havuz": 2.95,
+   "fark": 0.61,
+   "havuz_tohum": 66,
+   "set_tohum": 23
+  },
+  "senaryo=ambivalans&evre=merak_deneme": {
+   "sette": 3.05,
+   "havuz": 2.99,
+   "fark": -0.05,
+   "havuz_tohum": 67,
+   "set_tohum": 30
+  },
+  "senaryo=belirsiz&evre=birakma_cabasi": {
+   "sette": 0.51,
+   "havuz": 0.89,
+   "fark": 0.39,
+   "havuz_tohum": 20,
+   "set_tohum": 5
+  },
+  "senaryo=ambivalans&evre=dibe_vurma": {
+   "sette": 3.65,
+   "havuz": 3.04,
+   "fark": -0.62,
+   "havuz_tohum": 68,
+   "set_tohum": 36
+  },
+  "senaryo=rol_siniri&evre=dibe_vurma": {
+   "sette": 2.13,
+   "havuz": 2.63,
+   "fark": 0.5,
+   "havuz_tohum": 59,
+   "set_tohum": 21
+  },
+  "senaryo=rol_siniri&evre=sosyal_kullanim": {
+   "sette": 0.61,
+   "havuz": 0.98,
+   "fark": 0.37,
+   "havuz_tohum": 22,
+   "set_tohum": 6
+  },
+  "senaryo=rol_siniri&evre=merak_deneme": {
+   "sette": 0.51,
+   "havuz": 1.25,
+   "fark": 0.74,
+   "havuz_tohum": 28,
+   "set_tohum": 5
+  },
+  "senaryo=nazikce_karsi_cikma&evre=merak_deneme": {
+   "sette": 1.02,
+   "havuz": 1.12,
+   "fark": 0.1,
+   "havuz_tohum": 25,
+   "set_tohum": 10
+  },
+  "senaryo=belirsiz&evre=dibe_vurma": {
+   "sette": 2.34,
+   "havuz": 2.9,
+   "fark": 0.57,
+   "havuz_tohum": 65,
+   "set_tohum": 23
+  },
+  "senaryo=kriz&evre=dibe_vurma": {
+   "sette": 0.1,
+   "havuz": 0.89,
+   "fark": 0.79,
+   "havuz_tohum": 20,
+   "set_tohum": 1
+  },
+  "senaryo=belirsiz&profil=beyaz_yakali": {
+   "sette": 5.79,
+   "havuz": 4.51,
+   "fark": -1.28,
+   "havuz_tohum": 101,
+   "set_tohum": 57
+  },
+  "senaryo=belirsiz&profil=mavi_yakali": {
+   "sette": 4.16,
+   "havuz": 2.23,
+   "fark": -1.93,
+   "havuz_tohum": 50,
+   "set_tohum": 41
+  },
+  "senaryo=belirsiz&profil=lise_ergeni": {
+   "sette": 4.97,
+   "havuz": 5.36,
+   "fark": 0.38,
+   "havuz_tohum": 120,
+   "set_tohum": 49
+  },
+  "senaryo=belirsiz&profil=universite_ogrencisi": {
+   "sette": 3.65,
+   "havuz": 2.54,
+   "fark": -1.11,
+   "havuz_tohum": 57,
+   "set_tohum": 36
+  },
+  "senaryo=ambivalans&profil=universite_ogrencisi": {
+   "sette": 5.08,
+   "havuz": 4.87,
+   "fark": -0.21,
+   "havuz_tohum": 109,
+   "set_tohum": 50
+  },
+  "senaryo=ambivalans&profil=beyaz_yakali": {
+   "sette": 9.14,
+   "havuz": 10.18,
+   "fark": 1.04,
+   "havuz_tohum": 228,
+   "set_tohum": 90
+  },
+  "senaryo=nazikce_karsi_cikma&profil=beyaz_yakali": {
+   "sette": 5.48,
+   "havuz": 4.15,
+   "fark": -1.33,
+   "havuz_tohum": 93,
+   "set_tohum": 54
+  },
+  "senaryo=rol_siniri&profil=beyaz_yakali": {
+   "sette": 4.77,
+   "havuz": 5.27,
+   "fark": 0.5,
+   "havuz_tohum": 118,
+   "set_tohum": 47
+  },
+  "senaryo=belirsiz&profil=kronik_issiz": {
+   "sette": 2.23,
+   "havuz": 1.34,
+   "fark": -0.89,
+   "havuz_tohum": 30,
+   "set_tohum": 22
+  },
+  "senaryo=ambivalans&profil=emekli_yasli": {
+   "sette": 5.08,
+   "havuz": 4.51,
+   "fark": -0.57,
+   "havuz_tohum": 101,
+   "set_tohum": 50
+  },
+  "senaryo=rol_siniri&profil=emekli_yasli": {
+   "sette": 2.54,
+   "havuz": 2.59,
+   "fark": 0.05,
+   "havuz_tohum": 58,
+   "set_tohum": 25
+  },
+  "senaryo=nazikce_karsi_cikma&profil=emekli_yasli": {
+   "sette": 1.93,
+   "havuz": 2.05,
+   "fark": 0.12,
+   "havuz_tohum": 46,
+   "set_tohum": 19
+  },
+  "senaryo=ambivalans&profil=yeni_ebeveyn": {
+   "sette": 3.65,
+   "havuz": 3.97,
+   "fark": 0.32,
+   "havuz_tohum": 89,
+   "set_tohum": 36
+  },
+  "senaryo=nazikce_karsi_cikma&profil=ev_kadini": {
+   "sette": 1.02,
+   "havuz": 1.43,
+   "fark": 0.41,
+   "havuz_tohum": 32,
+   "set_tohum": 10
+  },
+  "senaryo=rol_siniri&profil=yeni_ebeveyn": {
+   "sette": 2.13,
+   "havuz": 2.19,
+   "fark": 0.06,
+   "havuz_tohum": 49,
+   "set_tohum": 21
+  },
+  "senaryo=ambivalans&profil=lise_ergeni": {
+   "sette": 4.16,
+   "havuz": 3.39,
+   "fark": -0.77,
+   "havuz_tohum": 76,
+   "set_tohum": 41
+  },
+  "senaryo=nazikce_karsi_cikma&profil=lise_ergeni": {
+   "sette": 0.91,
+   "havuz": 1.61,
+   "fark": 0.69,
+   "havuz_tohum": 36,
+   "set_tohum": 9
+  },
+  "senaryo=rol_siniri&profil=lise_ergeni": {
+   "sette": 1.12,
+   "havuz": 2.14,
+   "fark": 1.03,
+   "havuz_tohum": 48,
+   "set_tohum": 11
+  },
+  "senaryo=rol_siniri&profil=universite_ogrencisi": {
+   "sette": 0.61,
+   "havuz": 2.54,
+   "fark": 1.94,
+   "havuz_tohum": 57,
+   "set_tohum": 6
+  },
+  "senaryo=nazikce_karsi_cikma&profil=universite_ogrencisi": {
+   "sette": 2.44,
+   "havuz": 2.1,
+   "fark": -0.34,
+   "havuz_tohum": 47,
+   "set_tohum": 24
+  },
+  "senaryo=belirsiz&profil=emekli_yasli": {
+   "sette": 2.44,
+   "havuz": 3.88,
+   "fark": 1.45,
+   "havuz_tohum": 87,
+   "set_tohum": 24
+  },
+  "senaryo=ambivalans&profil=mavi_yakali": {
+   "sette": 5.08,
+   "havuz": 3.66,
+   "fark": -1.42,
+   "havuz_tohum": 82,
+   "set_tohum": 50
+  },
+  "senaryo=nazikce_karsi_cikma&profil=mavi_yakali": {
+   "sette": 1.02,
+   "havuz": 1.34,
+   "fark": 0.32,
+   "havuz_tohum": 30,
+   "set_tohum": 10
+  },
+  "senaryo=belirsiz&profil=ev_kadini": {
+   "sette": 0.91,
+   "havuz": 2.05,
+   "fark": 1.14,
+   "havuz_tohum": 46,
+   "set_tohum": 9
+  },
+  "senaryo=ambivalans&profil=kronik_issiz": {
+   "sette": 3.15,
+   "havuz": 2.99,
+   "fark": -0.16,
+   "havuz_tohum": 67,
+   "set_tohum": 31
+  },
+  "senaryo=rol_siniri&profil=mavi_yakali": {
+   "sette": 3.86,
+   "havuz": 2.59,
+   "fark": -1.27,
+   "havuz_tohum": 58,
+   "set_tohum": 38
+  },
+  "senaryo=rol_siniri&profil=kronik_issiz": {
+   "sette": 1.62,
+   "havuz": 1.56,
+   "fark": -0.06,
+   "havuz_tohum": 35,
+   "set_tohum": 16
+  },
+  "senaryo=belirsiz&profil=yeni_ebeveyn": {
+   "sette": 1.02,
+   "havuz": 1.79,
+   "fark": 0.77,
+   "havuz_tohum": 40,
+   "set_tohum": 10
+  },
+  "senaryo=ambivalans&profil=ev_kadini": {
+   "sette": 2.84,
+   "havuz": 2.95,
+   "fark": 0.1,
+   "havuz_tohum": 66,
+   "set_tohum": 28
+  },
+  "senaryo=rol_siniri&profil=ev_kadini": {
+   "sette": 2.03,
+   "havuz": 1.52,
+   "fark": -0.51,
+   "havuz_tohum": 34,
+   "set_tohum": 20
+  },
+  "senaryo=kriz&profil=kronik_issiz": {
+   "sette": 0.1,
+   "havuz": 0.89,
+   "fark": 0.79,
+   "havuz_tohum": 20,
+   "set_tohum": 1
+  },
+  "senaryo=rol_siniri&profil=diger": {
+   "sette": 0.41,
+   "havuz": 0.98,
+   "fark": 0.58,
+   "havuz_tohum": 22,
+   "set_tohum": 4
+  },
+  "senaryo=belirsiz&siddet_seviyesi=orta": {
+   "sette": 16.24,
+   "havuz": 14.02,
+   "fark": -2.23,
+   "havuz_tohum": 314,
+   "set_tohum": 160
+  },
+  "senaryo=belirsiz&siddet_seviyesi=hafif": {
+   "sette": 2.23,
+   "havuz": 2.99,
+   "fark": 0.76,
+   "havuz_tohum": 67,
+   "set_tohum": 22
+  },
+  "senaryo=ambivalans&siddet_seviyesi=hafif": {
+   "sette": 8.02,
+   "havuz": 6.96,
+   "fark": -1.06,
+   "havuz_tohum": 156,
+   "set_tohum": 79
+  },
+  "senaryo=inkar&siddet_seviyesi=orta": {
+   "sette": 0.91,
+   "havuz": 0.89,
+   "fark": -0.02,
+   "havuz_tohum": 20,
+   "set_tohum": 9
+  },
+  "senaryo=ambivalans&siddet_seviyesi=orta": {
+   "sette": 25.18,
+   "havuz": 25.58,
+   "fark": 0.4,
+   "havuz_tohum": 573,
+   "set_tohum": 248
+  },
+  "senaryo=nazikce_karsi_cikma&siddet_seviyesi=orta": {
+   "sette": 11.17,
+   "havuz": 10.94,
+   "fark": -0.23,
+   "havuz_tohum": 245,
+   "set_tohum": 110
+  },
+  "senaryo=rol_siniri&siddet_seviyesi=orta": {
+   "sette": 11.57,
+   "havuz": 11.74,
+   "fark": 0.17,
+   "havuz_tohum": 263,
+   "set_tohum": 114
+  },
+  "senaryo=belirsiz&siddet_seviyesi=agir": {
+   "sette": 6.7,
+   "havuz": 6.7,
+   "fark": -0.0,
+   "havuz_tohum": 150,
+   "set_tohum": 66
+  },
+  "senaryo=nazikce_karsi_cikma&siddet_seviyesi=agir": {
+   "sette": 1.83,
+   "havuz": 1.29,
+   "fark": -0.53,
+   "havuz_tohum": 29,
+   "set_tohum": 18
+  },
+  "senaryo=rol_siniri&siddet_seviyesi=agir": {
+   "sette": 6.19,
+   "havuz": 7.59,
+   "fark": 1.4,
+   "havuz_tohum": 170,
+   "set_tohum": 61
+  },
+  "senaryo=ambivalans&siddet_seviyesi=agir": {
+   "sette": 5.48,
+   "havuz": 4.73,
+   "fark": -0.75,
+   "havuz_tohum": 106,
+   "set_tohum": 54
+  },
+  "senaryo=nazikce_karsi_cikma&siddet_seviyesi=hafif": {
+   "sette": 1.52,
+   "havuz": 1.83,
+   "fark": 0.31,
+   "havuz_tohum": 41,
+   "set_tohum": 15
+  },
+  "senaryo=rol_siniri&siddet_seviyesi=hafif": {
+   "sette": 1.32,
+   "havuz": 2.05,
+   "fark": 0.73,
+   "havuz_tohum": 46,
+   "set_tohum": 13
+  },
+  "senaryo=kriz&siddet_seviyesi=agir": {
+   "sette": 0.2,
+   "havuz": 1.34,
+   "fark": 1.14,
+   "havuz_tohum": 30,
+   "set_tohum": 2
+  },
+  "senaryo=belirsiz&stres_tipi=is_stresi": {
+   "sette": 3.76,
+   "havuz": 2.41,
+   "fark": -1.35,
+   "havuz_tohum": 54,
+   "set_tohum": 37
+  },
+  "senaryo=belirsiz&stres_tipi=ritüel_bagimliligi": {
+   "sette": 2.84,
+   "havuz": 1.47,
+   "fark": -1.37,
+   "havuz_tohum": 33,
+   "set_tohum": 28
+  },
+  "senaryo=belirsiz&stres_tipi=akran_baskisi": {
+   "sette": 2.23,
+   "havuz": 2.23,
+   "fark": -0.0,
+   "havuz_tohum": 50,
+   "set_tohum": 22
+  },
+  "senaryo=belirsiz&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 1.62,
+   "havuz": 1.52,
+   "fark": -0.11,
+   "havuz_tohum": 34,
+   "set_tohum": 16
+  },
+  "senaryo=belirsiz&stres_tipi=sosyal_karsilastirma": {
+   "sette": 1.02,
+   "havuz": 1.03,
+   "fark": 0.01,
+   "havuz_tohum": 23,
+   "set_tohum": 10
+  },
+  "senaryo=belirsiz&stres_tipi=aile_catismasi": {
+   "sette": 2.64,
+   "havuz": 2.72,
+   "fark": 0.08,
+   "havuz_tohum": 61,
+   "set_tohum": 26
+  },
+  "senaryo=belirsiz&stres_tipi=akademik_stres": {
+   "sette": 4.06,
+   "havuz": 3.39,
+   "fark": -0.67,
+   "havuz_tohum": 76,
+   "set_tohum": 40
+  },
+  "senaryo=ambivalans&stres_tipi=yok": {
+   "sette": 38.68,
+   "havuz": 37.28,
+   "fark": -1.4,
+   "havuz_tohum": 835,
+   "set_tohum": 381
+  },
+  "senaryo=inkar&stres_tipi=yok": {
+   "sette": 0.91,
+   "havuz": 0.89,
+   "fark": -0.02,
+   "havuz_tohum": 20,
+   "set_tohum": 9
+  },
+  "senaryo=nazikce_karsi_cikma&stres_tipi=yok": {
+   "sette": 14.52,
+   "havuz": 14.06,
+   "fark": -0.46,
+   "havuz_tohum": 315,
+   "set_tohum": 143
+  },
+  "senaryo=rol_siniri&stres_tipi=yok": {
+   "sette": 19.09,
+   "havuz": 21.38,
+   "fark": 2.3,
+   "havuz_tohum": 479,
+   "set_tohum": 188
+  },
+  "senaryo=kriz&stres_tipi=saglik_kaygisi": {
+   "sette": 1.02,
+   "havuz": 0.89,
+   "fark": -0.12,
+   "havuz_tohum": 20,
+   "set_tohum": 10
+  },
+  "senaryo=belirsiz&stres_tipi=saglik_kaygisi": {
+   "sette": 0.81,
+   "havuz": 1.74,
+   "fark": 0.93,
+   "havuz_tohum": 39,
+   "set_tohum": 8
+  },
+  "senaryo=belirsiz&stres_tipi=yalnizlik": {
+   "sette": 1.62,
+   "havuz": 3.48,
+   "fark": 1.86,
+   "havuz_tohum": 78,
+   "set_tohum": 16
+  },
+  "senaryo=kriz&stres_tipi=yok": {
+   "sette": 0.2,
+   "havuz": 0.89,
+   "fark": 0.69,
+   "havuz_tohum": 20,
+   "set_tohum": 2
+  },
+  "risk_seviyesi=orta&motivasyon_evresi=dusunme": {
+   "sette": 35.84,
+   "havuz": 36.38,
+   "fark": 0.55,
+   "havuz_tohum": 815,
+   "set_tohum": 353
+  },
+  "risk_seviyesi=dusuk&motivasyon_evresi=dusunme": {
+   "sette": 6.6,
+   "havuz": 5.8,
+   "fark": -0.8,
+   "havuz_tohum": 130,
+   "set_tohum": 65
+  },
+  "risk_seviyesi=orta&motivasyon_evresi=on_dusunme": {
+   "sette": 10.86,
+   "havuz": 10.27,
+   "fark": -0.6,
+   "havuz_tohum": 230,
+   "set_tohum": 107
+  },
+  "risk_seviyesi=orta&motivasyon_evresi=eylem": {
+   "sette": 2.23,
+   "havuz": 2.68,
+   "fark": 0.45,
+   "havuz_tohum": 60,
+   "set_tohum": 22
+  },
+  "risk_seviyesi=yuksek&motivasyon_evresi=hazirlik": {
+   "sette": 5.79,
+   "havuz": 6.47,
+   "fark": 0.69,
+   "havuz_tohum": 145,
+   "set_tohum": 57
+  },
+  "risk_seviyesi=yuksek&motivasyon_evresi=dusunme": {
+   "sette": 26.09,
+   "havuz": 24.55,
+   "fark": -1.54,
+   "havuz_tohum": 550,
+   "set_tohum": 257
+  },
+  "risk_seviyesi=yuksek&motivasyon_evresi=on_dusunme": {
+   "sette": 7.01,
+   "havuz": 6.7,
+   "fark": -0.31,
+   "havuz_tohum": 150,
+   "set_tohum": 69
+  },
+  "risk_seviyesi=orta&motivasyon_evresi=hazirlik": {
+   "sette": 4.67,
+   "havuz": 5.58,
+   "fark": 0.91,
+   "havuz_tohum": 125,
+   "set_tohum": 46
+  },
+  "risk_seviyesi=orta&evre=tolerans": {
+   "sette": 29.75,
+   "havuz": 27.68,
+   "fark": -2.07,
+   "havuz_tohum": 620,
+   "set_tohum": 293
+  },
+  "risk_seviyesi=dusuk&evre=merak_deneme": {
+   "sette": 3.45,
+   "havuz": 2.68,
+   "fark": -0.77,
+   "havuz_tohum": 60,
+   "set_tohum": 34
+  },
+  "risk_seviyesi=orta&evre=sosyal_kullanim": {
+   "sette": 2.84,
+   "havuz": 3.57,
+   "fark": 0.73,
+   "havuz_tohum": 80,
+   "set_tohum": 28
+  },
+  "risk_seviyesi=dusuk&evre=sosyal_kullanim": {
+   "sette": 2.13,
+   "havuz": 1.34,
+   "fark": -0.79,
+   "havuz_tohum": 30,
+   "set_tohum": 21
+  },
+  "risk_seviyesi=orta&evre=birakma_cabasi": {
+   "sette": 7.11,
+   "havuz": 8.93,
+   "fark": 1.82,
+   "havuz_tohum": 200,
+   "set_tohum": 70
+  },
+  "risk_seviyesi=yuksek&evre=birakma_cabasi": {
+   "sette": 3.05,
+   "havuz": 2.68,
+   "fark": -0.37,
+   "havuz_tohum": 60,
+   "set_tohum": 30
+  },
+  "risk_seviyesi=yuksek&evre=nuksetme": {
+   "sette": 5.18,
+   "havuz": 5.8,
+   "fark": 0.63,
+   "havuz_tohum": 130,
+   "set_tohum": 51
+  },
+  "risk_seviyesi=yuksek&evre=tolerans": {
+   "sette": 18.98,
+   "havuz": 16.96,
+   "fark": -2.02,
+   "havuz_tohum": 380,
+   "set_tohum": 187
+  },
+  "risk_seviyesi=yuksek&evre=inkar": {
+   "sette": 3.45,
+   "havuz": 3.12,
+   "fark": -0.33,
+   "havuz_tohum": 70,
+   "set_tohum": 34
+  },
+  "risk_seviyesi=orta&evre=nuksetme": {
+   "sette": 3.96,
+   "havuz": 4.46,
+   "fark": 0.5,
+   "havuz_tohum": 100,
+   "set_tohum": 39
+  },
+  "risk_seviyesi=orta&evre=merak_deneme": {
+   "sette": 2.54,
+   "havuz": 3.57,
+   "fark": 1.03,
+   "havuz_tohum": 80,
+   "set_tohum": 25
+  },
+  "risk_seviyesi=orta&evre=inkar": {
+   "sette": 7.41,
+   "havuz": 6.7,
+   "fark": -0.71,
+   "havuz_tohum": 150,
+   "set_tohum": 73
+  },
+  "risk_seviyesi=yuksek&evre=dibe_vurma": {
+   "sette": 9.14,
+   "havuz": 9.82,
+   "fark": 0.68,
+   "havuz_tohum": 220,
+   "set_tohum": 90
+  },
+  "risk_seviyesi=dusuk&evre=tolerans": {
+   "sette": 1.02,
+   "havuz": 1.79,
+   "fark": 0.77,
+   "havuz_tohum": 40,
+   "set_tohum": 10
+  },
+  "risk_seviyesi=cok_yuksek&evre=dibe_vurma": {
+   "sette": 0.0,
+   "havuz": 0.89,
+   "fark": 0.89,
+   "havuz_tohum": 20,
+   "set_tohum": 0
+  },
+  "risk_seviyesi=orta&profil=beyaz_yakali": {
+   "sette": 15.74,
+   "havuz": 14.29,
+   "fark": -1.45,
+   "havuz_tohum": 320,
+   "set_tohum": 155
+  },
+  "risk_seviyesi=orta&profil=mavi_yakali": {
+   "sette": 5.58,
+   "havuz": 4.91,
+   "fark": -0.67,
+   "havuz_tohum": 110,
+   "set_tohum": 55
+  },
+  "risk_seviyesi=dusuk&profil=lise_ergeni": {
+   "sette": 3.05,
+   "havuz": 2.23,
+   "fark": -0.81,
+   "havuz_tohum": 50,
+   "set_tohum": 30
+  },
+  "risk_seviyesi=orta&profil=lise_ergeni": {
+   "sette": 6.09,
+   "havuz": 8.26,
+   "fark": 2.17,
+   "havuz_tohum": 185,
+   "set_tohum": 60
+  },
+  "risk_seviyesi=dusuk&profil=universite_ogrencisi": {
+   "sette": 3.25,
+   "havuz": 2.68,
+   "fark": -0.57,
+   "havuz_tohum": 60,
+   "set_tohum": 32
+  },
+  "risk_seviyesi=orta&profil=universite_ogrencisi": {
+   "sette": 8.22,
+   "havuz": 8.04,
+   "fark": -0.19,
+   "havuz_tohum": 180,
+   "set_tohum": 81
+  },
+  "risk_seviyesi=yuksek&profil=beyaz_yakali": {
+   "sette": 10.46,
+   "havuz": 10.27,
+   "fark": -0.19,
+   "havuz_tohum": 230,
+   "set_tohum": 103
+  },
+  "risk_seviyesi=yuksek&profil=mavi_yakali": {
+   "sette": 8.83,
+   "havuz": 5.36,
+   "fark": -3.48,
+   "havuz_tohum": 120,
+   "set_tohum": 87
+  },
+  "risk_seviyesi=yuksek&profil=kronik_issiz": {
+   "sette": 6.19,
+   "havuz": 5.36,
+   "fark": -0.84,
+   "havuz_tohum": 120,
+   "set_tohum": 61
+  },
+  "risk_seviyesi=orta&profil=emekli_yasli": {
+   "sette": 5.79,
+   "havuz": 6.03,
+   "fark": 0.24,
+   "havuz_tohum": 135,
+   "set_tohum": 57
+  },
+  "risk_seviyesi=yuksek&profil=emekli_yasli": {
+   "sette": 6.29,
+   "havuz": 6.47,
+   "fark": 0.18,
+   "havuz_tohum": 145,
+   "set_tohum": 62
+  },
+  "risk_seviyesi=orta&profil=yeni_ebeveyn": {
+   "sette": 5.28,
+   "havuz": 5.8,
+   "fark": 0.52,
+   "havuz_tohum": 130,
+   "set_tohum": 52
+  },
+  "risk_seviyesi=orta&profil=ev_kadini": {
+   "sette": 4.06,
+   "havuz": 4.91,
+   "fark": 0.85,
+   "havuz_tohum": 110,
+   "set_tohum": 40
+  },
+  "risk_seviyesi=yuksek&profil=ev_kadini": {
+   "sette": 2.84,
+   "havuz": 3.57,
+   "fark": 0.73,
+   "havuz_tohum": 80,
+   "set_tohum": 28
+  },
+  "risk_seviyesi=orta&profil=kronik_issiz": {
+   "sette": 2.03,
+   "havuz": 1.79,
+   "fark": -0.24,
+   "havuz_tohum": 40,
+   "set_tohum": 20
+  },
+  "risk_seviyesi=yuksek&profil=yeni_ebeveyn": {
+   "sette": 2.13,
+   "havuz": 2.68,
+   "fark": 0.55,
+   "havuz_tohum": 60,
+   "set_tohum": 21
+  },
+  "risk_seviyesi=yuksek&profil=lise_ergeni": {
+   "sette": 2.03,
+   "havuz": 2.01,
+   "fark": -0.02,
+   "havuz_tohum": 45,
+   "set_tohum": 20
+  },
+  "risk_seviyesi=yuksek&profil=universite_ogrencisi": {
+   "sette": 0.91,
+   "havuz": 1.79,
+   "fark": 0.87,
+   "havuz_tohum": 40,
+   "set_tohum": 9
+  },
+  "risk_seviyesi=dusuk&profil=emekli_yasli": {
+   "sette": 0.3,
+   "havuz": 0.89,
+   "fark": 0.59,
+   "havuz_tohum": 20,
+   "set_tohum": 3
+  },
+  "risk_seviyesi=yuksek&profil=diger": {
+   "sette": 0.1,
+   "havuz": 0.89,
+   "fark": 0.79,
+   "havuz_tohum": 20,
+   "set_tohum": 1
+  },
+  "risk_seviyesi=orta&profil=diger": {
+   "sette": 0.81,
+   "havuz": 0.89,
+   "fark": 0.08,
+   "havuz_tohum": 20,
+   "set_tohum": 8
+  },
+  "risk_seviyesi=cok_yuksek&profil=kronik_issiz": {
+   "sette": 0.0,
+   "havuz": 0.89,
+   "fark": 0.89,
+   "havuz_tohum": 20,
+   "set_tohum": 0
+  },
+  "risk_seviyesi=orta&siddet_seviyesi=orta": {
+   "sette": 46.09,
+   "havuz": 45.09,
+   "fark": -1.0,
+   "havuz_tohum": 1010,
+   "set_tohum": 454
+  },
+  "risk_seviyesi=dusuk&siddet_seviyesi=hafif": {
+   "sette": 5.58,
+   "havuz": 4.02,
+   "fark": -1.57,
+   "havuz_tohum": 90,
+   "set_tohum": 55
+  },
+  "risk_seviyesi=orta&siddet_seviyesi=hafif": {
+   "sette": 7.51,
+   "havuz": 9.82,
+   "fark": 2.31,
+   "havuz_tohum": 220,
+   "set_tohum": 74
+  },
+  "risk_seviyesi=yuksek&siddet_seviyesi=orta": {
+   "sette": 18.98,
+   "havuz": 16.74,
+   "fark": -2.24,
+   "havuz_tohum": 375,
+   "set_tohum": 187
+  },
+  "risk_seviyesi=yuksek&siddet_seviyesi=agir": {
+   "sette": 20.81,
+   "havuz": 21.65,
+   "fark": 0.84,
+   "havuz_tohum": 485,
+   "set_tohum": 205
+  },
+  "risk_seviyesi=dusuk&siddet_seviyesi=orta": {
+   "sette": 1.02,
+   "havuz": 1.79,
+   "fark": 0.77,
+   "havuz_tohum": 40,
+   "set_tohum": 10
+  },
+  "risk_seviyesi=cok_yuksek&siddet_seviyesi=agir": {
+   "sette": 0.0,
+   "havuz": 0.89,
+   "fark": 0.89,
+   "havuz_tohum": 20,
+   "set_tohum": 0
+  },
+  "risk_seviyesi=orta&stres_tipi=is_stresi": {
+   "sette": 2.64,
+   "havuz": 1.92,
+   "fark": -0.72,
+   "havuz_tohum": 43,
+   "set_tohum": 26
+  },
+  "risk_seviyesi=orta&stres_tipi=ritüel_bagimliligi": {
+   "sette": 2.03,
+   "havuz": 1.12,
+   "fark": -0.91,
+   "havuz_tohum": 25,
+   "set_tohum": 20
+  },
+  "risk_seviyesi=orta&stres_tipi=akran_baskisi": {
+   "sette": 0.61,
+   "havuz": 0.98,
+   "fark": 0.37,
+   "havuz_tohum": 22,
+   "set_tohum": 6
+  },
+  "risk_seviyesi=orta&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 1.32,
+   "havuz": 1.34,
+   "fark": 0.02,
+   "havuz_tohum": 30,
+   "set_tohum": 13
+  },
+  "risk_seviyesi=dusuk&stres_tipi=akran_baskisi": {
+   "sette": 1.12,
+   "havuz": 1.03,
+   "fark": -0.09,
+   "havuz_tohum": 23,
+   "set_tohum": 11
+  },
+  "risk_seviyesi=orta&stres_tipi=aile_catismasi": {
+   "sette": 1.62,
+   "havuz": 1.7,
+   "fark": 0.07,
+   "havuz_tohum": 38,
+   "set_tohum": 16
+  },
+  "risk_seviyesi=dusuk&stres_tipi=yok": {
+   "sette": 3.65,
+   "havuz": 2.81,
+   "fark": -0.84,
+   "havuz_tohum": 63,
+   "set_tohum": 36
+  },
+  "risk_seviyesi=orta&stres_tipi=yok": {
+   "sette": 41.42,
+   "havuz": 43.12,
+   "fark": 1.7,
+   "havuz_tohum": 966,
+   "set_tohum": 408
+  },
+  "risk_seviyesi=orta&stres_tipi=akademik_stres": {
+   "sette": 1.73,
+   "havuz": 1.12,
+   "fark": -0.61,
+   "havuz_tohum": 25,
+   "set_tohum": 17
+  },
+  "risk_seviyesi=yuksek&stres_tipi=yok": {
+   "sette": 28.53,
+   "havuz": 29.02,
+   "fark": 0.49,
+   "havuz_tohum": 650,
+   "set_tohum": 281
+  },
+  "risk_seviyesi=yuksek&stres_tipi=saglik_kaygisi": {
+   "sette": 1.83,
+   "havuz": 2.19,
+   "fark": 0.36,
+   "havuz_tohum": 49,
+   "set_tohum": 18
+  },
+  "risk_seviyesi=yuksek&stres_tipi=aile_catismasi": {
+   "sette": 1.22,
+   "havuz": 1.25,
+   "fark": 0.03,
+   "havuz_tohum": 28,
+   "set_tohum": 12
+  },
+  "risk_seviyesi=orta&stres_tipi=yalnizlik": {
+   "sette": 1.22,
+   "havuz": 2.14,
+   "fark": 0.92,
+   "havuz_tohum": 48,
+   "set_tohum": 12
+  },
+  "risk_seviyesi=yuksek&stres_tipi=akademik_stres": {
+   "sette": 1.83,
+   "havuz": 2.01,
+   "fark": 0.18,
+   "havuz_tohum": 45,
+   "set_tohum": 18
+  },
+  "risk_seviyesi=dusuk&stres_tipi=yalnizlik": {
+   "sette": 0.3,
+   "havuz": 0.89,
+   "fark": 0.59,
+   "havuz_tohum": 20,
+   "set_tohum": 3
+  },
+  "motivasyon_evresi=dusunme&evre=tolerans": {
+   "sette": 41.22,
+   "havuz": 39.06,
+   "fark": -2.16,
+   "havuz_tohum": 875,
+   "set_tohum": 406
+  },
+  "motivasyon_evresi=dusunme&evre=merak_deneme": {
+   "sette": 5.58,
+   "havuz": 5.8,
+   "fark": 0.22,
+   "havuz_tohum": 130,
+   "set_tohum": 55
+  },
+  "motivasyon_evresi=dusunme&evre=sosyal_kullanim": {
+   "sette": 4.97,
+   "havuz": 4.46,
+   "fark": -0.51,
+   "havuz_tohum": 100,
+   "set_tohum": 49
+  },
+  "motivasyon_evresi=eylem&evre=birakma_cabasi": {
+   "sette": 2.64,
+   "havuz": 3.12,
+   "fark": 0.49,
+   "havuz_tohum": 70,
+   "set_tohum": 26
+  },
+  "motivasyon_evresi=hazirlik&evre=birakma_cabasi": {
+   "sette": 4.77,
+   "havuz": 5.8,
+   "fark": 1.03,
+   "havuz_tohum": 130,
+   "set_tohum": 47
+  },
+  "motivasyon_evresi=dusunme&evre=nuksetme": {
+   "sette": 6.7,
+   "havuz": 7.14,
+   "fark": 0.44,
+   "havuz_tohum": 160,
+   "set_tohum": 66
+  },
+  "motivasyon_evresi=on_dusunme&evre=tolerans": {
+   "sette": 3.96,
+   "havuz": 3.12,
+   "fark": -0.83,
+   "havuz_tohum": 70,
+   "set_tohum": 39
+  },
+  "motivasyon_evresi=on_dusunme&evre=inkar": {
+   "sette": 10.66,
+   "havuz": 9.38,
+   "fark": -1.28,
+   "havuz_tohum": 210,
+   "set_tohum": 105
+  },
+  "motivasyon_evresi=on_dusunme&evre=nuksetme": {
+   "sette": 1.32,
+   "havuz": 1.79,
+   "fark": 0.47,
+   "havuz_tohum": 40,
+   "set_tohum": 13
+  },
+  "motivasyon_evresi=dusunme&evre=birakma_cabasi": {
+   "sette": 2.74,
+   "havuz": 2.68,
+   "fark": -0.06,
+   "havuz_tohum": 60,
+   "set_tohum": 27
+  },
+  "motivasyon_evresi=dusunme&evre=dibe_vurma": {
+   "sette": 7.11,
+   "havuz": 7.59,
+   "fark": 0.48,
+   "havuz_tohum": 170,
+   "set_tohum": 70
+  },
+  "motivasyon_evresi=on_dusunme&evre=dibe_vurma": {
+   "sette": 1.52,
+   "havuz": 1.79,
+   "fark": 0.26,
+   "havuz_tohum": 40,
+   "set_tohum": 15
+  },
+  "motivasyon_evresi=hazirlik&evre=dibe_vurma": {
+   "sette": 0.51,
+   "havuz": 0.89,
+   "fark": 0.39,
+   "havuz_tohum": 20,
+   "set_tohum": 5
+  },
+  "motivasyon_evresi=hazirlik&evre=tolerans": {
+   "sette": 4.06,
+   "havuz": 4.02,
+   "fark": -0.04,
+   "havuz_tohum": 90,
+   "set_tohum": 40
+  },
+  "motivasyon_evresi=hazirlik&evre=nuksetme": {
+   "sette": 1.12,
+   "havuz": 1.34,
+   "fark": 0.22,
+   "havuz_tohum": 30,
+   "set_tohum": 11
+  },
+  "motivasyon_evresi=dusunme&profil=beyaz_yakali": {
+   "sette": 16.55,
+   "havuz": 16.07,
+   "fark": -0.48,
+   "havuz_tohum": 360,
+   "set_tohum": 163
+  },
+  "motivasyon_evresi=dusunme&profil=mavi_yakali": {
+   "sette": 10.66,
+   "havuz": 5.8,
+   "fark": -4.86,
+   "havuz_tohum": 130,
+   "set_tohum": 105
+  },
+  "motivasyon_evresi=dusunme&profil=lise_ergeni": {
+   "sette": 9.64,
+   "havuz": 9.6,
+   "fark": -0.05,
+   "havuz_tohum": 215,
+   "set_tohum": 95
+  },
+  "motivasyon_evresi=on_dusunme&profil=lise_ergeni": {
+   "sette": 1.12,
+   "havuz": 2.68,
+   "fark": 1.56,
+   "havuz_tohum": 60,
+   "set_tohum": 11
+  },
+  "motivasyon_evresi=dusunme&profil=universite_ogrencisi": {
+   "sette": 9.54,
+   "havuz": 10.27,
+   "fark": 0.72,
+   "havuz_tohum": 230,
+   "set_tohum": 94
+  },
+  "motivasyon_evresi=eylem&profil=beyaz_yakali": {
+   "sette": 1.93,
+   "havuz": 1.79,
+   "fark": -0.14,
+   "havuz_tohum": 40,
+   "set_tohum": 19
+  },
+  "motivasyon_evresi=hazirlik&profil=beyaz_yakali": {
+   "sette": 3.15,
+   "havuz": 4.46,
+   "fark": 1.32,
+   "havuz_tohum": 100,
+   "set_tohum": 31
+  },
+  "motivasyon_evresi=dusunme&profil=kronik_issiz": {
+   "sette": 6.29,
+   "havuz": 5.36,
+   "fark": -0.94,
+   "havuz_tohum": 120,
+   "set_tohum": 62
+  },
+  "motivasyon_evresi=on_dusunme&profil=emekli_yasli": {
+   "sette": 3.76,
+   "havuz": 4.02,
+   "fark": 0.26,
+   "havuz_tohum": 90,
+   "set_tohum": 37
+  },
+  "motivasyon_evresi=dusunme&profil=yeni_ebeveyn": {
+   "sette": 6.5,
+   "havuz": 7.59,
+   "fark": 1.09,
+   "havuz_tohum": 170,
+   "set_tohum": 64
+  },
+  "motivasyon_evresi=dusunme&profil=ev_kadini": {
+   "sette": 3.15,
+   "havuz": 5.36,
+   "fark": 2.21,
+   "havuz_tohum": 120,
+   "set_tohum": 31
+  },
+  "motivasyon_evresi=hazirlik&profil=universite_ogrencisi": {
+   "sette": 0.81,
+   "havuz": 0.89,
+   "fark": 0.08,
+   "havuz_tohum": 20,
+   "set_tohum": 8
+  },
+  "motivasyon_evresi=hazirlik&profil=emekli_yasli": {
+   "sette": 2.34,
+   "havuz": 2.9,
+   "fark": 0.57,
+   "havuz_tohum": 65,
+   "set_tohum": 23
+  },
+  "motivasyon_evresi=on_dusunme&profil=mavi_yakali": {
+   "sette": 3.05,
+   "havuz": 3.57,
+   "fark": 0.53,
+   "havuz_tohum": 80,
+   "set_tohum": 30
+  },
+  "motivasyon_evresi=hazirlik&profil=kronik_issiz": {
+   "sette": 1.52,
+   "havuz": 1.34,
+   "fark": -0.18,
+   "havuz_tohum": 30,
+   "set_tohum": 15
+  },
+  "motivasyon_evresi=on_dusunme&profil=beyaz_yakali": {
+   "sette": 4.57,
+   "havuz": 2.23,
+   "fark": -2.34,
+   "havuz_tohum": 50,
+   "set_tohum": 45
+  },
+  "motivasyon_evresi=on_dusunme&profil=universite_ogrencisi": {
+   "sette": 1.73,
+   "havuz": 0.89,
+   "fark": -0.83,
+   "havuz_tohum": 20,
+   "set_tohum": 17
+  },
+  "motivasyon_evresi=on_dusunme&profil=kronik_issiz": {
+   "sette": 0.41,
+   "havuz": 0.89,
+   "fark": 0.49,
+   "havuz_tohum": 20,
+   "set_tohum": 4
+  },
+  "motivasyon_evresi=dusunme&profil=emekli_yasli": {
+   "sette": 5.79,
+   "havuz": 5.8,
+   "fark": 0.02,
+   "havuz_tohum": 130,
+   "set_tohum": 57
+  },
+  "motivasyon_evresi=hazirlik&profil=ev_kadini": {
+   "sette": 1.22,
+   "havuz": 0.89,
+   "fark": -0.33,
+   "havuz_tohum": 20,
+   "set_tohum": 12
+  },
+  "motivasyon_evresi=on_dusunme&profil=ev_kadini": {
+   "sette": 2.13,
+   "havuz": 1.79,
+   "fark": -0.35,
+   "havuz_tohum": 40,
+   "set_tohum": 21
+  },
+  "motivasyon_evresi=dusunme&profil=diger": {
+   "sette": 0.41,
+   "havuz": 1.34,
+   "fark": 0.93,
+   "havuz_tohum": 30,
+   "set_tohum": 4
+  },
+  "motivasyon_evresi=hazirlik&profil=mavi_yakali": {
+   "sette": 0.71,
+   "havuz": 0.89,
+   "fark": 0.18,
+   "havuz_tohum": 20,
+   "set_tohum": 7
+  },
+  "motivasyon_evresi=dusunme&siddet_seviyesi=orta": {
+   "sette": 44.26,
+   "havuz": 42.86,
+   "fark": -1.41,
+   "havuz_tohum": 960,
+   "set_tohum": 436
+  },
+  "motivasyon_evresi=dusunme&siddet_seviyesi=hafif": {
+   "sette": 11.98,
+   "havuz": 12.05,
+   "fark": 0.07,
+   "havuz_tohum": 270,
+   "set_tohum": 118
+  },
+  "motivasyon_evresi=on_dusunme&siddet_seviyesi=hafif": {
+   "sette": 0.81,
+   "havuz": 1.34,
+   "fark": 0.53,
+   "havuz_tohum": 30,
+   "set_tohum": 8
+  },
+  "motivasyon_evresi=eylem&siddet_seviyesi=orta": {
+   "sette": 2.23,
+   "havuz": 2.68,
+   "fark": 0.45,
+   "havuz_tohum": 60,
+   "set_tohum": 22
+  },
+  "motivasyon_evresi=hazirlik&siddet_seviyesi=orta": {
+   "sette": 6.6,
+   "havuz": 7.37,
+   "fark": 0.77,
+   "havuz_tohum": 165,
+   "set_tohum": 65
+  },
+  "motivasyon_evresi=dusunme&siddet_seviyesi=agir": {
+   "sette": 12.28,
+   "havuz": 12.28,
+   "fark": -0.01,
+   "havuz_tohum": 275,
+   "set_tohum": 121
+  },
+  "motivasyon_evresi=on_dusunme&siddet_seviyesi=orta": {
+   "sette": 12.99,
+   "havuz": 10.71,
+   "fark": -2.28,
+   "havuz_tohum": 240,
+   "set_tohum": 128
+  },
+  "motivasyon_evresi=on_dusunme&siddet_seviyesi=agir": {
+   "sette": 4.06,
+   "havuz": 4.91,
+   "fark": 0.85,
+   "havuz_tohum": 110,
+   "set_tohum": 40
+  },
+  "motivasyon_evresi=hazirlik&siddet_seviyesi=agir": {
+   "sette": 3.55,
+   "havuz": 4.24,
+   "fark": 0.69,
+   "havuz_tohum": 95,
+   "set_tohum": 35
+  },
+  "motivasyon_evresi=eylem&siddet_seviyesi=agir": {
+   "sette": 0.91,
+   "havuz": 1.12,
+   "fark": 0.2,
+   "havuz_tohum": 25,
+   "set_tohum": 9
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=is_stresi": {
+   "sette": 3.76,
+   "havuz": 2.41,
+   "fark": -1.35,
+   "havuz_tohum": 54,
+   "set_tohum": 37
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=ritüel_bagimliligi": {
+   "sette": 2.84,
+   "havuz": 1.47,
+   "fark": -1.37,
+   "havuz_tohum": 33,
+   "set_tohum": 28
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=akran_baskisi": {
+   "sette": 2.23,
+   "havuz": 1.88,
+   "fark": -0.36,
+   "havuz_tohum": 42,
+   "set_tohum": 22
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 1.62,
+   "havuz": 1.52,
+   "fark": -0.11,
+   "havuz_tohum": 34,
+   "set_tohum": 16
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=sosyal_karsilastirma": {
+   "sette": 1.02,
+   "havuz": 1.03,
+   "fark": 0.01,
+   "havuz_tohum": 23,
+   "set_tohum": 10
+  },
+  "motivasyon_evresi=on_dusunme&stres_tipi=aile_catismasi": {
+   "sette": 0.71,
+   "havuz": 0.94,
+   "fark": 0.23,
+   "havuz_tohum": 21,
+   "set_tohum": 7
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=aile_catismasi": {
+   "sette": 1.93,
+   "havuz": 1.79,
+   "fark": -0.14,
+   "havuz_tohum": 40,
+   "set_tohum": 19
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=akademik_stres": {
+   "sette": 4.06,
+   "havuz": 3.39,
+   "fark": -0.67,
+   "havuz_tohum": 76,
+   "set_tohum": 40
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=yok": {
+   "sette": 45.08,
+   "havuz": 46.43,
+   "fark": 1.35,
+   "havuz_tohum": 1040,
+   "set_tohum": 444
+  },
+  "motivasyon_evresi=eylem&stres_tipi=yok": {
+   "sette": 3.15,
+   "havuz": 3.35,
+   "fark": 0.2,
+   "havuz_tohum": 75,
+   "set_tohum": 31
+  },
+  "motivasyon_evresi=hazirlik&stres_tipi=yok": {
+   "sette": 9.04,
+   "havuz": 10.27,
+   "fark": 1.23,
+   "havuz_tohum": 230,
+   "set_tohum": 89
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=saglik_kaygisi": {
+   "sette": 1.42,
+   "havuz": 1.79,
+   "fark": 0.36,
+   "havuz_tohum": 40,
+   "set_tohum": 14
+  },
+  "motivasyon_evresi=on_dusunme&stres_tipi=yok": {
+   "sette": 16.35,
+   "havuz": 14.91,
+   "fark": -1.43,
+   "havuz_tohum": 334,
+   "set_tohum": 161
+  },
+  "motivasyon_evresi=dusunme&stres_tipi=yalnizlik": {
+   "sette": 1.22,
+   "havuz": 3.12,
+   "fark": 1.91,
+   "havuz_tohum": 70,
+   "set_tohum": 12
+  },
+  "evre=tolerans&profil=beyaz_yakali": {
+   "sette": 11.98,
+   "havuz": 10.71,
+   "fark": -1.27,
+   "havuz_tohum": 240,
+   "set_tohum": 118
+  },
+  "evre=tolerans&profil=mavi_yakali": {
+   "sette": 9.64,
+   "havuz": 5.8,
+   "fark": -3.84,
+   "havuz_tohum": 130,
+   "set_tohum": 95
+  },
+  "evre=merak_deneme&profil=lise_ergeni": {
+   "sette": 4.16,
+   "havuz": 3.57,
+   "fark": -0.59,
+   "havuz_tohum": 80,
+   "set_tohum": 41
+  },
+  "evre=sosyal_kullanim&profil=lise_ergeni": {
+   "sette": 1.12,
+   "havuz": 1.79,
+   "fark": 0.67,
+   "havuz_tohum": 40,
+   "set_tohum": 11
+  },
+  "evre=sosyal_kullanim&profil=universite_ogrencisi": {
+   "sette": 3.65,
+   "havuz": 2.68,
+   "fark": -0.98,
+   "havuz_tohum": 60,
+   "set_tohum": 36
+  },
+  "evre=tolerans&profil=universite_ogrencisi": {
+   "sette": 3.86,
+   "havuz": 3.57,
+   "fark": -0.29,
+   "havuz_tohum": 80,
+   "set_tohum": 38
+  },
+  "evre=birakma_cabasi&profil=beyaz_yakali": {
+   "sette": 5.08,
+   "havuz": 5.8,
+   "fark": 0.73,
+   "havuz_tohum": 130,
+   "set_tohum": 50
+  },
+  "evre=nuksetme&profil=beyaz_yakali": {
+   "sette": 4.06,
+   "havuz": 4.02,
+   "fark": -0.04,
+   "havuz_tohum": 90,
+   "set_tohum": 40
+  },
+  "evre=tolerans&profil=kronik_issiz": {
+   "sette": 4.67,
+   "havuz": 2.68,
+   "fark": -1.99,
+   "havuz_tohum": 60,
+   "set_tohum": 46
+  },
+  "evre=tolerans&profil=emekli_yasli": {
+   "sette": 8.63,
+   "havuz": 8.48,
+   "fark": -0.15,
+   "havuz_tohum": 190,
+   "set_tohum": 85
+  },
+  "evre=inkar&profil=emekli_yasli": {
+   "sette": 1.62,
+   "havuz": 2.23,
+   "fark": 0.61,
+   "havuz_tohum": 50,
+   "set_tohum": 16
+  },
+  "evre=tolerans&profil=yeni_ebeveyn": {
+   "sette": 3.45,
+   "havuz": 4.91,
+   "fark": 1.46,
+   "havuz_tohum": 110,
+   "set_tohum": 34
+  },
+  "evre=tolerans&profil=ev_kadini": {
+   "sette": 3.45,
+   "havuz": 5.36,
+   "fark": 1.91,
+   "havuz_tohum": 120,
+   "set_tohum": 34
+  },
+  "evre=nuksetme&profil=yeni_ebeveyn": {
+   "sette": 2.94,
+   "havuz": 2.68,
+   "fark": -0.27,
+   "havuz_tohum": 60,
+   "set_tohum": 29
+  },
+  "evre=inkar&profil=lise_ergeni": {
+   "sette": 0.81,
+   "havuz": 1.34,
+   "fark": 0.53,
+   "havuz_tohum": 30,
+   "set_tohum": 8
+  },
+  "evre=birakma_cabasi&profil=universite_ogrencisi": {
+   "sette": 0.61,
+   "havuz": 0.89,
+   "fark": 0.28,
+   "havuz_tohum": 20,
+   "set_tohum": 6
+  },
+  "evre=birakma_cabasi&profil=emekli_yasli": {
+   "sette": 0.81,
+   "havuz": 1.79,
+   "fark": 0.97,
+   "havuz_tohum": 40,
+   "set_tohum": 8
+  },
+  "evre=inkar&profil=mavi_yakali": {
+   "sette": 1.32,
+   "havuz": 2.68,
+   "fark": 1.36,
+   "havuz_tohum": 60,
+   "set_tohum": 13
+  },
+  "evre=birakma_cabasi&profil=kronik_issiz": {
+   "sette": 0.81,
+   "havuz": 0.89,
+   "fark": 0.08,
+   "havuz_tohum": 20,
+   "set_tohum": 8
+  },
+  "evre=merak_deneme&profil=universite_ogrencisi": {
+   "sette": 1.83,
+   "havuz": 2.68,
+   "fark": 0.85,
+   "havuz_tohum": 60,
+   "set_tohum": 18
+  },
+  "evre=tolerans&profil=lise_ergeni": {
+   "sette": 3.15,
+   "havuz": 3.12,
+   "fark": -0.02,
+   "havuz_tohum": 70,
+   "set_tohum": 31
+  },
+  "evre=inkar&profil=beyaz_yakali": {
+   "sette": 4.06,
+   "havuz": 1.79,
+   "fark": -2.28,
+   "havuz_tohum": 40,
+   "set_tohum": 40
+  },
+  "evre=dibe_vurma&profil=mavi_yakali": {
+   "sette": 3.45,
+   "havuz": 1.79,
+   "fark": -1.67,
+   "havuz_tohum": 40,
+   "set_tohum": 34
+  },
+  "evre=inkar&profil=universite_ogrencisi": {
+   "sette": 1.73,
+   "havuz": 0.89,
+   "fark": -0.83,
+   "havuz_tohum": 20,
+   "set_tohum": 17
+  },
+  "evre=dibe_vurma&profil=kronik_issiz": {
+   "sette": 1.42,
+   "havuz": 2.68,
+   "fark": 1.26,
+   "havuz_tohum": 60,
+   "set_tohum": 14
+  },
+  "evre=birakma_cabasi&profil=ev_kadini": {
+   "sette": 1.83,
+   "havuz": 1.34,
+   "fark": -0.49,
+   "havuz_tohum": 30,
+   "set_tohum": 18
+  },
+  "evre=nuksetme&profil=universite_ogrencisi": {
+   "sette": 0.51,
+   "havuz": 0.89,
+   "fark": 0.39,
+   "havuz_tohum": 20,
+   "set_tohum": 5
+  },
+  "evre=nuksetme&profil=kronik_issiz": {
+   "sette": 1.32,
+   "havuz": 1.79,
+   "fark": 0.47,
+   "havuz_tohum": 40,
+   "set_tohum": 13
+  },
+  "evre=nuksetme&profil=lise_ergeni": {
+   "sette": 0.3,
+   "havuz": 0.89,
+   "fark": 0.59,
+   "havuz_tohum": 20,
+   "set_tohum": 3
+  },
+  "evre=dibe_vurma&profil=beyaz_yakali": {
+   "sette": 0.81,
+   "havuz": 1.79,
+   "fark": 0.97,
+   "havuz_tohum": 40,
+   "set_tohum": 8
+  },
+  "evre=dibe_vurma&profil=lise_ergeni": {
+   "sette": 1.62,
+   "havuz": 1.79,
+   "fark": 0.16,
+   "havuz_tohum": 40,
+   "set_tohum": 16
+  },
+  "evre=dibe_vurma&profil=emekli_yasli": {
+   "sette": 1.32,
+   "havuz": 0.89,
+   "fark": -0.43,
+   "havuz_tohum": 20,
+   "set_tohum": 13
+  },
+  "evre=dibe_vurma&profil=ev_kadini": {
+   "sette": 0.3,
+   "havuz": 0.89,
+   "fark": 0.59,
+   "havuz_tohum": 20,
+   "set_tohum": 3
+  },
+  "evre=inkar&profil=ev_kadini": {
+   "sette": 1.32,
+   "havuz": 0.89,
+   "fark": -0.43,
+   "havuz_tohum": 20,
+   "set_tohum": 13
+  },
+  "evre=birakma_cabasi&profil=yeni_ebeveyn": {
+   "sette": 1.02,
+   "havuz": 0.89,
+   "fark": -0.12,
+   "havuz_tohum": 20,
+   "set_tohum": 10
+  },
+  "evre=tolerans&profil=diger": {
+   "sette": 0.91,
+   "havuz": 1.79,
+   "fark": 0.87,
+   "havuz_tohum": 40,
+   "set_tohum": 9
+  },
+  "evre=dibe_vurma&profil=universite_ogrencisi": {
+   "sette": 0.2,
+   "havuz": 0.89,
+   "fark": 0.69,
+   "havuz_tohum": 20,
+   "set_tohum": 2
+  },
+  "evre=tolerans&siddet_seviyesi=orta": {
+   "sette": 41.52,
+   "havuz": 38.17,
+   "fark": -3.35,
+   "havuz_tohum": 855,
+   "set_tohum": 409
+  },
+  "evre=merak_deneme&siddet_seviyesi=hafif": {
+   "sette": 5.99,
+   "havuz": 6.25,
+   "fark": 0.26,
+   "havuz_tohum": 140,
+   "set_tohum": 59
+  },
+  "evre=sosyal_kullanim&siddet_seviyesi=hafif": {
+   "sette": 4.37,
+   "havuz": 4.02,
+   "fark": -0.35,
+   "havuz_tohum": 90,
+   "set_tohum": 43
+  },
+  "evre=birakma_cabasi&siddet_seviyesi=orta": {
+   "sette": 8.83,
+   "havuz": 10.27,
+   "fark": 1.44,
+   "havuz_tohum": 230,
+   "set_tohum": 87
+  },
+  "evre=nuksetme&siddet_seviyesi=orta": {
+   "sette": 6.4,
+   "havuz": 7.14,
+   "fark": 0.75,
+   "havuz_tohum": 160,
+   "set_tohum": 63
+  },
+  "evre=tolerans&siddet_seviyesi=agir": {
+   "sette": 7.21,
+   "havuz": 6.47,
+   "fark": -0.73,
+   "havuz_tohum": 145,
+   "set_tohum": 71
+  },
+  "evre=inkar&siddet_seviyesi=agir": {
+   "sette": 1.52,
+   "havuz": 1.79,
+   "fark": 0.26,
+   "havuz_tohum": 40,
+   "set_tohum": 15
+  },
+  "evre=inkar&siddet_seviyesi=hafif": {
+   "sette": 0.61,
+   "havuz": 0.89,
+   "fark": 0.28,
+   "havuz_tohum": 20,
+   "set_tohum": 6
+  },
+  "evre=inkar&siddet_seviyesi=orta": {
+   "sette": 8.73,
+   "havuz": 7.14,
+   "fark": -1.59,
+   "havuz_tohum": 160,
+   "set_tohum": 86
+  },
+  "evre=sosyal_kullanim&siddet_seviyesi=orta": {
+   "sette": 0.61,
+   "havuz": 0.89,
+   "fark": 0.28,
+   "havuz_tohum": 20,
+   "set_tohum": 6
+  },
+  "evre=dibe_vurma&siddet_seviyesi=agir": {
+   "sette": 9.14,
+   "havuz": 10.71,
+   "fark": 1.58,
+   "havuz_tohum": 240,
+   "set_tohum": 90
+  },
+  "evre=tolerans&siddet_seviyesi=hafif": {
+   "sette": 1.02,
+   "havuz": 1.79,
+   "fark": 0.77,
+   "havuz_tohum": 40,
+   "set_tohum": 10
+  },
+  "evre=nuksetme&siddet_seviyesi=agir": {
+   "sette": 1.93,
+   "havuz": 2.68,
+   "fark": 0.75,
+   "havuz_tohum": 60,
+   "set_tohum": 19
+  },
+  "evre=birakma_cabasi&siddet_seviyesi=agir": {
+   "sette": 1.02,
+   "havuz": 0.89,
+   "fark": -0.12,
+   "havuz_tohum": 20,
+   "set_tohum": 10
+  },
+  "evre=tolerans&stres_tipi=is_stresi": {
+   "sette": 3.15,
+   "havuz": 2.14,
+   "fark": -1.0,
+   "havuz_tohum": 48,
+   "set_tohum": 31
+  },
+  "evre=tolerans&stres_tipi=ritüel_bagimliligi": {
+   "sette": 2.84,
+   "havuz": 1.47,
+   "fark": -1.37,
+   "havuz_tohum": 33,
+   "set_tohum": 28
+  },
+  "evre=tolerans&stres_tipi=akran_baskisi": {
+   "sette": 1.22,
+   "havuz": 1.07,
+   "fark": -0.15,
+   "havuz_tohum": 24,
+   "set_tohum": 12
+  },
+  "evre=tolerans&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 1.62,
+   "havuz": 1.52,
+   "fark": -0.11,
+   "havuz_tohum": 34,
+   "set_tohum": 16
+  },
+  "evre=sosyal_kullanim&stres_tipi=yok": {
+   "sette": 4.37,
+   "havuz": 3.71,
+   "fark": -0.66,
+   "havuz_tohum": 83,
+   "set_tohum": 43
+  },
+  "evre=tolerans&stres_tipi=akademik_stres": {
+   "sette": 1.93,
+   "havuz": 1.34,
+   "fark": -0.59,
+   "havuz_tohum": 30,
+   "set_tohum": 19
+  },
+  "evre=tolerans&stres_tipi=yok": {
+   "sette": 31.27,
+   "havuz": 30.4,
+   "fark": -0.87,
+   "havuz_tohum": 681,
+   "set_tohum": 308
+  },
+  "evre=birakma_cabasi&stres_tipi=yok": {
+   "sette": 9.64,
+   "havuz": 10.71,
+   "fark": 1.07,
+   "havuz_tohum": 240,
+   "set_tohum": 95
+  },
+  "evre=tolerans&stres_tipi=aile_catismasi": {
+   "sette": 1.73,
+   "havuz": 1.47,
+   "fark": -0.25,
+   "havuz_tohum": 33,
+   "set_tohum": 17
+  },
+  "evre=inkar&stres_tipi=yok": {
+   "sette": 10.46,
+   "havuz": 9.38,
+   "fark": -1.08,
+   "havuz_tohum": 210,
+   "set_tohum": 103
+  },
+  "evre=nuksetme&stres_tipi=yok": {
+   "sette": 6.9,
+   "havuz": 8.93,
+   "fark": 2.03,
+   "havuz_tohum": 200,
+   "set_tohum": 68
+  },
+  "evre=merak_deneme&stres_tipi=yok": {
+   "sette": 4.57,
+   "havuz": 5.36,
+   "fark": 0.79,
+   "havuz_tohum": 120,
+   "set_tohum": 45
+  },
+  "evre=tolerans&stres_tipi=yalnizlik": {
+   "sette": 1.62,
+   "havuz": 3.48,
+   "fark": 1.86,
+   "havuz_tohum": 78,
+   "set_tohum": 16
+  },
+  "evre=dibe_vurma&stres_tipi=yok": {
+   "sette": 6.4,
+   "havuz": 6.47,
+   "fark": 0.08,
+   "havuz_tohum": 145,
+   "set_tohum": 63
+  },
+  "evre=dibe_vurma&stres_tipi=saglik_kaygisi": {
+   "sette": 0.61,
+   "havuz": 1.29,
+   "fark": 0.69,
+   "havuz_tohum": 29,
+   "set_tohum": 6
+  },
+  "evre=dibe_vurma&stres_tipi=akademik_stres": {
+   "sette": 1.62,
+   "havuz": 1.79,
+   "fark": 0.16,
+   "havuz_tohum": 40,
+   "set_tohum": 16
+  },
+  "profil=beyaz_yakali&siddet_seviyesi=orta": {
+   "sette": 22.23,
+   "havuz": 19.64,
+   "fark": -2.59,
+   "havuz_tohum": 440,
+   "set_tohum": 219
+  },
+  "profil=mavi_yakali&siddet_seviyesi=orta": {
+   "sette": 8.63,
+   "havuz": 6.25,
+   "fark": -2.38,
+   "havuz_tohum": 140,
+   "set_tohum": 85
+  },
+  "profil=lise_ergeni&siddet_seviyesi=hafif": {
+   "sette": 5.89,
+   "havuz": 6.25,
+   "fark": 0.36,
+   "havuz_tohum": 140,
+   "set_tohum": 58
+  },
+  "profil=universite_ogrencisi&siddet_seviyesi=hafif": {
+   "sette": 4.87,
+   "havuz": 4.46,
+   "fark": -0.41,
+   "havuz_tohum": 100,
+   "set_tohum": 48
+  },
+  "profil=universite_ogrencisi&siddet_seviyesi=orta": {
+   "sette": 6.6,
+   "havuz": 6.7,
+   "fark": 0.1,
+   "havuz_tohum": 150,
+   "set_tohum": 65
+  },
+  "profil=mavi_yakali&siddet_seviyesi=agir": {
+   "sette": 5.79,
+   "havuz": 4.02,
+   "fark": -1.77,
+   "havuz_tohum": 90,
+   "set_tohum": 57
+  },
+  "profil=kronik_issiz&siddet_seviyesi=orta": {
+   "sette": 5.89,
+   "havuz": 4.02,
+   "fark": -1.87,
+   "havuz_tohum": 90,
+   "set_tohum": 58
+  },
+  "profil=emekli_yasli&siddet_seviyesi=orta": {
+   "sette": 7.41,
+   "havuz": 8.04,
+   "fark": 0.62,
+   "havuz_tohum": 180,
+   "set_tohum": 73
+  },
+  "profil=emekli_yasli&siddet_seviyesi=agir": {
+   "sette": 4.87,
+   "havuz": 4.91,
+   "fark": 0.04,
+   "havuz_tohum": 110,
+   "set_tohum": 48
+  },
+  "profil=yeni_ebeveyn&siddet_seviyesi=orta": {
+   "sette": 5.28,
+   "havuz": 6.25,
+   "fark": 0.97,
+   "havuz_tohum": 140,
+   "set_tohum": 52
+  },
+  "profil=ev_kadini&siddet_seviyesi=orta": {
+   "sette": 5.89,
+   "havuz": 6.7,
+   "fark": 0.81,
+   "havuz_tohum": 150,
+   "set_tohum": 58
+  },
+  "profil=yeni_ebeveyn&siddet_seviyesi=hafif": {
+   "sette": 1.22,
+   "havuz": 1.34,
+   "fark": 0.12,
+   "havuz_tohum": 30,
+   "set_tohum": 12
+  },
+  "profil=ev_kadini&siddet_seviyesi=agir": {
+   "sette": 1.02,
+   "havuz": 1.79,
+   "fark": 0.77,
+   "havuz_tohum": 40,
+   "set_tohum": 10
+  },
+  "profil=lise_ergeni&siddet_seviyesi=orta": {
+   "sette": 3.25,
+   "havuz": 4.24,
+   "fark": 0.99,
+   "havuz_tohum": 95,
+   "set_tohum": 32
+  },
+  "profil=beyaz_yakali&siddet_seviyesi=agir": {
+   "sette": 2.94,
+   "havuz": 3.57,
+   "fark": 0.63,
+   "havuz_tohum": 80,
+   "set_tohum": 29
+  },
+  "profil=kronik_issiz&siddet_seviyesi=agir": {
+   "sette": 2.34,
+   "havuz": 4.02,
+   "fark": 1.68,
+   "havuz_tohum": 90,
+   "set_tohum": 23
+  },
+  "profil=beyaz_yakali&siddet_seviyesi=hafif": {
+   "sette": 1.02,
+   "havuz": 1.34,
+   "fark": 0.32,
+   "havuz_tohum": 30,
+   "set_tohum": 10
+  },
+  "profil=lise_ergeni&siddet_seviyesi=agir": {
+   "sette": 2.03,
+   "havuz": 2.01,
+   "fark": -0.02,
+   "havuz_tohum": 45,
+   "set_tohum": 20
+  },
+  "profil=universite_ogrencisi&siddet_seviyesi=agir": {
+   "sette": 0.91,
+   "havuz": 1.34,
+   "fark": 0.43,
+   "havuz_tohum": 30,
+   "set_tohum": 9
+  },
+  "profil=yeni_ebeveyn&siddet_seviyesi=agir": {
+   "sette": 0.91,
+   "havuz": 0.89,
+   "fark": -0.02,
+   "havuz_tohum": 20,
+   "set_tohum": 9
+  },
+  "profil=diger&siddet_seviyesi=orta": {
+   "sette": 0.91,
+   "havuz": 1.79,
+   "fark": 0.87,
+   "havuz_tohum": 40,
+   "set_tohum": 9
+  },
+  "profil=beyaz_yakali&stres_tipi=is_stresi": {
+   "sette": 3.76,
+   "havuz": 2.41,
+   "fark": -1.35,
+   "havuz_tohum": 54,
+   "set_tohum": 37
+  },
+  "profil=lise_ergeni&stres_tipi=akran_baskisi": {
+   "sette": 1.42,
+   "havuz": 1.56,
+   "fark": 0.14,
+   "havuz_tohum": 35,
+   "set_tohum": 14
+  },
+  "profil=universite_ogrencisi&stres_tipi=akademik_stres": {
+   "sette": 2.34,
+   "havuz": 1.38,
+   "fark": -0.95,
+   "havuz_tohum": 31,
+   "set_tohum": 23
+  },
+  "profil=universite_ogrencisi&stres_tipi=yok": {
+   "sette": 8.73,
+   "havuz": 9.96,
+   "fark": 1.22,
+   "havuz_tohum": 223,
+   "set_tohum": 86
+  },
+  "profil=beyaz_yakali&stres_tipi=yok": {
+   "sette": 19.59,
+   "havuz": 20.04,
+   "fark": 0.45,
+   "havuz_tohum": 449,
+   "set_tohum": 193
+  },
+  "profil=emekli_yasli&stres_tipi=yok": {
+   "sette": 9.54,
+   "havuz": 9.15,
+   "fark": -0.39,
+   "havuz_tohum": 205,
+   "set_tohum": 94
+  },
+  "profil=yeni_ebeveyn&stres_tipi=yok": {
+   "sette": 6.4,
+   "havuz": 6.7,
+   "fark": 0.3,
+   "havuz_tohum": 150,
+   "set_tohum": 63
+  },
+  "profil=ev_kadini&stres_tipi=yok": {
+   "sette": 5.99,
+   "havuz": 6.34,
+   "fark": 0.35,
+   "havuz_tohum": 142,
+   "set_tohum": 59
+  },
+  "profil=lise_ergeni&stres_tipi=yok": {
+   "sette": 6.19,
+   "havuz": 7.14,
+   "fark": 0.95,
+   "havuz_tohum": 160,
+   "set_tohum": 61
+  },
+  "profil=emekli_yasli&stres_tipi=saglik_kaygisi": {
+   "sette": 0.71,
+   "havuz": 1.25,
+   "fark": 0.54,
+   "havuz_tohum": 28,
+   "set_tohum": 7
+  },
+  "profil=mavi_yakali&stres_tipi=yok": {
+   "sette": 10.25,
+   "havuz": 8.04,
+   "fark": -2.22,
+   "havuz_tohum": 180,
+   "set_tohum": 101
+  },
+  "profil=ev_kadini&stres_tipi=yalnizlik": {
+   "sette": 0.81,
+   "havuz": 1.79,
+   "fark": 0.97,
+   "havuz_tohum": 40,
+   "set_tohum": 8
+  },
+  "profil=kronik_issiz&stres_tipi=yok": {
+   "sette": 5.99,
+   "havuz": 5.8,
+   "fark": -0.19,
+   "havuz_tohum": 130,
+   "set_tohum": 59
+  },
+  "profil=emekli_yasli&stres_tipi=yalnizlik": {
+   "sette": 0.81,
+   "havuz": 1.7,
+   "fark": 0.88,
+   "havuz_tohum": 38,
+   "set_tohum": 8
+  },
+  "profil=lise_ergeni&stres_tipi=akademik_stres": {
+   "sette": 1.73,
+   "havuz": 2.01,
+   "fark": 0.28,
+   "havuz_tohum": 45,
+   "set_tohum": 17
+  },
+  "profil=yeni_ebeveyn&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 0.41,
+   "havuz": 0.89,
+   "fark": 0.49,
+   "havuz_tohum": 20,
+   "set_tohum": 4
+  },
+  "profil=diger&stres_tipi=yok": {
+   "sette": 0.91,
+   "havuz": 1.79,
+   "fark": 0.87,
+   "havuz_tohum": 40,
+   "set_tohum": 9
+  },
+  "siddet_seviyesi=orta&stres_tipi=is_stresi": {
+   "sette": 3.25,
+   "havuz": 2.19,
+   "fark": -1.06,
+   "havuz_tohum": 49,
+   "set_tohum": 32
+  },
+  "siddet_seviyesi=orta&stres_tipi=ritüel_bagimliligi": {
+   "sette": 1.93,
+   "havuz": 0.98,
+   "fark": -0.95,
+   "havuz_tohum": 22,
+   "set_tohum": 19
+  },
+  "siddet_seviyesi=orta&stres_tipi=fiziksel_yorgunluk": {
+   "sette": 1.32,
+   "havuz": 1.34,
+   "fark": 0.02,
+   "havuz_tohum": 30,
+   "set_tohum": 13
+  },
+  "siddet_seviyesi=hafif&stres_tipi=akran_baskisi": {
+   "sette": 1.02,
+   "havuz": 1.16,
+   "fark": 0.15,
+   "havuz_tohum": 26,
+   "set_tohum": 10
+  },
+  "siddet_seviyesi=hafif&stres_tipi=yok": {
+   "sette": 10.86,
+   "havuz": 10.85,
+   "fark": -0.01,
+   "havuz_tohum": 243,
+   "set_tohum": 107
+  },
+  "siddet_seviyesi=orta&stres_tipi=akademik_stres": {
+   "sette": 1.73,
+   "havuz": 1.12,
+   "fark": -0.61,
+   "havuz_tohum": 25,
+   "set_tohum": 17
+  },
+  "siddet_seviyesi=orta&stres_tipi=yok": {
+   "sette": 49.04,
+   "havuz": 49.6,
+   "fark": 0.56,
+   "havuz_tohum": 1111,
+   "set_tohum": 483
+  },
+  "siddet_seviyesi=orta&stres_tipi=saglik_kaygisi": {
+   "sette": 1.12,
+   "havuz": 0.89,
+   "fark": -0.22,
+   "havuz_tohum": 20,
+   "set_tohum": 11
+  },
+  "siddet_seviyesi=agir&stres_tipi=aile_catismasi": {
+   "sette": 1.22,
+   "havuz": 1.25,
+   "fark": 0.03,
+   "havuz_tohum": 28,
+   "set_tohum": 12
+  },
+  "siddet_seviyesi=orta&stres_tipi=aile_catismasi": {
+   "sette": 1.83,
+   "havuz": 1.61,
+   "fark": -0.22,
+   "havuz_tohum": 36,
+   "set_tohum": 18
+  },
+  "siddet_seviyesi=agir&stres_tipi=yok": {
+   "sette": 13.71,
+   "havuz": 14.51,
+   "fark": 0.8,
+   "havuz_tohum": 325,
+   "set_tohum": 135
+  },
+  "siddet_seviyesi=orta&stres_tipi=yalnizlik": {
+   "sette": 1.42,
+   "havuz": 2.59,
+   "fark": 1.17,
+   "havuz_tohum": 58,
+   "set_tohum": 14
+  },
+  "siddet_seviyesi=agir&stres_tipi=saglik_kaygisi": {
+   "sette": 0.71,
+   "havuz": 1.74,
+   "fark": 1.03,
+   "havuz_tohum": 39,
+   "set_tohum": 7
+  },
+  "siddet_seviyesi=agir&stres_tipi=akademik_stres": {
+   "sette": 1.83,
+   "havuz": 2.01,
+   "fark": 0.18,
+   "havuz_tohum": 45,
+   "set_tohum": 18
+  }
+ }
+}

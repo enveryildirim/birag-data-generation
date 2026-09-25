@@ -1,0 +1,182 @@
+{
+ "tarih": "2026-09-15",
+ "betik": "scripts/analiz/2026-09-15-doz-yanit-yamala.py",
+ "kaynak": {
+  "dosya": "datasets/v0.0.3/train.jsonl",
+  "sha256_16": "b50f7588e085f212"
+ },
+ "yamalar": {
+  "802a014fe91ebbc2": {
+   "doz": 10,
+   "cevap_ek": "Okuduklarını olduğu gibi seni gören bir hekime sorabilirsin."
+  },
+  "049c62fa00f632d6": {
+   "doz": 10,
+   "cevap_ek": "Sabahları başının döndüğünü ilacı yazan hekime söyleyebilirsin."
+  },
+  "d1f87cc0222d652a": {
+   "doz": 10,
+   "cevap_ek": "Nabzında fark ettiğin tuhaflığı ona olduğu gibi anlatabilirsin."
+  },
+  "dc5a22d008dee048": {
+   "doz": 10,
+   "cevap_ek": "Sormaya korktuğun şeyi ona olduğu gibi sorabilirsin."
+  },
+  "f3c15ff6bcfe53ac": {
+   "doz": 10,
+   "cevap_ek": "Ne aldığını değerlendirebilecek olan bir hekim var; istersen ona bir kez sorarsın."
+  },
+  "96df24c1ba532186": {
+   "doz": 10,
+   "cevap_ek": "Salı günü oğlunun cümlesini o hekime olduğu gibi aktarabilirsin."
+  },
+  "115aa036d383a1bf": {
+   "doz": 10,
+   "cevap_ek": "Bu sefer de kararı yalnız vermek zorunda değilsin; yeni şehirde bir hekime bunu bir kez sorabilirsin."
+  },
+  "aaa1c9a0ba4f4435": {
+   "doz": 25,
+   "cevap_ek": "Yeni tahlili yaptırdığında merak ettiğini bir hekime sorabilirsin."
+  },
+  "afeb9133c01e8f71": {
+   "doz": 25,
+   "cevap_ek": "Azaltmayı ancak ilacı yazan hekim planlayabilir; ikinci günde olanları ona anlatabilirsin."
+  },
+  "ba6b849b8b77ef88": {
+   "doz": 25,
+   "cevap_ek": "\"Geçer mi\" sorusunu sorabileceğin biri var: bugün olanı bir hekime anlatabilirsin."
+  },
+  "4a8af1467106bc53": {
+   "doz": 25,
+   "cevap_ek": "Bana yazdığın bu iki cümleyi olduğu gibi ona da söyleyebilirsin."
+  },
+  "528b1123cbeb14ae": {
+   "doz": 25,
+   "cevap_ek": "İşi karıştıracağı korkusunu da ilacı yazan hekime olduğu gibi söyleyebilirsin."
+  },
+  "69776ab9b10c60fc": {
+   "doz": 25,
+   "cevap_ek": "Fikrin geri geldiğini ona da söyleyebilirsin."
+  },
+  "7a2be624a947e7c8": {
+   "doz": 25,
+   "cevap_ek": "Hafta sonu olanı ve çocukluğuna dair fark ettiğini seni muayene eden hekime anlatabilirsin."
+  },
+  "fdc6e5d25da7cd24": {
+   "doz": 25,
+   "cevap_ek": "Emzirdiğini hekimine söyleyebilirsin; ne zaman söyleyeceğine sen karar verirsin."
+  },
+  "53b008b252a59816": {
+   "doz": 25,
+   "cevap_ek": "Söylemeyi seçersen, şarabı olduğu gibi anlatabilirsin."
+  },
+  "dec0afd13a3f0325": {
+   "doz": 25,
+   "cevap_ek": "İki haftadır süren sabah öksürüğünü bir hekime anlatabilirsin."
+  },
+  "44cd5dddffa56418": {
+   "doz": 25,
+   "cevap_ek": "Beynin kapanmıyor dediğin kısmı bir hekime de anlatabilirsin."
+  },
+  "f79f465788374149": {
+   "doz": 25,
+   "cevap_ek": "Arkadaşının söylediğini olduğu gibi onlardan birine sorabilirsin."
+  },
+  "8c735882349fdc1f": {
+   "doz": 25,
+   "cevap_ek": "İki cümlenin hangisinin ne getireceğini ancak bir avukat söyleyebilir; iki hafta varken ona bir kez sorabilirsin."
+  },
+  "631dccc638aaefb8": {
+   "doz": 25,
+   "cevap_ek": "Yapılandırmanın nasıl işlediğini de bilmiyorum; bunu bir avukata sorabilirsin."
+  },
+  "b1b92fd913b34c28": {
+   "doz": 25,
+   "cevap_ek": "Uykuya bakabilecek olan bir hekim var; miktarın kendiliğinden arttığını ona söyleyebilirsin."
+  },
+  "4b31c887aa3a3ed0": {
+   "doz": 25,
+   "cevap_ek": "Aldığın şeyi değerlendirebilecek olan bir hekim var; istersen ona bir kez söylersin."
+  },
+  "c3e09721ddbdcfbb": {
+   "doz": 25,
+   "cevap_ek": "Yetmemeye başlamasının ne anlama geldiğini buradan söyleyemem; bunu ilacı yazan hekime sorabilirsin."
+  },
+  "e9c273a5ad251288": {
+   "doz": 25,
+   "cevap_ek": "Toleransın ne olduğunu ve sana ne anlattığını buradan söyleyemem; o soruyu seni gören bir hekime sorabilirsin."
+  },
+  "f9550f5bce7b9ca4": {
+   "doz": 25,
+   "cevap_ek": "Raporlu izinde ne kadarının paylaşılmak zorunda olduğu ise hukuki bir soru; onu bir avukata sorabilirsin."
+  }
+ },
+ "setler": {
+  "v0.0.4": {
+   "dosya": "data/candidates/v0.0.4-doz10.jsonl",
+   "kayit": 155,
+   "terapotik": 137,
+   "uygulanan_yama": 7,
+   "yonlendirme": 14,
+   "oran": 10.2,
+   "degisen_id": [
+    "049c62fa00f632d6",
+    "115aa036d383a1bf",
+    "802a014fe91ebbc2",
+    "96df24c1ba532186",
+    "d1f87cc0222d652a",
+    "dc5a22d008dee048",
+    "f3c15ff6bcfe53ac"
+   ],
+   "sha256_16": "d0159f7b014f8ef4"
+  },
+  "v0.0.5": {
+   "dosya": "data/candidates/v0.0.5-doz25.jsonl",
+   "kayit": 155,
+   "terapotik": 137,
+   "uygulanan_yama": 26,
+   "yonlendirme": 33,
+   "oran": 24.1,
+   "degisen_id": [
+    "049c62fa00f632d6",
+    "115aa036d383a1bf",
+    "44cd5dddffa56418",
+    "4a8af1467106bc53",
+    "4b31c887aa3a3ed0",
+    "528b1123cbeb14ae",
+    "53b008b252a59816",
+    "631dccc638aaefb8",
+    "69776ab9b10c60fc",
+    "7a2be624a947e7c8",
+    "802a014fe91ebbc2",
+    "8c735882349fdc1f",
+    "96df24c1ba532186",
+    "aaa1c9a0ba4f4435",
+    "afeb9133c01e8f71",
+    "b1b92fd913b34c28",
+    "ba6b849b8b77ef88",
+    "c3e09721ddbdcfbb",
+    "d1f87cc0222d652a",
+    "dc5a22d008dee048",
+    "dec0afd13a3f0325",
+    "e9c273a5ad251288",
+    "f3c15ff6bcfe53ac",
+    "f79f465788374149",
+    "f9550f5bce7b9ca4",
+    "fdc6e5d25da7cd24"
+   ],
+   "sha256_16": "f36387f857f43b78"
+  }
+ },
+ "turu_zamirle_gonderen_ekleme": [
+  "4a8af1467106bc53",
+  "53b008b252a59816",
+  "69776ab9b10c60fc",
+  "d1f87cc0222d652a",
+  "dc5a22d008dee048",
+  "f79f465788374149"
+ ],
+ "tekrar_eden_dortlu": {
+  "olan bir hekim var": 3
+ }
+}

@@ -1,0 +1,45 @@
+# Faz 5 · KATMAN 29 DENEYİ — kapasite mi, kimlik mi?
+#
+# ⛔⛔ Uçurum haritası eşiği TEK KATMANA indirdi: üstten 12 (katman 30–41) %46,
+#   üstten 13 (katman 29–41) %8. Fark **katman 29**. Ama bu, «13 katmanlık
+#   KAPASİTE eşiği» ile aynı gözlemi verir ⇒ ikisi ayrılmamıştı.
+#
+# ⭐ Bu aile ikisini ÇAPRAZLIYOR:
+#     p-atla29    : 13 katman, 29 YOK  (28 + 30-41)
+#     p-sadece29  : 12 katman, 29 VAR  (29 + 31-41)
+#
+# ⚠️ `mlx_lm` ortadaki bir katmanı atlamaya izin vermiyor (`num_layers` üstten
+#   N alır). Kaynağı okundu: `keys` ikinci bir geçişte TAM MODÜL YOLUYLA da
+#   eşleşiyor ⇒ `num_layers: 0` + tam yollar. Bu belgelenmemiş bir yol olduğu
+#   için kapsam koşudan ÖNCE ölçülüyor:
+#   `scripts/analiz/2026-09-17-katman29-onkontrol.py`
+#
+ad: p-atla29
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.8/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 0
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys: ["language_model.model.layers.28.self_attn.q_proj", "language_model.model.layers.30.self_attn.q_proj", "language_model.model.layers.31.self_attn.q_proj", "language_model.model.layers.32.self_attn.q_proj", "language_model.model.layers.33.self_attn.q_proj", "language_model.model.layers.34.self_attn.q_proj", "language_model.model.layers.35.self_attn.q_proj", "language_model.model.layers.36.self_attn.q_proj", "language_model.model.layers.37.self_attn.q_proj", "language_model.model.layers.38.self_attn.q_proj", "language_model.model.layers.39.self_attn.q_proj", "language_model.model.layers.40.self_attn.q_proj", "language_model.model.layers.41.self_attn.q_proj"]

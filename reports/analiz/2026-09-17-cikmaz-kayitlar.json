@@ -1,0 +1,657 @@
+{
+  "tarih": "2026-09-17",
+  "kural": "§5a⁗",
+  "olcut": "ret_bilgi kalıbı VAR, eval kabul listesinden yönlendirme YOK",
+  "kaynak": "datasets/v0.0.8/train.jsonl",
+  "kayit": 81,
+  "hedefler": [
+    {
+      "id": "b4e29adf258c173d5aaa0901",
+      "parti": null,
+      "parti_sira": 21,
+      "scenario": "hukuki_kaygi",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "27723f592229e5775cbbea62",
+      "parti": null,
+      "parti_sira": 30,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "eb297f0da83027645caf3112",
+      "parti": null,
+      "parti_sira": 38,
+      "scenario": "bilgilendirme",
+      "addiction_type": "dijital",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "631dccc638aaefb89b71e04f",
+      "parti": "v3-parti2",
+      "parti_sira": 2,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "e3682e69926bdc6bb7f5e97f",
+      "parti": "v3-parti2",
+      "parti_sira": 13,
+      "scenario": "kayma_nuks",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "8c735882349fdc1f5efe6285",
+      "parti": "v3-parti2",
+      "parti_sira": 16,
+      "scenario": "borc_finansal",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "f9550f5bce7b9ca46f3812f2",
+      "parti": "v3-parti2",
+      "parti_sira": 17,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "71bb2b5678dc211b035bf2ff",
+      "parti": "v3-parti2",
+      "parti_sira": 20,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "e4f2b26cc9c14f46315a88ec",
+      "parti": "v3-parti2",
+      "parti_sira": 32,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "0d95d9459fa717b080ba9237",
+      "parti": "v3-parti3",
+      "parti_sira": 7,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "3625b64e70cbfad9f1c1c3bf",
+      "parti": "v4-parti1",
+      "parti_sira": 2,
+      "scenario": "rol_siniri",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "2756c055521fa06c6b62e637",
+      "parti": "v4-parti1",
+      "parti_sira": 9,
+      "scenario": "inkar",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "da6ebb3f5e1b8ad5eb12a9cb",
+      "parti": "v4-parti1",
+      "parti_sira": 17,
+      "scenario": "inkar",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "319327db9068a5ba0a1262bf",
+      "parti": "v4-parti1",
+      "parti_sira": 21,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "96df24c1ba532186e32be53e",
+      "parti": "v4-parti1",
+      "parti_sira": 26,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "677c665a6a49efcac0751719",
+      "parti": "v4-parti1",
+      "parti_sira": 36,
+      "scenario": "ambivalans",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "d383afea73768f1a48733819",
+      "parti": "v4-parti2",
+      "parti_sira": 5,
+      "scenario": "hukuki_kaygi",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "673e749c23467254fde2dd1e",
+      "parti": "v4-parti2",
+      "parti_sira": 19,
+      "scenario": "rol_siniri",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "bca53e775c0723ec0fc21a8d",
+      "parti": "v4-parti2",
+      "parti_sira": 55,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "receteli_ilac",
+      "slice": "rag_cok_tur"
+    },
+    {
+      "id": "606da4bf3d523b94a17cab93",
+      "parti": "v4-parti2",
+      "parti_sira": 57,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "ee77d2516da0e79f34eee1ca",
+      "parti": "v5-parti3",
+      "parti_sira": 1,
+      "scenario": "rol_siniri",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "4c4d529f571af9f2c510054f",
+      "parti": "v5-parti3",
+      "parti_sira": 2,
+      "scenario": "bilgilendirme",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "9b3fd43f070e21aadd58c7c5",
+      "parti": "v5-parti3",
+      "parti_sira": 4,
+      "scenario": "rol_siniri",
+      "addiction_type": "dijital",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "0ffd7179b403c0d7adf79630",
+      "parti": "v5-parti3",
+      "parti_sira": 11,
+      "scenario": "ambivalans",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "45d03b5935ce84b322b65d10",
+      "parti": "v5-parti3",
+      "parti_sira": 12,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "2fbce5884eb4d183dfa77e80",
+      "parti": "v5-parti3",
+      "parti_sira": 16,
+      "scenario": "farkindalik",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "5a635d6c6059c1ddfdcb8c76",
+      "parti": "v5-parti3",
+      "parti_sira": 30,
+      "scenario": "kayip_kovalama",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "435c058afe724cb8fa927c05",
+      "parti": "v5-parti3",
+      "parti_sira": 46,
+      "scenario": "ambivalans",
+      "addiction_type": "tutun",
+      "slice": "rag_tek_tur"
+    },
+    {
+      "id": "83fc42cc5c18eb13d096dc00",
+      "parti": "v5-parti3",
+      "parti_sira": 59,
+      "scenario": "ambivalans",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "5e9b27b671c8b2fef9342851",
+      "parti": "v5-parti4",
+      "parti_sira": 36,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "715dd5c97a96f5fb5179efc4",
+      "parti": "v5-parti4",
+      "parti_sira": 49,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "8d7666e7d954f32607308bab",
+      "parti": "v5-parti4",
+      "parti_sira": 10,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "97abbe56d391f529c2495e14",
+      "parti": "v5-parti4",
+      "parti_sira": 12,
+      "scenario": "rol_siniri",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "6ad0be4adb8f8ed6c71e211a",
+      "parti": "v5-parti4",
+      "parti_sira": 15,
+      "scenario": "farkindalik",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "e279f4f4412d0796be764658",
+      "parti": "v5-parti4",
+      "parti_sira": 23,
+      "scenario": "farkindalik",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "e3b9b1f341ec38efb267aa2a",
+      "parti": "v5-parti4",
+      "parti_sira": 24,
+      "scenario": "hukuki_kaygi",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "06ad336d874239a2ef08dc9a",
+      "parti": "v5-parti4",
+      "parti_sira": 25,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "4efd7bdbabf742baeb21e239",
+      "parti": "v5-parti4",
+      "parti_sira": 29,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "1728f166bfd27e68ced6052a",
+      "parti": "v5-parti4",
+      "parti_sira": 51,
+      "scenario": "rol_siniri",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "c977b4d0eaade6bcd3e2f049",
+      "parti": "v5-parti5",
+      "parti_sira": 7,
+      "scenario": "ambivalans",
+      "addiction_type": "dijital",
+      "slice": "rag_tek_tur"
+    },
+    {
+      "id": "e60c2f5a7a8e8aa8c57cbef4",
+      "parti": "v5-parti5",
+      "parti_sira": 46,
+      "scenario": "ambivalans",
+      "addiction_type": "tutun",
+      "slice": "rag_cok_tur"
+    },
+    {
+      "id": "29513a8d6ab9c5993aed3ff5",
+      "parti": "v5-parti5",
+      "parti_sira": 17,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "dcb2d5ea1180a62f2e2f95b3",
+      "parti": "v5-parti5",
+      "parti_sira": 20,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "833a3c51bbbd1adc139c7201",
+      "parti": "v5-parti5",
+      "parti_sira": 6,
+      "scenario": "farkindalik",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "4d4b316e814f3b6429aa065a",
+      "parti": "v5-parti5",
+      "parti_sira": 16,
+      "scenario": "anlasilmama",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "c0d8c38cb6882998fd780549",
+      "parti": "v5-parti5",
+      "parti_sira": 35,
+      "scenario": "rol_siniri",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "0ef67edcf6c287b7e39632bb",
+      "parti": "v5-parti6",
+      "parti_sira": 31,
+      "scenario": "anlasilmama",
+      "addiction_type": "alkol",
+      "slice": "rag_cok_tur"
+    },
+    {
+      "id": "77b95e8d2a1b0b436a67d3d9",
+      "parti": "v5-parti6",
+      "parti_sira": 11,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "43e6092f6a87adf3c19084f4",
+      "parti": "v5-parti6",
+      "parti_sira": 44,
+      "scenario": "inkar",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "375db25edf10ecdab09f9c4d",
+      "parti": "v5-parti6",
+      "parti_sira": 56,
+      "scenario": "ambivalans",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "c965187e20887a3b1269b071",
+      "parti": "v5-parti6",
+      "parti_sira": 13,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "cb48d594c2cb2feb352001bb",
+      "parti": "v5-parti6",
+      "parti_sira": 17,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "526d1cf03a43cc9a421940d0",
+      "parti": "v5-parti6",
+      "parti_sira": 54,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "0f4c2ad07f2d02ec57b75b3c",
+      "parti": "v5-parti6",
+      "parti_sira": 57,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "920f5e48a8fe617fac1832de",
+      "parti": "v5-parti7",
+      "parti_sira": 2,
+      "scenario": "rol_siniri",
+      "addiction_type": "tutun",
+      "slice": "rag_tek_tur"
+    },
+    {
+      "id": "47b3e07de9f644e90a23659d",
+      "parti": "v5-parti7",
+      "parti_sira": 34,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "rag_cok_tur"
+    },
+    {
+      "id": "c272e5cfcff9f2e7eb78ea2b",
+      "parti": "v5-parti7",
+      "parti_sira": 1,
+      "scenario": "rol_siniri",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "bd7300c688d46f8ccdf9f64d",
+      "parti": "v5-parti7",
+      "parti_sira": 3,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "4d9990f32c8cd118170a1ab9",
+      "parti": "v5-parti7",
+      "parti_sira": 17,
+      "scenario": "anlasilmama",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "0feb29d28ea9719cd47f0be3",
+      "parti": "v5-parti7",
+      "parti_sira": 57,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "8343346b6e90ef68f28177e7",
+      "parti": "v5-parti7",
+      "parti_sira": 7,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "dijital",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "a94d4f7034d42590f92f82de",
+      "parti": "v5-parti7",
+      "parti_sira": 9,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "d5e1ed628c0bc9434bb4f095",
+      "parti": "v5-parti7",
+      "parti_sira": 16,
+      "scenario": "anlasilmama",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "cc4320627a722bc6c7cb2cc5",
+      "parti": "v5-parti7",
+      "parti_sira": 21,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "2fe89b3afe4c5ee5e8535241",
+      "parti": "v5-parti7",
+      "parti_sira": 25,
+      "scenario": "ambivalans",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "f00d4514fc2eb1cda7320900",
+      "parti": "v5-parti7",
+      "parti_sira": 35,
+      "scenario": "anlasilmama",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "176e4e6b28677cfc57d0f278",
+      "parti": "v5-parti7",
+      "parti_sira": 44,
+      "scenario": "inkar",
+      "addiction_type": "kumar",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "870e46e64892ada6b5b7adc6",
+      "parti": "v5-parti7",
+      "parti_sira": 51,
+      "scenario": "ambivalans",
+      "addiction_type": "alkol",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "70268b786c65c496f9c18085",
+      "parti": "v5-parti7",
+      "parti_sira": 58,
+      "scenario": "ambivalans",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "935dfac08ec6ae71e46a0836",
+      "parti": "v5-parti8",
+      "parti_sira": 27,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "alkol",
+      "slice": "rag_tek_tur"
+    },
+    {
+      "id": "b05ad7e0988efea2ef793485",
+      "parti": "v5-parti8",
+      "parti_sira": 29,
+      "scenario": "nazikce_karsi_cikma",
+      "addiction_type": "tutun",
+      "slice": "rag_tek_tur"
+    },
+    {
+      "id": "0b7c87113afd8285f7ebe58d",
+      "parti": "v5-parti8",
+      "parti_sira": 56,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "tutun",
+      "slice": "rag_cok_tur"
+    },
+    {
+      "id": "41659cc02e35bb3274fb98c6",
+      "parti": "v5-parti8",
+      "parti_sira": 37,
+      "scenario": "borc_finansal",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "94129bb5e6c6919c85267524",
+      "parti": "v5-parti8",
+      "parti_sira": 45,
+      "scenario": "ambivalans",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "ffd521c07526e0c0fb0cc670",
+      "parti": "v5-parti8",
+      "parti_sira": 6,
+      "scenario": "ambivalans",
+      "addiction_type": "receteli_ilac",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "1c34e236dfe1935787aa2f05",
+      "parti": "v5-parti8",
+      "parti_sira": 13,
+      "scenario": "inkar",
+      "addiction_type": "tutun",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "dcab4ee2a721f458e2f79e00",
+      "parti": "v5-parti8",
+      "parti_sira": 25,
+      "scenario": "inkar",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "b78973373c46e6007701478d",
+      "parti": "v5-parti8",
+      "parti_sira": 30,
+      "scenario": "hedef_belirleme",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "ff340c6170bf40a6be202c95",
+      "parti": "v5-parti8",
+      "parti_sira": 33,
+      "scenario": "anlasilmama",
+      "addiction_type": "alkol",
+      "slice": "terapotik_tek_tur"
+    },
+    {
+      "id": "6fab8b17e914b22ccc6da609",
+      "parti": "v5-parti8",
+      "parti_sira": 39,
+      "scenario": "borc_finansal",
+      "addiction_type": "kumar",
+      "slice": "terapotik_cok_tur"
+    },
+    {
+      "id": "add3fa49c703f4e4b74090a1",
+      "parti": "v5-parti8",
+      "parti_sira": 59,
+      "scenario": "farkindalik",
+      "addiction_type": "tutun",
+      "slice": "terapotik_cok_tur"
+    }
+  ]
+}

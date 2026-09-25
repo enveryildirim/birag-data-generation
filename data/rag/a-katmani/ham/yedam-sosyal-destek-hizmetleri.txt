@@ -1,0 +1,26 @@
+# kaynak_url: https://www.yedam.org.tr/sosyal-destek-hizmetleri
+# kurum: YEDAM — Yeşilay Danışmanlık Merkezi
+# alinma_tarihi: 2026-09-15
+# lisans: kurumsal-kamuya-acik
+# yontem: tarayıcı get_page_text, birebir
+---
+Sosyal Destek Hizmetleri
+
+Birey ve ailelerin sosyal uyum ve yaşam becerilerini geliştirme amacı ile danışan ve ailesi ile yüz yüze görüşme, sosyal etkinlikler düzenleme, İŞKUR ve İSMEK ile koordineli çalışma, iş birliği görüşmeleri yürütme ve kişilerin ihtiyaçları doğrultusunda yönlendirmeler yapılmaktadır.
+
+Sosyal Hizmet Uzmanlarımız Birey ve Ailelerin İhtiyaçlarına göre aşağıda belirtilen alanlarda müdahalelerde bulunur;
+
+Boş zamanları değerlendirme
+Arkadaş ilişkilerini düzenleme
+Yaşadığı çevre ile başa çıkma
+Aile ilişkilerini düzenleme
+Çalışma konusunda destek sağlama
+Eğitim sürecinde destek verme
+Meslek edinme sürecine katkı sağlama
+Sağlık güvencesi olmayan kişilere bu konuda destek verme
+Ekonomik sorunlar için destek sağlama
+Barınma ihtiyacı konusunda destek verme
+Yaşamsal zorluklarla mücadele
+Fiziksel sorunlar için destek sağlama
+Yasal sorunlarla mücadelede destek verme
+Sosyal becerileri geliştirme

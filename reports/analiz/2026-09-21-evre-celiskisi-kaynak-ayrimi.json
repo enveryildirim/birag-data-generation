@@ -1,0 +1,81 @@
+{
+ "tarih": "2026-09-21",
+ "B": 10000,
+ "oran": {
+  "tolerans": 0.043,
+  "dibe_vurma": 0.12,
+  "birakma_cabasi": 0.125,
+  "nuksetme": 0.128,
+  "sosyal_kullanim": 0.182,
+  "inkar": 0.042,
+  "merak_deneme": 0.208
+ },
+ "parti": {
+  "v6-parti1": {
+   "n": 59,
+   "gozlenen": 5,
+   "beklenen": 5.5,
+   "bant": [
+    2,
+    10
+   ],
+   "disarida": false
+  },
+  "v6-parti3": {
+   "n": 60,
+   "gozlenen": 7,
+   "beklenen": 4.7,
+   "bant": [
+    1,
+    9
+   ],
+   "disarida": false
+  },
+  "v6-parti4": {
+   "n": 59,
+   "gozlenen": 1,
+   "beklenen": 4.8,
+   "bant": [
+    1,
+    9
+   ],
+   "disarida": false
+  },
+  "v6-parti5": {
+   "n": 60,
+   "gozlenen": 5,
+   "beklenen": 6.0,
+   "bant": [
+    2,
+    11
+   ],
+   "disarida": false
+  },
+  "v6-parti6": {
+   "n": 58,
+   "gozlenen": 10,
+   "beklenen": 7.0,
+   "bant": [
+    3,
+    12
+   ],
+   "disarida": false
+  }
+ },
+ "karisim": {
+  "sosyal_kullanim→tolerans": 2,
+  "birakma_cabasi→inkar": 2,
+  "tolerans→birakma_cabasi": 3,
+  "nuksetme→inkar": 1,
+  "inkar→tolerans": 1,
+  "nuksetme→merak_deneme": 1,
+  "dibe_vurma→birakma_cabasi": 2,
+  "birakma_cabasi→tolerans": 3,
+  "tolerans→nuksetme": 2,
+  "merak_deneme→tolerans": 5,
+  "nuksetme→tolerans": 2,
+  "dibe_vurma→nuksetme": 1,
+  "nuksetme→birakma_cabasi": 2,
+  "birakma_cabasi→nuksetme": 1
+ }
+}

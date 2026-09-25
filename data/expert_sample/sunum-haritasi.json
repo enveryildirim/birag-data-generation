@@ -1,0 +1,422 @@
+{
+  "1": {
+    "id": "3b2bba753a1604255f040eee",
+    "sira": 4,
+    "scenario": "hedef_belirleme",
+    "slice": "terapotik_tek_tur"
+  },
+  "2": {
+    "id": "78b8cb4d7c429b2e28ad0940",
+    "sira": 37,
+    "scenario": "inkar",
+    "slice": "rag_tek_tur"
+  },
+  "3": {
+    "id": "95862a8f6ed2b97184f8fad3",
+    "sira": 63,
+    "scenario": "anlasilmama",
+    "slice": "terapotik_tek_tur"
+  },
+  "4": {
+    "id": "11789ab247d0e3bbca7400d9",
+    "sira": 1,
+    "scenario": "durtu",
+    "slice": "terapotik_tek_tur"
+  },
+  "5": {
+    "id": "0bb8f111172cc24ab612d5f4",
+    "sira": 11,
+    "scenario": "durtu",
+    "slice": "terapotik_tek_tur"
+  },
+  "6": {
+    "id": "bac73d8e8f2fbd41729e91aa",
+    "sira": 56,
+    "scenario": "inkar",
+    "slice": "terapotik_tek_tur"
+  },
+  "7": {
+    "id": "a254d1e8b85b508c97f713ca",
+    "sira": 22,
+    "scenario": "hukuki_kaygi",
+    "slice": "terapotik_cok_tur"
+  },
+  "8": {
+    "id": "ae48bb75efecdc7390245eda",
+    "sira": 54,
+    "scenario": "motivasyon",
+    "slice": "rag_tek_tur"
+  },
+  "9": {
+    "id": "78293191b359cb3c3a5c1924",
+    "sira": 50,
+    "scenario": "discord",
+    "slice": "terapotik_tek_tur"
+  },
+  "10": {
+    "id": "113df76b38624f102e31d083",
+    "sira": 47,
+    "scenario": "farkindalik",
+    "slice": "terapotik_cok_tur"
+  },
+  "11": {
+    "id": "154db4de20343a9d069adfb1",
+    "sira": 45,
+    "scenario": "inkar",
+    "slice": "terapotik_tek_tur"
+  },
+  "12": {
+    "id": "d6aaec21429f5307b23325f0",
+    "sira": 67,
+    "scenario": "kutlama",
+    "slice": "terapotik_tek_tur"
+  },
+  "13": {
+    "id": "49f7daa2b72175ce033b5cd7",
+    "sira": 15,
+    "scenario": "anlasilmama",
+    "slice": "terapotik_cok_tur"
+  },
+  "14": {
+    "id": "f575e92f66e89d22b81e5bfe",
+    "sira": 24,
+    "scenario": "hukuki_kaygi",
+    "slice": "terapotik_tek_tur"
+  },
+  "15": {
+    "id": "9a769e04b753818f5e92674b",
+    "sira": 28,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "16": {
+    "id": "1207f37c86866ed3d891684c",
+    "sira": 69,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "17": {
+    "id": "69b60641b0df4e23c6c27d81",
+    "sira": 13,
+    "scenario": "motivasyon",
+    "slice": "terapotik_tek_tur"
+  },
+  "18": {
+    "id": "214481fc045b610133798cd9",
+    "sira": 35,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "19": {
+    "id": "9a85d55ba0560771ee8f915a",
+    "sira": 36,
+    "scenario": "farkindalik",
+    "slice": "terapotik_tek_tur"
+  },
+  "20": {
+    "id": "f3b1df5878565d2d06ab25b7",
+    "sira": 31,
+    "scenario": "borc_finansal",
+    "slice": "terapotik_tek_tur"
+  },
+  "21": {
+    "id": "51c96a26dcd3171778c70ef6",
+    "sira": 20,
+    "scenario": "motivasyon",
+    "slice": "rag_tek_tur"
+  },
+  "22": {
+    "id": "4c84181039aca222d939ba25",
+    "sira": 48,
+    "scenario": "durtu",
+    "slice": "terapotik_tek_tur"
+  },
+  "23": {
+    "id": "1c7d33e4bb906578a4ce98f2",
+    "sira": 57,
+    "scenario": "borc_finansal",
+    "slice": "terapotik_tek_tur"
+  },
+  "24": {
+    "id": "1df90d5997611fdab27a6be2",
+    "sira": 12,
+    "scenario": "inkar",
+    "slice": "rag_cok_tur"
+  },
+  "25": {
+    "id": "de5a5a8cc662c4a32ca9d324",
+    "sira": 49,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "26": {
+    "id": "01c6e7e0ce73ba92eaa98a32",
+    "sira": 41,
+    "scenario": "farkindalik",
+    "slice": "terapotik_tek_tur"
+  },
+  "27": {
+    "id": "7e23c0dbb5a2ef274f312cab",
+    "sira": 30,
+    "scenario": "bilgilendirme",
+    "slice": "terapotik_tek_tur"
+  },
+  "28": {
+    "id": "4d52b79aabb756e8b687744a",
+    "sira": 68,
+    "scenario": "ambivalans",
+    "slice": "rag_tek_tur"
+  },
+  "29": {
+    "id": "30057e7c57c05b42c00d7b49",
+    "sira": 34,
+    "scenario": "inkar",
+    "slice": "terapotik_cok_tur"
+  },
+  "30": {
+    "id": "d306fc97ed65aa8344dd40ac",
+    "sira": 55,
+    "scenario": "kayma_nuks",
+    "slice": "terapotik_tek_tur"
+  },
+  "31": {
+    "id": "114cdb5a7065e899872ba2ff",
+    "sira": 51,
+    "scenario": "rol_siniri",
+    "slice": "terapotik_tek_tur"
+  },
+  "32": {
+    "id": "75ddf1ba216233237f9e7333",
+    "sira": 40,
+    "scenario": "kayip_kovalama",
+    "slice": "terapotik_tek_tur"
+  },
+  "33": {
+    "id": "b04849308b603c9442c3695a",
+    "sira": 8,
+    "scenario": "farkindalik",
+    "slice": "rag_tek_tur"
+  },
+  "34": {
+    "id": "90e2b1382063729618e716e2",
+    "sira": 60,
+    "scenario": "bilgilendirme",
+    "slice": "terapotik_tek_tur"
+  },
+  "35": {
+    "id": "57cbf6d703a2ad0218194671",
+    "sira": 17,
+    "scenario": "kayma_nuks",
+    "slice": "terapotik_tek_tur"
+  },
+  "36": {
+    "id": "99a8f46a6316d86841abe511",
+    "sira": 2,
+    "scenario": "durtu",
+    "slice": "terapotik_tek_tur"
+  },
+  "37": {
+    "id": "e3a9c2e073fe42a9e341e091",
+    "sira": 9,
+    "scenario": "nazikce_karsi_cikma",
+    "slice": "terapotik_cok_tur"
+  },
+  "38": {
+    "id": "90b8d2e0816d7a70d082f598",
+    "sira": 19,
+    "scenario": "ambivalans",
+    "slice": "rag_tek_tur"
+  },
+  "39": {
+    "id": "fcbe34007dc6262036e56cdc",
+    "sira": 23,
+    "scenario": "hedef_belirleme",
+    "slice": "terapotik_tek_tur"
+  },
+  "40": {
+    "id": "4125e6187b175dabfb7947a7",
+    "sira": 32,
+    "scenario": "farkindalik",
+    "slice": "terapotik_tek_tur"
+  },
+  "41": {
+    "id": "5651437269fc12c5608758f7",
+    "sira": 3,
+    "scenario": "ambivalans",
+    "slice": "terapotik_cok_tur"
+  },
+  "42": {
+    "id": "672408e51cfd4dc96d33dac3",
+    "sira": 6,
+    "scenario": "nazikce_karsi_cikma",
+    "slice": "terapotik_tek_tur"
+  },
+  "43": {
+    "id": "1f784c65b79e1c87f926773c",
+    "sira": 7,
+    "scenario": "borc_finansal",
+    "slice": "terapotik_cok_tur"
+  },
+  "44": {
+    "id": "31a1d5ee6091bc1a3b3e77ed",
+    "sira": 29,
+    "scenario": "farkindalik",
+    "slice": "terapotik_tek_tur"
+  },
+  "45": {
+    "id": "3134c324bb49982abac0d957",
+    "sira": 62,
+    "scenario": "rol_siniri",
+    "slice": "terapotik_tek_tur"
+  },
+  "46": {
+    "id": "7b518d545a79e50c18c03c8f",
+    "sira": 66,
+    "scenario": "hukuki_kaygi",
+    "slice": "terapotik_tek_tur"
+  },
+  "47": {
+    "id": "4cadbdf4a30391ceccffcde9",
+    "sira": 21,
+    "scenario": "inkar",
+    "slice": "rag_tek_tur"
+  },
+  "48": {
+    "id": "8fc424e867b2e02170db4da0",
+    "sira": 33,
+    "scenario": "bilgilendirme",
+    "slice": "terapotik_tek_tur"
+  },
+  "49": {
+    "id": "0f773797221d88cabdfc2eac",
+    "sira": 5,
+    "scenario": "borc_finansal",
+    "slice": "terapotik_tek_tur"
+  },
+  "50": {
+    "id": "caa95b5769412d272c09bd98",
+    "sira": 65,
+    "scenario": "nazikce_karsi_cikma",
+    "slice": "terapotik_cok_tur"
+  },
+  "51": {
+    "id": "aebc4cd2943f136ba286de33",
+    "sira": 26,
+    "scenario": "anlasilmama",
+    "slice": "terapotik_tek_tur"
+  },
+  "52": {
+    "id": "e69e7e9b4204672005356b86",
+    "sira": 70,
+    "scenario": "rol_siniri",
+    "slice": "rag_tek_tur"
+  },
+  "53": {
+    "id": "e92daefa91a1bfd1de97d166",
+    "sira": 25,
+    "scenario": "inkar",
+    "slice": "terapotik_tek_tur"
+  },
+  "54": {
+    "id": "4ef165485685fdb5f856c838",
+    "sira": 52,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "55": {
+    "id": "c47df0efaa4ded14b329eef3",
+    "sira": 27,
+    "scenario": "bilmiyorum_cikmazi",
+    "slice": "terapotik_tek_tur"
+  },
+  "56": {
+    "id": "fb5892e03a75d83e571aba14",
+    "sira": 43,
+    "scenario": "farkindalik",
+    "slice": "terapotik_tek_tur"
+  },
+  "57": {
+    "id": "eb2644bad7627be9098fd067",
+    "sira": 46,
+    "scenario": "rol_siniri",
+    "slice": "terapotik_tek_tur"
+  },
+  "58": {
+    "id": "a98570a946e5879ea9701b64",
+    "sira": 64,
+    "scenario": "kutlama",
+    "slice": "terapotik_tek_tur"
+  },
+  "59": {
+    "id": "759dd8808211ca2ef4c1c0a9",
+    "sira": 39,
+    "scenario": "motivasyon",
+    "slice": "terapotik_tek_tur"
+  },
+  "60": {
+    "id": "f4cb586d95076574d8946660",
+    "sira": 61,
+    "scenario": "hedef_belirleme",
+    "slice": "terapotik_tek_tur"
+  },
+  "61": {
+    "id": "a44bd29d1ec553942b938331",
+    "sira": 44,
+    "scenario": "nazikce_karsi_cikma",
+    "slice": "terapotik_cok_tur"
+  },
+  "62": {
+    "id": "cf010d885cc352f9df474b57",
+    "sira": 53,
+    "scenario": "discord",
+    "slice": "terapotik_tek_tur"
+  },
+  "63": {
+    "id": "2d4a4865dd122cebe8885565",
+    "sira": 10,
+    "scenario": "ambivalans",
+    "slice": "terapotik_cok_tur"
+  },
+  "64": {
+    "id": "382d693e4045579c1f8bf9c6",
+    "sira": 14,
+    "scenario": "bilmiyorum_cikmazi",
+    "slice": "terapotik_cok_tur"
+  },
+  "65": {
+    "id": "7edc3efa4aa4002b297f531b",
+    "sira": 42,
+    "scenario": "bilmiyorum_cikmazi",
+    "slice": "terapotik_tek_tur"
+  },
+  "66": {
+    "id": "fa037b2796c02094ee22ae5a",
+    "sira": 18,
+    "scenario": "kayip_kovalama",
+    "slice": "terapotik_cok_tur"
+  },
+  "67": {
+    "id": "a16d28d3ed746031641bd930",
+    "sira": 58,
+    "scenario": "nazikce_karsi_cikma",
+    "slice": "terapotik_cok_tur"
+  },
+  "68": {
+    "id": "23e073e7ffb4cc2a23805873",
+    "sira": 59,
+    "scenario": "inkar",
+    "slice": "terapotik_tek_tur"
+  },
+  "69": {
+    "id": "5c3d6f577f108f06fb958da0",
+    "sira": 38,
+    "scenario": "ambivalans",
+    "slice": "terapotik_tek_tur"
+  },
+  "70": {
+    "id": "4469c20d49dede3087a1b526",
+    "sira": 16,
+    "scenario": "hedef_belirleme",
+    "slice": "rag_tek_tur"
+  }
+}

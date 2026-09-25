@@ -1,0 +1,251 @@
+{
+  "tarih": "2026-09-18",
+  "girdi": "data/candidates/v6-parti2.jsonl",
+  "kayit": 59,
+  "esik_yuzde": 2.0,
+  "dizi": [
+    {
+      "dizi": "yaziyor sorduğun şeyin cevabi",
+      "kayit": 4
+    },
+    {
+      "dizi": "başka bir şey",
+      "kayit": 4
+    },
+    {
+      "dizi": "kişinin kendi başvurusuyla",
+      "kayit": 4
+    },
+    {
+      "dizi": "ve randevunun kişinin kendi başvurusuyla oluşturulduğu yaziyor",
+      "kayit": 3
+    },
+    {
+      "dizi": "paylaşilmadiği yaziyor sorduğun şeyin cevabi orada",
+      "kayit": 3
+    },
+    {
+      "dizi": "bir hekimin bilmesi gerekiyor",
+      "kayit": 3
+    },
+    {
+      "dizi": "ne yapacağin sana",
+      "kayit": 3
+    },
+    {
+      "dizi": "yaziyor sorunun cevabi",
+      "kayit": 3
+    },
+    {
+      "dizi": "hakkinda bir şey",
+      "kayit": 3
+    },
+    {
+      "dizi": "sorunun cevabi evet",
+      "kayit": 3
+    },
+    {
+      "dizi": "ve randevunun kişinin kendi başvurusuyla oluşturulduğu yaziyor sorunun cevabi",
+      "kayit": 2
+    },
+    {
+      "dizi": "alindiği ve randevunun kişinin kendi başvurusuyla oluşturulduğu yaziyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunu bir hekimin bilmesi gerekiyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir de şu var",
+      "kayit": 2
+    },
+    {
+      "dizi": "yaziyor yani sorunun cevabi",
+      "kayit": 2
+    },
+    {
+      "dizi": "ne yapacağin sana ait",
+      "kayit": 2
+    },
+    {
+      "dizi": "yaziyor sorunun cevabi evet",
+      "kayit": 2
+    },
+    {
+      "dizi": "seninle ayni fikirde değilim",
+      "kayit": 2
+    },
+    {
+      "dizi": "notta görüşmelerin kişinin kendi",
+      "kayit": 2
+    },
+    {
+      "dizi": "hakkinda bir şey söyleyemem",
+      "kayit": 2
+    },
+    {
+      "dizi": "sorularin görüşmede alindiği",
+      "kayit": 2
+    },
+    {
+      "dizi": "de sen söyledin",
+      "kayit": 2
+    },
+    {
+      "dizi": "işe yarayacağini bilmiyorum",
+      "kayit": 2
+    },
+    {
+      "dizi": "bilmiyorum ve tahmin",
+      "kayit": 2
+    },
+    {
+      "dizi": "getiren ne oldu",
+      "kayit": 2
+    },
+    {
+      "dizi": "ayni şey değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey değil",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir şey ve",
+      "kayit": 2
+    },
+    {
+      "dizi": "bunun için çalişiyor",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve şimdi o",
+      "kayit": 2
+    },
+    {
+      "dizi": "notta görüşme içeriğinin",
+      "kayit": 2
+    },
+    {
+      "dizi": "anlattiğin şeyde bir",
+      "kayit": 2
+    },
+    {
+      "dizi": "ben bilmiyorum ama",
+      "kayit": 2
+    },
+    {
+      "dizi": "iki ayri şey",
+      "kayit": 2
+    },
+    {
+      "dizi": "üçü de ayni",
+      "kayit": 2
+    },
+    {
+      "dizi": "sen ekledin o",
+      "kayit": 2
+    },
+    {
+      "dizi": "da sen söyledin",
+      "kayit": 2
+    },
+    {
+      "dizi": "ve şu an",
+      "kayit": 2
+    },
+    {
+      "dizi": "bir ilacin nasil",
+      "kayit": 2
+    }
+  ],
+  "egri": {
+    "yaziyor sorduğun şeyin cevabi": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%6.8"
+    ],
+    "başka bir şey": [
+      "%15.0",
+      "%3.4",
+      "%2.6",
+      "%2.6",
+      "%2.6",
+      "%3.3",
+      "%2.9",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%4.2",
+      "%6.8"
+    ],
+    "kişinin kendi başvurusuyla": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%6.8"
+    ],
+    "ve randevunun kişinin kendi başvurusuyla oluşturulduğu yaziyor": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%5.1"
+    ],
+    "paylaşilmadiği yaziyor sorduğun şeyin cevabi orada": [
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%0.0",
+      "%5.1"
+    ]
+  }
+}

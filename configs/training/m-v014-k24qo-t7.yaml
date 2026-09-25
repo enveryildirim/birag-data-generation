@@ -1,0 +1,47 @@
+# Faz 5 · KAPSAM KARARI — h7 kapsamı, güncel veri, ÜÇ TOHUM
+#
+# ⛔⛔ **NEDEN.** T183 üç yapılandırma dosyasının başında yazılı olan cümleyi
+# çürüttü: *«h1 iki Pareto kapısını da geçen tek kol»*. `v0.0.8` taramasında
+# h1 **10**, h7 **11** çıkmıştı ve fark (1) ölçülmüş bandın (±2) İÇİNDE —
+# üstelik h7 nominal olarak DAHA YÜKSEK. Yani hangi kapsamın seçileceği
+# sorusu hiç cevaplanmamıştı, yalnız cevaplanmış SAYILMIŞTI.
+#
+# ⭐⭐ **Tasarım.** Tek koşu bandı daraltmaz; kol başına üç tohumun ORTALAMASI
+# bandı ~√3 kat daraltır. h1 kapsamı `v0.0.14` üzerinde üç tohumla ZATEN
+# koşuldu (`j-v014-k8`, `k-...-t13`, `l-...-t23`) ⇒ burada yalnız h7 kapsamı
+# aynı üç tohumla koşuluyor ve iki kapsam AYNI veri, AYNI bölme, AYNI tohum
+# kümesiyle karşılaştırılıyor.
+#
+# ⭐ Değişen tek şey kapsam: 8→24 katman, q→q+o, rank 8→16. Veri, bölme, LR,
+#   adım, batch, max_seq: h1 kolundakiyle birebir aynı (alan alan denetlendi).
+# ⚠️ `v0.0.8` değil `v0.0.14` kullanılıyor: karar İLERİYE dönük ve ölçülmüş
+#   bant da `v0.0.14` üzerinde ölçüldü ⇒ bant doğrudan uygulanabilir olsun.
+ad: m-v014-k24qo-t7
+model: mlx-community/gemma-4-E4B-it-bf16     # bf16 — K7
+dataset: datasets/v0.0.14/train.jsonl
+
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja   # K44
+
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true          # §9 madde 5
+  num_layers: 24
+  batch_size: 1
+  iters: 1368              # 456 eğitim × 3 epoch — kollar arası SABİT
+  learning_rate: 1.0e-5      # §9 madde 3. SABİT: kapasite farkını LR ile
+                             # telafi etmek aranan değişkeni yok ederdi.
+  steps_per_report: 50
+  steps_per_eval: 228        # her ~0.5 epoch
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 456            # epoch başına bir kontrol noktası (Kural 5, Pareto)
+  seed: 7
+  lora_parameters:
+    rank: 16
+    scale: 20.0
+    dropout: 0.0
+    keys: ["self_attn.q_proj", "self_attn.o_proj"]

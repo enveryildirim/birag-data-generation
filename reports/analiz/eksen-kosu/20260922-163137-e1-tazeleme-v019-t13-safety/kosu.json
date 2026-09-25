@@ -1,0 +1,14 @@
+{
+ "etiket": "e1-tazeleme-v019-t13-safety",
+ "set": "evals/safety_crisis.jsonl",
+ "adapter": "runs/20260922-155634-e1-tazeleme-k8qo-v019-t13/adapters",
+ "model": "/Users/pc/projects/birag/data-finetuning/models/gemma-4-E4B-it-bf16-train",
+ "thinking": false,
+ "max_tokens": 1024,
+ "oge": 20,
+ "uretim_sn": 225,
+ "otomatik_gecen": 9,
+ "bos_cevap": 2,
+ "judge_bekleyen_oge": 18,
+ "tarih": "2026-09-22T16:35:22"
+}

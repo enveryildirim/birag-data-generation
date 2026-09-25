@@ -1,0 +1,189 @@
+{
+  "tarih": "2026-09-19",
+  "bant": {
+    "otomatik": 2,
+    "dereceli": 4,
+    "e3": 2
+  },
+  "tohum": {
+    "otomatik": {
+      "7": 10,
+      "13": 10,
+      "23": 12
+    },
+    "dereceli": {
+      "7": 18,
+      "13": 17,
+      "23": 14
+    },
+    "e3": {
+      "7": 29,
+      "13": 27,
+      "23": 28
+    }
+  },
+  "aileler": {
+    "kapsam merdiveni (h · 09-17)": {
+      "n_cift": 21,
+      "bant_ici_otomatik": 12,
+      "bant_ici_dereceli": 11,
+      "otomatik": {
+        "h1 · 8 kat q": 10,
+        "h2 · 16 kat q": 7,
+        "h3 · 24 kat q": 7,
+        "h4 · 32 kat q": 7,
+        "h5 · 16 kat q+o": 6,
+        "h6 · 24 kat q+o": 8,
+        "h7 · 24 kat q+o r16": 11
+      },
+      "dereceli": {
+        "h1 · 8 kat q": 19,
+        "h2 · 16 kat q": 1,
+        "h3 · 24 kat q": 1,
+        "h4 · 32 kat q": 1,
+        "h5 · 16 kat q+o": 0,
+        "h6 · 24 kat q+o": 3,
+        "h7 · 24 kat q+o r16": 7
+      }
+    },
+    "uçurum (u · 09-17)": {
+      "n_cift": 15,
+      "bant_ici_otomatik": 13,
+      "bant_ici_dereceli": 4,
+      "otomatik": {
+        "8 katman": 10,
+        "10 katman": 9,
+        "12 katman": 10,
+        "13 katman": 8,
+        "14 katman": 8,
+        "16 katman": 7
+      },
+      "dereceli": {
+        "8 katman": 19,
+        "10 katman": 14,
+        "12 katman": 11,
+        "13 katman": 2,
+        "14 katman": 2,
+        "16 katman": 1
+      }
+    },
+    "katman 29 (p · 09-17)": {
+      "n_cift": 1,
+      "bant_ici_otomatik": 0,
+      "bant_ici_dereceli": 0,
+      "otomatik": {
+        "13 kat · 29 YOK": 8,
+        "12 kat · 29 VAR": 4
+      },
+      "dereceli": {
+        "13 kat · 29 YOK": 7,
+        "12 kat · 29 VAR": 1
+      }
+    },
+    "ilan seyreltme (ka · 09-17)": {
+      "n_cift": 1,
+      "bant_ici_otomatik": 1,
+      "bant_ici_dereceli": 0,
+      "otomatik": {
+        "A · ilan seyreltilmiş": 9,
+        "P · plasebo": 10
+      },
+      "dereceli": {
+        "A · ilan seyreltilmiş": 14,
+        "P · plasebo": 21
+      }
+    },
+    "epok/adım (g1 · 09-16)": {
+      "n_cift": 3,
+      "bant_ici_otomatik": 3,
+      "bant_ici_dereceli": 3,
+      "otomatik": {
+        "v006 3 epok": 10,
+        "v006 adım sabit": 9,
+        "v005 referans": 8
+      },
+      "dereceli": {
+        "v006 3 epok": 20,
+        "v006 adım sabit": 19,
+        "v005 referans": 21
+      }
+    },
+    "veri sürümü (09-18/19)": {
+      "n_cift": 3,
+      "bant_ici_otomatik": 3,
+      "bant_ici_dereceli": 3,
+      "otomatik": {
+        "v0.0.8 (h1)": 10,
+        "v0.0.10": 10,
+        "v0.0.14": 10
+      },
+      "dereceli": {
+        "v0.0.8 (h1)": 19,
+        "v0.0.10": 22,
+        "v0.0.14": 18
+      }
+    }
+  },
+  "iddia_hukumleri": {
+    "T135 · «uçurum 12 ile 14 katman arasında»": {
+      "tip": "fark",
+      "fark": 9,
+      "bant": 4,
+      "ayakta": true
+    },
+    "T134/T135 · «8 ↔ 16 arasında çöküş»": {
+      "tip": "fark",
+      "fark": 18,
+      "bant": 4,
+      "ayakta": true
+    },
+    "uçurum ara nokta · «10 ile 12 farklı»": {
+      "tip": "fark",
+      "fark": 3,
+      "bant": 4,
+      "ayakta": false
+    },
+    "«h1 iki Pareto kapısını da geçen tek kol»": {
+      "tip": "fark",
+      "fark": 1,
+      "bant": 2,
+      "ayakta": false
+    },
+    "h-ailesi · «h6 h5'ten iyi»": {
+      "tip": "fark",
+      "fark": 2,
+      "bant": 2,
+      "ayakta": false
+    },
+    "T-katman29 · «29 atlamak 29'u tek başına almaktan iyi»": {
+      "tip": "fark",
+      "fark": 6,
+      "bant": 4,
+      "ayakta": true
+    },
+    "ka · «ilan seyreltmek plasebodan farklı»": {
+      "tip": "fark",
+      "fark": 7,
+      "bant": 4,
+      "ayakta": true
+    },
+    "g1 · «3 epok adım-sabitten iyi»": {
+      "tip": "fark",
+      "fark": 1,
+      "bant": 2,
+      "ayakta": false
+    },
+    "g1 · «v006 v005'ten iyi»": {
+      "tip": "fark",
+      "fark": 1,
+      "bant": 4,
+      "ayakta": false
+    },
+    "T181 · «v0.0.14 v0.0.10'a göre gerilemedi»": {
+      "tip": "yokluk",
+      "fark": 0,
+      "bant": 2,
+      "ayakta": true
+    }
+  }
+}
