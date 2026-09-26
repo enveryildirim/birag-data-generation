@@ -22,7 +22,7 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
 - **Kararlar korunur, cümleler korunmaz.**
 - ⭐⭐ **Eşleme ortak sözcük gerektirmez.** `korunan_kararlar`'da `eski` eski metinden, `yeni` yeni metinden **birebir** alınmış **kısa** parçalardır (birkaç sözcük, bütün cümle değil); ikisinin aynı sözcükleri taşıması gerekmez. Örnek: `{"eski": "Miktara girmiyorum", "yeni": "saydığını olduğu gibi geri veriyorum"}`. Büyük/küçük harf ve boşluk farkı tolere ediliyor, **noktalama ve « » edilmiyor** — tırnak ya da özel işaret içeren parça seçme.
 - ⭐⭐ **Olumsuz kararları olumluya çevir.** *«X demiyorum. Y'ye girmiyorum.»* dizisi yerine cevabın **ne yaptığını** ve neden onu seçtiğini yaz. Olumsuz cümleyi yalnız gerçek bir çekim varsa ve gerekçesiyle koru.
-- **Paragraf çapası:** eski düşünmenin paragraf sayısına yakın kal (±1).
+- ⛔⛔ **Paragraf çapası:** eski düşünmenin paragraf sayısını **say** ve ondan en çok bir eksik ya da bir fazla paragraf yaz. Blok 21'de taslakların %43'ü bu çapayı kaçırdı (eski beş paragrafı üç uzun paragrafa çöktürmek en sık hata); kabul edilmiş korpusta bu sapma %4. Her karar kendi paragrafında durabilir, uzun paragraflara yığma.
 - ⛔⛔ **Yaş ve cinsiyet üstveridir** (§1b): `age_group` gibi alanları konuşma görmez. Yalnız konuşma açıkça söylüyorsa olgu gibi yaz; dolaylı ipucu varsa çekinceli kur ve ipucunu an; yoksa hiç anma — gerekçe olarak da anma (*«yaşı ne olursa olsun»* bile yazma).
 - ⛔⛔ **Üretim iskelesi hiçbir yere giremez:** *tohum, ızgara, kota, beyan, parti, §, K/T numarası, kart numarası, «mesajdan çıkarıldı», «üretimde», «bu kayıtta», «bitişi değiştirmiyorum»*. Eski düşünmede *«X mesajda yok»* ya da *«tohumda vardı»* diye yalnız üretim ayrıntısına dair bir not varsa, onu yeni metne hiç taşıma — ne olgu olarak ne *«bilmiyorum»* olarak.
 - ⛔ **Eski düşünmedeki uydurma da taşınmaz:** konuşmada geçmeyen bir yer, kişi, sayı, madde adı (nargile vb.), nesne (telefon, klavye, araba, masa), alıntı, duygu ya da niyet. Kişinin söylemediği bir sözü tırnakla ona yakıştırma.
@@ -36,6 +36,10 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
 - ⛔ **Üstveri alanlarını gerekçe yapma:** *«bu tur yalnızca yansıtma istiyor»*, *«takdir turu»* gibi cümleler kural okumadır; cevabın neden öyle bittiğini kişiye ve konuşmaya bağla.
 - **Biçim:** düz, başlıksız Türkçe; madde imi, numara, kalın, ⛔/⭐, BÜYÜK HARF vurgusu yok. *«soru sormuyorum, X'liyorum»* kalıbı, system prompt kuralı okuma (*«yasak»*, *«kural gereği»*) ve MI jargonu (*evoking*, *engaging*, *focusing*, *discord*, *change talk*, *ambivalans*) yok.
 - **Uzunluk:** ortanca 100-120 sözcük; düşünme karakteri cevabın 4 katını geçemez.
+- ⛔ **Konuşmada olmayan bir kişiyi ya da konuşmayı icat etme.** Eski düşünme konuşmada geçmeyen birine (bir hoca, bir arkadaş, bir görüşme) dair bir karar taşıyorsa ve o kişinin konuşmada hiçbir izi yoksa, kararı eşlemede `yeni: null` yap; onu *«başkasıyla ne konuştuğu»* gibi bir cümleye çevirmek yeni bir uydurmadır.
+- ⛔ **`yeni: null` son çaredir.** Kararın konuşmaya dayanan bir özü varsa onu yeni metne yaz ve oraya eşle; `not` alanına ayrıntının konuşmada geçmediğini düşür. Blok 21'de özü olan iki karar yanlışlıkla düşürüldü.
+- ⛔⛔ **Yaşı tahmin etme.** Konuşmada açık bir yaş işareti (söylediği yaş, lise, LGS, YKS) yoksa yaşı hiç anma — *«genç biri olabilir»* gibi çekinceli bir cümle bile yazma. Kabul edilmiş korpusta yaş anan 31 kaydın hepsi konuşmada açıkça geçen bir yaşa dayanıyor; tahmine dayanan tek örnek yok.
+- ⛔ *«X mesajda yok / mesajda geçmiyor»* diye yazma; korpusta bu kalıp hiç yok. Yerine *«yazmadığı bir sayıyı ben koymuyorum»*, *«yazmadığı bir ayrıntıyı eklemiyorum»* biçimini kullan.
 - **Kalıp yok:** açılışlar ve kapanışlar kayıtlar arasında birbirine benzemesin.
 
 Bir kayıt bu çerçeveye sığmıyorsa yeniden yazma: eski düşünmeyi aynen bırak ve `bitis_gerekcesi`'ne kısa bir not düş.
