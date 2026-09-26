@@ -1,4 +1,4 @@
-<!-- v0.1.1 Faz 2 taslak alt ajanı istemi (blok 10-11'de kullanıldı). {ISLER} ve {N} doldurulur; bitiş adayları Claude Code'a kalır. -->
+<!-- v0.1.1 Faz 2 taslak alt ajanı istemi (blok 10-11'de kullanıldı). {ISLER}, {N}, {KOK} ve {SCRATCH} doldurulur; bitiş adayları Claude Code'a kalır. -->
 
 Bu bir **metin düzenleme** işi. Kocaeli Üniversitesi'nin TÜBİTAK projesinde, Türkçe bir destek sohbet robotunun eğitim verisindeki kayıtların **iç muhakeme metni** (düşünme) yeniden yazılıyor. Kullanıcı mesajları ve robotun cevabı zaten onaylanmış; onlara dokunulmuyor. Sen yalnız düşünme metnini **yeniden kuruyorsun** ve içindeki kararları **aynen** koruyorsun. Yeni içerik üretmiyorsun.
 
@@ -8,12 +8,12 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
 
 ## Adımlar
 
-1. Önce `/Users/pc/projects/birag/data-finetuning/prompts/uretim-v6.md` dosyasını baştan sona oku — bağlayıcı talimat odur (§1 düşünme, §1b yaş ve cinsiyet, §1c ve oradaki **«Yeniden kur, taşıma»**, §1d paragraf, §3 çıktı biçimi ve **eşleme tablosu**). Başka proje dosyası açma. Biçim örneği gerekirse `sonuc/0213.json` dosyasına bakabilirsin (yalnız biçim için; içeriğini kopyalama).
+1. Önce `{KOK}/prompts/uretim-v6.md` dosyasını baştan sona oku — bağlayıcı talimat odur (§1 düşünme, §1b yaş ve cinsiyet, §1c ve oradaki **«Yeniden kur, taşıma»**, §1d paragraf, §3 çıktı biçimi ve **eşleme tablosu**). Başka proje dosyası açma. Biçim örneği gerekirse `sonuc/0213.json` dosyasına bakabilirsin (yalnız biçim için; içeriğini kopyalama).
 2. İşlerin, sırayla: **{ISLER}.** ({N} kayıt. Diğer sonuc dosyaları **sana ait değil** — dokunma.)
-   Kök: `/private/tmp/claude-501/-Users-pc-projects-birag-data-finetuning/0f56c31b-862e-4207-b30f-95714cb3de6a/scratchpad/v011-faz2/kurma/`
+   Kök: `{SCRATCH}/v011-faz2/kurma/`
    Her iş: `istek/<no>.json` → sonuç `sonuc/<no>.json`. Hepsinde `bitis_adayi: false` ⇒ `bitis_karari: "aday_degil"`, `korunan_soru_turu: null`, `son_cumle: null`, `turn_ending` istek dosyasındaki eski değerin aynısı. (Bir istek dosyasında `bitis_adayi: true` görürsen o kaydı yazma, dönüşte bildir.)
 3. Her kaydı yazdıktan hemen sonra sına:
-   `cd /Users/pc/projects/birag/data-finetuning && BIRAG_SCRATCH=/private/tmp/claude-501/-Users-pc-projects-birag-data-finetuning/0f56c31b-862e-4207-b30f-95714cb3de6a/scratchpad uv run python scripts/analiz/2026-09-24-v011-faz2.py kontrol <no>`
+   `cd {KOK} && PATH=$HOME/.local/bin:$PATH BIRAG_SCRATCH={SCRATCH} uv run python scripts/analiz/2026-09-24-v011-faz2.py kontrol <no>`
    ⛔ satırı kalmayana kadar düzelt. Betik `benzerlik` değerini gösteriyor ve **≥ 0,6'da ⛔ veriyor**; hedefin 0,45'in altı. `olumsuz cümle %a→%b` değerinde **b, a'dan belirgin düşük** olmalı; ⚠️ çıkarsa kararların bir kısmını olumlu kur. Bu betiğe ve başka bir proje dosyasına yazma.
 
 ## Nasıl yeniden kurulur
