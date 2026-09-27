@@ -16,6 +16,10 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
    `cd {KOK} && PATH=$HOME/.local/bin:$PATH BIRAG_SCRATCH={SCRATCH} uv run python scripts/analiz/2026-09-24-v011-faz2.py kontrol <no>`
    ⛔ satırı kalmayana kadar düzelt. Betik `benzerlik` değerini gösteriyor ve **≥ 0,6'da ⛔ veriyor**; hedefin 0,45'in altı. `olumsuz cümle %a→%b` değerinde **b, a'dan belirgin düşük** olmalı; ⚠️ çıkarsa kararların bir kısmını olumlu kur. Bu betiğe ve başka bir proje dosyasına yazma.
 
+⛔ Yollar yukarıda birebir yazılı; **olduğu gibi kopyala**, elle yeniden yazma. Proje dizini alt çizgili (`/Users/yildirim_family/...`), scratchpad dizini tireli (`-Users-yildirim-family-...`); karıştırılırsa Write sessizce yeni bir klasör açar ve iş kaybolur.
+
+⛔ Dönüşünde yalnız gerçekten yaptığın işi bildir. Yazmadığın bir değeri yazdım, bakmadığın bir alana baktım deme; bir kayıt yarıda kaldıysa kaldığını yaz. `turn_ending` alanını **istek dosyasından okuyarak** doldur, varsaymadan.
+
 ## Nasıl yeniden kurulur
 
 - **Önce konuşmayı oku, eski düşünmeyi sonra.** Kendine sor: bu kişi ne yaşıyor, ne istiyor (kendi sözüyle); konuşmanın neresindeyiz; cevap ne yapıyor ve neden. Düşünmeyi bu sırayla yaz. Sonra eski düşünmedeki her kararın yeni metinde bulunduğunu denetle.
