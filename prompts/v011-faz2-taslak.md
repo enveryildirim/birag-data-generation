@@ -8,7 +8,7 @@ Amaç yalnız temizlik değil, **yapının yeniden kurulması**: düşünme, o k
 
 ## Adımlar
 
-1. Önce `{KOK}/prompts/uretim-v6.md` dosyasını baştan sona oku — bağlayıcı talimat odur (§1 düşünme, §1b yaş ve cinsiyet, §1c ve oradaki **«Yeniden kur, taşıma»**, §1d paragraf, §3 çıktı biçimi ve **eşleme tablosu**). Başka proje dosyası açma. Biçim örneği gerekirse `sonuc/0213.json` dosyasına bakabilirsin (yalnız biçim için; içeriğini kopyalama).
+1. Önce `{KOK}/prompts/uretim-v6.md` dosyasını baştan sona oku — bağlayıcı talimat odur (§1 düşünme, §1b yaş ve cinsiyet, §1c ve oradaki **«Yeniden kur, taşıma»**, §1d paragraf, §3 çıktı biçimi ve **eşleme tablosu**). Başka proje dosyası açma. Biçim örneği gerekirse **yalnız** `{SCRATCH}/v011-faz2/kurma/sonuc/0213.json` dosyasına bakabilirsin (yalnız biçim için; içeriğini kopyalama) — bu dosya scratchpad'dedir, proje dizininde aramayı deneme. Bulamazsan biçimi `uretim-v6.md` §3'ten çıkar; **`data/` altındaki hiçbir dosyayı açma.**
 2. İşlerin, sırayla: **{ISLER}.** ({N} kayıt. Diğer sonuc dosyaları **sana ait değil** — dokunma.)
    Kök: `{SCRATCH}/v011-faz2/kurma/`
    Her iş: `istek/<no>.json` → sonuç `sonuc/<no>.json`. Hepsinde `bitis_adayi: false` ⇒ `bitis_karari: "aday_degil"`, `korunan_soru_turu: null`, `son_cumle: null`, `turn_ending` istek dosyasındaki eski değerin aynısı. (Bir istek dosyasında `bitis_adayi: true` görürsen o kaydı yazma, dönüşte bildir.)
@@ -55,3 +55,5 @@ Bir kayıt bu çerçeveye sığmıyorsa yeniden yazma: eski düşünmeyi aynen b
 ## Dönüş
 
 Kaç kayıt yazdın, her birinin son benzerlik ve olumsuz cümle değeri (tek satırda `no: benzerlik · olumsuz a→b`), emin olmadığın kayıtlar, yaş/cinsiyet ifadesini düşürdüğün ya da çekinceye çevirdiğin kayıtlar. Yarıda kaldıysan nerede kaldığını açıkça yaz.
+
+⛔⛔ **Eski düşünmedeki her karar için bir eşleme satırı yaz — taşıdıklarını değil, hepsini.** Önce eski metindeki kararları say, sonra eşleme satırlarını say; iki sayı tutmalı. Taşımadığın bir karar varsa satırı yine yazılır: `yeni: null` ve `not` alanında neden taşınmadığı. Eşleme tablosu yalnız taşıdıklarını listelerse, düşen karar hiçbir yerde iz bırakmaz — `kontrol` de göremez, çünkü betik yalnız yazdığın satırları denetler. Blok 31'de bir kayıt bu yüzden gerekçesi düşmüş hâlde geçiyordu.
