@@ -708,6 +708,14 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-09-29 · Oturum — Faz 2 sonrası: rapor başlığı + düşünme ↔ cevap taraması
+
+- ⭐⭐ **Rapor başlığındaki taslak yazarlığı düzeltildi** (betik ilk kez değiştirildi). Eski satır *«Taslak: alt ajan»* diyordu, 1039 kaydın **206**'sında bu doğru değildi. Yeni satır payı hesaplayarak yazıyor: **alt ajan 833 · Claude Code 206** (pilot 40 · bitiş adayı 144 · alt ajan yolu kapandıktan sonra 22). Sayılar plandan türetiliyor; yalnız son 22 kaydın numarası oturum geçmişinden geldiği için `CC_TASLAK_ADAY_OLMAYAN` sabitine yazıldı. ⭐ Şerh satırı da asıl zayıflığı söylüyor artık: **bu 206 kayıtta yazan ile revize eden aynı taraf.**
+- ⭐⭐⭐ **Düşünme ↔ cevap uyuşmazlığı ilk kez ölçüldü** (T301, `scripts/analiz/2026-09-29-v011-dusunme-cevap.py`): 1039 kayıt, **98 işaret (%9,4)**. Faz boyunca «hiçbir kapı bu karşılaştırmayı yapmıyor» dedim ama ölçmemiştim.
+- ⭐⭐⭐ **A kategorisi (düşünme «yönlendirme yok» diyor, cevap yönlendiriyor): 7 işaret, 7/7 YANLIŞ OLUMLU.** Yedisi de korpusta yerleşik bir ayrımı yapıyor: *yeni* bir yer önermemek ≠ var olanı ya da cevabın kimde olduğunu adlandırmak (0004 · 0050 · 0139 · 0163 · 0257 · 0984 · 0998). ⇒ **0909 tipi çelişki seyrek**, sistemik değil; ve **0971'i dar okumayla çözmem yedi bağımsız kayıtla destekleniyor** ⇒ 👤 karar #1'in dört örneğinden 0971 büyük olasılıkla sınıfa ait değil.
+- ⭐ B kategorisi (cevap yer adlandırıyor, düşünme anmıyor): 58 işaret, örneklenen 5'te 2 gerçek ⇒ kabaca **20-25 kayıtta** gerçek sahiplenme boşluğu (0889 · 0933 sınıfı).
+- ⛔⛔ **T293 §4'ün en pahalı örneği:** eleğin ilk koşusu **%37,1** işaret verdi; hata profilini ölçmeden bildirseydim korpusun üçte birinde uyuşmazlık olduğunu iddia edecektim. Kalıp *«yöneltiyorum»* ve *«çeviriyorum»* fiillerini tanımıyordu. Dört örnek okumak iddiayı **on kat** küçülttü (341 → 28). ⇒ **Bir eleğin sayısı, hata profili ölçülmeden rapor edilemez.**
+
 ### 2026-09-29 · Oturum — Blok 40 (FAZ 2 KAPANDI)
 
 - ⭐⭐⭐ **FAZ 2 TAMAMLANDI: 41/41 blok · 1039/1039 kayıt · 1035 kabul.** Redler **dört**: 0094 (temizlik) · 0840 (`dustu`) · 0909 (`dustu`) · 0991 (`uydurma`).
