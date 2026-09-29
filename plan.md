@@ -967,6 +967,9 @@ class TrainRecord(BaseModel):
       T58'in yöntemi mutasyon testi, T46'nın olgusu *evaluation awareness*.
       ⭐ Ayakta kalan üç kalem: **asimetrik doğrulama** · **T51 hat denetimi** ·
       **T49/T50'nin vaka katkısı**
+- [x] ⭐ **MAKALE ADAYLARININ LİTERATÜRÜ ARANDI (K278 · T309, 2026-09-29).** Kullanıcı isteğiyle web
+      araması (Kural 1). `docs/tez/makale-literatur-taramasi.md` + 134 kaynakça kaydı. Üç adayın da
+      iddiası daraldı; ⛔ A için yöntemsel risk (Lee 2026, cevaba koşullu CoT)
 - [x] ⚠️ ~~**ASİMETRİ SIĞ ARANDI (T67).**~~ → **ARANDI, O DA DARALDI (K142 · T68).**
       Hukuk (olumlu savunmanın ispat yükü) · istatistik (**Neyman-Pearson**) · tıp
       (**SpPin/SnNout**) — üçünde de kurucu ilke. ⭐ Yön bizimkinin **tersi** olan tek

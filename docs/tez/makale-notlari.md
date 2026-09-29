@@ -50,6 +50,8 @@ sürümle düzeltilemez — ve bunun nedeni veride gösterilebiliyor.
 
 **Eksik.** Faz 4 (Colab). Onsuz makale bir **veri** makalesi; B1/B2 sonucuyla bir **model** makalesi.
 
+⛔ **Literatür (§7):** *cevaba koşullu gerekçe üretimi* yeni değil (STaR · MIThinker · C3oT · PART); Lee ve ark. 2026 cevaba koşullu CoT'nin damıtmayı **bozduğunu** gösteriyor ⇒ sınırlılık olarak yazılmalı.
+
 **Aday C (§3) bu makaleye bir bölüm olarak girebilir.**
 
 ---
@@ -137,7 +139,8 @@ B2 şartın bağlayıcı yarısı. Kaynak: `reports/analiz/2026-09-29-v011-onkay
 
 **4.5 MLX → PEFT/Unsloth aktarımının tuzakları (T308).** `mlx_lm` 0.31.3 kaynağından okundu:
 LoRA `scale` 20 ⇒ `lora_alpha` 160; başlangıç dağılımları aynı; MLX AdamW `bias_correction=False`,
-torch'ta hep açık (birebir aktarılamayan tek şey). ⚠️ Unsloth'un alışılmış `target_modules=['q_proj','o_proj']`
+torch'ta hep açık (**yapılandırma düzeyinde** birebir aktarılamayan tek şey — sayısal eşdeğerlik zaten
+beklenmez, bkz. §7; EK-2'nin iki kolu aynı ortamda koşturmasının nedeni bu). ⚠️ Unsloth'un alışılmış `target_modules=['q_proj','o_proj']`
 çağrısı, **Gemma benzeri sahte bir ağaçta** LoRA'yı 42 katmanın hepsine ve görü kulesine koydu — gerçek
 Gemma 4'te sınanmadı. Kaynak: `reports/analiz/2026-09-29-v011-onkayit-ek2.md` ✅ (sınama betikleri depoda
 değil ⚠️ §5).
@@ -157,9 +160,9 @@ denetçi geçirdi, olgu gibi kurulunca `uydurma` dedi (#0906, T304). Tekil örne
 
 | | |
 |---|---|
-| ⛔ **Yazarlık ve bağımsızlık** | 1039 taslağın **206**'sı Claude Code'a ait (pilot 40 · bitiş adayı 144 · alt ajan yolu kapandıktan sonra 22); **bütün** revizyonlar Claude Code; denetçiler Claude alt ajanları — aynı model ailesi (`reports/analiz/2026-09-24-v011-faz2.md` başlığı ✅) |
+| ⛔ **Yazarlık ve bağımsızlık** | 1039 taslağın **206**'sı Claude Code'a ait (pilot 40 · bitiş adayı 144 · alt ajan yolu kapandıktan sonra 22); **bütün** revizyonlar Claude Code; denetçiler Claude alt ajanları — aynı model ailesi (`reports/analiz/2026-09-24-v011-faz2.md` başlığı ✅). Öz-kayırma yanlılığı belgeli: `panickssery2024self` · `zheng2023judging` |
 | ⛔ **İnsan okuması yok** | pilotun 40 kaydı henüz insan tarafından okunmadı (K277'nin ikinci güvence katmanı); hiçbir klinik karar uzman onayından geçmedi |
-| ⛔⛔ **Etik kurul kaydı yok** | `tez-plani.md` §5 *«en acil eksik»*; yayın için sert engel |
+| ⛔⛔ **Etik kurul kaydı yok** | `tez-plani.md` §5 *«en acil eksik»*; yayın için sert engel. TRIPOD-LLM madde 13 etik kurul adını ya da muafiyetini **zorunlu** kılıyor (`gallifant2025tripodllm`) |
 | ⛔ **Kriz dilimi hariç** | `v0.1.0` gibi (K275); güvenlik ekseni korpusa kördür (T259) |
 | ⚠️ **Tek okuyucu** | kayıtların çoğunda tek korunum okuması; gürültü tabanı bilinmiyor (§2) |
 | ⚠️ **İki rubrik sürümü** | 1143 okuma v1, 4 okuma v2 (rapor başlığında yazılı ✅) |
@@ -185,3 +188,29 @@ denetçi geçirdi, olgu gibi kurulunca `uydurma` dedi (#0906, T304). Tekil örne
 ✅ Bu dosya yazılırken kapatılan iki boşluk: T301 artık rapor yazıyor
 (`reports/analiz/2026-09-29-v011-dusunme-cevap.md`) ve T302/T303'ün denetçi sayıları raporlandı
 (`reports/analiz/2026-09-29-korunum-uydurma-dokumu.md`).
+
+---
+
+## 7. Literatür konumlandırması (2026-09-29 taraması · T309)
+
+Ayrıntı ve künyeler: [makale-literatur-taramasi.md](makale-literatur-taramasi.md) · anahtarlar [kaynakca.bib](kaynakca.bib)'de.
+⛔ Doğrulama **özet** düzeyinde; bölüm düzeyinde iddia kurmadan önce PDF okunmalı.
+
+| aday | en yakın öncül | ayakta kalan | yazılacak ifade |
+|---|---|---|---|
+| **A** | `zelikman2022star` · ⭐ `yang2026mithinker` (MI, alan içi) · `kang2025c3ot` · `ding2025part` · `peng2026posthoc` | *var olan* düşünmenin yerine koyma + kayıtlı klinik kararların alt dizge ve bağımsız okuyucuyla denetimi + şablon kırma hedefi + ön kayıtlı model sınaması (**bileşim bulunamadı**) | «kararları denetimli yeniden kurma ve etkisinin ön kayıtlı sınaması» — yeni yöntem değil |
+| **A — risk** | ⛔ `lee2026answerconditioned` | — | sınırlılık: yöntem tanım gereği cevaba koşullu; savunma (doğrulanabilir cevap yok, hedef karar korunumu) bir **ölçüm değil** |
+| **A — destek** | `lippmann2025style` · `li2025structure` · `ding2025part` | düşünmenin üslubu SFT ile modele geçer ⇒ EK-1 kazanç şartının öncül gerekçesi | |
+| **B1** | ⛔ `ghaddar2024charp` · `vachhani2026soap` · `ding2025grayzone` · `ji2023survey` §8.1 | adlandırılmış girdi alanına bağlı sert kapının kendi cevabına sadık izi elemesi; denetçilerin kendiliğinden işaretlemesi; tek değişkenli düzeltmenin ölçülmüş etkisi | «CHARP'ın körlüğünün LLM-yargıç rubriği düzeyindeki alt türü»; ⭐ `huang2025survey` §2.3.2 v2'yi meşrulaştırır |
+| **B2** | `reiss2023testing` · `haldar2025rating` · `tamba2026temperature` | tek başına **yok** | vaka örneği; katkı ancak gürültü tabanı deneyiyle |
+| **gürültü tabanı** | `norman2026reliability` (κ birincil) · `hayes2007krippendorff` (α, eksik veri) · ⚠️ `bellibatlu2026judgesense` (ajan içi yargıç kendiyle daha az uyuşur) | | tasarım girdisi |
+| **B4** | `rottger2024xstest` · `cui2025orbench` · `maskey2026safeconstellations` | ruh sağlığı denetim hattında ölçülmüş kesinti oranı **bulunamadı** | operasyonel gözlem |
+| **C** | ⛔ `camassa2026doasisay` · `geng2026control` · `zhang2025iheval` · `min2022rethinking` | çok belgeli üretim hattında tek çözümlü örneğin kendi sert kuralını ezmesi (**bulunamadı**) | «bulamadık», «kimse yapmadı» değil; düzeltme **gözlenen etki** |
+| **4.1** | `sculley2015hidden` · `breck2017mltestscore` · `polyzotis2019datavalidation` · `schelter2018automating` | — | ders kitabı; LLM veri hattında yeniden yaşandığının kaydı |
+| **4.3–4.4** | `vanmiltenburg2021preregistering` · `card2020little` · `dror2019deep` · `sogaard2023twosided` | | ön kayıt ve güç hesabının gerekçesi |
+| **4.5** | ⛔ `yuan2025nondeterminism` · `pham2020variance` · `kalajdzievski2023rslora` · `biderman2024lora` · `peft` doc | `bias_correction` MLX dokümanından doğrulandı | «yapılandırma düzeyindeki tek sapma»; `lora_alpha` 160 yalnız `use_rslora=False`; q/o + α=20r tasarım tercihi |
+| **4.7** | ⭐ `karakas-simsek-2026-benchmarking` · `aksukoc1988acquisition` | | LLM'lerin -mIş duyarlılığı kararsız ⇒ denetçinin ayrımı güvenilir sayılamaz |
+| **§5** | ⛔ `gallifant2025tripodllm` · `chart2025` · `gebru2021datasheets` · `panickssery2024self` | | beyan zorunlulukları atıfla |
+
+**Aday A için açık kalan tek değerli kaynak:** PMC13472593 (LLM'lerde MI yansıtma/soru oranının uzman eşiğinin altında
+kaldığı) — *«her cevap soruyla bitiyor»* gözlemini dışarıdan destekleyebilirdi, sayfası açılamadı ⇒ **atıf yapılmaz**.
