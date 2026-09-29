@@ -1,0 +1,66 @@
+{
+  "version": "v0.1.1",
+  "date": "2026-09-29",
+  "git_rev": "9eae795",
+  "base_dataset": "datasets/v0.1.0/train.jsonl",
+  "base_sha256_16": "6fcb6b1e16290575",
+  "input_file": "data/candidates/v011-derleme.jsonl",
+  "input_sha256_16": "f8fcaa1e96603cb2",
+  "output_sha256_16": "f8fcaa1e96603cb2",
+  "build_script": "scripts/analiz/2026-09-29-v011-derleme.py",
+  "on_kayit": {
+    "ana": "configs/deney/2026-09-29-v011-on-kayit.json",
+    "ana_sha256_16": "3bad7d71a1c8af6a",
+    "ek1": "configs/deney/2026-09-29-v011-on-kayit-ek1.json",
+    "ek1_sha256_16": "b1806d442a8683ff"
+  },
+  "n_total": 1058,
+  "n_yeniden_kurulan": 1036,
+  "n_son_cumle_degisen": 9,
+  "n_replay": 18,
+  "v010_hali_kalan": {
+    "ids": [
+      "d2ea5136d517a5cf78ab6d8a",
+      "833a3c51bbbd1adc139c7201",
+      "765ae0a99533e2278f260ecf",
+      "a66146ca9b6898d0ffa3ae49"
+    ],
+    "neden": "3 red (korunum/temizlik) + uretim-v6 §1e örneği (denetlenmedi)"
+  },
+  "degisen_alanlar": "yalnız son asistan turu (thinking; 9 kayıtta content'in son cümlesi) ve gen_meta",
+  "scenario_counts": {
+    "durtu": 11,
+    "kayma_nuks": 22,
+    "ambivalans": 282,
+    "motivasyon": 8,
+    "farkindalik": 88,
+    "rol_siniri": 191,
+    "nazikce_karsi_cikma": 159,
+    "inkar": 47,
+    "hukuki_kaygi": 18,
+    "borc_finansal": 15,
+    "kutlama": 11,
+    "hedef_belirleme": 34,
+    "bilgilendirme": 11,
+    "bilmiyorum_cikmazi": 2,
+    "anlasilmama": 22,
+    "kayip_kovalama": 11,
+    "discord": 10,
+    "genel": 18,
+    "belirsiz": 94,
+    "kriz": 2,
+    "tetikleyici": 2
+  },
+  "addiction_type_counts": {
+    "alkol": 285,
+    "receteli_ilac": 178,
+    "tutun": 271,
+    "kumar": 224,
+    "dijital": 82,
+    "yok": 18
+  },
+  "age_group_counts": {
+    "yetiskin": 961,
+    "ergen": 97
+  }
+}
