@@ -1,0 +1,69 @@
+{
+ "tarih": "2026-09-29",
+ "ek_no": 1,
+ "ana_on_kayit": "configs/deney/2026-09-29-v011-on-kayit.json",
+ "ana_on_kayit_sha256_16": "3bad7d71a1c8af6a",
+ "ana_on_kayit_commit": "13edc2e",
+ "karar": "kullanıcı — «Kazanç şartı ekle, EK-1 yaz» (2026-09-29)",
+ "neden": "Ana ön kayıt K277'yi harfiyen uyguluyordu: bekçilerde gerileme yoksa v0.1.1 ana hat olur. Bu, düşünme değişikliği modelde HİÇ görünmese de terfi demekti (okuma tablosu satır 3). Ana ön kaydın tam beyanı bu boşluğu adlandırmış ve «istenirse v011 çıktısı oluşmadan EK» demişti.",
+ "degisen_maddeler": {
+  "kazanc_sarti": {
+   "yeni": "B1_sormuyorum_payi ↓ ∧ B2_iskele_payi ↓ — her ikisi de Δ < 0 ∧ |Δ| > 2·SE_b",
+   "kaynak": "ana ön kaydın okuma tablosu satır 2; EK-1 onu terfinin ZORUNLU koşulu yapar"
+  },
+  "okuma_tablosu_satir_3": {
+   "eski": "bekçi yok · B1 ya da B2 okunamaz/↑ → K277 gereği v0.1.1 ana hat olur",
+   "yeni": "bekçi yok · B1 ya da B2 okunamaz/↑ → v0.1.1 ana hat OLAMAZ; negatif sonuç olarak saklanır"
+  },
+  "cozumleme": {
+   "yeni": "scripts/analiz/2026-09-29-v011-onkayit-ek1-cozumleme.py",
+   "not": "ana çözümlemeyi içe aktarır; mühür/tamlık/ayar kilitleri, ölçüler, ozet ve bekçiler oradan — değişen yalnız hüküm"
+  }
+ },
+ "okuma_tablosu": [
+  {
+   "bekci": "herhangi biri ateşler",
+   "bas": "herhangi",
+   "hukum": "v0.1.1 ana hat OLAMAZ (K277) — bekçi, kazanç şartından ÖNCE okunur"
+  },
+  {
+   "bekci": "hiçbiri ateşlemez",
+   "bas": "B1 ↓ ∧ B2 ↓",
+   "hukum": "v0.1.1 ana hat olur"
+  },
+  {
+   "bekci": "hiçbiri ateşlemez",
+   "bas": "B1 ya da B2 okunamaz/↑",
+   "hukum": "v0.1.1 ana hat OLAMAZ (EK-1); negatif sonuç olarak saklanır"
+  }
+ ],
+ "degismeyen": "ölçülerin tanımı, kollar, tohumlar, üretim ayarı, bekçiler ve eşikleri, çok turlu set, Faz 4 sırası, 45 mühürlü dosya",
+ "guc_notu": {
+  "B1_sormuyorum_payi": {
+   "e3_ort": 51.38,
+   "e3_sd": 10.28,
+   "en_kucuk_okunabilir_dusus": 10.3,
+   "v011_ort_gerekli": 41.1,
+   "varsayim": "v011'in tohum sd'si e3'ünkiyle aynı; tabana yakın bir dağılımda sd küçülür ve eşik gevşer"
+  },
+  "B2_iskele_payi": {
+   "e3_ort": 13.02,
+   "e3_sd": 8.0,
+   "en_kucuk_okunabilir_dusus": 8.0,
+   "v011_ort_gerekli": 5.0,
+   "varsayim": "v011'in tohum sd'si e3'ünkiyle aynı; tabana yakın bir dağılımda sd küçülür ve eşik gevşer"
+  }
+ },
+ "on_beklenti": "B2 kazanç şartının BAĞLAYICI yarısı: e3 modeli ⛔/⭐'ı zaten verisinden seyrek üretiyor (%13,0 ↔ veride %22,8), oda dar. B1 için oda geniş (%51,4, veri on kat düştü).",
+ "muhurlu_dosyalar": {
+  "scripts/analiz/2026-09-29-v011-onkayit-ek1-cozumleme.py": "f271a2568791f102"
+ },
+ "tam_beyan": [
+  "Güç notu e3'ün kayıtlı değerlerinden hesaplandı; bu değerler ana ön kayıtta zaten beyan edilmişti. v011 kolunun hiçbir çıktısı yok (betik denetledi).",
+  "Kazanç şartının biçimi (B1 VE B2, ikisi de 2·SE) BENİM seçimim: ana ön kaydın okuma tablosunun 2. satırı olduğu için onu seçtim. Daha gevşek biçim (yalnız B1, ya da biri) seçilmedi."
+ ],
+ "bunun_soylemedikleri": [
+  "⛔ Kazanç şartı düşünmenin DAHA İYİ olduğunu değil, v0.1.0'ın iki ölçülmüş kusurunun modelde azaldığını gösterir (vekiller T281).",
+  "⛔ Kazanç şartı klinik bir kazanç değildir; klinik eksenlerde yalnız gerileme yokluğu aranır."
+ ]
+}
