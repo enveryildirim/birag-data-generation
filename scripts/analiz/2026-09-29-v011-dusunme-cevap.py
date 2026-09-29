@@ -32,13 +32,23 @@ yapmıyor — bu betik onu sayılabilir hâle getirir.
      ALT SINIR.
 
 Koşum: uv run python scripts/analiz/2026-09-29-v011-dusunme-cevap.py
+Çıktı: reports/analiz/2026-09-29-v011-dusunme-cevap.md  (⭐ ilk sürüm yalnız ekrana yazıyordu ⇒
+        sayıları Kural 7 gereği tezde kullanılamıyordu; rapor 2026-09-29'da eklendi)
 """
-import json, re, sys, glob, os
+import hashlib, json, re, sys, glob, os
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(KOK / "src"))
 from tohum_guvenlik import tr_fold
+from kunye import betik_tarihi
+
+RAPOR = KOK / "reports/analiz/2026-09-29-v011-dusunme-cevap.md"
+
+
+def _girdiler():
+    return sorted(glob.glob(str(KOK / "data/candidates/v011-faz2-b*.jsonl"))) + \
+        [str(KOK / "data/candidates/v011-pilot.jsonl")]
 
 # Yönlendirme sözcükleri — cevapta bir yer/kurum/eylem çağrısı var mı?
 YER = re.compile(r"(poliklinik|hastane|sağlık merkez|danışma|AMATEM|ALO ?171|acil servis|"
@@ -49,8 +59,7 @@ YOK = re.compile(r"(yönlendirme (koymuyorum|yok)|yönlendirmiyorum|bir yere gö
                  r"bir yer daha önermek)", re.I)
 
 def kayitlar():
-    for f in sorted(glob.glob(str(KOK / "data/candidates/v011-faz2-b*.jsonl"))) + \
-             [str(KOK / "data/candidates/v011-pilot.jsonl")]:
+    for f in _girdiler():
         if not os.path.exists(f): continue
         blok = os.path.basename(f).replace("v011-faz2-b", "").replace(".jsonl", "")
         for ln in open(f, encoding="utf-8"):
@@ -96,6 +105,31 @@ def main():
     print()
     for blok, rid, notlar in bulgu:
         print(f"b{blok:>5} {rid} | " + " ; ".join(notlar))
+
+    ozet = hashlib.sha256()
+    for f in _girdiler():
+        ozet.update(Path(f).read_bytes())
+    s = ["# Düşünme ↔ cevap uyuşmazlığı taraması — `v0.1.1` (T301)", "",
+         f"**Betik:** `scripts/analiz/{Path(__file__).name}` · **Tarih:** {betik_tarihi(__file__)}  ",
+         f"**Girdi:** `data/candidates/v011-faz2-b*.jsonl` + `v011-pilot.jsonl` ({len(_girdiler())} dosya, "
+         f"birleşik SHA256-16 `{ozet.hexdigest()[:16]}`) — yeniden kurulmuş aday kayıtlar, reddedilenler dahil  ",
+         "⛔ **Bu bir elek, hüküm değil.** İşaretlenen kayıt elle okunur; sayı, aşağıdaki hata profiliyle birlikte kullanılır.", "",
+         f"## Sonuç: {len(bulgu)}/{tot} kayıt işaretlendi (%{100*len(bulgu)/tot:.1f})", "",
+         "| kategori | işaret | ölçülmüş hata profili |", "|---|---:|---|"]
+    prof = {"düşünme yönlendirme YOK diyor, cevapta var": "**7/7 yanlış olumlu** (elle okundu) ⇒ #0909 tipi gerçek çelişki seyrek",
+            "cevapta var düşünmede yok": "5 örnekte 2 gerçek, 3 sınırda ⇒ kaba ~%40 gerçek",
+            "cevap soruyla bitiyor, düşünmede soru hamlesi yok": "**alt sınır** — `\\bsoru` «sorun»u da eşliyor, bazı gerçek boşluklar kaçıyor",
+            "düşünme soru sorduğunu söylüyor, cevap soruyla bitmiyor": "örneklenmedi"}
+    s += [f"| {k} | {v} | {prof.get(k, 'örneklenmedi')} |" for k, v in sorted(say.items(), key=lambda x: -x[1])]
+    s += ["", "## ⛔ Bunun söylemedikleri", "", "| | |", "|---|---|",
+          "| ⛔ **Hata profili bir önceki koşuda ölçüldü** | örneklemeler (A 7/7, B 5, C kalibrasyonu) 2026-09-29'daki ilk koşuda yapıldı; o koşu **98** işaret vermişti. Fark tek kayıt: #0920 (B, *«hekim»*) — blok 37 yeniden açılıp onarıldıktan sonra işaret düştü (T302). Profil yeniden ölçülmedi |",
+          "| ⛔ **İlk sürüm %37,1 veriyordu** | C kategorisi yalnız «soruyorum» arıyordu, 4/4 örnekte yanlış olumlu ⇒ ölçüt gevşetildi. Hata profili ölçülmeden bildirilseydi korpusun üçte biri uyuşmaz sayılacaktı (T293 §4) |",
+          "| ⚠️ **Anahtar sözcük eleği** | yönlendirme sözcük listesiyle aranır; eşanlamlı ya da dolaylı yönlendirme kaçar |",
+          "| ⚠️ **Reddedilenler dahil** | eleğin girdisi aday dosyalar; derlemede `v0.1.0` hâliyle kalan 3 red de taranıyor |",
+          "", "## İşaretlenen kayıtlar", "", "| blok | id | not |", "|---|---|---|"]
+    s += [f"| {blok} | `{rid}` | {' ; '.join(notlar)} |" for blok, rid, notlar in bulgu]
+    RAPOR.write_text("\n".join(s) + "\n", encoding="utf-8")
+    print(f"yazıldı: {RAPOR.relative_to(KOK)}")
 
 if __name__ == "__main__":
     main()

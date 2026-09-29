@@ -708,6 +708,12 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-09-29 · Oturum — makale notları
+
+- ⭐ `docs/tez/makale-notlari.md`: üç aday (A ana makale — kararları koruyarak düşünmeyi yeniden kurmak, 🔜 Faz 4 · B LLM denetçi güvenilirliği — gürültü tabanı deneyi olmadan yazılamaz · C çatışan talimat tanımları, A'ya bölüm) + destekleyici notlar + beyan zorunlulukları + sayı envanteri.
+- ⭐ Kural 7 boşlukları kapatıldı: T301 artık rapor yazıyor (97/1039 · %9,3; ilk koşunun 98'i ile fark #0920'nin onarımı) · T302/T303 denetçi sayıları raporlandı (**7/1145**, cevabı anan **3** — defterdeki 6/1144 · 2, #0920'nin v1 okumasından önceydi). #0920'nin işaretlenen 1. paragrafı iki sürümde birebir aynı (git'ten doğrulandı).
+- ⚠️ Yalnız defterde kalanlar: T298 §2'nin «önce» hâli (depoda yok) · yaş çekincesi sayımı (tanım kayıtlı değil) · EK-2 sınama betikleri (depoda değil) · T300 taslak kalitesi.
+
 ### 2026-09-29 · Oturum — EK-2 (Colab + Unsloth) ve eğitim defteri (T308)
 
 - 👤 EK-2 mühürlendi (`bcc34e55726e2c94`): kollar `v010u` ↔ `v011u`, ikisi de Colab'da aynı ortamda; MLX `e3` kayıtları hükme girmez.
