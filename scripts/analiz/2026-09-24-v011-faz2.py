@@ -71,6 +71,19 @@ JUDGE_DEPO = KOK / "data/judged/v011-faz2.judge.jsonl"
 TOHUM = 20260924
 BLOK = 25                                   # kayıt/blok — alt ajan başına bir blok
 
+# ⛔ Taslak yazarlığı — K260 sapması (T299 §3 · T300 §1). Alt ajan yolu blok 39'un
+#    ortasında kapandı: `model: sonnet` claude-sonnet-5-5'e çözülmeye başladı ve
+#    güvenlik sınıflandırıcısı taslak ajanlarını aynı saniyede, belirlenimci biçimde
+#    düşürüyor (`reasoning_extraction`). Aşağıdaki aday-olmayan kayıtların taslağını da
+#    Claude Code yazdı. Bitiş adaylarının taslağını zaten faz boyunca Claude Code yazdı;
+#    pilot (blok 0) da oturumun kendisinde yazıldı. Bu liste oturum geçmişinden gelir,
+#    veriden türetilemez — değişirse elle güncellenir.
+CC_TASLAK_ADAY_OLMAYAN = frozenset((
+    "0960", "0961", "0962", "0973", "0974", "0975",                      # blok 39
+    "0976", "0977", "0979", "0983", "0984", "0985", "0986", "0987",      # blok 40
+    "0989", "0990", "0992", "0993", "0994", "0995", "0997", "0998",
+))
+
 SCRATCH = Path(os.environ.get("BIRAG_SCRATCH", "/nonexistent"))
 KURMA = SCRATCH / "v011-faz2/kurma"
 KORUNUM = SCRATCH / "v011-faz2/korunum"
@@ -481,6 +494,16 @@ def rapor() -> int:
     # ⛔ Okunmamış kayıt KABUL SAYILMAZ (K260). Betik kapıları biçimi tutar ama
     # karar kaybını, anlam kaymasını ve uydurmayı yalnız korunum okuması görür.
     kabul = [x for x in satir if not x["sert"] and x["okundu"]]
+
+    # Taslağı kimin yazdığı — tezde yazarlık bu satırdan beyan edilir (K260).
+    _cc_pilot = sum(1 for x in satir if x["p"]["blok"] == 0)
+    _cc_aday = sum(1 for x in satir if x["p"]["blok"] != 0 and x["p"].get("bitis_adayi"))
+    _cc_kapali = sum(1 for x in satir if x["p"]["blok"] != 0
+                     and not x["p"].get("bitis_adayi")
+                     and x["p"]["no"] in CC_TASLAK_ADAY_OLMAYAN)
+    _cc = _cc_pilot + _cc_aday + _cc_kapali
+    _alt_ajan = len(satir) - _cc
+
     s = ["# `v0.1.1` yeniden kurma — pilot (blok 0) + Faz 2", "",
          f"**Betik:** `scripts/analiz/{Path(__file__).name}` · **Tarih:** {betik_tarihi(__file__)}  ",
          f"**Girdi:** `data/judged/v0.0.22.jsonl` SHA256-16 `{P.KAYNAK_SHA}` · plan "
@@ -488,7 +511,9 @@ def rapor() -> int:
          f"SHA256-16 `{P._sha(KOK / 'prompts/uretim-v6.md')}`  ",
          f"**Okumalar:** `{KORUNUM_DEPO.relative_to(KOK)}` · `{JUDGE_DEPO.relative_to(KOK)}` — "
          "okunan metnin SHA'sıyla; metni sonradan değişen kaydın okuması geçersiz sayılır  ",
-         f"**Taslak:** alt ajan · **okuma ve revizyon:** Claude Code (K260) · "
+         f"**Taslak:** alt ajan {_alt_ajan} kayıt · **Claude Code {_cc} kayıt** "
+         f"(pilot {_cc_pilot} · bitiş adayı {_cc_aday} · alt ajan yolu kapandıktan sonra "
+         f"{_cc_kapali}) · **okuma ve revizyon:** hepsi Claude Code (K260) · "
          f"**korunum okuması ve judge:** `{P.DENETCI}`", "",
          f"**Koşulan blok:** {len(hazir)}/{len(bloklar)} · **işlenen kayıt:** {len(satir)}"
          f"/{len(plan_t)}", "",
@@ -560,8 +585,11 @@ def rapor() -> int:
           "| ⛔ **Korunum okuması tek okuyucu** | tekrar yok ⇒ gürültü tabanı bilinmiyor |",
           "| ⛔⛔ **Eşli judge KÖR DEĞİL** | iç muhakeme hangisinin yeni sürüm olduğunu ele "
           "veriyor (T282); Faz 3 ön kaydında kapatılmalı |",
-          "| ⚠️ **Taslağı alt ajan yazdı** | K260 — her kayıt Claude Code tarafından okundu ve "
-          "revize edildi; tezde yazarlık böyle beyan edilir |",
+          f"| ⚠️ **Taslağı çoğunlukla alt ajan yazdı ({_alt_ajan}/{len(satir)})** | K260 — her "
+          f"kayıt Claude Code tarafından okundu ve revize edildi. ⛔ Kalan {_cc} kaydın taslağı "
+          f"da Claude Code'a ait: pilot ({_cc_pilot}), bitiş adayları ({_cc_aday}) ve alt ajan "
+          f"yolu kapandıktan sonra yazılanlar ({_cc_kapali} — T299 §3 · T300 §1). Bu kayıtlarda "
+          f"yazan ile revize eden aynı taraf; tezde böyle beyan edilir |",
           "| ⚠️ **Bitiş adaylığı `konusma_durumu` etiketinden geliyor** | etiket bir kısım kayıtta "
           "içeriğe uymuyor (T282) |"]
     RAPOR.write_text("\n".join(s) + "\n", encoding="utf-8")
