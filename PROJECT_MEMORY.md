@@ -709,6 +709,13 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-09-29 · Oturum — Colab ince ayar rehberi
+
+- ⭐ `docs/colab-egitim-rehberi.md`: mühürlü defteri (`notebooks/v011-unsloth-egitim.ipynb`) değiştirmeden koşturma kılavuzu — kontrol listesi · ilk oturumdan önceki iki karar (`MODEL_ID`, `LORA_YOLU`) · hücre hücre beklenen çıktı · oturum kopması · durma mesajları tablosu · dönüş komutları · yapılmayacaklar.
+- ✅ `unsloth/gemma-4-E4B-it` Hugging Face'te var, BF16 tam ağırlık, apache-2.0 (sayfa açıldı); Google aslıyla birebir aynılığı **doğrulanmadı** — iki kol aynı tabanı kullandığı için kıyas geçerli.
+- ✅ Depo herkese açık (GitHub API 200) ⇒ Colab'da `GITHUB_TOKEN` gerekmez.
+- ⚠️ Risk kaydedildi: her oturumda `pip install unsloth` en son sürümü kurar ⇒ oturumlar arası sürüm değişirse ortam denetimi durdurur; sürüm sabitlemek EK-3 ister.
+
 ### 2026-09-29 · Oturum — makale literatür taraması (T309 · K278)
 
 - 👤 Kullanıcı isteği: *«atıf yapabileceğimiz kaynakları internetten araştırabilir misin»* ⇒ web araması Kural 1 kapsamında onaylı.
