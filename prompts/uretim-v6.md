@@ -126,6 +126,17 @@ metinden birebir alınır; ikisi bambaşka sözcüklerle aynı kararı söyleyeb
 (*«Miktara girmiyorum»* ↔ *«Saydığını olduğu gibi geri veriyorum»*). Kontrol betiği
 benzerliği ve olumsuz cümle payını kayıt kayıt gösterir; benzerlik ≥ 0,6 ⛔'dir.
 
+⛔⛔ **Kapıların sırası (2026-09-29, T298 §2 · T304): karar korunumu, olumsuz pay
+hedefinin ÜSTÜNDEDİR.** Olumsuz pay yumuşak bir hedeftir (⚠️), kararın düşmesi sert
+kapıdır (⛔). Birinci tekil bir **ret** (*«tek kelime etmiyorum»*, *«hükmü ben
+vermiyorum»*) bir **atfa** (*«hekimin alanında kalıyor»*, *«kıyası ona bırakıyorum»*)
+çevrilmez: nesne durur ama fiil düşer ve denetçi bunu `kismen` ya da `dustu` okur.
+⚠️ Yukarıdaki örnek (*«Miktara girmiyorum»* ↔ *«Saydığını olduğu gibi geri
+veriyorum»*) yalnız **benzerlik** kuralını gösterir; tek başına bir reddin karşılığı
+olarak **yetmez** — ikisi birlikte yazılır: *«miktara girmiyorum, saydığını olduğu gibi
+geri veriyorum»*. Blok 38'de yedi kayıt tam bu dönüşümle redlerini kaybetti; redler
+geri konunca olumsuz pay yine %14-17'de kaldı ⇒ hedef reddi silmeyi gerektirmiyor.
+
 ### 1d. Biçim ve uzunluk
 
 - Türkçe, birinci tekil, düz metin. Başlık, madde imi, numara, kalın **yok** (K14).
@@ -305,7 +316,7 @@ cümle de ikisinden birini varsaymamalı (*«kimi kaybettiği»* ⛔). Denetçi 
 3. **Alıntı** — kullanıcıya atfedilen tırnak içi söz konuşmada var; bulunamayanlar incelemeye düşer.
 4. **`run_checks`** — mevcut bütün kayıt kapıları yeniden koşar.
 5. **Karar eşlemesi** — `korunan_kararlar`'ın `eski`'si eski düşünmede, `yeni`'si yeni düşünmede birebir bulunur.
-6. **Bağımsız karar korunumu okuması** — `prompts/karar-korunumu.v1.md`; kararı düşen, uydurma katan ya da cevapla çelişen düşünme reddedilir.
+6. **Bağımsız karar korunumu okuması** — `prompts/karar-korunumu.v2.md` (👤 2026-09-29: *«konuşma»* bu turun cevabını da kapsar; Faz 2'nin 1143 okuması v1 ile yapıldı, T302/T303); kararı düşen, uydurma katan ya da cevapla çelişen düşünme reddedilir.
 7. **Bitişi değişenler** — eski ve yeni cevap **aynı** judge ile, **aynı** dalgada, kör ve karışık sırayla yargılanır (K97). Güvenlik ya da rol sınırı ihlali çıkarsa, `grounding` ya da `mi_uyumu` düşerse bitiş değişikliği reddedilir.
 8. **Korpus kalıp kapısı** (tam geçişte) — hiçbir düşünme cümlesi beş ya da daha fazla kayıtta birebir geçmez.
 

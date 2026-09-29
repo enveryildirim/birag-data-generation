@@ -76,6 +76,11 @@ KORUNUM_DEPO = KOK / "data/candidates/v011-faz2.korunum.jsonl"
 #    etiketlemiştim ve `depola` var olan **v1 okumalarını v2 diye damgaladı** —
 #    kopyalama sessizce sahte köken üretti. Alan yoksa okuma v1'dir (eski 1144 okuma).
 ISTEM_VARSAYILAN = "karar-korunumu.v1"
+
+# ⛔ `prompts/uretim-v6.md` ilk commit'ten (138e8e8) faz sonuna dek hiç değişmedi ⇒ 1039 kaydın
+#    hepsi bu SHA altında üretildi. Faz sonrası düzeltmeler (T304) raporun «girdi» satırını
+#    bozmasın diye üretim sürümü sabitlenir; dosya değişirse rapor ikisini birden yazar.
+URETIM_SHA = "654e0f0a80d27559"
 JUDGE_DEPO = KOK / "data/judged/v011-faz2.judge.jsonl"
 TOHUM = 20260924
 BLOK = 25                                   # kayıt/blok — alt ajan başına bir blok
@@ -535,7 +540,9 @@ def rapor() -> int:
          f"**Betik:** `scripts/analiz/{Path(__file__).name}` · **Tarih:** {betik_tarihi(__file__)}  ",
          f"**Girdi:** `data/judged/v0.0.22.jsonl` SHA256-16 `{P.KAYNAK_SHA}` · plan "
          f"`data/plan/v011-faz2.jsonl` SHA256-16 `{P._sha(PLAN)}` · talimat `prompts/uretim-v6.md` "
-         f"SHA256-16 `{P._sha(KOK / 'prompts/uretim-v6.md')}`  ",
+         f"SHA256-16 `{URETIM_SHA}` (1039 kaydın üretildiği sürüm)"
+         + (f" · ⚠️ talimat faz sonrası güncellendi, bugünkü SHA `{_v6}` (T304)"
+            if (_v6 := P._sha(KOK / 'prompts/uretim-v6.md')) != URETIM_SHA else "") + "  ",
          f"**Okumalar:** `{KORUNUM_DEPO.relative_to(KOK)}` · `{JUDGE_DEPO.relative_to(KOK)}` — "
          "okunan metnin SHA'sıyla; metni sonradan değişen kaydın okuması geçersiz sayılır  ",
          "**Korunum rubriği:** " + " · ".join(
