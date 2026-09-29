@@ -1,0 +1,34 @@
+# `v0.1.1` KOLU — ön kayıt: configs/deney/2026-09-29-v011-on-kayit.json (K277 · Faz 3)
+#
+# ⭐⭐ DEĞİŞEN TEK ŞEY VERİ. Bu dosya `configs/training/e3-celiskili-k8qo-v022-t31.yaml`'dan
+# `scripts/analiz/2026-09-29-v011-egitim-yapilandirma.py` ile türetildi; `ad` ve `dataset`
+# dışında her alan birebir (betik assert eder). Karşılaştırma kolu `e3` (= `v0.1.0`).
+# ⛔ Elle düzenleme — betiği yeniden koş.
+ad: v011-k8qo-t31
+model: mlx-community/gemma-4-E4B-it-bf16
+dataset: datasets/v0.1.1/train.jsonl
+veri:
+  valid_orani: 0.2
+  seed: 7
+  chat_template: configs/chat_template_train.jinja
+mlx:
+  fine_tune_type: lora
+  optimizer: adamw
+  mask_prompt: true
+  num_layers: 8
+  batch_size: 1
+  iters: 2538
+  learning_rate: 1.0e-05
+  steps_per_report: 50
+  steps_per_eval: 423
+  val_batches: -1
+  max_seq_length: 2048
+  save_every: 846
+  seed: 31
+  lora_parameters:
+    rank: 8
+    scale: 20.0
+    dropout: 0.0
+    keys:
+    - self_attn.q_proj
+    - self_attn.o_proj
