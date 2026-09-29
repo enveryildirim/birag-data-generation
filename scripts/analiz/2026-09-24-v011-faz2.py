@@ -67,6 +67,15 @@ PILOT_PLAN = KOK / "data/plan/v011-pilot.jsonl"
 ADAY = KOK / "data/candidates"
 RAPOR = KOK / f"reports/analiz/{TARIH}-v011-faz2.md"
 KORUNUM_DEPO = KOK / "data/candidates/v011-faz2.korunum.jsonl"
+
+# 👤 Kullanıcı kararı (2026-09-29, T302): rubriğin «konuşma» tanımına bu turun cevabı
+#    dahil edildi ⇒ `prompts/karar-korunumu.v2.md`. ⛔ v1 YERİNDE DEĞİŞTİRİLMEDİ: 1144
+#    okuma onun altında yapıldı ve öyle kalır (T283 karşılaştırılabilirlik).
+# ⛔⛔ Hangi okumanın hangi rubrikle yapıldığı, kayıt numarasından DEĞİL okuma
+#    dosyasının kendi `_istem` alanından okunur. İlk denemede numara listesiyle
+#    etiketlemiştim ve `depola` var olan **v1 okumalarını v2 diye damgaladı** —
+#    kopyalama sessizce sahte köken üretti. Alan yoksa okuma v1'dir (eski 1144 okuma).
+ISTEM_VARSAYILAN = "karar-korunumu.v1"
 JUDGE_DEPO = KOK / "data/judged/v011-faz2.judge.jsonl"
 TOHUM = 20260924
 BLOK = 25                                   # kayıt/blok — alt ajan başına bir blok
@@ -275,6 +284,15 @@ def _depo_oku(yol: Path) -> list[dict]:
     return [json.loads(x) for x in yol.read_text(encoding="utf-8").splitlines() if x.strip()]
 
 
+def _gecerli_okuma(satirlar: list[dict]) -> dict[tuple[str, str], dict]:
+    """(id, metin_sha) → o metnin **geçerli** okuması. Aynı metnin hem v1 hem v2
+    okuması varsa **v2 kazanır** (👤 2026-09-29); v1 satırı depoda durur, silinmez."""
+    out: dict[tuple[str, str], dict] = {}
+    for x in sorted(satirlar, key=lambda r: r["istem"]):      # v1 < v2 ⇒ v2 sona kalır
+        out[(x["id"], x["metin_sha"])] = x
+    return out
+
+
 def _depo_yaz(yol: Path, satirlar: list[dict]) -> None:
     yol.parent.mkdir(parents=True, exist_ok=True)
     yol.write_text("".join(json.dumps(x, ensure_ascii=False, sort_keys=True) + "\n"
@@ -283,9 +301,11 @@ def _depo_yaz(yol: Path, satirlar: list[dict]) -> None:
 
 def depola() -> int:
     """Geçici klasördeki korunum ve judge sonuçlarını depoya taşır (idempotent)."""
-    ist_k = P._sha(KOK / "prompts/karar-korunumu.v1.md")
+    ist_k = {"karar-korunumu.v1": P._sha(KOK / "prompts/karar-korunumu.v1.md"),
+             "karar-korunumu.v2": P._sha(KOK / "prompts/karar-korunumu.v2.md")}
+
     ist_j = P._sha(KOK / "prompts/judge-eksen1.v9.md")
-    kor = {(x["id"], x["metin_sha"]): x for x in _depo_oku(KORUNUM_DEPO)}
+    kor = {(x["id"], x["metin_sha"], x["istem"]): x for x in _depo_oku(KORUNUM_DEPO)}
     jud = {(x["id"], x["surum"], x["metin_sha"]): x for x in _depo_oku(JUDGE_DEPO)}
     yeni_k = yeni_j = bayat = 0
     for kd in sorted(KORUNUM.glob("b[0-9][0-9]")):
@@ -300,11 +320,13 @@ def depola() -> int:
                 bayat += 1          # istek sonuçtan sonra yeniden yazılmış: başka metin okunmuş
                 continue
             h = P._json_oku(son)
-            anahtar = (x["id"], _sha16(ist.read_text(encoding="utf-8")))
+            istem = h.pop("_istem", None) or ISTEM_VARSAYILAN
+            assert istem in ist_k, f"⛔ bilinmeyen rubrik: {istem} ({x['id']})"
+            anahtar = (x["id"], _sha16(ist.read_text(encoding="utf-8")), istem)
             if anahtar not in kor:
                 yeni_k += 1
             kor[anahtar] = {"id": x["id"], "blok": int(kd.name[1:]), "metin_sha": anahtar[1],
-                            "istem": "karar-korunumu.v1", "istem_sha": ist_k,
+                            "istem": istem, "istem_sha": ist_k[istem],
                             "okuyan": P.DENETCI, "sonuc": h}
     for jd in sorted(JUDGE.glob("b[0-9][0-9]")):
         kim = jd / "kimlikler.json"
@@ -320,7 +342,8 @@ def depola() -> int:
             jud[anahtar] = {"id": x["id"], "surum": x["surum"], "blok": int(jd.name[1:]),
                             "metin_sha": anahtar[2], "rubrik": "judge-eksen1.v9",
                             "rubrik_sha": ist_j, "okuyan": P.DENETCI, "ham": P._json_oku(son)}
-    _depo_yaz(KORUNUM_DEPO, sorted(kor.values(), key=lambda x: (x["blok"], x["id"], x["metin_sha"])))
+    _depo_yaz(KORUNUM_DEPO, sorted(kor.values(),
+              key=lambda x: (x["blok"], x["id"], x["metin_sha"], x["istem"])))
     _depo_yaz(JUDGE_DEPO, sorted(jud.values(), key=lambda x: (x["blok"], x["id"], x["surum"])))
     print(f"depo: korunum {len(kor)} (+{yeni_k}) · judge {len(jud)} (+{yeni_j})"
           + (f" · ⚠️ bayat atlandı {bayat}" if bayat else ""))
@@ -340,7 +363,7 @@ def pilot_tasi() -> int:
         encoding="utf-8").splitlines() if x.strip()}
     eski_ok = {x["id"]: x for x in _depo_oku(ADAY / "v011-pilot.korunum.jsonl")}
     kay = P._kaynak()
-    kor = {(x["id"], x["metin_sha"]): x for x in _depo_oku(KORUNUM_DEPO)}
+    kor = {(x["id"], x["metin_sha"], x["istem"]): x for x in _depo_oku(KORUNUM_DEPO)}
     tasinan, degismis = 0, []
     for kid, y in bugun.items():
         if kid not in eski_ok:
@@ -350,12 +373,14 @@ def pilot_tasi() -> int:
             continue
         sonuc = {k: v for k, v in eski_ok[kid].items() if k not in ("id", "_okuyan", "_istem")}
         sha = _sha16(_korunum_metni(kay[kid], y))
-        kor[(kid, sha)] = {"id": kid, "blok": 0, "metin_sha": sha, "istem": "karar-korunumu.v1",
+        kor[(kid, sha, "karar-korunumu.v1")] = {
+                           "id": kid, "blok": 0, "metin_sha": sha, "istem": "karar-korunumu.v1",
                            "istem_sha": "T283-oncesi", "okuyan": eski_ok[kid].get("_okuyan", P.DENETCI),
                            "kaynak": "T283 pilot okuması; metin o günden beri değişmedi (5517f9a)",
                            "sonuc": sonuc}
         tasinan += 1
-    _depo_yaz(KORUNUM_DEPO, sorted(kor.values(), key=lambda x: (x["blok"], x["id"], x["metin_sha"])))
+    _depo_yaz(KORUNUM_DEPO, sorted(kor.values(),
+              key=lambda x: (x["blok"], x["id"], x["metin_sha"], x["istem"])))
     print(f"pilot: {tasinan} okuma taşındı · metni değişmiş {len(degismis)} (yeniden okunacak)")
     return 0
 
@@ -400,7 +425,7 @@ def geri_yukle() -> int:
     for b in bloklar:
         birlestir(b)
     # geçerli okumaları geri koy (okunacak olanlar boş kalsın)
-    kor = {(x["id"], x["metin_sha"]): x for x in _depo_oku(KORUNUM_DEPO)}
+    kor = _gecerli_okuma(_depo_oku(KORUNUM_DEPO))
     jud = {(x["id"], x["surum"], x["metin_sha"]): x for x in _depo_oku(JUDGE_DEPO)}
     eksik = collections.Counter()
     for b in bloklar:
@@ -427,7 +452,9 @@ def geri_yukle() -> int:
 def rapor() -> int:
     depola()
     kay, plan_t = P._kaynak(), _plan_tum()
-    kor = {(x["id"], x["metin_sha"]): x["sonuc"] for x in _depo_oku(KORUNUM_DEPO)}
+    _gec = _gecerli_okuma(_depo_oku(KORUNUM_DEPO))
+    kor = {k: v["sonuc"] for k, v in _gec.items()}
+    _rubrik = collections.Counter(v["istem"] for v in _gec.values())
     jud = {(x["id"], x["surum"], x["metin_sha"]): x["ham"] for x in _depo_oku(JUDGE_DEPO)}
     yeniler: dict[str, dict] = {}
     bloklar = sorted({p["blok"] for p in plan_t})
@@ -511,6 +538,12 @@ def rapor() -> int:
          f"SHA256-16 `{P._sha(KOK / 'prompts/uretim-v6.md')}`  ",
          f"**Okumalar:** `{KORUNUM_DEPO.relative_to(KOK)}` · `{JUDGE_DEPO.relative_to(KOK)}` — "
          "okunan metnin SHA'sıyla; metni sonradan değişen kaydın okuması geçersiz sayılır  ",
+         "**Korunum rubriği:** " + " · ".join(
+             f"`{ad}` {say} okuma" for ad, say in sorted(_rubrik.items()))
+         + (" — ⚠️ **tek korpusta iki rubrik sürümü.** `v2`, `v1`'den yalnız şunda ayrılır: "
+            "*«konuşma»* tanımı **bu turun cevabını da kapsar** (👤 2026-09-29, T302). "
+            "`v1` okumaları yeniden yapılmadı (T283: puanlanmış bloklar arası "
+            "karşılaştırılabilirlik)  " if len(_rubrik) > 1 else "  "),
          f"**Taslak:** alt ajan {_alt_ajan} kayıt · **Claude Code {_cc} kayıt** "
          f"(pilot {_cc_pilot} · bitiş adayı {_cc_aday} · alt ajan yolu kapandıktan sonra "
          f"{_cc_kapali}) · **okuma ve revizyon:** hepsi Claude Code (K260) · "
