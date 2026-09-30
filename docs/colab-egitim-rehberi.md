@@ -1,12 +1,13 @@
-# Colab'da ince ayar rehberi — `v0.1.1` Faz 4 (ön kayıt EK-2)
+# Colab'da ince ayar rehberi — `v0.1.1` Faz 4
 
-> **Kime:** eğitimi Colab'da koşturacak kişi. **Ne:** `notebooks/v011-unsloth-egitim.ipynb`'i baştan sona,
-> ön kaydı bozmadan koşturmak ve çıktıyı veri makinesine geri getirmek.
-> **Dayanak:** `configs/deney/2026-09-29-v011-on-kayit-ek2.json` (mühür `bcc34e55726e2c94`) ·
-> `reports/analiz/2026-09-29-v011-onkayit-ek2.md` · `src/colab_egitim.py`.
+> **Defter:** [`notebooks/v011-basit-egitim.ipynb`](../notebooks/v011-basit-egitim.ipynb) — Unsloth'un *Gemma4 (E4B) Text*
+> örneğinin akışında, bütün eğitim kodu defterin içinde görünür.
+> **Dayanak:** ön kayıt `configs/deney/2026-09-29-v011-on-kayit*.json` · tarif `configs/training/*-t{tohum}.yaml` ·
+> Unsloth belgeleri *Gemma 4 — How to Run Locally* ve *Gemma 4 Fine-tuning Guide* (kullanıcı verdi, 2026-09-30).
 >
-> ⛔ Defter ve `src/colab_egitim.py` **mühürlü**. Bu rehber onları değiştirmez; yalnız nasıl koşulacaklarını anlatır.
-> Aşağıdaki kurallardan birine uyulamıyorsa **ilk çıktıdan önce durulur ve EK-3 yazılır** — koşup sonra düzeltilmez.
+> ⛔ **Ön kayıt notu:** EK-2 mühürlü defteri (`notebooks/v011-unsloth-egitim.ipynb` + `src/colab_egitim.py`) koşucu olarak
+> tanımlıyordu. Bu defter onun yerine geçiyorsa, **ilk koşudan önce EK-3** yazılmalı (koşucu değişti, tarif aynı).
+> Eski defter depoda kalır — mühürlü dosya olduğu için silinirse çözümleme durur.
 
 ---
 
@@ -14,113 +15,95 @@
 
 | | |
 |---|---|
-| **İş** | 2 kol × 8 tohum = **16 LoRA eğitimi** (her biri 2538 adım, batch 1 ⇒ 846 kayıtta 3 tur) + her biri için **6 eksen (124 öge) + çok turlu (10 konuşma × 4 tur)** üretim |
-| **Kollar** | `v010u` = `datasets/v0.0.22/train.jsonl` (içerik `v0.1.0` ile aynı, `6fcb6b1e16290575`) · `v011u` = `datasets/v0.1.1/train.jsonl` (`f8fcaa1e96603cb2`) |
-| **Tohumlar** | 7 · 13 · 23 · 31 · 37 · 41 · 43 · 47 |
-| **Donanım** | GPU ≥ 22 GB — **A100 ya da L4**. T4 (16 GB) yetmez; defter durur |
-| **Hassasiyet** | **bf16, 4-bit YOK** |
-| **Süre** | ⚠️ **Ölçülmedi.** İlk eğitimin sonunda defter `sure_dk` yazar; toplamı oradan hesaplayın (≈ 16 × o değer + üretim) |
-| **Colab'ın işi** | yalnız **eğitim + ham üretim**. Puanlama ve hüküm veri makinesinde (§7) |
+| **Bir koşu** | bir kol × bir tohum: eğitim (2538 adım) + 6 eksen (124 öge) + çok turlu (10 konuşma × 4 tur) |
+| **Faz 4** | 16 koşu — sıra defterin ilk hücresindeki tabloda (tohum içinde `v010u` → `v011u`) |
+| **Kollar** | `v010u` = `datasets/v0.0.22` (içerik `v0.1.0` ile aynı) · `v011u` = `datasets/v0.1.1` |
+| **GPU** | **A100 ya da L4.** Unsloth'a göre E4B LoRA ~17 GB ister; T4 (16 GB) yetmez |
+| **Hassasiyet** | **bf16, 4-bit yok** |
+| **Süre** | ⚠️ ölçülmedi — ilk eğitimin sonunda defter `N dk` yazar |
+| **Colab'ın işi** | eğitim + ham üretim. **Puanlama ve hüküm veri makinesinde** (§5) |
 
 ---
 
-## 1. Başlamadan önce — kontrol listesi
+## 1. Nasıl koşulur
 
-- [ ] **Depo güncel mi?** Colab kodu GitHub'dan klonluyor. Veri makinesinde `git status -sb` → `## main...origin/main` (ileride commit yok) olmalı.
-      2026-09-29 itibarıyla senkron; depo **herkese açık** ⇒ `GITHUB_TOKEN` gerekmez.
-- [ ] **Colab planı** A100 ya da L4 veriyor mu? (Ücretsiz katman genelde T4 verir — yetmez.)
-- [ ] **Google Drive'da yer** var mı? Adapter'lar küçük (r = 8, 8 katman, yalnız q/o), ama kontrol noktaları ve üretim dosyaları 16 koşu boyunca birikir. Birkaç GB boş yer bırakın.
-- [ ] **İki kararı verdiniz mi?** (§2) — ilk oturumdan sonra **değiştirilemez**.
+1. Aç: `https://colab.research.google.com/github/enveryildirim/birag-data-generation/blob/main/notebooks/v011-basit-egitim.ipynb`
+   (depo herkese açık — belirteç gerekmez).
+2. **Çalışma zamanı → Çalışma zamanı türünü değiştir → A100 ya da L4.**
+3. 2. hücrede **`KOL`** ve **`TOHUM`**'u seçin. Başka hiçbir şeye dokunmayın.
+4. **Çalışma zamanı → Tümünü çalıştır.**
+5. Bitince bir sonraki koşunun `KOL`/`TOHUM`'unu yazıp tekrar *Tümünü çalıştır*. **Çalışma zamanını yeniden başlatmak** bellek için iyi olur.
 
----
-
-## 2. İlk oturumdan önce verilecek iki karar
-
-Defterin 1. hücresindeki iki parametre, ilk oturumda `ortam-referans.json`'a yazılır ve **sonraki 15 koşuda aynı olmak zorundadır**
-(`SABIT_ALANLAR`: model kimliği · model revizyonu · LoRA yolu · şablon SHA · kütüphane sürümleri · üretim ayarı).
-
-### 2.1 `MODEL_ID`
-
-| seçenek | durum |
-|---|---|
-| `unsloth/gemma-4-E4B-it` (defter varsayılanı) | ✅ Hugging Face'te var, **BF16 tam ağırlık** (nicemlenmiş değil), apache-2.0, erişim kapısı görülmedi (sayfa 2026-09-29'da açıldı) |
-| `google/gemma-4-E4B-it` (aslı) | `plan.md` §0'da onaylı model kartı. `e3`'ün MLX tabanı bunun kopyasıydı |
-
-⚠️ Unsloth kopyasının ağırlıklarının Google aslıyla **birebir aynı** olduğu doğrulanmadı. EK-2'de iki kol da aynı tabanı kullandığı için
-**kıyas geçerli kalır** — önemli olan 16 koşunun aynı tabanı kullanması. Revizyon (commit SHA) ilk oturumda kendiliğinden sabitlenir.
-
-### 2.2 `LORA_YOLU`
-
-`"unsloth"` (varsayılan) ile başlayın. Kurulum sınaması (§4, hücre 7) **LoRA denetiminde durursa** ve **henüz hiç eğitim yapılmadıysa**
-`"peft"` yapıp 1. hücreden yeniden koşun. Referans yazıldıktan sonra değiştirmek ortam denetimini durdurur — bu tasarım gereği.
+**Oturum koparsa:** aynı `KOL`/`TOHUM` ile yeniden *Tümünü çalıştır*. Adapter varsa eğitim atlanır; yarım eğitim Drive'daki
+son kontrol noktasından sürer (846 adımda bir); bitmiş üretim setleri atlanır.
 
 ---
 
-## 3. Defteri açma
+## 2. Hücreler
 
-1. Tarayıcıda açın:
-   `https://colab.research.google.com/github/enveryildirim/birag-data-generation/blob/main/notebooks/v011-unsloth-egitim.ipynb`
-2. **Çalışma zamanı → Çalışma zamanı türünü değiştir → GPU: A100 (ya da L4)**.
-3. İlk hücrede yalnız `MODEL_ID` / `LORA_YOLU`'na dokunun (§2). `DRIVE_KOK` varsayılanı `/content/drive/MyDrive/birag-v011` —
-   değiştirirseniz **her oturumda aynı** yolu verin; aksi hâlde defter biten işi göremez ve baştan başlar.
-
-⛔ Başka hücreyi düzenlemeyin. Colab'daki düzenleme depoya yazılmaz ama koşulan kod artık mühürlü kod olmaz.
-
----
-
-## 4. Hücre hücre
-
-| hücre | ne yapar | normalde ne görürsünüz | durursa |
-|---|---|---|---|
-| **2 · Parametreler** | §2 | — | — |
-| **4 · Drive + depo** | Drive'ı bağlar, depoyu klonlar (varsa `pull --ff-only`) | son commit satırı — veri makinesindeki `git log -1` ile **aynı** olmalı | `pull` reddedilirse Colab'daki klon kirlenmiş: `/content/birag-data-generation`'ı silip yeniden koşun |
-| **5 · Kurulum** | `pip install unsloth` | Colab *«oturumu yeniden başlat»* isteyebilir | yeniden başlatıp **1. hücreden** devam |
-| **7 · Kurulum sınaması** | mühür (55 dosya) · GPU ≥ 22 GB · 35 şablon dizgesi · ≤ 2048 jeton (iki kol) · LoRA hedefleri ve parametre sayısı · ortam referansı | `mühürlü dosya: 55` · `şablon: 35` · `LoRA denetimi: …` · ilk oturumda `ortam: referans yazıldı`, sonra `referansla aynı` | §6'daki tablo |
-| **9 · Eğitim** | 16 koşu, tohum içinde dönüşümlü (`v010u-t7`, `v011u-t7`, `v010u-t13` …). Adapter varsa atlar, yarıda kaldıysa son kontrol noktasından sürer | her koşu için `✅ kol-tT: N dk · sürdü=… · son eval_loss …` | §6 |
-| **11 · Üretim** | her koşu için 6 eksen + çok turlu; `thinking` kapalı · 1024 jeton · açgözlü | her dizin adı; biten koşu `üretim zaten tam` | `⛔ … eğitilmemiş` ⇒ önce hücre 9 |
-| **13 · Paket** | `eğitim N/16 · üretim M/16`; 16/16 olunca `v011-colab-ciktilari.zip` | `✅ paket: …/v011-colab-ciktilari.zip` | 16/16 değilse paket yazılmaz — hücre 9/11'e dönün |
-
-⭐ **İlk eğitim bittiğinde** `sure_dk` değerini not edin. Toplam süre ve kaç oturum gerektiği buradan çıkar.
-
----
-
-## 5. Oturum koparsa
-
-Colab oturumları zaman aşımıyla kapanır; defter buna göre yazıldı.
-
-1. Aynı GPU türünü seçin (farklı GPU **uyarı** verir ama durdurmaz; model/kütüphane/LoRA yolu farkı **durdurur**).
-2. **1. hücreden** sırayla yeniden koşun. Biten eğitim ve üretim atlanır; yarıda kalan eğitim `ckpt/checkpoint-*`'ten sürer (846 adımda bir kayıt).
-3. ⚠️ `pip install unsloth` her yeni oturumda **en son** sürümü kurar. Sürüm değişmişse hücre 7 `⛔ ortam referanstan farklı … surumler` der.
-   Bu durumda **durun** — ortam referansındaki sürümleri sabitlemek (`pip install unsloth==…`) bir sapmadır ve EK-3 gerektirir.
-   ⭐ Önlem: ilk oturumda `ortam-referans.json`'daki `surumler` alanını not edin.
-
-⛔ Oturum ortasında `DRIVE_KOK`'taki bir dizini silmeyin; özellikle `ortam-referans.json`'ı. Silinirse bir sonraki oturum yeni referans yazar
-ve iki kolun aynı ortamda olduğu kanıtı kaybolur.
-
----
-
-## 6. Durma mesajları — ne demek, ne yapılır
-
-Her `⛔` mesajı **tasarım gereği** durdurur. Kodu düzenleyerek geçmeyin.
-
-| mesaj | anlamı | ne yapılır |
+| # | hücre | ne görmelisiniz |
 |---|---|---|
-| `⛔ mühür bozuk (…)` | klonlanan dosyalar ön kayıttaki SHA ile aynı değil | Colab'daki klonu silip yeniden klonlayın. Sürerse veri makinesinde bildirin — mühürlü bir dosya değişmiş olabilir |
-| `⛔ GPU N GB — …` | T4 ya da küçük GPU | A100/L4 seçin. 4-bit'e geçmek EK-3 gerektirir |
-| `⛔ bos_token … ≠ referans` · `⛔ şablon çıktısı referansla uyuşmuyor` | tokenizer, eğitim şablonunu farklı kodluyor (K44 sınıfı kusur) | **durun, bildirin.** `MODEL_ID` yanlış model olabilir |
-| `⛔ N jeton > max_seq 2048` | bir kayıt 2048 jetonu aşıyor; sessiz kırpma kıyası bozar | **durun, bildirin** — veri tarafının işi |
-| `⛔ önek hizası bozuk` | kayıp maskesi hedefin içine kayıyor | **durun, bildirin** |
-| `⛔ LoRA hedefleri uyuşmuyor` · `⛔ eğitilebilir parametre … ≠ beklenen` | LoRA yanlış modüllere ya da fazladan modüle (ör. görü kulesi) kondu | **hiç eğitim yapılmadıysa** `LORA_YOLU = "peft"` (§2.2); yapıldıysa durun |
-| `⛔ ortam referanstan farklı … {alan: (eski, yeni)}` | model / revizyon / LoRA yolu / şablon / kütüphane sürümü değişti | §5 madde 3. Hangi alanın değiştiğini not edip bildirin |
-| `⛔ … eğitilmemiş — önce 4. adım` | üretim, adapter'dan önce çağrıldı | hücre 9'u bitirin |
-| CUDA *out of memory* | GPU belleği yetmedi | çalışma zamanını yeniden başlatıp 1. hücreden. Sürerse daha büyük GPU |
+| 1 | Kurulum | (çıktı gizli) — Colab *«oturumu yeniden başlat»* isterse yeniden başlatıp devam |
+| 2 | Parametreler | — |
+| 3 | Drive + depo | `depo: <commit>` — veri makinesindeki `git log -1` ile aynı olmalı |
+| 4 | Modeli yükle | `GPU: … · model: unsloth/gemma-4-E4B-it <revizyon>` |
+| 5 | Şablon | — |
+| 6 | Veri | `…: 846 eğitim / 212 doğrulama` |
+| 7 | Eğit | `şablon denetimi: 35 …` · `dil katmanı N · LoRA katmanları … · 16 modül` · eğitilebilir parametre · kayıp günlüğü · `✅ kol-tT: N dk · son eval_loss …` |
+| 8 | Ortam kaydı | ilk koşuda `referans yazıldı`, sonra `referansla aynı` |
+| 9 | Üret | 6 eksen + `cokturlu` için `✅ <dizin>` |
+| 10 | Paket | `üretimi tam koşu: N/16`; 16/16'da `✅ paket: …/v011-colab-ciktilari.zip` |
+
+⭐ **Kayıp değeri yüksek görünebilir.** Unsloth belgesine göre E2B/E4B'de 13–15 civarı kayıp *normal* (çok kipli modellerin bir tuhaflığı).
+100–300 gibi değerler ise gradyan biriktirme hatasının işaretidir; bizde biriktirme yok (batch 1).
 
 ---
 
-## 7. Veri makinesine dönüş
+## 3. Unsloth örneği ↔ bu defter — neden farklı
 
-1. Drive'dan `birag-v011/v011-colab-ciktilari.zip`'i indirin.
-2. Depoda açın — içindeki `eksen-kosu/` ve `cok-turlu-kosu/` dizinleri **`reports/analiz/` altına** gelecek:
+Defter Unsloth örneğinin yapısını izliyor ama **tarif ön kayıttan** geliyor. Örnekteki değerleri kullanmak `v010u` ↔ `v011u` kıyasını
+kayıtlı `e3` tarifinden koparır.
+
+| | Unsloth örneği | bu defter | neden |
+|---|---|---|---|
+| yükleme | `load_in_4bit = True` | **bf16**, 4-bit yok | `e3` bf16 eğitildi |
+| LoRA hedefi | bütün katmanlar, dikkat + MLP | **üstten 8 dil katmanı, yalnız `q_proj`/`o_proj`**, tam adla | `e3` tarifi (K174/K175: güvenlik 12 katmana kadar duruyor) |
+| `r` / `lora_alpha` | 8 / 8 | 8 / **160** | MLX `scale` 20 × r 8 (PEFT ölçeği alpha/r) |
+| öğrenme oranı | 2e-4, doğrusal, ısınma 5 | **1e-5 sabit**, ısınma yok | `e3` tarifi |
+| optimizer | `adamw_8bit`, wd 0.001 | **`adamw_torch`**, wd 0.01, gradyan kırpma yok | `e3` tarifi · ⚠️ MLX'te `bias_correction=False`, torch'ta hep açık — iki kolda aynı sapma |
+| adım | 60 | **2538** (846 × 3 tur) | `e3` tarifi |
+| şablon | `get_chat_template("gemma-4")` | **`configs/chat_template_train.jinja`** (K44) | kayıtlı koşular bu şablonla; Unsloth'un kendi uyarısı: eğitim ve çıkarım şablonu aynı olmalı |
+| maske | `train_on_responses_only` — **bütün** asistan turları | **yalnız son** asistan turu | MLX `mask_prompt` böyle; 405 çok turlu kayıtta fark eder |
+| üretim | `temperature 1.0 · top_p 0.95 · top_k 64` | **açgözlü**, `thinking` kapalı, 1024 jeton | ölçüm tekrarlanabilir olmalı; kayıtlı koşularla aynı ayar |
+| kayıt | `save_pretrained("gemma_4_lora")` | Drive'a adapter + kontrol noktaları | oturum kopmasına dayanıklı |
+
+**Gemma 4'e özgü, belgelerden:**
+
+- ⛔ **`use_cache=False` E2B/E4B'de çöp üretir** (KV paylaşan katmanlar; transformers #45242). Unsloth bunu düzeltmiş. Bu yüzden defter
+  yalnız Unsloth yolunu kullanır — eski defterdeki `"peft"` yedeği (düz HF + PEFT) bu hataya açık olabilirdi.
+- ✅ **Çok turda geçmişe düşünme konmaz, yalnız görünen cevap.** Veride erken turlarda düşünme yok (1058 kaydın 0'ı; düşünme yalnız son
+  turda), çok turlu üretim de geçmişe yalnız `cevap`'ı koyuyor.
+- ✅ Düşünme, sistem isteminin başındaki `<|think|>` ile açılır — veride `has_thinking` kayıtlarda böyle (`src/train.py`).
+
+---
+
+## 4. Durursa
+
+| mesaj | ne yapılır |
+|---|---|
+| `GPU … yetmez` | A100/L4 seçin. 4-bit'e geçmek tarifi değiştirir |
+| `⛔ bos_token …` · `⛔ şablon çıktısı referansla uyuşmuyor` | **durun, bildirin** — tokenizer eğitim şablonunu farklı kodluyor (K44 sınıfı kusur); `MODEL_ID` yanlış olabilir |
+| `N jeton > 2048` | **durun, bildirin** — veri tarafının işi |
+| `önek hizası bozuk` | **durun, bildirin** — maske hedefin içine kayıyor |
+| `LoRA yanlış yerde` | **durun, bildirin** — LoRA görü/ses kulesine ya da fazla modüle kondu |
+| `⛔ ortam referanstan farklı … {alan: (eski, yeni)}` | çoğunlukla `pip install unsloth` yeni sürüm kurdu. **Durun** — iki kol aynı ortamda olmalı; sürümü sabitlemek EK-3 ister |
+| CUDA *out of memory* | çalışma zamanını yeniden başlatıp *Tümünü çalıştır* |
+
+---
+
+## 5. Veri makinesine dönüş
+
+1. Drive'dan `birag-v011/v011-colab-ciktilari.zip`'i indirin, açın:
 
    ```bash
    unzip ~/Downloads/v011-colab-ciktilari.zip -d /tmp/v011-colab
@@ -130,42 +113,31 @@ Her `⛔` mesajı **tasarım gereği** durdurur. Kodu düzenleyerek geçmeyin.
    cp -R /tmp/v011-colab/eksen-kosu /tmp/v011-colab/cok-turlu-kosu reports/analiz/
    ```
 
-3. Puanlama (model koşmaz; `ham.jsonl` ve `ortam.json`'a dokunmadığını kendisi denetler):
+2. Puanlama (model koşmaz):
 
    ```bash
    uv run python scripts/analiz/2026-09-29-v011-colab-puanla.py
    ```
 
-4. Hüküm:
+3. Hüküm:
 
    ```bash
    uv run python scripts/analiz/2026-09-29-v011-onkayit-ek2-cozumleme.py
    ```
 
-   → `reports/analiz/2026-09-29-v011-onkayit-ek2-sonuc.md`. Çözümleme mühür, tamlık (2 kol × 8 tohum × 7 hücre), ayar ve ortam
-   kilitleri geçmeden **puan okumaz**.
+   → `reports/analiz/2026-09-29-v011-onkayit-ek2-sonuc.md`. Çözümleme tamlık (2 kol × 8 tohum × 7 hücre) ve 16 koşunun
+   `ortam.json`'larının aynılığı geçmeden puan okumaz.
 
-⭐ Adapter'lar (`runs/*/adapter`) pakete **girmez** — hüküm için gerekmiyor. Saklamak isterseniz Drive'da bırakın; `runs/` hiçbir zaman silinmez kuralı
-buraya da uygulanır.
+✅ Defterin çıktı biçimi veri makinesinde sınandı: sahte üretimle yazılan bir eksen dizini `src/eksen_eval.py --yeniden` ile puanlandı
+(2026-09-30). ⛔ Model yolu (yükleme, LoRA, eğitim, üretim) burada koşulamaz — ilk kez Colab'da görülecek.
 
 ---
 
-## 8. Yapılmayacaklar
+## 6. Yapılmayacaklar
 
 | ⛔ | neden |
 |---|---|
-| 4-bit / QLoRA yükleme | `e3` bf16; ön kayıt bf16 varsayıyor |
-| Yalnız bir kolu koşmak, ya da bir kolu başka oturumda/ortamda bitirip ötekini sonra | EK-2'nin bütün dayanağı iki kolun aynı ortamda olması; dönüşümlü sıra bunun için |
-| Hücreleri, tarifi (`configs/training/*.yaml`) ya da `src/colab_egitim.py`'yi Colab'da düzenlemek | mühürlü kodla koşulmayan ölçüm ön kayda ait değildir |
-| Referans yazıldıktan sonra `MODEL_ID` / `LORA_YOLU` değiştirmek | ortam denetimi durdurur; aşmak kıyası geçersiz kılar |
-| Colab'da puanlamak ya da sonuçlara bakıp yeniden eğitmek | puanlama ve hüküm veri makinesinde; sonuç görüldükten sonra yapılan değişiklik ön kaydın dışındadır |
-| Kayıtlı MLX `e3` koşularıyla Colab sonuçlarını doğrudan karşılaştırmak | farklı çerçeve; EK-2 onları hükümden çıkardı |
-
----
-
-## 9. Bilinenler ve bilinmeyenler
-
-- ✅ Maske, bölme (846/212, `random.Random(7)`), LoRA hedefi, şablon ve puanlama yolu veri makinesinde **modelsiz** sınandı (`reports/analiz/2026-09-29-v011-onkayit-ek2.md`).
-- ⛔ Unsloth + gerçek Gemma 4 **hiç koşulmadı** — `FastModel.from_pretrained(revision=…)` ve tam adlı `target_modules` davranışı ilk kez Colab'da görülecek. Hücre 7'nin denetimleri bunun için var.
-- ⚠️ MLX AdamW `bias_correction=False`, torch'ta hep açık: **yapılandırma düzeyindeki** tek birebir aktarılamayan ayar; iki kolda aynı. Sayısal eşdeğerlik zaten beklenmez (`docs/tez/makale-literatur-taramasi.md` §4.5).
-- ⚠️ Süre ve maliyet ölçülmedi (§0).
+| 2. hücredeki tarifi (`R`, `LORA_ALPHA`, `LR`, `ADIM` …) değiştirmek | ön kayıtlı `e3` tarifi |
+| 16 koşu ortasında `MODEL_ID` değiştirmek, Drive'daki `ortam-referans.json`'ı silmek | iki kolun aynı ortamda olduğunun kanıtı |
+| yalnız bir kolu koşup ötekini başka bir zaman/ortamda | kıyasın dayanağı aynı ortam |
+| Colab'da puanlamak, sonuca bakıp yeniden eğitmek | puanlama ve hüküm veri makinesinde |

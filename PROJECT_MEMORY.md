@@ -709,6 +709,15 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-09-30 · Oturum — basit Colab defteri
+
+- 👤 Kullanıcı: mühürlü defter *«çok fazla kod»*; Unsloth'un *Gemma4 (E4B) Text* örneği ve iki Unsloth belgesi verildi ⇒ `notebooks/v011-basit-egitim.ipynb` (10 kod hücresi, ~200 satır, eğitim kodu defterin içinde). Bir koşu = bir `KOL` × `TOHUM`, *Tümünü çalıştır*.
+- ⭐ Tarif değişmedi (bf16 · üst 8 katman q/o · r 8 / alpha 160 · LR 1e-5 sabit · 2538 adım · kendi şablonumuz · yalnız son tur maskesi · açgözlü üretim). Unsloth örneğiyle farklar rehber §3'te tablo.
+- ✅ Çıktı biçimi sınandı: sahte üretimle yazılan eksen dizini `eksen_eval --yeniden` ile puanlandı. ⛔ Model yolu burada koşulamaz.
+- ⛔ Belgeden: E2B/E4B'de `use_cache=False` çöp üretir (transformers #45242), Unsloth düzeltmiş ⇒ eski defterin `"peft"` yedeği bu hataya açık olabilirdi; yeni defter yalnız Unsloth yolu. ⭐ E4B'de 13–15 kayıp normal (belge).
+- ✅ Veri denetimi: 1058 kaydın hiçbirinde erken turda düşünme yok (Gemma 4 çok tur kuralıyla uyumlu); 405 çok turlu kayıt ⇒ `train_on_responses_only` kullanılmadı.
+- ⛔⛔ **Ön kayıt:** EK-2 mühürlü defteri koşucu tanımlıyordu ⇒ yeni defter kullanılacaksa **ilk koşudan önce EK-3** (👤 karar bekliyor). Eski defter mühür için depoda kalır.
+
 ### 2026-09-29 · Oturum — Colab ince ayar rehberi
 
 - ⭐ `docs/colab-egitim-rehberi.md`: mühürlü defteri (`notebooks/v011-unsloth-egitim.ipynb`) değiştirmeden koşturma kılavuzu — kontrol listesi · ilk oturumdan önceki iki karar (`MODEL_ID`, `LORA_YOLU`) · hücre hücre beklenen çıktı · oturum kopması · durma mesajları tablosu · dönüş komutları · yapılmayacaklar.
