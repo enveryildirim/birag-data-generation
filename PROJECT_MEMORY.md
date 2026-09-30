@@ -709,6 +709,13 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-09-30 · Oturum — sohbet modeli defteri (GGUF)
+
+- 👤 Kullanıcı: defter chat uygulaması için model üretmeli, veri üretimi için değil ⇒ **`v0.1.1` ile** ayrı defter, **GGUF** kaydı. ⚠️ `v0.1.1` Faz 4 hükmünden **önce** seçildi (kullanıcı kararı); ana hat hâlâ `v0.1.0`.
+- ⭐ `notebooks/v011-sohbet-modeli.ipynb`: tek eğitim (tohum 7, `e3` tarifi) → 4 turluk sohbet denemesi (`evals/cok_turlu.jsonl` mt-01, Gemma'nın önerdiği örnekleme) → `save_pretrained_gguf` (varsayılan Q8_0; Unsloth belgesi Gemma 4 için Q8_0/BF16/F16 diyor) + `sistem_istemi.txt` + Ollama `Modelfile`. Deneye girmez, mühürlü değil.
+- ⭐ GGUF'a **resmi şablon** yazılır: K44 eğitim şablonunun tek farkı son model turunun düşünmesini korumak; sohbette son tur kullanıcıda ⇒ iki şablon aynı istemi üretir — defter bunu assert ediyor, farklıysa durur.
+- ⛔ Defterde uyarı: kriz dilimi eğitimde yok ⇒ kriz protokolü ve güvenlik katmanı olmadan gerçek kullanıcıya açılmamalı. ⛔ Model yolu burada koşulamadı.
+
 ### 2026-09-30 · Oturum — basit Colab defteri
 
 - 👤 Kullanıcı: mühürlü defter *«çok fazla kod»*; Unsloth'un *Gemma4 (E4B) Text* örneği ve iki Unsloth belgesi verildi ⇒ `notebooks/v011-basit-egitim.ipynb` (10 kod hücresi, ~200 satır, eğitim kodu defterin içinde). Bir koşu = bir `KOL` × `TOHUM`, *Tümünü çalıştır*.

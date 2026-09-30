@@ -9,6 +9,9 @@
 > kütüphane sürümleri ilk koşudan sonra sabit. **Defter mühürlü:** değiştirilirse çözümleme çıktıları reddeder.
 > Eski defter (`notebooks/v011-unsloth-egitim.ipynb`) EK-2'nin mühürlü dosyası olarak depoda kalır, kullanılmaz.
 
+> 💬 **Sohbet uygulaması için model** bu rehberin konusu değil: [`notebooks/v011-sohbet-modeli.ipynb`](../notebooks/v011-sohbet-modeli.ipynb)
+> `v0.1.1` ile **bir kez** eğitir, sohbeti dener ve GGUF (+ sistem istemi, Ollama `Modelfile`) kaydeder. Deneye girmez, mühürlü değil.
+
 ---
 
 ## 0. Bir bakışta
