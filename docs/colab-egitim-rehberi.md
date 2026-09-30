@@ -5,9 +5,9 @@
 > **Dayanak:** ön kayıt `configs/deney/2026-09-29-v011-on-kayit*.json` · tarif `configs/training/*-t{tohum}.yaml` ·
 > Unsloth belgeleri *Gemma 4 — How to Run Locally* ve *Gemma 4 Fine-tuning Guide* (kullanıcı verdi, 2026-09-30).
 >
-> ⛔ **Ön kayıt notu:** EK-2 mühürlü defteri (`notebooks/v011-unsloth-egitim.ipynb` + `src/colab_egitim.py`) koşucu olarak
-> tanımlıyordu. Bu defter onun yerine geçiyorsa, **ilk koşudan önce EK-3** yazılmalı (koşucu değişti, tarif aynı).
-> Eski defter depoda kalır — mühürlü dosya olduğu için silinirse çözümleme durur.
+> ⛔ **Ön kayıt: EK-3** (`configs/deney/2026-09-30-v011-on-kayit-ek3.json`, `e08576953f27b4dd`) — koşucu bu defter, tarif aynı,
+> kütüphane sürümleri ilk koşudan sonra sabit. **Defter mühürlü:** değiştirilirse çözümleme çıktıları reddeder.
+> Eski defter (`notebooks/v011-unsloth-egitim.ipynb`) EK-2'nin mühürlü dosyası olarak depoda kalır, kullanılmaz.
 
 ---
 
@@ -43,9 +43,9 @@ son kontrol noktasından sürer (846 adımda bir); bitmiş üretim setleri atlan
 
 | # | hücre | ne görmelisiniz |
 |---|---|---|
-| 1 | Kurulum | (çıktı gizli) — Colab *«oturumu yeniden başlat»* isterse yeniden başlatıp devam |
+| 1 | Drive + kurulum | ilk koşuda `ilk koşu: en son unsloth kuruluyor`, sonra `referans sürümleri kuruluyor: unsloth==… transformers==…` — Colab *«oturumu yeniden başlat»* isterse yeniden başlatıp devam |
 | 2 | Parametreler | — |
-| 3 | Drive + depo | `depo: <commit>` — veri makinesindeki `git log -1` ile aynı olmalı |
+| 3 | Depo | `depo: <commit>` — veri makinesindeki `git log -1` ile aynı olmalı |
 | 4 | Modeli yükle | `GPU: … · model: unsloth/gemma-4-E4B-it <revizyon>` |
 | 5 | Şablon | — |
 | 6 | Veri | `…: 846 eğitim / 212 doğrulama` |
@@ -96,7 +96,7 @@ kayıtlı `e3` tarifinden koparır.
 | `N jeton > 2048` | **durun, bildirin** — veri tarafının işi |
 | `önek hizası bozuk` | **durun, bildirin** — maske hedefin içine kayıyor |
 | `LoRA yanlış yerde` | **durun, bildirin** — LoRA görü/ses kulesine ya da fazla modüle kondu |
-| `⛔ ortam referanstan farklı … {alan: (eski, yeni)}` | çoğunlukla `pip install unsloth` yeni sürüm kurdu. **Durun** — iki kol aynı ortamda olmalı; sürümü sabitlemek EK-3 ister |
+| `⛔ ortam referanstan farklı … {alan: (eski, yeni)}` | sürümler 1. hücrede sabitlendiği için en olası neden **Colab'ın `torch`'u güncellemesi**. **Durun, bildirin** — iki kol aynı ortamda olmalı; yeni bir ek gerekir |
 | CUDA *out of memory* | çalışma zamanını yeniden başlatıp *Tümünü çalıştır* |
 
 ---
@@ -122,11 +122,12 @@ kayıtlı `e3` tarifinden koparır.
 3. Hüküm:
 
    ```bash
-   uv run python scripts/analiz/2026-09-29-v011-onkayit-ek2-cozumleme.py
+   uv run python scripts/analiz/2026-09-30-v011-onkayit-ek3-cozumleme.py
    ```
 
-   → `reports/analiz/2026-09-29-v011-onkayit-ek2-sonuc.md`. Çözümleme tamlık (2 kol × 8 tohum × 7 hücre) ve 16 koşunun
-   `ortam.json`'larının aynılığı geçmeden puan okumaz.
+   → `reports/analiz/2026-09-29-v011-onkayit-ek2-sonuc.md`. Önce EK-3 mührünü ve her çıktının mühürlü defterle üretildiğini
+   (`ortam.json` → `kosucu` + `git_rev`'deki defter) denetler, sonra EK-2 çözümlemesini değiştirmeden koşar: tamlık
+   (2 kol × 8 tohum × 7 hücre) ve 16 koşunun `ortam.json`'larının aynılığı geçmeden puan okumaz.
 
 ✅ Defterin çıktı biçimi veri makinesinde sınandı: sahte üretimle yazılan bir eksen dizini `src/eksen_eval.py --yeniden` ile puanlandı
 (2026-09-30). ⛔ Model yolu (yükleme, LoRA, eğitim, üretim) burada koşulamaz — ilk kez Colab'da görülecek.
@@ -137,6 +138,7 @@ kayıtlı `e3` tarifinden koparır.
 
 | ⛔ | neden |
 |---|---|
+| defterde herhangi bir değişikliği **depoya** göndermek | defter mühürlü; çözümleme her çıktının `git_rev`'indeki defteri mühürle karşılaştırır |
 | 2. hücredeki tarifi (`R`, `LORA_ALPHA`, `LR`, `ADIM` …) değiştirmek | ön kayıtlı `e3` tarifi |
 | 16 koşu ortasında `MODEL_ID` değiştirmek, Drive'daki `ortam-referans.json`'ı silmek | iki kolun aynı ortamda olduğunun kanıtı |
 | yalnız bir kolu koşup ötekini başka bir zaman/ortamda | kıyasın dayanağı aynı ortam |

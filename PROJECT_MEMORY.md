@@ -716,7 +716,7 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - ✅ Çıktı biçimi sınandı: sahte üretimle yazılan eksen dizini `eksen_eval --yeniden` ile puanlandı. ⛔ Model yolu burada koşulamaz.
 - ⛔ Belgeden: E2B/E4B'de `use_cache=False` çöp üretir (transformers #45242), Unsloth düzeltmiş ⇒ eski defterin `"peft"` yedeği bu hataya açık olabilirdi; yeni defter yalnız Unsloth yolu. ⭐ E4B'de 13–15 kayıp normal (belge).
 - ✅ Veri denetimi: 1058 kaydın hiçbirinde erken turda düşünme yok (Gemma 4 çok tur kuralıyla uyumlu); 405 çok turlu kayıt ⇒ `train_on_responses_only` kullanılmadı.
-- ⛔⛔ **Ön kayıt:** EK-2 mühürlü defteri koşucu tanımlıyordu ⇒ yeni defter kullanılacaksa **ilk koşudan önce EK-3** (👤 karar bekliyor). Eski defter mühür için depoda kalır.
+- ⭐⭐ 👤 **EK-3 mühürlendi (`e08576953f27b4dd`, T310):** koşucu basit defter · sürümler ilk koşudan sonra sabit (torch hariç) · LoRA yolu yalnız Unsloth · çözümleme her çıktının `kosucu` + `git_rev`'deki defterini mühürle karşılaştırır, sonra EK-2 çözümlemesi değişmeden. **Hüküm komutu artık** `scripts/analiz/2026-09-30-v011-onkayit-ek3-cozumleme.py`. Eski defter mühür için depoda kalır.
 
 ### 2026-09-29 · Oturum — Colab ince ayar rehberi
 
