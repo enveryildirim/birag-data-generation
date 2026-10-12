@@ -709,6 +709,15 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-10-12 · Oturum — taban ↔ ince ayar değerlendirmesi (26B-A4B)
+
+- 👤 Kullanıcı 12B/26B-A4B'yi kendi Colab akışıyla `v0.1.1` üzerinde eğitti (resmi şablon + `reasoning_content` + `enable_thinking=has_thinking`; bölme `Random(7)`, 846/106/106). 26B'de SFTTrainer `_Gemma4KVSharedSafeProxy` hatası alınmıştı; sonucu bildirilmedi.
+- ⭐ Plan `docs/taban-vs-ince-ayar-degerlendirme-plani.md`; 👤 kullanıcı bütün önerileri kabul etti: 26B ile başla · düşünme yalnız açık · GGUF kolu (T2) sonra ayrı ek · ön kayıt Colab'dan önce · `golden.locked` açılmaz.
+- ⛔ Ön kayıt `configs/deney/2026-10-12-taban-vs-ince-on-kayit.json` (yazıcı `scripts/analiz/2026-10-12-taban-vs-ince-onkayit-yaz.py`, 19 mühürlü dosya, kol başına 366 + 100 örnekleme üretimi). Karar yalnız otomatik ölçülerden (güvenlik dönüşü 0 · unutma ≤ 1 öge · bağlam net düşüş < 3); **judge (D) karar dışı** — veri Claude yazımı, Claude judge öz-tercih riski.
+- ⭐ Defter `notebooks/taban-vs-ince-ayar-uretim.ipynb`: aynı yüklü ağırlıkta önce T0, sonra `PeftModel` ile T1; partili açgözlü üretim, her parti Drive'a; çıktı biçimi `eksen-kosu`/`golden-kosu` ⇒ `--yeniden` puanlayıcıları değişmeden çalışıyor (sahte modelle sınandı, kaldığı yerden sürme dahil).
+- ⚠️ Bulgu: `golden_eval.prompt_kur(thinking=True)` elle `<|think|>` ekliyor; 12B/26B şablonu `enable_thinking` yoksa boş düşünce bloğu koyar ⇒ bu modellerde düşünme sessizce KAPANIR. Yeni defter `enable_thinking=True` kullanıyor ve her istemi denetliyor.
+- 🔜 Çözümleme betiği (§5 kuralı) Colab çıktısı gelmeden yazılmalı · T2 (GGUF) eki · judge işi.
+
 ### 2026-09-30 · Oturum — sohbet modeli defteri (GGUF)
 
 - 👤 Kullanıcı: defter chat uygulaması için model üretmeli, veri üretimi için değil ⇒ **`v0.1.1` ile** ayrı defter, **GGUF** kaydı. ⚠️ `v0.1.1` Faz 4 hükmünden **önce** seçildi (kullanıcı kararı); ana hat hâlâ `v0.1.0`.
