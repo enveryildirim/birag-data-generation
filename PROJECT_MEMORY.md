@@ -716,7 +716,8 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - ⛔ Ön kayıt `configs/deney/2026-10-12-taban-vs-ince-on-kayit.json` (yazıcı `scripts/analiz/2026-10-12-taban-vs-ince-onkayit-yaz.py`, 19 mühürlü dosya, kol başına 366 + 100 örnekleme üretimi). Karar yalnız otomatik ölçülerden (güvenlik dönüşü 0 · unutma ≤ 1 öge · bağlam net düşüş < 3); **judge (D) karar dışı** — veri Claude yazımı, Claude judge öz-tercih riski.
 - ⭐ Defter `notebooks/taban-vs-ince-ayar-uretim.ipynb`: aynı yüklü ağırlıkta önce T0, sonra `PeftModel` ile T1; partili açgözlü üretim, her parti Drive'a; çıktı biçimi `eksen-kosu`/`golden-kosu` ⇒ `--yeniden` puanlayıcıları değişmeden çalışıyor (sahte modelle sınandı, kaldığı yerden sürme dahil).
 - ⚠️ Bulgu: `golden_eval.prompt_kur(thinking=True)` elle `<|think|>` ekliyor; 12B/26B şablonu `enable_thinking` yoksa boş düşünce bloğu koyar ⇒ bu modellerde düşünme sessizce KAPANIR. Yeni defter `enable_thinking=True` kullanıyor ve her istemi denetliyor.
-- 🔜 Çözümleme betiği (§5 kuralı) Colab çıktısı gelmeden yazılmalı · T2 (GGUF) eki · judge işi.
+- ⛔ EK-1 `configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek1.json`: çözümleme `scripts/analiz/2026-10-12-taban-vs-ince-cozumleme.py` Colab çıktısı GÖRÜLMEDEN yazıldı ve mühürlendi (kendi SHA'sını denetler). Sıra: mühür → koşucu (`git_rev`'deki defter + ön kayıt, iki kolda aynı ortam, tek adapter) → tamlık → `--yeniden` puanlama → ölçüler → §5 kuralı → `reports/analiz/2026-10-12-taban-vs-ince-26b-sonuc.md`. Güvenlik dönüşleri `configs/deney/2026-10-12-taban-vs-ince-insan-okumasi.json` doldurulana kadar hüküm BEKLER. ⚠️ Sapmalar: E2/E3 sözcük oranı (jeton değil) · G2 BERTScore burada hesaplanmaz. Sahte çıktıyla sınandı (hüküm yolları, idempotent puanlama, ortam farkında durma).
+- 🔜 Colab koşusu (kullanıcı) · T2 (GGUF) eki · judge işi (D2–D7, karar dışı).
 
 ### 2026-09-30 · Oturum — sohbet modeli defteri (GGUF)
 
