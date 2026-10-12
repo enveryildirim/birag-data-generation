@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Taban ↔ ince ayar (26B-A4B) çözümlemesi — ön kayıt `configs/deney/2026-10-12-taban-vs-ince-on-kayit.json`.
 
-⛔ Bu betik Colab çıktısı GÖRÜLMEDEN yazıldı (2026-10-12) ve EK-1 ile mühürlendi
-(`configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek1.json`). Çıktıya bakıldıktan sonra değiştirilirse
-mühür bozulur ve betik puan okumadan durur.
+⛔ Bu betik Colab çıktısı GÖRÜLMEDEN yazıldı (2026-10-12) ve EK-1 ile mühürlendi; T1'in birleştirilmiş
+model olması üzerine EK-2 ile yeniden mühürlendi (`configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek2.json`).
+Çıktıya bakıldıktan sonra değiştirilirse mühür bozulur ve betik puan okumadan durur.
 
 Sıra — hiçbiri geçmeden puan okunmaz:
-  1. mühür     ön kayıt, EK-1, bu betik ve ön kaydın mühürlediği 19 dosya bugünküyle aynı
-  2. koşucu    her çıktı dizininin `ortam.json`'u: koşucu = mühürlü defter, `git_rev`'deki defter ve ön kayıt
-               mühürlüyle aynı · iki kolda model, revizyon, parti, üretim ayarı, kütüphane sürümleri aynı ·
-               T1 dizinlerinin hepsinde aynı adapter
+  1. mühür     ön kayıt, EK-1, EK-2, bu betik ve mühürlü dosyalar (EK-2 defterin yeni hâlini mühürler) aynı
+  2. koşucu    her çıktı dizininin `ortam.json`'u: koşucu = mühürlü defter, `git_rev`'deki defter, ön kayıt ve
+               EK-2 mühürlüyle aynı · iki kolda taban revizyonu, parti, üretim ayarı, kütüphane sürümleri ve
+               sohbet şablonu aynı · T1 dizinlerinin hepsi EK-2'deki model + revizyon
   3. tamlık    kol başına 12 dizin, her dizinde setin bütün ögeleri
   4. puanlama  `src/eksen_eval.py --yeniden` / `src/golden_eval.py --yeniden` (model koşmaz; idempotent;
                `ham.jsonl` ve `ortam.json` değişmez — SHA ile denetlenir)
@@ -60,12 +60,14 @@ import v011_olcu as vo  # noqa: E402
 ON_KAYIT = "configs/deney/2026-10-12-taban-vs-ince-on-kayit.json"
 ON_KAYIT_SHA = "caf1c8063d8b3933"
 EK1 = "configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek1.json"
+EK2 = "configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek2.json"
+COZ = "scripts/analiz/2026-10-12-taban-vs-ince-cozumleme.py"
 INSAN = KOK / "configs/deney/2026-10-12-taban-vs-ince-insan-okumasi.json"
 DEFTER = "notebooks/taban-vs-ince-ayar-uretim.ipynb"
 KOLLAR = ("T0", "T1")
 KLINIK = ("safety", "cf", "cfreal", "cfo", "sycophancy", "golden_dev", "golden_test")
 ROL = ("mg", "doz", "tanı", "teşhis", "ilac", "ilaç", "tedaviye başla", "protokol", "avukat", "dava", "hukuk")
-ESIT_ALANLAR = ("model_id", "model_revizyon", "batch", "uretim", "surumler", "on_kayit")
+ESIT_ALANLAR = ("model_id", "model_revizyon", "batch", "uretim", "surumler", "on_kayit", "sablon_sha256_16")
 
 
 def _sha16(b: bytes) -> str:
@@ -88,11 +90,16 @@ def muhur_denetle() -> dict:
     if _sha16((KOK / ON_KAYIT).read_bytes()) != ON_KAYIT_SHA:
         raise SystemExit("⛔ ön kayıt mühürlendiği hâlinden farklı — puan OKUNMADI")
     ek1 = json.loads((KOK / EK1).read_text(encoding="utf-8"))
-    if ek1["on_kayit_sha256_16"] != ON_KAYIT_SHA:
-        raise SystemExit("⛔ EK-1 başka bir ön kayda bağlı — puan OKUNMADI")
-    if _sha16(Path(__file__).read_bytes()) != ek1["cozumleme_sha256_16"]:
-        raise SystemExit("⛔ bu betik EK-1'in mühürlediği hâlinden farklı — puan OKUNMADI")
+    ek2 = json.loads((KOK / EK2).read_text(encoding="utf-8"))
+    if ek1["on_kayit_sha256_16"] != ON_KAYIT_SHA or ek2["on_kayit_sha256_16"] != ON_KAYIT_SHA:
+        raise SystemExit("⛔ EK-1/EK-2 başka bir ön kayda bağlı — puan OKUNMADI")
+    if ek2["ek1_sha256_16"] != _sha16((KOK / EK1).read_bytes()):
+        raise SystemExit("⛔ EK-1, EK-2'nin gördüğüyle aynı değil — puan OKUNMADI")
+    if _sha16(Path(__file__).read_bytes()) != ek2["muhurlu_dosyalar"][COZ]:
+        raise SystemExit("⛔ bu betik EK-2'nin mühürlediği hâlinden farklı — puan OKUNMADI")
     ok = json.loads((KOK / ON_KAYIT).read_text(encoding="utf-8"))
+    ok["muhurlu_dosyalar"] = {**ok["muhurlu_dosyalar"], **ek2["muhurlu_dosyalar"]}
+    ok["_ek2"] = ek2
     kotu = [p for p, s in ok["muhurlu_dosyalar"].items() if _sha16((KOK / p).read_bytes()) != s]
     if kotu:
         raise SystemExit(f"⛔ mühürlü dosya değişmiş — puan OKUNMADI: {kotu}")
@@ -126,6 +133,8 @@ def dizinleri_bul(ok: dict, kok: Path, m: str) -> dict:
 
 def kosucu_denetle(ok: dict, dizin: dict) -> list[str]:
     defter_sha = ok["muhurlu_dosyalar"][DEFTER]
+    ek2_sha = _sha16((KOK / EK2).read_bytes())
+    t1 = ok["_ek2"]["t1"]
     rev_tamam: dict[str, bool] = {}
     ortamlar = {}
     for (kol, kisa), d in dizin.items():
@@ -136,20 +145,21 @@ def kosucu_denetle(ok: dict, dizin: dict) -> list[str]:
         if rev not in rev_tamam:
             a = subprocess.run(["git", "-C", str(KOK), "show", f"{rev}:{DEFTER}"], capture_output=True)
             b = subprocess.run(["git", "-C", str(KOK), "show", f"{rev}:{ON_KAYIT}"], capture_output=True)
-            rev_tamam[rev] = (a.returncode == 0 and b.returncode == 0 and _sha16(a.stdout) == defter_sha
-                              and _sha16(b.stdout) == ON_KAYIT_SHA)
+            c = subprocess.run(["git", "-C", str(KOK), "show", f"{rev}:{EK2}"], capture_output=True)
+            rev_tamam[rev] = (a.returncode == b.returncode == c.returncode == 0 and _sha16(a.stdout) == defter_sha
+                              and _sha16(b.stdout) == ON_KAYIT_SHA and _sha16(c.stdout) == ek2_sha)
         if not rev_tamam[rev]:
-            raise SystemExit(f"⛔ {d.name}: git_rev {rev[:7]}'deki defter ya da ön kayıt mühürlüden farklı "
+            raise SystemExit(f"⛔ {d.name}: git_rev {rev[:7]}'deki defter, ön kayıt ya da EK-2 mühürlüden farklı "
                              "(ya da rev bu depoda yok) — puan OKUNMADI")
+        kimlik = (o.get("t1_model"), o.get("t1_revizyon"))
+        if kimlik != ((t1["model"], t1["revizyon"]) if kol == "T1" else (None, None)):
+            raise SystemExit(f"⛔ {d.name}: model kimliği {kimlik} EK-2 ile uyuşmuyor — puan OKUNMADI")
         ortamlar[(kol, kisa)] = o
     ilk = next(iter(ortamlar.values()))
     for k, o in ortamlar.items():
         fark = {a: (ilk.get(a), o.get(a)) for a in ESIT_ALANLAR if o.get(a) != ilk.get(a)}
         if fark:
             raise SystemExit(f"⛔ {k}: ortam iki kolda aynı değil — puan OKUNMADI: {fark}")
-    adapterler = {o.get("adapter_sha256_16") for (kol, _), o in ortamlar.items() if kol == "T1"}
-    if len(adapterler) != 1 or None in adapterler:
-        raise SystemExit(f"⛔ T1 dizinleri aynı adapter'la üretilmemiş: {adapterler} — puan OKUNMADI")
     uyari = []
     gpular = {o.get("gpu") for o in ortamlar.values()}
     if len(gpular) > 1:
@@ -431,7 +441,8 @@ def rapor(ok: dict, O: dict, hukum: str, gerekce: list[str], uyari: list[str], d
           insan: dict) -> str:
     s = [f"# Taban ↔ ince ayar — {ok['model_id']}", "",
          f"**Betik:** `scripts/analiz/2026-10-12-taban-vs-ince-cozumleme.py` · **Ön kayıt:** `{ON_KAYIT}` "
-         f"(`{ON_KAYIT_SHA}`) + EK-1", "",
+         f"(`{ON_KAYIT_SHA}`) + EK-1 + EK-2", "",
+         f"**T1:** `{ok['_ek2']['t1']['model']}` @ `{ok['_ek2']['t1']['revizyon'][:12]}` (birleştirilmiş, bf16)", "",
          "⛔ Sayıların hepsi bu betikten. Tek eğitim koşusu ⇒ tohum varyansı yok; kıyas öge düzeyinde eşleşmeli "
          "(McNemar kesin + bootstrap %95 GA, T1 − T0). Anlamsız fark «bu setle ayırt edilemedi» demektir.", ""]
     if uyari:

@@ -1,0 +1,29 @@
+{
+ "tarih": "2026-10-12",
+ "on_kayit": "configs/deney/2026-10-12-taban-vs-ince-on-kayit.json",
+ "on_kayit_sha256_16": "caf1c8063d8b3933",
+ "ek1": "configs/deney/2026-10-12-taban-vs-ince-on-kayit-ek1.json",
+ "ek1_sha256_16": "accc32579d309459",
+ "neden": "Kullanıcının ince ayarlı modeli HF'te birleştirilmiş bf16 model olarak duruyor; adapter yok. T1 bu modeldir (dağıtılacak olan). Hiçbir Colab çıktısı görülmedi.",
+ "t1": {
+  "model": "yildirim34/birag-gemma4-26b",
+  "revizyon": "2f4a8b48aa6c78e5bb685e0b1a1e5f5544afc0d3",
+  "indirilecek": [
+   "*.json",
+   "*.safetensors",
+   "*.jinja"
+  ],
+  "gozlem_2026_10_12": "Gemma4ForConditionalGeneration · bf16 · 1013 tensör · 51,6 GB · LoRA anahtarı yok · chat_template.jinja resmi 26B şablonuyla bayt bayt aynı · README base_model unsloth/gemma-4-26b-a4b-it",
+  "bilinmeyen": "eğitim tarifi ve verinin v0.1.1 olduğu kullanıcının beyanı; depoda kayıt yok"
+ },
+ "degisiklikler": [
+  "T1 = birleştirilmiş model, ayrı yüklenir (PeftModel yok); T0 bellekten atılır",
+  "ortam.json: adapter alanları yerine t1_model + t1_revizyon; sablon_sha256_16 eklendi",
+  "çözümleme: T1 kimliği EK-2'deki model+revizyonla; iki kolda şablon SHA'sı aynı olmalı",
+  "defter ve çözümleme yeniden mühürlendi (aşağıda); ön kayıttaki defter SHA'sının yerini alır"
+ ],
+ "muhurlu_dosyalar": {
+  "notebooks/taban-vs-ince-ayar-uretim.ipynb": "6ca82d6f6a35de79",
+  "scripts/analiz/2026-10-12-taban-vs-ince-cozumleme.py": "96262e595d34c358"
+ }
+}
