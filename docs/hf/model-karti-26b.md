@@ -82,7 +82,7 @@ tıbbi aciliyet içeren konuşmalar eğitim verisinde yoktur**; modelin bu durum
 | son doğrulama kaybı | $eval_loss |
 
 ⚠️ Bu model için **davranış ölçümü henüz tamamlanmadı.** Eğitilmemiş taban modelle kör karşılaştırma sürüyor: güvenlik, genel
-yetenek, bağlama sadakat, dalkavukluk ve terapötik kalite setleri; iki LLM judge (Qwen3.8-27B, Gemma-4-31B) ve insan
+yetenek, bağlama sadakat, dalkavukluk ve terapötik kalite setleri; iki LLM judge (Qwen3.8-27B, Gemma-4-31B, 4-bit) ve insan
 etiketiyle doğrulama. Sonuçlar geldiğinde buraya eklenecek.
 
 ## Kullanım
