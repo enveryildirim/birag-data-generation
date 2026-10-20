@@ -9,6 +9,13 @@
 
 **Bu planın tek dayanağı:**
 `birag-tubitak/agentic_dataset_generation/docs/BASVURU_FORMU_(BASVURU_FORMU_SBB_BAGIMLILIK).PDF`
+— 2026-10-20'den beri kopyası repo kökünde (kullanıcı verdi; SHA256-16 `e4865d3254d92a70`).
+Gelişme raporu eşlemesi: [docs/rapor/oneri-rapor-esleme.md](docs/rapor/oneri-rapor-esleme.md)
+
+**Onaylı ek kaynak — Colab değerlendirme çıktıları** (kullanıcı 2026-10-20'de izin verdi):
+`birag-degerlendirme/` (+ aynı içerikli zip) — taban `unsloth/gemma-4-26B-A4B-it` ve ince
+`yildirim34/birag-gemma4-26b` çıktıları (9 set, A100, parti 8), Gemma/Qwen judge kayıtları,
+insan etiketi (40 öğe, ekip), özet CSV'ler.
 
 **Onaylı ek kaynaklar** (kullanıcı tarafından 2026-09-12'de verildi):
 ```

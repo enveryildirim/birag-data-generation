@@ -710,6 +710,16 @@ Kapalı kararlar yeniden tartışılmaz. Değişmesi gerekiyorsa yeni satır ekl
 - Taslak istemine «düşürdüğün ayrıntının adını yazma» maddesi eklendi, 0617'nin doğru çözümü örnek olarak kondu.
 - Kümülatif 664/665, 26/41 blok.
 
+### 2026-10-20 · Oturum — Gelişme raporu planı: öneri ↔ rapor eşlemesi
+- Girdi: hocanın notları `z.md` + şablon `rapor-bırag.docx` (İP başına tablo: no/ad/% · çalışmalar ve bulgular · başarı ölçütleri) + başvuru formu PDF (kullanıcı repo köküne koydu, `plan.md` §0'a eklendi).
+- Çıktı: `docs/rapor/oneri-rapor-esleme.md` — İP1/İP2 her taahhüt → yapılan → durum → kanıt; İP4'te yalnız bu reponun arayüz katkısı.
+- Bulgu: formdan dört yöntem sapması gerekçe ister (model ailesi K29, ORPO ertelendi, QLoRA → bf16 K7, BLEU/ROUGE K9 — K9 hâlâ yürütücü onayı bekliyor); İP1'de PII taraması, senaryo uyumu % ve dil modeli uyumu % için rapor üreten betik yok; duygu tonu etiketleme (form s.9) yapılmadı.
+- 👤 Karar: dönem **0–12. ay**, bu ekip **İP1 + İP2** yazar. Plan: `docs/rapor/gelisme-raporu-plani.md` (iskelet, 9 şekil, eksik betikler, önerilen tamamlanma İP1 ≈ %75 · İP2 ≈ %60–65 — karar yürütücünün).
+- Açık: İP3 (10–15) de dönemle kesişiyor, şablon tüm İP'leri istiyor → İP3 sorumlusuna haber.
+- ✅ Ölçüt raporları: `reports/analiz/2026-10-20-ip1-olcutler.md` (hacim 1058/10.000 · kapı geçme %93,5 · kanonik senaryo %90,8 · şablon uyumu %100 · PII deseni 0, öz-sınamalı · sert yasak 0) · `2026-10-20-ip2-olcutler.md` (iddia tabanlı doğruluk vekili golden taban %87,4 → ince %97,9 — ⚠️ kural uyumu, kalite değil; insan/judge tabanı üstün buldu · zararlı aday taban %4,7 → ince %6,8 · düşünce Türkçe %46,8 → %100).
+- ✅ BLEU/ROUGE + gecikme hazırlığı: referanslı set `data/eval-ref/olcek5k-ref.v1.jsonl` (`d8cce150543a3470`, 200 kayıt, ölçek-5k B aşaması, eval tohumları dışlandı; IMMUTABLE) · `notebooks/rapor-bleu-gecikme.ipynb` (Colab: üretim + BERTScore + tek istek akışlı gecikme, 3 kol) · `scripts/analiz/2026-10-20-rapor-bleu-gecikme-puanla.py` (yerel: BLEU/chrF/ROUGE Türkçe tokenizer/F1, bootstrap; sahte veriyle sınandı). ⏳ Colab'ın klonlayabilmesi için commit + push gerekiyor (kullanıcıya soruldu).
+- 👤 `birag-degerlendirme/` okuma izni verildi (`plan.md` §0). İncelendi: golden setlerde **referans cevap yok** (iddia tabanlı) ⇒ BLEU/ROUGE bu çıktılarla hesaplanamaz; süreler 8'lik parti/8 ⇒ tek istek gecikmesi değil. Bu klasörle çıkarılabilenler: zararlı yanıt oranı, otomatik iddia geçme oranı («doğruluk» vekili), Türkçe oranı, judge↔insan uyumu. Uzman %85 ve kullanıcı %90 için veri yok.
+
 ### 2026-10-20 · Oturum — Haiku pilotu → ölçek-5k üretimi (K279)
 
 - 👤 «Eldeki veri?» → `v0.1.1` 1.058 kayıt. 👤 «Haiku ile 5–10 bine çıkalım, API anahtarı değil hesabım üzerinden».
