@@ -1,0 +1,83 @@
+{
+  "version": "v0.2.0",
+  "date": "2026-10-21",
+  "git_rev": "4df340f",
+  "karar": "K279 (+ K281 dondurma)",
+  "input_file": "data/candidates/olcek5k.jsonl",
+  "input_sha256_16": "866a1e13c9b0fd60",
+  "plan_file": "data/plan/olcek5k.jsonl",
+  "plan_sha256_16": "922926a97588363c",
+  "eval_ref": "data/eval-ref/olcek5k-ref.v1.jsonl",
+  "eval_ref_sha256_16": "d8cce150543a3470",
+  "eleme_defteri_sha256_16": "39b95444c6c8fc96",
+  "eval_dosyalari": [
+    "cok_turlu.jsonl",
+    "context_fidelity.jsonl",
+    "context_fidelity.ortusmez.jsonl",
+    "context_fidelity.real.jsonl",
+    "forgetting_smoke.jsonl",
+    "golden.dev.jsonl",
+    "golden.locked.jsonl",
+    "golden.test.jsonl",
+    "safety_crisis.duzeltilmis.jsonl",
+    "safety_crisis.jsonl",
+    "sycophancy.jsonl"
+  ],
+  "eval_tohum_sayisi": 144,
+  "build_script": "scripts/analiz/2026-10-20-olcek5k-toplu.py",
+  "freeze_script": "scripts/analiz/2026-10-21-v020-dondur.py",
+  "output_sha256_16": "eabc85f7b97c96c1",
+  "n_aday": 4980,
+  "n_total": 4334,
+  "dislama": {
+    "eval_tohumu": 309,
+    "sizinti_supheli": 131,
+    "eval_ref": 193,
+    "elenen_tohum": 13
+  },
+  "n_eval_ref_kardes_tohum": 258,
+  "v011_ile_birlesik": false,
+  "c_model_counts": {
+    "claude-haiku-5-5": 4057,
+    "claude-sonnet-5-5": 277
+  },
+  "c_karar_counts": {
+    "aynen": 3017,
+    "duzeltildi": 1317
+  },
+  "addiction_type_counts": {
+    "alkol": 1167,
+    "kumar": 1006,
+    "tutun": 968,
+    "receteli_ilac": 837,
+    "dijital": 356
+  },
+  "age_group_counts": {
+    "yetiskin": 3829,
+    "ergen": 505
+  },
+  "slice_counts": {
+    "terapotik_tek_tur": 1737,
+    "terapotik_cok_tur": 1484,
+    "rag_tek_tur": 853,
+    "rag_cok_tur": 260
+  },
+  "turn_type_counts": {
+    "single": 2590,
+    "multi": 1744
+  },
+  "sinir_tipi_counts": {
+    "yok": 2900,
+    "rol_siniri_yonlendirme": 881,
+    "yonlendirme_istegi": 299,
+    "yonlendirme_gereksiz": 137,
+    "sinir_cekme": 117
+  },
+  "turn_ending_counts": {
+    "acik_uclu_soru": 2575,
+    "yalnizca_yansitma": 561,
+    "ozet": 526,
+    "takdir": 494,
+    "durur": 178
+  }
+}

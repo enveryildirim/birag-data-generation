@@ -1,0 +1,68 @@
+{
+  "version": "v0.2.1",
+  "date": "2026-10-21",
+  "git_rev": "4df340f",
+  "karar": "K279 · K281 · K282",
+  "base_dataset": "datasets/v0.2.0/train.jsonl",
+  "base_sha256_16": "eabc85f7b97c96c1",
+  "n_base": 4334,
+  "input_file": "data/candidates/olcek5k.jsonl",
+  "input_sha256_16": "a78055098e7201a6",
+  "plan_ek": "data/plan/olcek5k-ek.jsonl",
+  "plan_ek_sha256_16": "c7ce336c387ee978",
+  "plan_script": "scripts/analiz/2026-10-21-olcek5k-ek-plan.py",
+  "freeze_script": "scripts/analiz/2026-10-21-v021-dondur.py",
+  "output_sha256_16": "e73bf1eccbc335cb",
+  "n_ek_plan": 700,
+  "n_ek_c_dusen_ya_da_eksik": 0,
+  "eksik_parca": [],
+  "n_ek": 679,
+  "n_total": 5013,
+  "ek_dislama": {
+    "sizinti_supheli": 21
+  },
+  "v011_ile_birlesik": false,
+  "ek_c_karar_counts": {
+    "aynen": 492,
+    "duzeltildi": 187
+  },
+  "c_model_counts": {
+    "claude-haiku-5-5": 4736,
+    "claude-sonnet-5-5": 277
+  },
+  "addiction_type_counts": {
+    "alkol": 1339,
+    "kumar": 1168,
+    "tutun": 1108,
+    "receteli_ilac": 972,
+    "dijital": 426
+  },
+  "age_group_counts": {
+    "yetiskin": 4413,
+    "ergen": 600
+  },
+  "slice_counts": {
+    "terapotik_tek_tur": 2021,
+    "terapotik_cok_tur": 1704,
+    "rag_tek_tur": 992,
+    "rag_cok_tur": 296
+  },
+  "turn_type_counts": {
+    "single": 3013,
+    "multi": 2000
+  },
+  "sinir_tipi_counts": {
+    "yok": 3346,
+    "rol_siniri_yonlendirme": 1035,
+    "yonlendirme_istegi": 341,
+    "yonlendirme_gereksiz": 161,
+    "sinir_cekme": 130
+  },
+  "turn_ending_counts": {
+    "acik_uclu_soru": 2964,
+    "yalnizca_yansitma": 658,
+    "ozet": 608,
+    "takdir": 581,
+    "durur": 202
+  }
+}
