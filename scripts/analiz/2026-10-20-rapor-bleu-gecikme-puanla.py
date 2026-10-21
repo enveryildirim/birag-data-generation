@@ -8,11 +8,13 @@ Colab yalnız üretir (cevap, süre) ve BERTScore'u hesaplar (model gerektiriyor
   BLEU    sacrebleu corpus BLEU, varsayılan 13a tokenizasyon
   chrF    sacrebleu chrF — karakter n-gram; Türkçe gibi eklemeli dilde BLEU'dan daha anlamlı
   ROUGE   rouge-score ROUGE-1/2/L F1 — Türkçe harfleri silen varsayılan tokenizer YERİNE tr_fold + \\w+
-  F1      sözcük torbası F1 (SQuAD tarzı), cevap başına ortalama
+  (sözcük torbası F1 ayrıca raporlanmaz: aynı tokenizer'la ROUGE-1 F1'in tanım gereği aynısıdır)
   BERTScore F1, Colab'da (`bert-base-multilingual-cased`), cevap başına ortalama
 Boş cevap boş dizgi olarak puanlanır (0). Güven aralıkları: 1000 bootstrap, tohum 20261020.
+Tabanın boş cevapları kıyası bozmasın diye ayrıca «iki modelin de dolu cevap verdiği kayıtlar» verilir.
 
-Gecikme: tek istek, akışla — ilk jeton · görünen cevabın başlaması · toplam. Form ölçütü
+Gecikme: tek istek, akışla — ilk jeton · görünen cevabın başlaması · toplam · üretim hızı
+(ilk jetondan sonraki jeton/sn; toplam sürenin çıkarım yazılımına mı modele mi bağlı olduğunu ayırır). Form ölçütü
 «ortalama yanıt süresi < 2 sn»; hangi anın «yanıt» sayılacağı raporda iki türlü verilir.
 
 Girdi : birag-rapor-olcum/{taban,ince}/{referans.jsonl,bilgi.json} · birag-rapor-olcum/gecikme/*.jsonl
@@ -24,13 +26,13 @@ Kullanım: uv run --with sacrebleu --with rouge-score python scripts/analiz/2026
 """
 from __future__ import annotations
 
+import datetime as dt
 import hashlib
 import json
 import random
 import re
 import statistics as st
 import sys
-from collections import Counter
 from pathlib import Path
 
 import sacrebleu
@@ -70,15 +72,6 @@ class TrTokenizer:
 ROUGE = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], tokenizer=TrTokenizer())
 
 
-def f1(aday: str, ref: str) -> float:
-    a, r = Counter(sozcukler(aday)), Counter(sozcukler(ref))
-    ortak = sum((a & r).values())
-    if not ortak:
-        return 0.0
-    p, rc = ortak / sum(a.values()), ortak / sum(r.values())
-    return 100 * 2 * p * rc / (p + rc)
-
-
 KORPUS = {"BLEU": sacrebleu.metrics.BLEU(), "chrF": sacrebleu.metrics.CHRF()}
 
 
@@ -90,7 +83,6 @@ def hazirla(aday: list[str], ref: list[str], bert: list[float]) -> dict:
             "cumle": {"ROUGE-1": [100 * x["rouge1"].fmeasure for x in rg],
                       "ROUGE-2": [100 * x["rouge2"].fmeasure for x in rg],
                       "ROUGE-L": [100 * x["rougeL"].fmeasure for x in rg],
-                      "F1": [f1(a, r) for a, r in zip(aday, ref)],
                       "BERTScore": [100 * b for b in bert]}}
 
 
@@ -124,8 +116,9 @@ def main() -> None:
                [D / "bertscore.jsonl", D / "bertscore_bilgi.json"] + gec_dosya
 
     ids = sorted(ref)
+    dolu = [i for i in ids if all(cev[m][i]["cevap"].strip() for m in MODELLER)]
     gruplar = {"hepsi": ids, "tek tur": [i for i in ids if ref[i]["turn_type"] == "single"],
-               "çok tur": [i for i in ids if ref[i]["turn_type"] == "multi"]}
+               "çok tur": [i for i in ids if ref[i]["turn_type"] == "multi"], "ikisi dolu": dolu}
     sonuc, aralik = {}, {}
     for m in MODELLER:
         for g, gi in gruplar.items():
@@ -134,12 +127,12 @@ def main() -> None:
             b = [bert[(m, i)] for i in gi]
             h = hazirla(a, r, b)
             sonuc[(m, g)] = olcu(h, list(range(len(gi))))
-            if g == "hepsi":
-                aralik[m] = bootstrap(h, len(gi))
+            if g in ("hepsi", "ikisi dolu"):
+                aralik[(m, g)] = bootstrap(h, len(gi))
     olculer = list(sonuc[(MODELLER[0], "hepsi")])
 
     L = ["# BLEU/ROUGE ve tek istek gecikmesi — İP2 ölçütleri", "",
-         f"- Betik: `scripts/analiz/{Path(__file__).name}` · tarih 2026-10-20",
+         f"- Betik: `scripts/analiz/{Path(__file__).name}` · tarih {dt.date.today().isoformat()}",
          f"- Koşu: `notebooks/rapor-bleu-gecikme.ipynb` · " + " · ".join(
              f"{m} `{bilgi[m]['repo']}` rev `{bilgi[m]['revizyon'][:8]}` ({bilgi[m]['gpu']}, {bilgi[m]['tarih']})" for m in MODELLER),
          f"- BERTScore: `{bbilgi['bert_model']}` · bert-score {bbilgi['bert_score']}",
@@ -151,7 +144,14 @@ def main() -> None:
           "| ölçü | " + " | ".join(MODELLER) + " |", "|---|" + "---:|" * len(MODELLER)]
     for k in olculer:
         L.append(f"| {k} | " + " | ".join(
-            f"**{sonuc[(m, 'hepsi')][k]:.1f}** ({aralik[m][k][0]:.1f}–{aralik[m][k][1]:.1f})" for m in MODELLER) + " |")
+            f"**{sonuc[(m, 'hepsi')][k]:.1f}** ({aralik[(m, 'hepsi')][k][0]:.1f}–{aralik[(m, 'hepsi')][k][1]:.1f})"
+            for m in MODELLER) + " |")
+    L += ["", f"İki modelin de dolu cevap verdiği {len(dolu)} kayıt (tabanın boş cevapları kıyas dışı):", "",
+          "| ölçü | " + " | ".join(MODELLER) + " |", "|---|" + "---:|" * len(MODELLER)]
+    for k in olculer:
+        L.append(f"| {k} | " + " | ".join(
+            f"**{sonuc[(m, 'ikisi dolu')][k]:.1f}** ({aralik[(m, 'ikisi dolu')][k][0]:.1f}–{aralik[(m, 'ikisi dolu')][k][1]:.1f})"
+            for m in MODELLER) + " |")
     L += ["", "Tek tur / çok tur:", "", "| ölçü | " + " | ".join(f"{m} · {g}" for m in MODELLER for g in ("tek tur", "çok tur")) + " |",
           "|---|" + "---:|" * (2 * len(MODELLER))]
     for k in olculer:
@@ -163,8 +163,8 @@ def main() -> None:
           f"- Sözcük ortancası — referans {st.median(len(sozcukler(ref[i]['referans'])) for i in ids):.0f} · " +
           " · ".join(f"{m} {st.median(len(sozcukler(cev[m][i]['cevap'])) for i in ids):.0f}" for m in MODELLER), "",
           "## 2. Tek istek gecikmesi — form hedefi: ortalama < 2 sn", "",
-          "| kol | n | ilk jeton ort / ortanca | görünen cevabın başlaması ort / ortanca | toplam ort / ortanca / p90 | toplam < 2 sn | jeton ortanca | kesilen |",
-          "|---|---:|---:|---:|---:|---:|---:|---:|"]
+          "| kol | n | ilk jeton ort / ortanca | görünen cevabın başlaması ort / ortanca | toplam ort / ortanca / p90 | toplam < 2 sn | jeton ortanca | üretim hızı ortanca (jeton/sn) | kesilen |",
+          "|---|---:|---:|---:|---:|---:|---:|---:|---:|"]
     for p in gec_dosya:
         R = jl(p)
         t = sorted(r["toplam_sn"] for r in R)
@@ -173,7 +173,9 @@ def main() -> None:
                  f"| {st.mean(r['cevap_bas_sn'] for r in R):.2f} / {st.median(r['cevap_bas_sn'] for r in R):.2f} "
                  f"| {st.mean(t):.2f} / {st.median(t):.2f} / {t[int(.9 * len(t)) - 1]:.2f} "
                  f"| {sum(x < HEDEF_SN for x in t)} / {len(t)} "
-                 f"| {st.median(r['jeton'] for r in R):.0f} | {sum(r['kesildi'] for r in R)} |")
+                 f"| {st.median(r['jeton'] for r in R):.0f} "
+                 f"| {st.median((r['jeton'] - 1) / (r['toplam_sn'] - r['ilk_jeton_sn']) for r in R if r['jeton'] > 1):.1f} "
+                 f"| {sum(r['kesildi'] for r in R)} |")
     L += ["", "- Ortam: Colab A100 80 GB, Hugging Face `generate` (Unsloth), bf16, açgözlü, parti 1, akışla. "
           "Üretim sunucusu (vLLM vb.) ve nicemleme bu sayıları değiştirir; burada ölçülen bu ortamdır.",
           "- «Görünen cevabın başlaması» kullanıcının ilk harfi gördüğü an: düşünme açıkken düşünce bitene kadar bekler.",
