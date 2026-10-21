@@ -7,6 +7,7 @@ Her revizyonda: `README.md` (`docs/hf/veri-karti.md`'den, sayılar o sürümün 
 Kullanım:
   uv run python scripts/analiz/2026-10-21-hf-veri-yukle.py            # kuru koşu: README'ler scratch'e yazılır
   uv run python scripts/analiz/2026-10-21-hf-veri-yukle.py --yukle    # yükler (önce: uv run hf auth login)
+  ... --haric v0.2.0                                                     # bu sürüm yüklenmez, sürüm tablosunda da yer almaz
 """
 
 import argparse
@@ -52,7 +53,7 @@ def kart_degerleri(klasor, surumler, repo, lisans):
         "sha": hashlib.sha256(ham).hexdigest()[:16], "n": len(kayit), "boyut": boyut(len(kayit)),
         "tek": sum(r["turn_type"] == "single" for r in kayit), "cok": sum(r["turn_type"] == "multi" for r in kayit),
         "dusunce": sum(r["has_thinking"] for r in kayit), "replay": sum(r["replay"] for r in kayit),
-        "baglam": sum(r["context"] is not None for r in kayit),
+        "baglam": sum(bool(r["context"]) for r in kayit),   # boş liste bağlam değil
         "dilimler": say(Counter(r["slice"] for r in kayit)),
         "turler": say(Counter(r["addiction_type"] for r in kayit)),
         "yas": say(Counter(r["age_group"] for r in kayit)),
@@ -66,10 +67,11 @@ def main():
     ap.add_argument("--lisans", default="cc-by-4.0")
     ap.add_argument("--ozel", action="store_true", help="depo yoksa özel oluşturulur")
     ap.add_argument("--yukle", action="store_true")
+    ap.add_argument("--haric", action="append", default=[], help="yüklenmeyecek sürüm (tekrarlanabilir)")
     ap.add_argument("--cikti", default=tempfile.gettempdir() + "/birag-hf-kart")
     a = ap.parse_args()
 
-    klasorler = sorted((KOK / "datasets").glob("v*.*.*"), key=surum_anahtari)
+    klasorler = sorted((k for k in (KOK / "datasets").glob("v*.*.*") if k.name not in a.haric), key=surum_anahtari)
     ozet = []
     for k in klasorler:
         ham = (k / "train.jsonl").read_bytes()
