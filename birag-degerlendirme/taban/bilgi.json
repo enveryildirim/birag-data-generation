@@ -1,0 +1,8 @@
+{
+ "repo": "unsloth/gemma-4-26B-A4B-it",
+ "revizyon": "60941ad6341d0b7af91277ff25c4175f08b56819",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "max_yeni_jeton": 2048,
+ "batch": 8,
+ "tarih": "2026-10-12 17:45"
+}

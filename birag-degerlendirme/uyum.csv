@@ -1,0 +1,5 @@
+,karşılaştırma,n,aynı %,κ
+0,insan ↔ gemma,40,72,0.44
+1,insan ↔ qwen,40,42,0.22
+2,insan ↔ juri,40,38,0.17
+3,gemma ↔ qwen,200,52,0.32

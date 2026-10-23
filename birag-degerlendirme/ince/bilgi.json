@@ -1,0 +1,8 @@
+{
+ "repo": "yildirim34/birag-gemma4-26b",
+ "revizyon": "2f4a8b48aa6c78e5bb685e0b1a1e5f5544afc0d3",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "max_yeni_jeton": 2048,
+ "batch": 8,
+ "tarih": "2026-10-13 09:21"
+}
